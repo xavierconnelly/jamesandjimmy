@@ -1,3 +1,44 @@
+* {
+  font-family: arial, sans-serif;
+  font-size: 30px;
+}
+
 body{
-background: red;
+  background: rgb(229, 227, 222);
+}
+
+a{
+  color: red;
+}
+
+.text {
+  display: inline-block;
+  padding: 10px;
+  width: 40%;
+  height: 80vh;
+  margin-top: 30vh;
+}
+
+#header {
+  border-bottom: 2px solid black;
+  color: black;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+#title {
+  float: right;
+  margin-right: 5px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+  background: white;
 }
