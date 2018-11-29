@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="google-site-verification"
+             content="<meta name="google-site-verification" content="Jln847-uTpf3FbCD9tEmxICMagIcwEiJs0NpgE_1njQ" />" />
     <title>James Carter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
@@ -9,6 +11,7 @@
     <script src="./js/main.js"></script>
   </head>
   <body>
+    Hello world!
   </body>
   
   
