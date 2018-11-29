@@ -10,8 +10,11 @@
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/main.js"></script>
   </head>
-  <body>
-    Hello world!
-  </body>
-  
-  
+<body>
+  <div class="text">
+    <p>
+James And Jimmy
+<a ref="info@jamesandjimmy.com">Contact</a>
+    </p>
+  </div>
+</body>
