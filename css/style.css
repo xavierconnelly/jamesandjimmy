@@ -106,12 +106,15 @@ img {
   column-rule: 1px solid red;
   column-width: 12vw;
   margin: 0px;
+ 
   text-align: justify;
   text-justify: inter-word;
   text-align-last: start;
   overflow: auto;
   display: block;
-  padding-left: 50px;     
+  padding-left: 50px;
+ padding-top: 12vw;
+ padding-right: 50px;
 }
 
 
@@ -124,7 +127,7 @@ img {
 
 /* width */
 .scroll::-webkit-scrollbar {
-  height: 12vw;
+  height: 3vw;
 }
 
 /* Track */
