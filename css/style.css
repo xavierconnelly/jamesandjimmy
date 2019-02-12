@@ -2,6 +2,11 @@
  font-family: 'IBM Plex Sans', sans-serif;
 }
 
+ *::selection{
+  background: black;
+  color: rgba(230,230,230,1);
+}
+
 body {
   padding: 50px; 
 }
@@ -126,14 +131,6 @@ img {
  padding-right: 100px;
  padding-bottom: 20px;
   margin-right: 50px;
-}
-
-
-.scroll::selection{
-  background: black;
-  color: rgba(230,230,230,1);
-  position: fixed;
-  bottom: 0px;
 }
 
 /* width */
