@@ -209,3 +209,7 @@ img {
  background: #e6e6e6;
  border-left: 1px solid red;
 }
+
+.projects{
+ position: inline;
+}
