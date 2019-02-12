@@ -178,7 +178,7 @@ img {
 
 .horizontal {
   width: 48vw;
-  position: fixed;
+  position: static;
   top: ;
   left: 51.5vw;
   overflow: hidden;
