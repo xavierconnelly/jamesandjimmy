@@ -1,44 +1,197 @@
-* {
-  font-family: arial, sans-serif;
-  font-size: 30px;
+* { box-sizing: border-box; 
+ font-family: 'IBM Plex Sans', sans-serif;
 }
 
-body{
-  background: rgb(229, 227, 222);
+body {
+  padding: 50px; 
 }
 
-a{
+img {
+  height: 48.5vw;
+  width: 48.5vw;
+  overflow: hidden;
+  border: 1px solid rgba(230,230,230, 1);
+  position: fixed;
+  top: 12vw;
+  right: 0;
+}
+
+
+/* JAMES AND JIMMY NAV */
+
+.vertical {
+  background: blue;
+  transform: rotate(-90deg);
+  width: 1200px;
+  position: fixed;
+  left: 0vw;
+  top: 85vh;
+  z-index: 5;
+}
+
+.vertical-cell {
+  width: 3vw;
+  height: 3vw;
+  background: white;
+  border: 1px red solid;
+  counter-increment: gallery-cell;
+  text-align: center;
+  font-size: 2vw;
+  transform: rotate(90deg);
   color: red;
 }
 
-.text {
-  display: inline-block;
-  padding: 10px;
-  width: 40%;
-  height: 80vh;
-  margin-top: 30vh;
+/* cell number */
+.vertical-cell:before {
+  display: none;
+  text-align: center;
+  content: counter(gallery-cell);
+  color: red;
 }
 
-#header {
-  border-bottom: 2px solid black;
-  color: black;
-  display: block;
+.and{
+  background: red;
+  color: white;
+}
+
+/*half screen*/
+.split {
+  height: 100%;
+  width: 48.5vw;
   position: fixed;
-  left: 0;
+  z-index: 1;
   top: 0;
-  width: 100%;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-#title {
-  float: right;
-  margin-right: 5px;
+/* above titles */
+.spacer{
+  min-height:20vh;
 }
 
-#footer {
+/*writing*/
+.left {
+  left: 3vw;
+  background-color: rgba(230, 230, 230, 1);
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  color: rgba(250,20,20,1);
+}
+
+.writin{
+  width: 48.5vw;
+  height: 12vw;
+  background-color: green;
+  z-index: 10;
   position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 3;
-  background: white;
+  left: 3vw;
+  top: 0;
+  border: 1px blue;
+}
+
+
+/* WRITING SECTION */
+
+.scroll{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 10;
+  height: 95vh;
+  min-width: 500px;
+  width: 40vw;
+  -moz-column-fill: auto; /* Firefox */
+  column-fill: auto;
+  column-gap: 40px;
+  column-rule: 1px solid black;
+  column-width: 12vw;
+  margin: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: start;
+  overflow: auto;
+  display: block;
+  padding-left: 50px;     
+}
+
+
+.scroll::selection{
+  background: black;
+  color: rgba(230,230,230,1);
+  position: fixed;
+  bottom: 0px;
+}
+
+/* width */
+.scroll::-webkit-scrollbar {
+  height: 20px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+  background: yellow;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  border: 1px solid red;
+  background-color: red;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  background-color: blue; 
+}
+
+
+/* PROJECTS */
+.right {
+  right: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 25px;
+  background-color: rgba(50,100,20,1);
+  color: rgba(230, 230, 230, 1);
+  padding: 0px;
+  border-left: 1px solid rgba(230,230,230, 1);
+}
+
+#project{
+  padding: 20px;
+}
+
+/* PROJECT NAV */
+
+.horizontal {
+  width: 48vw;
+  position: fixed;
+  top: ;
+  left: 51.5vw;
+  overflow: hidden;
+  border-bottom: 1px solid;
+}
+
+.horizontal-cell {
+  width: 12vw;
+  height: 12vw;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.horizontal-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  font-size: 4vw;
+  color: green;
+}
+
+.jimmy{
+  background: pink;
+  border-left: 1px solid rgba(25,15,20,1);
+}
+
+.james{
+ background: rgba(25,15,20,1);
+ border-left: 1px solid blue;
 }
