@@ -175,12 +175,8 @@ img {
 }
 
 /* PROJECT NAV */
-
-.flickity-enabled{
- position: unset;
-}
-
 .horizontal {
+ z-index: 10;
   width: 48vw;
   position: fixed;
   top: ;
@@ -205,11 +201,11 @@ img {
 }
 
 .jimmy{
-  background: pink;
-  border-left: 1px solid rgba(25,15,20,1);
+  background: red;
+  border-left: 1px solid #e6e6e6;
 }
 
 .james{
- background: rgba(25,15,20,1);
- border-left: 1px solid blue;
+ background: #e6e6e6;
+ border-left: 1px solid red;
 }
