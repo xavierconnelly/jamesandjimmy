@@ -2,6 +2,7 @@
  font-family: 'IBM Plex Sans', sans-serif;
  background-color: rgba(230,230,230, 1);
  color: red;
+ box-border: 2px solid brown;
 }
 
 body {
