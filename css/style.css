@@ -104,7 +104,7 @@ img {
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 40px;
-  column-rule: 1px solid black;
+  column-rule: 1px solid red;
   column-width: 12vw;
   margin: 0px;
   text-align: justify;
@@ -130,7 +130,8 @@ img {
 
 /* Track */
 .scroll::-webkit-scrollbar-track {
-  background: yellow;
+  background: #e6e6e6;
+  border: 1px solid red;
 }
 
 /* Handle */
@@ -148,12 +149,11 @@ img {
 /* PROJECTS */
 .right {
   right: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 25px;
   background-color: rgba(50,100,20,1);
-  color: rgba(230, 230, 230, 1);
+  color: #e6e6e6;
   padding: 0px;
-  border-left: 1px solid rgba(230,230,230, 1);
+  border-left: 1px solid #e6e6e6;
 }
 
 #project{
