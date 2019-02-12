@@ -1,5 +1,7 @@
 * { box-sizing: border-box; 
  font-family: 'IBM Plex Sans', sans-serif;
+ background-color: rgba(230,230,230, 1);
+ color: red;
 }
 
 body {
