@@ -79,6 +79,7 @@ img {
   height: 12vw;
   background-color: green;
   z-index: 10;
+  display: block;
   position: fixed;
   left: 3vw;
   top: 0;
