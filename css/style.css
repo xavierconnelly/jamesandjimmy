@@ -15,6 +15,7 @@ img {
   border: 1px solid rgba(230,230,230, 1);
   position: fixed;
   top: 12vw;
+ z-index: -5;
   right: 0;
 }
 
