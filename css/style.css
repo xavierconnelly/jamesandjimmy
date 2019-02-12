@@ -19,7 +19,24 @@ img {
 }
 
 
+/* NEWS NAV */
+.news{
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ background: blue;
+}
+
+
+
 /* JAMES AND JIMMY NAV */
+
+.jjnav{
+ position: fixed;
+ top: 12vw;
+ left: 0px;
+ background: coral;
+}
 
 .vertical {
   background: blue;
@@ -127,7 +144,7 @@ img {
 
 /* width */
 .scroll::-webkit-scrollbar {
-  height: 3vw;
+  height: 30px;
 }
 
 /* Track */
@@ -138,7 +155,7 @@ img {
 
 /* Handle */
 .scroll::-webkit-scrollbar-thumb {
-  border: 1px solid red;
+  border: 2px solid red;
   background: #e6e6e6;
 }
 
