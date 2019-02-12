@@ -171,10 +171,6 @@ img {
   border-left: 1px solid #e6e6e6;
 }
 
-#project{
-  padding: 20px;
-}
-
 /* PROJECT NAV */
 .horizontal {
  z-index: 10;
@@ -213,4 +209,6 @@ img {
 
 .projects{
  position: inline;
+ padding: 20px;
+}
 }
