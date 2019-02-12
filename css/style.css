@@ -30,6 +30,7 @@ img {
 
 .jjnav{
  position: fixed;
+ height: 100%;
  top: 12vw;
  left: 0px;
  background: coral;
