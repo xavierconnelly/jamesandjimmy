@@ -2,7 +2,6 @@
  font-family: 'IBM Plex Sans', sans-serif;
  background-color: rgba(230,230,230, 1);
  color: red;
- border: 2px solid brown;
 }
 
 body {
@@ -131,13 +130,13 @@ img {
 /* Track */
 .scroll::-webkit-scrollbar-track {
   background: #e6e6e6;
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 /* Handle */
 .scroll::-webkit-scrollbar-thumb {
   border: 1px solid red;
-  background-color: red;
+  background: #e6e6e6;
 }
 
 /* Handle on hover */
