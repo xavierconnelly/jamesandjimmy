@@ -74,7 +74,7 @@ img {
   color: rgba(250,20,20,1);
 }
 
-.writin{
+.writing-nav{
   width: 48.5vw;
   height: 12vw;
   background-color: green;
@@ -88,12 +88,17 @@ img {
 
 /* WRITING SECTION */
 
+.writing{
+  display: inline;
+  height: 100%;
+}
+
 .scroll{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
-  height: 95vh;
   min-width: 500px;
+  height: 100%;
   width: 40vw;
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
@@ -105,7 +110,7 @@ img {
   text-justify: inter-word;
   text-align-last: start;
   overflow: auto;
-  display: inline;
+  display: block;
   padding-left: 50px;     
 }
 
