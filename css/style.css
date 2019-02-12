@@ -18,7 +18,6 @@ img {
   right: 0;
 }
 
-
 /* NEWS NAV */
 .news{
  position: fixed;
@@ -26,8 +25,6 @@ img {
  left: 0px;
  background: blue;
 }
-
-
 
 /* JAMES AND JIMMY NAV */
 
@@ -39,9 +36,7 @@ img {
 }
 
 .vertical {
-  background: blue;
   transform: rotate(90deg);
-  position: fixed;
   width: 100vh;
   z-index: 5;
 }
