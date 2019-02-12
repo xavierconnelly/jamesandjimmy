@@ -79,7 +79,6 @@ img {
   height: 12vw;
   background-color: green;
   z-index: 10;
-  display: block;
   position: fixed;
   left: 3vw;
   top: 0;
@@ -106,7 +105,7 @@ img {
   text-justify: inter-word;
   text-align-last: start;
   overflow: auto;
-  display: block;
+  display: inline;
   padding-left: 50px;     
 }
 
