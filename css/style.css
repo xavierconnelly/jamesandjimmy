@@ -115,9 +115,7 @@ img {
   column-fill: auto;
   column-gap: 40px;
   column-rule: 1px solid red;
-  column-width: 12vw;
-  margin: 0px;
- 
+  column-width: 12vw; 
   text-align: justify;
   text-justify: inter-word;
   text-align-last: start;
@@ -127,6 +125,7 @@ img {
  padding-top: 12vw;
  padding-right: 100px;
  padding-bottom: 20px;
+  margin-right: 50px;
 }
 
 
