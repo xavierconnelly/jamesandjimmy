@@ -43,8 +43,6 @@ img {
   transform: rotate(90deg);
   position: fixed;
   width: 100vh;
-  left: -41vw;
-  top: 50vh;
   z-index: 5;
 }
 
