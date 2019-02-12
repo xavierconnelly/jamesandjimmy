@@ -176,9 +176,13 @@ img {
 
 /* PROJECT NAV */
 
+.flickity-enabled{
+ position: unset;
+}
+
 .horizontal {
   width: 48vw;
-  position: static;
+  position: fixed;
   top: ;
   left: 51.5vw;
   overflow: hidden;
