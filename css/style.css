@@ -158,10 +158,6 @@ img {
   margin-right: 50px;
 }
 
-#columnend{
- width: 100px;
-}
-
 /* width */
 .scroll::-webkit-scrollbar {
   height: 30px;
