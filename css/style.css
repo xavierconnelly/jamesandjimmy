@@ -34,6 +34,8 @@ img {
  width: 3vw;
  height: 3vw;
  border: 1px solid red;
+ text-align: center;
+ line-height: 3vw;
 }
 
 /* JAMES AND JIMMY NAV */
