@@ -98,9 +98,16 @@ img {
   position: fixed;
   left: 3vw;
   top: 0;
-  border: 1px blue;
+  overflow: hidden;
 }
 
+.writingicon{
+  width: 48.5vw;
+  height: 3vw;
+  background-color: yellow;
+  z-index: 11;
+  border: 1px solid red;
+}
 
 /* WRITING SECTION */
 
