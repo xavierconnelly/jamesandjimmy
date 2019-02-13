@@ -57,7 +57,7 @@ img {
   transform: rotate(90deg);
   width: 150vw;
   position: fixed;  
-  top: -10vw;
+  top: -30vw;
   left: -73.5vw;
   z-index: 25;
 }
