@@ -44,10 +44,12 @@ img {
 .jjnav{
  position: fixed;
  height: 100%;
+ width: 12vw;
  top: 12vw;
  left: 0px;
  background: yellow;
- z-index: ;
+ border: 1px solid red;
+ z-index: 20;
 }
 
 .vertical {
