@@ -3,8 +3,8 @@
 }
 
  *::selection{
-  background: black;
-  color: rgba(230,230,230,1);
+  background: red;
+  color: #e6e6e6);
 }
 
 body {
@@ -68,9 +68,9 @@ img {
   border: 1px red solid;
   counter-increment: gallery-cell;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
   transform: rotate(-90deg);
-  background: white;
+  background: #e6e6e6;
   color: red;
 }
 
