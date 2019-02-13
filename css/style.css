@@ -140,7 +140,7 @@ img {
   column-count: 10;
   min-width: 500px;
   height: 100%;
-  width: 48vw;
+  width: 48.5vw;
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 40px;
