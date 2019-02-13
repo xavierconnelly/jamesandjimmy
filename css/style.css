@@ -47,13 +47,14 @@ img {
  top: 12vw;
  left: 0px;
  background: coral;
+ z-index: 20;
 }
 
 .vertical {
   transform: rotate(90deg);
   width: 100vw;
   left: 50vh;
-  z-index: 5;
+  z-index: 25;
 }
 
 .vertical-cell {
