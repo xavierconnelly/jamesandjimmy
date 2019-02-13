@@ -15,7 +15,7 @@ img {
   height: 48.5vw;
   width: 48.5vw;
   overflow: hidden;
-  border: 1px solid rgba(230,230,230, 1);
+  border: 1px solid #e6e6e6;
   position: fixed;
   top: 12vw;
  z-index: -5;
@@ -27,7 +27,8 @@ img {
  position: fixed;
  top: 0px;
  left: 0px;
- background: blue;
+ color: red;
+ background: #e6e6e6;;
 }
 
 .newsicon{
@@ -91,7 +92,7 @@ img {
 /*writing*/
 .left {
   left: 3vw;
-  background-color: rgba(230, 230, 230, 1);
+  background-color: #e6e6e6;
   color: black;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
@@ -101,18 +102,19 @@ img {
 .writingnav{
   width: 48.5vw;
   height: 12vw;
-  background-color: green;
+  background-color: #e6e6e6;
   z-index: 10;
   position: fixed;
   left: 3vw;
   top: 0;
   overflow: hidden;
+  line-height: 3vw;
 }
 
 .writingicon{
   width: 48.5vw;
   height: 3vw;
-  background-color: yellow;
+  background-color: #e6e6e6;
   z-index: 11;
   border: 1px solid red;
 }
