@@ -46,14 +46,14 @@ img {
  height: 100%;
  top: 12vw;
  left: 0px;
- background: coral;
- z-index: 20;
+ background: yellow;
+ z-index: ;
 }
 
 .vertical {
   transform: rotate(90deg);
   width: 100vw;
-  left: 50vh;
+  left: 0vh;
   z-index: 25;
 }
 
