@@ -158,6 +158,14 @@ img {
   margin-right: 50px;
 }
 
+.scroll:last-child{
+ color: green;
+}
+
+#columnend{
+ width: 10px;
+}
+
 /* width */
 .scroll::-webkit-scrollbar {
   height: 30px;
