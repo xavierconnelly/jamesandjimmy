@@ -50,14 +50,15 @@ img {
  background: yellow;
  border: 1px solid red;
  z-index: 20;
+ overflow: hidden;
 }
 
 .vertical {
   transform: rotate(90deg);
   width: 150vw;
   position: fixed;  
-  top: 0;
-  left: -72vw;
+  top: -10vw;
+  left: -73.5vw;
   z-index: 25;
 }
 
