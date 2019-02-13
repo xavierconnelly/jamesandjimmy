@@ -158,12 +158,8 @@ img {
   margin-right: 50px;
 }
 
-.scroll:last-child{
- color: green;
-}
-
 #columnend{
- width: 10px;
+ width: 100px;
 }
 
 /* width */
