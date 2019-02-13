@@ -30,6 +30,12 @@ img {
  background: blue;
 }
 
+.newsicon{
+ width: 3vw;
+ height: 3vw;
+ border: 1px solid red;
+}
+
 /* JAMES AND JIMMY NAV */
 
 .jjnav{
