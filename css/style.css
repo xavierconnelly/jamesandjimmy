@@ -55,7 +55,7 @@ img {
 .vertical {
   transform: rotate(90deg);
   width: 100vw;
-  left: 0vh;
+  left: -24vh;
   z-index: 25;
 }
 
