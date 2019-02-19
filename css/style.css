@@ -191,6 +191,10 @@ img {
   border-left: 1px solid #e6e6e6;
 }
 
+.right::webkit-scrollbar{
+ display: none;
+}
+
 /* PROJECT NAV */
 .horizontal {
  z-index: 10;
