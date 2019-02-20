@@ -151,7 +151,8 @@
 </div>
 
   <div class="split right">
-    <button type="button" onclick="loadDoc()">Hello World</button>
+    <button type="button" onclick="loadDoc()">Smash</button>
+    <button type="button" onclick="ladDoc()">Pink</button>
     <div class="horizontal" data-flickity='{ "autoPlay": true, "autoPlay": 2000, "wrapAround": true, "pageDots": false, "prevNextButtons": false}' tabindex="2">
      where are you?
       <div class="horizontal-cell jimmy"> </div>
@@ -184,6 +185,17 @@ function loadDoc() {
   xhttp.open("GET", "smash.txt", true);
   xhttp.send();
 }
+  function ladDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("projects").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "pink.txt", true);
+  xhttp.send();
+}
+  
 </script>
 
 </body>
