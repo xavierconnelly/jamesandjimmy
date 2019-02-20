@@ -171,6 +171,8 @@
     </div>
   </div>
 
+
+
 <script>
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
@@ -179,7 +181,7 @@ function loadDoc() {
       document.getElementById("smash").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "https://jamesandjimmy.com/smash", true);
+  xhttp.open("GET", "/smash.txt", true);
   xhttp.send();
 }
 </script>
