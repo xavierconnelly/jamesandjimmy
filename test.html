@@ -166,7 +166,7 @@
       
       <div class="projects">
           
-        <button type="button" onclick="loadDoc()">Request data</button>
+        <button type="button" onclick="loadDoc()">AJAX testing</button>
         
     </div>
   </div>
@@ -176,14 +176,13 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo").innerHTML = this.responseText;
+      document.getElementById("smash").innerHTML = this.responseText;
     }
   };
   xhttp.open("GET", "https://jamesandjimmy.com/smash", true);
   xhttp.send();
 }
 </script>
-
 
 </body>
     </html>
