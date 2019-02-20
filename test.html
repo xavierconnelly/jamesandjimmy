@@ -171,20 +171,19 @@
     </div>
   </div>
 
-  <script>
-    // When the user scrolls down 50px from the top of the document, resize the header's font size
-    window.onscroll = function() {
-      scrollFunction()
-    };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("sticky").style.fontSize = "30px";
-      } else {
-        document.getElementById("sticky").style.fontSize = "90px";
-      }
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
     }
-  </script>
+  };
+  xhttp.open("GET", "demo_get.asp", true);
+  xhttp.send();
+}
+</script>
+
 
 </body>
     </html>
