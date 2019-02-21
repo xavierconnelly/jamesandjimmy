@@ -221,9 +221,7 @@ img {
 .projects-nav-cell-image {
   width: 6vw;
   height: 6vw;
-  align: center;
-  justify-content: center;
-  counter-increment: gallery-cell;
+  float: center;
   border: 3px solid red;
 }
 
