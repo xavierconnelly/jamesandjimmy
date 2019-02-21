@@ -209,14 +209,14 @@ function aHouseForOne() {
 }
   
     function psychogeographical() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  var xhttp = new XMLHttpsRequest();
+  xhttps.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("projects").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "jamesandjimmy/projects/psychogeographical.txt", true);
-  xhttp.send();
+  xhttps.open("GET", "jamesandjimmy/projects/psychogeographical.txt", true);
+  xhttps.send();
 }
   
 </script>
