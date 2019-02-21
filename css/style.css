@@ -51,7 +51,7 @@ img {
  top: 12vw;
  left: 0px;
  background: yellow;
- border: 1px solid red;
+ border-right: 3px solid red;
  z-index: 20;
  overflow: hidden;
 }
@@ -68,11 +68,11 @@ img {
 .vertical-cell {
   width: 3vw;
   height: 3vw;
-  border: 1px red solid;
+  border-left: 3px solid red;
   counter-increment: gallery-cell;
   text-align: center;
- font-size: 1.5vw;
- line-height: 3vw;
+  font-size: 1.5vw;
+  line-height: 3vw;
   transform: rotate(-90deg);
   background: #e6e6e6;
   color: red;
@@ -119,6 +119,7 @@ img {
   top: 0;
   overflow: hidden;
   line-height: 3vw;
+  border-bottom: 3px solid red;
 }
 
 .writingicon{
@@ -126,7 +127,7 @@ img {
   height: 3vw;
   background-color: #e6e6e6;
   z-index: 11;
-  border: 1px solid red;
+  border-bottom: 3px solid red;
 }
 
 /* WRITING SECTION */
@@ -190,7 +191,7 @@ img {
   background-color: blue;
   color: #e6e6e6;
   padding: 0px;
-  border-left: 1px solid #e6e6e6;
+  border-left: 3px solid red;
 }
 
 .right::-webkit-scrollbar{
@@ -206,8 +207,8 @@ img {
   position: fixed;
   overflow: hidden;
   background-color: #e6e6e6;
-  border-bottom: 3px solid #e6e6e6;
-  border-left: 3px solid #e6e6e6;
+  border-bottom: 3px solid red;
+  border-left: 3px solid red;
   z-index: 50;
  cursor: pointer;
 }
