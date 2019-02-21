@@ -226,9 +226,8 @@ img {
  width: 9vw;
  height: 9vw;
  overflow: hidden;
- display: flex;
- align-items: center;
- justify-content: center;
+  margin: auto;
+  width: 50%;
  cursor: pointer;
 }
 
