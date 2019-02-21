@@ -71,6 +71,7 @@ img {
   border-top: 2px solid red;
   counter-increment: gallery-cell;
   text-align: center;
+  position: relative;
   left: -5px;
   font-size: 1.5vw;
   line-height: 3vw;
