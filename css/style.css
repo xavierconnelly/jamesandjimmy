@@ -214,6 +214,10 @@ img {
  cursor: pointer;
 }
 
+#pro-nav{
+left: 6vw;
+}
+
 .projects-nav-cell {
   width: 12vw;
   height: 12vw;
