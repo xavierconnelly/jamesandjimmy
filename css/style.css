@@ -226,7 +226,6 @@ img {
  width: 9vw;
  height: 9vw;
  overflow: hidden;
- float: center;
  display: flex;
  align-items: center;
  justify-content: center;
