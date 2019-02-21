@@ -24,6 +24,9 @@ img {
 }
 */
 
+button{
+background-color: inherit;
+}
 
 /* NEWS NAV */
 .news{
