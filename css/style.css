@@ -198,7 +198,7 @@ img {
 
 
 /* PROJECT NAV */
-.horizontal {
+.projects-nav {
   background-color: lightblue;
   z-index: 50;
   width: 48vw;
@@ -210,7 +210,7 @@ img {
   border-left: 3px solid #e6e6e6;
 }
 
-.horizontal-cell {
+.projects-nav-cell {
   width: 12vw;
   height: 12vw;
   counter-increment: gallery-cell;
