@@ -31,7 +31,7 @@ img {
  top: 0px;
  left: 0px;
  color: #e6e6e6;
- background: red;
+ background-color: red;
 }
 
 .newsicon{
@@ -75,12 +75,12 @@ img {
   font-size: 1.5vw;
   line-height: 3vw;
   transform: rotate(-90deg);
-  background: #e6e6e6;
+  background-color: #e6e6e6;
   color: red;
 }
 
 .and{
-  background: white;
+  background-color: white;
   color: red;
 }
 
@@ -139,7 +139,7 @@ img {
 }
 
 .scroll{
-   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
   min-width: 500px;
@@ -169,7 +169,7 @@ img {
 
 /* Track */
 .scroll::-webkit-scrollbar-track {
-  background: #e6e6e6;
+  background-color: #e6e6e6;
   border: 2px solid red;
 }
 
