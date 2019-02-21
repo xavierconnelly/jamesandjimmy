@@ -219,7 +219,7 @@ img {
   height: 12vw;
   counter-increment: gallery-cell;
   border-left: 3px solid black;
- cursor: pointer;
+ cursor: ew-resize;
 }
 
 .nav-image{
@@ -229,6 +229,7 @@ img {
  overflow: hidden;
  margin: auto;
  cursor: pointer;
+ border: 3px solid red;
 }
 
 .james{
