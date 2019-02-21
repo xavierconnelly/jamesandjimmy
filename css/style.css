@@ -218,16 +218,16 @@ img {
   width: 12vw;
   height: 12vw;
   counter-increment: gallery-cell;
-  border-left: 3px solid red;
+  border-left: 3px solid black;
  cursor: pointer;
 }
 
 .nav-image{
  width: 9vw;
  height: 9vw;
+ padding: 1.5vw;
  overflow: hidden;
-  margin: auto;
-  width: 50%;
+ margin: auto;
  cursor: pointer;
 }
 
