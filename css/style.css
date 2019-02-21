@@ -211,7 +211,7 @@ background-color: inherit;
   top: 0;
   left: 51.5vw;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #e6e6e6;
   border-bottom: 3px solid #e6e6e6;
   border-left: 3px solid #e6e6e6;
   z-index: 50;
@@ -229,7 +229,9 @@ background-color: inherit;
  height: 9vw;
  overflow: hidden;
  float: center;
- border: 3px solid red;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .james{
