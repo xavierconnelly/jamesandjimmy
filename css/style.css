@@ -211,6 +211,7 @@ img {
   border-bottom: 3px solid #e6e6e6;
   border-left: 3px solid #e6e6e6;
   z-index: 50;
+ cursor: pointer;
 }
 
 .projects-nav-cell {
@@ -218,6 +219,7 @@ img {
   height: 12vw;
   counter-increment: gallery-cell;
   border-left: 3px solid red;
+ cursor: pointer;
 }
 
 .nav-image{
@@ -228,6 +230,7 @@ img {
  display: flex;
  align-items: center;
  justify-content: center;
+ cursor: pointer;
 }
 
 .james{
