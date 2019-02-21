@@ -199,39 +199,30 @@ img {
 
 /* PROJECT NAV */
 .horizontal {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Singapore_Botanic_Gardens_Cactus_Garden_2.jpg/225px-Singapore_Botanic_Gardens_Cactus_Garden_2.jpg);
+  background-color: lightblue;
   z-index: 50;
   width: 48vw;
   position: fixed;
   top: 0;
   left: 51.5vw;
   overflow: hidden;
-  border-bottom: 1px solid;
+  border-bottom: 3px solid #e6e6e6;
+  border-left: 3px solid #e6e6e6;
 }
 
 .horizontal-cell {
   width: 12vw;
   height: 12vw;
   counter-increment: gallery-cell;
-}
-
-/* cell number */
-.horizontal-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  font-size: 4vw;
-  color: green;
-}
-
-.jimmy{
-  background: red;
-  border-left: 1px solid #e6e6e6;
+  border-left: 4px solid red;
 }
 
 .james{
  background: #e6e6e6;
- border-left: 1px solid red;
+}
+
+.jimmy{
+  background: red;
 }
 
 .projects{
