@@ -137,7 +137,7 @@ img {
 }
 
 .scroll{
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
   min-width: 500px;
@@ -201,11 +201,9 @@ img {
 
 /* PROJECT NAV */
 .projects-nav {
-  width: 48.5vw;
+  width: 54.5vw;
   height: 12vw;
   position: fixed;
-  top: 0;
-  left: 51.5vw;
   overflow: hidden;
   background-color: #e6e6e6;
   border-bottom: 3px solid #e6e6e6;
