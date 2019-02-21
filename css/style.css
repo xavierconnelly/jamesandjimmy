@@ -218,16 +218,15 @@ img {
   width: 12vw;
   height: 12vw;
   counter-increment: gallery-cell;
-  border-left: 3px solid black;
- cursor: ew-resize;
+  border-left: 3px solid red;
+  cursor: pointer;
 }
 
 .nav-image{
  width: 9vw;
  height: 9vw;
- padding: 1.5vw;
+ margin: 1.5vw;
  overflow: hidden;
- margin: auto;
  cursor: pointer;
  border: 3px solid red;
 }
@@ -237,7 +236,7 @@ img {
 }
 
 .jimmy{
-  background: red;
+  background: #e6e6e6;
 }
 
 .projects{
