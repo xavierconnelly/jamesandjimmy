@@ -221,17 +221,12 @@ img {
   border-left: 3px solid red;
 }
 
-.projects-nav-cell-image {
-  width: 9vw;
-  height: 9vw;
-  float: center;
-  border: 3px solid red;
-}
-
 .nav-image{
- height:12vw;
- width: 12vw;
+ width: 9vw;
+ height: 9vw;
  overflow: hidden;
+ float: center;
+ border: 3px solid red;
 }
 
 .james{
