@@ -117,29 +117,29 @@
      <div id="pro-nav" data-flickity='{ "autoPlay": true, "autoPlay": 2000, "wrapAround": true, "pageDots": false, "prevNextButtons": false}'>
       
 
-        <div class="projects-nav-cell jimmy"  onclick="ladDoc()"> 
+        <div class="projects-nav-cell jimmy"  onclick="aHouseForOne()"> A House For One
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">    
         </div> 
        
-        <div class="projects-nav-cell james" onclick="loadDoc()"> 
+        <div class="projects-nav-cell james" onclick="aRoomFoKaraoke()"> 
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">
           </div>    
           
-        <div class="projects-nav-cell jimmy" onclick="ladDoc()"> 
+        <div class="projects-nav-cell jimmy" onclick="plans()"> 
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">   
         </div> 
 
       
-        <div class="projects-nav-cell james"  onclick="loadDoc()"> 
+        <div class="projects-nav-cell james"  onclick="millAbout()"> 
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">
           </div>     
       
 
-        <div class="projects-nav-cell jimmy" onclick="ladDoc()"> 
+        <div class="projects-nav-cell jimmy" onclick="darkSpace()"> 
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">    
         </div> 
        
-        <div class="projects-nav-cell james"  onclick="loadDoc()"> 
+        <div class="projects-nav-cell james"  onclick="psychogeographical()"> 
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">
         </div> 
        
@@ -154,24 +154,68 @@
 
 
 <script>
-function loadDoc() {
+function aHouseForOne() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("projects").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "smash.txt", true);
+  xhttp.open("GET", "aHouseForOne.txt", true);
   xhttp.send();
 }
-  function ladDoc() {
+  
+  function aRoomFoKaraoke() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("projects").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "pink.txt", true);
+  xhttp.open("GET", "aRoomFoKaraoke.txt", true);
+  xhttp.send();
+}
+  
+    function plans() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("projects").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "plans.txt", true);
+  xhttp.send();
+}
+  
+    function millAbout() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("projects").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "millAbout.txt", true);
+  xhttp.send();
+}
+    function darkSpace() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("projects").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "darkSpace.txt", true);
+  xhttp.send();
+}
+  
+    function psychogeographical() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("projects").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "psychogeographical.txt", true);
   xhttp.send();
 }
   
