@@ -201,7 +201,7 @@ img {
 .projects-nav {
   background-color: lightblue;
   z-index: 50;
-  width: 48vw;
+  width: 48.5vw;
   position: fixed;
   top: 0;
   left: 51.5vw;
@@ -226,7 +226,9 @@ img {
 }
 
 .projects{
- position: inline;
+ position: fixed;
+ top: 12vw;
+ left: 51.5vw;
  padding: 20px;
  background-color: pink;
  z-index: 5;
