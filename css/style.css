@@ -1,5 +1,6 @@
 * { box-sizing: border-box; 
  font-family: 'IBM Plex Sans', sans-serif;
+ background-color: #e6e6e6;
 }
 
  *::selection{
@@ -51,7 +52,6 @@ img {
  width: 3vw;
  top: 12vw;
  left: 0px;
- background: yellow;
  border-right: 3px solid red;
  z-index: 20;
  overflow: hidden;
