@@ -24,10 +24,6 @@ img {
 }
 */
 
-img{
-hieght: 100%;
-}
-
 
 /* NEWS NAV */
 .news{
@@ -226,10 +222,16 @@ hieght: 100%;
 }
 
 .projects-nav-cell-image {
-  width: 6vw;
-  height: 6vw;
+  width: 9vw;
+  height: 9vw;
   float: center;
   border: 3px solid red;
+}
+
+.nav-image{
+ height:12vw;
+ width: 12vw;
+ overflow: hidden;
 }
 
 .james{
