@@ -36,7 +36,8 @@ img {
 .newsicon{
  width: 3vw;
  height: 3vw;
- border: 1px solid #e6e6e6;
+ border-bottom: 3px solid #e6e6e6;
+ border-right: 3px solid #e6e6e6;
  text-align: center;
  font-size: 1.5vw;
  line-height: 3vw;
@@ -68,7 +69,7 @@ img {
 .vertical-cell {
   width: 3vw;
   height: 3vw;
-  border-left: 3px solid red;
+  border-top: 3px solid red;
   counter-increment: gallery-cell;
   text-align: center;
   font-size: 1.5vw;
