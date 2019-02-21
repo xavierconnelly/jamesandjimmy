@@ -156,9 +156,9 @@ img {
   overflow: auto;
   display: block;
   padding-left: 50px;
- padding-top: 12vw;
- padding-right: 100px;
- padding-bottom: 20px;
+  padding-top: 12vw;
+  padding-right: 100px;
+  padding-bottom: 20px;
   margin-right: 50px;
 }
 
@@ -176,12 +176,13 @@ img {
 /* Handle */
 .scroll::-webkit-scrollbar-thumb {
   border: 2px solid red;
-  background: rgba (255,0,0,0.5);
+  background-color: red;
 }
 
 /* Handle on hover */
 .scroll::-webkit-scrollbar-thumb:hover {
   background-color: red; 
+  cursor: grab;
 }
 
 
