@@ -11,16 +11,7 @@ body {
   padding: 50px; 
 }
 
-img {
-  height: 48.5vw;
-  width: 48.5vw;
-  overflow: hidden;
-  border: 1px solid #e6e6e6;
-  position: fixed;
-  top: 12vw;
- z-index: -5;
-  right: 0;
-}
+
 
 /* NEWS NAV */
 .news{
