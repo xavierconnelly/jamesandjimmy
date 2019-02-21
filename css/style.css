@@ -199,15 +199,16 @@ img {
 
 /* PROJECT NAV */
 .projects-nav {
-  background-color: lightblue;
-  z-index: 50;
   width: 48.5vw;
+  height: 12vw;
   position: fixed;
   top: 0;
   left: 51.5vw;
   overflow: hidden;
+  background-color: lightblue;
   border-bottom: 3px solid #e6e6e6;
   border-left: 3px solid #e6e6e6;
+  z-index: 50;
 }
 
 .projects-nav-cell {
