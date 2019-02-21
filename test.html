@@ -117,7 +117,7 @@
      <div id="pro-nav" data-flickity='{ "autoPlay": true, "autoPlay": 2000, "wrapAround": true, "pageDots": false, "prevNextButtons": false}'>
       
 
-        <div class="projects-nav-cell jimmy"  onclick="aHouseForOne()">
+        <div class="projects-nav-cell jimmy"  onclick="banana()">
               <img class="nav-image" src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2">    
         </div> 
        
@@ -154,14 +154,14 @@
 
 
 <script>
-function aHouseForOne() {
+function banana() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("projects").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "aHouseForOne.txt", true);
+  xhttp.open("GET", "banana.txt", true);
   xhttp.send();
 }
   
