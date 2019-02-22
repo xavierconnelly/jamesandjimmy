@@ -66,8 +66,8 @@ img {
 }
 
 .vertical-cell {
-  width: 100%;
-  height: auto;
+  width: 3vw;
+  height: 3vw;
   border-top: 2px solid red;
   counter-increment: gallery-cell;
   text-align: center;
@@ -135,6 +135,8 @@ img {
 .writing{
   display: inline;
   height: 100%;
+  z-index: 15;
+  border-left: 2px solid blue
 }
 
 .scroll{
