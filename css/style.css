@@ -105,7 +105,7 @@ img {
 }
 
 
-.writingnav{
+.writingnav {
   transform: rotate(90deg);
   width: 12vw;
   height: 48.5vw;
@@ -118,7 +118,7 @@ img {
   border-bottom: 2px solid red;
 }
 
-.writingicon{
+.icon{
   width: 48.5vw;
   height: 4vw;
   background-color: #e6e6e6;
@@ -130,7 +130,7 @@ img {
   text-align: left;
 }
 
-.writingicon > div{
+.icon > div{
   padding: 10px;
   line-height: 2vw;
 }
