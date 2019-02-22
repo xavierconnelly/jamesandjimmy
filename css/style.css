@@ -76,6 +76,7 @@ https://flickity.metafizzy.co
 -------------------------------------------------------------------------------------------- */
 
 .news{
+ z-index: 30;
  position: fixed;
  top: 0px;
  left: 0px;
