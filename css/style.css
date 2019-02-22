@@ -66,6 +66,8 @@ img {
 }
 
 .vertical-cell {
+  width: 100%;
+  height: auto;
   border-top: 2px solid red;
   counter-increment: gallery-cell;
   text-align: center;
