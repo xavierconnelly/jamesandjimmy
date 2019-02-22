@@ -188,11 +188,13 @@ https://flickity.metafizzy.co
   grid-template-columns: 24.25vw 12.125vw 12.125vw;
   border-bottom: 2px solid red;
   background-color: #e6e6e6;
+  color: red;
   text-align: left;
 }
 
 .writingicon:hover{
-    background-color: yellow;
+    background-color: red;
+    color: #e6e6e6;
     cursor: pointer;
 }
 
