@@ -205,6 +205,11 @@ h4{
   height: 100%;
 }
 
+.spacer{
+ height: 12vw;
+ display: block;
+}
+
 .scroll{
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
@@ -215,7 +220,7 @@ h4{
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 3vw;
-  column-rule: 1px solid red;
+  column-rule: 2px solid red;
   column-width: 12vw; 
   text-align: justify;
   text-justify: inter-word;
