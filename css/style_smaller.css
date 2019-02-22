@@ -197,10 +197,10 @@ https://flickity.metafizzy.co
     background-color: red;
     color: #e6e6e6;
     cursor: pointer;
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
 }
 
 .writingicon > div{
