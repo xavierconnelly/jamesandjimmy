@@ -187,7 +187,7 @@ https://flickity.metafizzy.co
 }
 
 .writingicon{
-  height: 4vw;
+  height: 3vw;
   display: grid;
   text-align: left;
   grid-template-columns: 24.25vw 12.125vw 12.125vw;
@@ -204,6 +204,7 @@ https://flickity.metafizzy.co
 
 .writingicon > div{
   padding: 10px;
+  background-color: #e6e6e6;
 }
 
 h4, h6{
@@ -211,6 +212,7 @@ h4, h6{
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 1.5vw;
+  line-height: 3vw;
 }
 
 /* Make it move! */
