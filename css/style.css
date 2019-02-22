@@ -128,6 +128,15 @@ img {
   background-color: #e6e6e6;
   z-index: 11;
   border-bottom: 2px solid red;
+  display: grid;
+  grid-template-columns: 20vw 20vw 8.5vw;
+  grid-template-rows: 6vw;
+  text-align: left;
+}
+
+.container > div{
+  padding: 10px;
+  line-height: 4vw;
 }
 
 /* WRITING SECTION */
