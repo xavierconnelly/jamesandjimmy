@@ -154,6 +154,7 @@ https://flickity.metafizzy.co
 -------------------------------------------------------------------------------------------- */
 
 .container {
+    z-index: 20;
     width: 48.5vw;
     height: 12vw;
     overflow: hidden;
@@ -174,15 +175,12 @@ https://flickity.metafizzy.co
 }
 
 .writingnav{
-  width: 48.5vw;
   background-color: #e6e6e6;
-  z-index: 10;
   overflow: hidden;
 }
 
 .writingicon{
   height: 4vw;
-  z-index: 11;
   display: grid;
   grid-template-columns: 24.25vw 12.125vw 12.125vw;
   border-bottom: 2px solid red;
