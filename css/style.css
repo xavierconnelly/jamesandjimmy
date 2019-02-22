@@ -160,6 +160,7 @@ https://flickity.metafizzy.co
     overflow: hidden;
     position: fixed;
     left: 3vw;
+    border-bottom: 2px solid red;
 }
 
 .marquee {
