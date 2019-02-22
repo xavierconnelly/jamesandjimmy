@@ -211,7 +211,7 @@ h4{
   column-count: 10;
   min-width: 500px;
   width: 48.5vw;
-  height: 88vw;
+  height: 100%;
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 3vw;
@@ -222,7 +222,7 @@ h4{
   text-align-last: start;
   overflow: auto;
   display: block;
-  padding-top: 12vh;
+  margin-top: 12vh;
   padding-left: 50px;
   padding-right: 100px;
   margin-right: 50px;
