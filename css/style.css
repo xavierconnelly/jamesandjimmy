@@ -117,7 +117,7 @@ img {
   z-index: 10;
   position: fixed;
   left: 0vw;
-  top: 0;
+  top: -18.25;
   overflow: hidden;
   border-bottom: 2px solid red;
 }
