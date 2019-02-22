@@ -1,5 +1,6 @@
-/* GLOBAL
----------------------------------------------- */
+/* Global
+-------------------------------------------------------------------------------------------- */
+
 * { box-sizing: border-box; 
  font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -28,7 +29,7 @@ img {
 
 /*! Flickity v2.2.0
 https://flickity.metafizzy.co
----------------------------------------------- */
+-------------------------------------------------------------------------------------------- */
 
 .flickity-enabled {
   position: ;
@@ -71,8 +72,8 @@ https://flickity.metafizzy.co
   cursor: grabbing;
 }
 
-/* NEWS NAV
----------------------------------------------- */
+/* News Navigation
+-------------------------------------------------------------------------------------------- */
 
 .news{
  position: fixed;
@@ -92,7 +93,8 @@ https://flickity.metafizzy.co
  line-height: 3vw;
 }
 
-/* JAMES AND JIMMY NAV */
+/* James Navigation
+-------------------------------------------------------------------------------------------- */
 
 .jjnav{
  position: fixed;
@@ -127,7 +129,9 @@ https://flickity.metafizzy.co
   color: red;
 }
 
-/*half screen*/
+/* Half Screen
+-------------------------------------------------------------------------------------------- */
+
 .split {
   height: 100%;
   width: 48.5vw;
@@ -137,12 +141,9 @@ https://flickity.metafizzy.co
   overflow-x: hidden;
 }
 
-/* above titles */
-.spacer{
-  min-height:20vh;
-}
+/* Writing Navigation
+-------------------------------------------------------------------------------------------- */
 
-/*writing*/
 .left {
   left: 3vw;
   background-color: #e6e6e6;
@@ -195,11 +196,16 @@ h4{
   font-size: 2vw;
 }
 
-/* WRITING SECTION */
+/* Writing Section
+-------------------------------------------------------------------------------------------- */
 
 .writing{
   display: block;
   height: 100%;
+}
+
+.spacer{
+  min-height:20vh;
 }
 
 .scroll{
@@ -250,7 +256,9 @@ h4{
 }
 
 
-/* PROJECTS */
+/* Right Hand Side
+-------------------------------------------------------------------------------------------- */
+
 .right {
   right: 0;
   font-size: 25px;
@@ -265,8 +273,9 @@ h4{
 }
 
 
+/* Projects Navigation
+-------------------------------------------------------------------------------------------- */
 
-/* PROJECT NAV */
 .projects-nav {
   width: 60vw;
   height: 12vw;
@@ -303,6 +312,9 @@ h4{
 .jimmy{
   background: #e6e6e6;
 }
+
+/* Project Content
+-------------------------------------------------------------------------------------------- */
 
 .projects{
  position: fixed;
