@@ -316,6 +316,10 @@ https://flickity.metafizzy.co
   cursor: pointer;
 }
 
+.projects-nav-cell:hover {
+  background-color: red;
+}
+
 .nav-image{
  width: 9vw;
  height: 9vw;
