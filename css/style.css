@@ -100,7 +100,7 @@ https://flickity.metafizzy.co
 
 .jjnav{
  height: 100%;
- z-index: 1;
+ z-index: -1;
  position: fixed;
  width: 3vw;
  top: 12vw;
