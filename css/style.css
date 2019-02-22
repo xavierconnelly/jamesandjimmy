@@ -205,9 +205,12 @@ h4{
   height: 100%;
 }
 
-.spacer{
-  min-height:24.25vh;
-  border: 2px solid green;
+.grid{
+  height:24vw;
+  width: 24vw;
+  display: inline-block;
+  position: fixed;
+  border: 2px solid red;
 }
 
 .scroll{
@@ -215,22 +218,19 @@ h4{
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
   min-width: 500px;
-  height: 100%;
   width: 48.5vw;
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 40px;
   column-rule: 1px solid red;
-  column-width: 24.25vw; 
+  column-width: 24vw; 
   text-align: justify;
   text-justify: inter-word;
   text-align-last: start;
   overflow: auto;
   display: block;
   padding-left: 50px;
-  padding-top: 12vw;
   padding-right: 100px;
-  padding-bottom: 20px;
   margin-right: 50px;
 }
 
