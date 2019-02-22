@@ -201,6 +201,7 @@ https://flickity.metafizzy.co
 }
 
 .writingicon > div{
+  height: 3vw;
   padding: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
