@@ -31,7 +31,7 @@ https://flickity.metafizzy.co
 ---------------------------------------------- */
 
 .flickity-enabled {
-  position: relative;
+  position: ;
 }
 
 .flickity-enabled:focus { 
@@ -39,6 +39,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-viewport {
+  position: ;
   overflow: hidden;
   height: 100%;
 }
@@ -159,8 +160,8 @@ https://flickity.metafizzy.co
 .writingnav {
   transform: rotate(90deg);
   width: 48.5vw;
-  height: 12vw;
-  background-color: green;
+  height: 48.5vw;
+  background-color: gold;
   z-index: 10;
   position: fixed;
   left: 0vw;
