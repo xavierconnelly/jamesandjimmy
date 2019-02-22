@@ -106,12 +106,13 @@ img {
 
 
 .writingnavtilt {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 .writingnav {
-  width: 12vw;
-  height: 48.5vw;
+  transform: rotate(90deg);
+  width: 48.5vw;
+  height: 12vw;
   background-color: green;
   z-index: 10;
   position: fixed;
@@ -122,7 +123,6 @@ img {
 }
 
 .icon{
-  transform: rotate(-90deg);
   width: 48.5vw;
   height: 4vw;
   background-color: yellow;
