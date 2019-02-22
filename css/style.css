@@ -211,12 +211,12 @@ h4{
   column-count: 10;
   min-width: 500px;
   width: 48.5vw;
-  height: 100%;
+  height: 88vw;
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
-  column-gap: 40px;
+  column-gap: 3vw;
   column-rule: 1px solid red;
-  column-width: 24vw; 
+  column-width: 12vw; 
   text-align: justify;
   text-justify: inter-word;
   text-align-last: start;
