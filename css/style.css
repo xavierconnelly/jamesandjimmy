@@ -158,10 +158,8 @@ https://flickity.metafizzy.co
     width: 48.5vw;
     height: 12vw;
     overflow: hidden;
-    background: white;
     position: fixed;
     left: 3vw;
-    border: 2px solid red;
 }
 
 .marquee {
