@@ -194,6 +194,10 @@ https://flickity.metafizzy.co
   border-bottom: 2px solid red;
 }
 
+.writingicon:nth-last-child(3) {
+  text-align: right;
+}
+
 .writingicon:hover{
     background-color: red;
     color: #e6e6e6;
