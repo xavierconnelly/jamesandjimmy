@@ -101,7 +101,7 @@ https://flickity.metafizzy.co
  top: 12vw;
  left: 0px;
  border-right: 2px solid red;
- z-index: 20;
+ z-index: -20;
  overflow: hidden;
 }
 
