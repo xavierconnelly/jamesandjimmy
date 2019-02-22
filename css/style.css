@@ -112,7 +112,7 @@ img {
 .writingnav {
   width: 12vw;
   height: 48.5vw;
-  background-color: #e6e6e6;
+  background-color: green;
   z-index: 10;
   position: fixed;
   left: 0vw;
@@ -125,7 +125,7 @@ img {
   transform: rotate(-90deg);
   width: 48.5vw;
   height: 4vw;
-  background-color: #e6e6e6;
+  background-color: yellow;
   z-index: 11;
   border-bottom: 2px solid red;
   display: grid;
