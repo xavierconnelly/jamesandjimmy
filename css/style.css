@@ -101,10 +101,11 @@ https://flickity.metafizzy.co
  height: 100%;
  width: 3vw;
  top: 12vw;
- left: -5px;
+ left: -1px;
  border-right: 2px solid red;
  z-index: -20;
  overflow: hidden;
+ background-color: red;
 }
 
 .vertical {
