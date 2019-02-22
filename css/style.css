@@ -164,10 +164,10 @@ https://flickity.metafizzy.co
   background-color: gold;
   z-index: 10;
   position: fixed;
-  left: 3vw;
+  left: 21.25vw;
   top: -18.25vw;
   overflow: hidden;
-  border-bottom: 2px solid red;
+  border-right: 2px solid red;
 }
 
 .icon{
