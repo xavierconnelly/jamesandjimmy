@@ -133,10 +133,7 @@ img {
 /* WRITING SECTION */
 
 .writing{
-  display: inline;
-  height: 100%;
-  z-index: 15;
-  border-left: 2px solid blue
+  display: block;
 }
 
 .scroll{
