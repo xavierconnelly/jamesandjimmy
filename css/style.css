@@ -175,17 +175,15 @@ https://flickity.metafizzy.co
   background-color: #e6e6e6;
   z-index: 10;
   overflow: hidden;
-  line-height: 3vw;
 }
 
 .writingicon{
   height: 4vw;
-  background-color: #e6e6e6;
   z-index: 11;
-  border-bottom: 2px solid red;
   display: grid;
   grid-template-columns: 24.25vw 12.125vw 12.125vw;
-  grid-template-rows: 4vw;
+  border-bottom: 2px solid red;
+  background-color: #e6e6e6;
   text-align: left;
 }
 
@@ -196,7 +194,6 @@ https://flickity.metafizzy.co
 
 .writingicon > div{
   padding: 10px;
-  line-height: 2vw;
 }
 
 h4, h6{
