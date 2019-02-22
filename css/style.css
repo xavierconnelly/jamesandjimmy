@@ -110,7 +110,7 @@ https://flickity.metafizzy.co
 .vertical {
   transform: rotate(90deg);
   width: 150vw;
-  position: fixed;  
+  position: relative; 
   top: -30vw;
   left: -73.5vw;
   z-index: 15;
