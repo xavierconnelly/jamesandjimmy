@@ -3,7 +3,6 @@
 
 * { box-sizing: border-box; 
  font-family: 'IBM Plex Sans', sans-serif;
- background-color: yellow;
 }
 
 *::selection{
@@ -191,7 +190,6 @@ https://flickity.metafizzy.co
   display: grid;
   text-align: left;
   grid-template-columns: 24.25vw 12.125vw 12.125vw;
-  background-color: #e6e6e6;
   color: red;
   border-bottom: 2px solid red;
 }
