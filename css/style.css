@@ -161,16 +161,11 @@ https://flickity.metafizzy.co
     background: white;
     position: fixed;
     left: 3vw;
-    box-sizing: border-box;
     border: 2px solid red;
 }
 
 .marquee {
-    top: 6em;
-    position: relative;
-    box-sizing: border-box;
     animation: marquee 15s linear infinite;
-    border-top: 2px solid red;
 }
 
 .marquee:hover {
@@ -181,10 +176,8 @@ https://flickity.metafizzy.co
   width: 48.5vw;
   background-color: #e6e6e6;
   z-index: 10;
-  top: 0;
   overflow: hidden;
   line-height: 3vw;
-  border-bottom: 2px solid red;
 }
 
 .writingicon{
@@ -212,7 +205,7 @@ h4, h6{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 /* Make it move! */
