@@ -163,6 +163,8 @@ https://flickity.metafizzy.co
 }
 
 .marquee {
+    position: relative;
+    box-sizing: border-box;
     animation: marquee 15s linear infinite;
 }
 
