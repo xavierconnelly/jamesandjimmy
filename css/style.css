@@ -220,8 +220,8 @@ h4{
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 3vw;
-  column-rule: 2px solid red;
-  column-width: 12vw; 
+  column-rule: 4px solid red;
+  column-width: 21vw; 
   text-align: justify;
   text-justify: inter-word;
   text-align-last: start;
