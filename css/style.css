@@ -19,7 +19,7 @@ img {
   height: 48.5vw;
   width: 48.5vw;
   overflow: hidden;
-  border: 1px solid #e6e6e6;
+  border: 2px solid red;
   position: fixed;
   top: 12vw;
   z-index: -5;
@@ -167,7 +167,7 @@ https://flickity.metafizzy.co
   position: fixed;
   left: 21.25vw;
   top: -18.25vw;
-  overflow: hidden;
+  overflow: ;
   border-right: 2px solid red;
 }
 
