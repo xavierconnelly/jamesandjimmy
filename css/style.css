@@ -122,6 +122,7 @@ img {
 }
 
 .icon{
+  transform: rotate(-90deg);
   width: 48.5vw;
   height: 4vw;
   background-color: yellow;
