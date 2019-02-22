@@ -105,10 +105,13 @@ img {
 }
 
 
-.writingnav {
+.writingnavtilt {
   transform: rotate(90deg);
-  width: 12vw;
-  height: 48.5vw;
+}
+
+.writingnav {
+  width: 48.5;
+  height: 12vw;
   background-color: #e6e6e6;
   z-index: 10;
   position: fixed;
