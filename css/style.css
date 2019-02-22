@@ -106,12 +106,13 @@ img {
 
 
 .writingnav{
+  transform: rotate(90deg);
   width: 48.5vw;
   height: 12vw;
   background-color: #e6e6e6;
   z-index: 10;
   position: fixed;
-  left: 3vw;
+  left: 0vw;
   top: 0;
   overflow: hidden;
   line-height: 3vw;
@@ -119,6 +120,7 @@ img {
 }
 
 .writingicon{
+  transform: rotate(-90deg);
   width: 48.5vw;
   height: 4vw;
   background-color: #e6e6e6;
