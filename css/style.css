@@ -159,13 +159,13 @@ https://flickity.metafizzy.co
 
 .writingnav {
   transform: rotate(90deg);
-  width: 48.5vw;
+  width: 12vw;
   height: 48.5vw;
   background-color: gold;
   z-index: 10;
   position: fixed;
-  left: 0vw;
-  top: -18.25;
+  left: 3vw;
+  top: -18.25vw;
   overflow: hidden;
   border-bottom: 2px solid red;
 }
