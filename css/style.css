@@ -160,6 +160,7 @@ https://flickity.metafizzy.co
     overflow: hidden;
     position: fixed;
     left: 3vw;
+    backround-color: coral;
     border-bottom: 2px solid red;
 }
 
