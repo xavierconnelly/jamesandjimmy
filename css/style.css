@@ -62,17 +62,13 @@ img {
   position: fixed;  
   top: -30vw;
   left: -73.5vw;
-  z-index: 25;
+  z-index: 15;
 }
 
 .vertical-cell {
-  width: 3vw;
-  height: 3vw;
   border-top: 2px solid red;
   counter-increment: gallery-cell;
   text-align: center;
-  position: relative;
-  left: -5px;
   font-size: 1.5vw;
   line-height: 3vw;
   transform: rotate(-90deg);
