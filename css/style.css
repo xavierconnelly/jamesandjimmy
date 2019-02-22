@@ -93,6 +93,8 @@ https://flickity.metafizzy.co
  text-align: center;
  font-size: 1.5vw;
  line-height: 3vw;
+ color: #e6e6e6;
+ background-color: red;
 }
 
 /* James Navigation
@@ -171,6 +173,8 @@ https://flickity.metafizzy.co
     position: relative;
     box-sizing: border-box;
     animation: marquee 15s linear infinite;
+    background-color: #e6e6e6;
+    color: red;
 }
 
 .marquee:hover {
@@ -185,11 +189,11 @@ https://flickity.metafizzy.co
 .writingicon{
   height: 4vw;
   display: grid;
+  text-align: left;
   grid-template-columns: 24.25vw 12.125vw 12.125vw;
-  border-bottom: 2px solid red;
   background-color: #e6e6e6;
   color: red;
-  text-align: left;
+  border-bottom: 2px solid red;
 }
 
 .writingicon:hover{
