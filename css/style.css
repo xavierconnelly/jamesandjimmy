@@ -194,7 +194,7 @@ https://flickity.metafizzy.co
   border-bottom: 2px solid red;
 }
 
-.writingicon:nth-last-child(1) {
+.writingicon > div:nth-last-child(1) {
   text-align: right;
 }
 
@@ -241,7 +241,7 @@ https://flickity.metafizzy.co
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
- font-size: 15px;
+  font-size: 15px;
   min-width: 500px;
   width: 48.5vw;
   height: 100%;
