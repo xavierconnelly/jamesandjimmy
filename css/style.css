@@ -99,7 +99,7 @@ https://flickity.metafizzy.co
 
 .jjnav{
  height: 100%;
- z-index: 10;
+ z-index: 1;
  position: fixed;
  width: 3vw;
  top: 12vw;
@@ -114,8 +114,6 @@ https://flickity.metafizzy.co
   height: 100%
   top: -30vw;
   left: -73.5vw;
-  z-index: 15;
-  background-color: red;
 }
 
 .vertical-cell {
