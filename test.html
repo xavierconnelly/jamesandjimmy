@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <title>James Carter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Australian architect and academic currently based in Chicago, U.S.A">
+  <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
+  <meta name="author" content="James Carter">
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
   <div class="news">
     <div class="newsicon"> N </div>
     <div class="newsicon"> E </div>
@@ -183,3 +202,75 @@
       What will happen to me?
     </div>
   </div>
+
+  <script>
+    function banana() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("projects").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "banana.txt", true);
+      xhttp.send();
+    }
+
+    function aRoomFoKaraoke() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("projects").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "jamesandjimmy/projects/aRoom.txt", true);
+      xhttp.send();
+    }
+
+    function plans() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("projects").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "jamesandjimmy/projects/plans.txt", true);
+      xhttp.send();
+    }
+
+    function millAbout() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("projects").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "jamesandjimmy/projects/millAbout.txt", true);
+      xhttp.send();
+    }
+
+    function darkSpace() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("projects").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "jamesandjimmy/projects/darkSpace.txt", true);
+      xhttp.send();
+    }
+
+    function psychogeographical() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("projects").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "jamesandjimmy/projects/psychogeographical.txt", true);
+      xhttp.send();
+    }
+  </script>
+
+</body>
+
+</html>
