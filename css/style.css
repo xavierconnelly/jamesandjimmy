@@ -34,7 +34,8 @@ https://flickity.metafizzy.co
   position: relative;
 }
 
-.flickity-enabled:focus { outline: none; 
+.flickity-enabled:focus { 
+ outline: none; 
 }
 
 .flickity-viewport {
@@ -43,7 +44,6 @@ https://flickity.metafizzy.co
 }
 
 .flickity-slider {
-  position: absolute;
   width: 100%;
   height: 100%;
 }
