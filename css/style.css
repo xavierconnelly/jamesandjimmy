@@ -154,29 +154,42 @@ https://flickity.metafizzy.co
 /* Writing Navigation
 -------------------------------------------------------------------------------------------- */
 
-.writingnavtilt {
-
+.container {
+    width: 48.5vw;
+    height: 12vw;
+    overflow: hidden;
+    background: white;
+    position: fixed;
+    left: 3vw;
+    box-sizing: border-box;
+    border: 2px solid red;
 }
 
-.writingnav {
-  transform: rotate(90deg);
-  width: 12vw;
-  height: 48.5vw;
-  background-color: gold;
-  z-index: 10;
-  position: fixed;
-  left: 21.25vw;
-  top: -18.25vw;
-  overflow: ;
-  border-right: 2px solid red;
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+    border-top: 2px solid red;
 }
 
-.icon{
-  transform: rotate(-90deg);
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+.writingnav{
   width: 48.5vw;
+  background-color: #e6e6e6;
+  z-index: 10;
+  top: 0;
+  overflow: hidden;
+  line-height: 3vw;
+  border-bottom: 2px solid red;
+}
+
+.writingicon{
   height: 4vw;
-  background-color: yellow;
-  color: blue;
+  background-color: #e6e6e6;
   z-index: 11;
   border-bottom: 2px solid red;
   display: grid;
@@ -185,16 +198,27 @@ https://flickity.metafizzy.co
   text-align: left;
 }
 
-.icon > div{
+.writingicon:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.writingicon > div{
   padding: 10px;
   line-height: 2vw;
 }
 
-h4{
+h4, h6{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 2vw;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   12vw }
+    100% { top: -24vw }
 }
 
 /* Writing Section
