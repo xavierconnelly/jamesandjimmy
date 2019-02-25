@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
+ 
  <head>
   
  <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
- <style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="jquery.marquee.js"></script>
-
-  <script src="jquery.pause.js">
-  </script>
+  <script src="jquery.marquee.js"></script>
+  <script src="jquery.pause.js"></script>
   
   <style>
  * {
@@ -147,6 +145,55 @@
   background-color: red;
   border-top: 2px solid white;
 }
+   
+   
+   /* Projects Navigation
+-------------------------------------------------------------------------------------------- */
+
+.projects-nav {
+  width: 40vw;
+  height: 8vw;
+  position: fixed;
+  overflow: hidden;
+  background-color: #e6e6e6;
+  border-bottom: 3px solid red;
+  border-left: 3px solid red;
+  z-index: 50;
+ cursor: pointer;
+}
+
+.projects-nav-cell {
+  width: 8vw;
+  height: 8vw;
+  counter-increment: gallery-cell;
+  border-left: 2px solid red;
+  cursor: pointer;
+}
+
+.projects-nav-cell:hover {
+  background-color: red;
+   -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.nav-image{
+ width: 6vw;
+ height: 6vw;
+ margin: 1vw;
+ overflow: hidden;
+ cursor: pointer;
+ border: 3px solid red;
+}
+
+.james{
+ background: #e6e6e6;
+}
+
+.jimmy{
+  background: #e6e6e6;
+}
 </style>
   
 </head>
@@ -283,6 +330,30 @@
   </div>
 </div>
   
+  <div class="split right">
+    <div class="projects-nav">
+      <div id="pro-nav">
+        <div class="projects-nav-cell jimmy" onclick="banana()">
+          <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
+        </div>
+        <div class="projects-nav-cell james" onclick="aRoomForKaraoke()">
+          <img class="nav-image" src="/img/jc_hfo_1_icon.jpg">
+        </div>
+        <div class="projects-nav-cell jimmy" onclick="plans()">
+          <img class="nav-image" src="/img/jc_kar_2_icon.jpg">
+        </div>
+        <div class="projects-nav-cell james" onclick="millAbout()">
+          <img class="nav-image" src="/img/jc_hfo_2_icon.jpg">
+        </div>
+        <div class="projects-nav-cell jimmy" onclick="darkSpace()">
+          <img class="nav-image" src="/img/jc_kar_3_icon.jpg">
+        </div>
+        <div class="projects-nav-cell james" onclick="psychogeographical()">
+          <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
+        </div>
+      </div>
+    </div>
+   
 
    <script>
  $('.marquee-goose').marquee({
