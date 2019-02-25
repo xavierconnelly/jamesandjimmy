@@ -175,17 +175,12 @@
    
 /* Writing Section
 -------------------------------------------------------------------------------------------- */
-.writing{
+.writing-container{
   display: block;
   height: 100%;
 }
-
-.spacer{
- height: 8vw;
- display: block;
-}
-
-.scroll{
+   
+.writing-scroll{
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
@@ -208,7 +203,12 @@
   padding-right: 100px;
   margin-right: 50px;
 }
-
+   
+.spacer{
+ height: 8vw;
+ display: block;
+}
+   
 /* width */
 .scroll::-webkit-scrollbar {
   height: 30px;
@@ -327,7 +327,7 @@
 </div>
 
 <div class="james-container">
-  <div class="marquee-james">
+  <div class="james-marquee">
     <div class="james">J</div> <div class="james">J</div>
   </div>
   <div class="marquee-james">
@@ -398,7 +398,7 @@
     <div class="james">E</div>
     <div class="james">M</div>
   </div>
-  <div class="marquee-dog">
+  <div class="marquee-james">
     <div class="dog">S</div>
     <div class="dog">Y</div>
   </div>
@@ -429,8 +429,8 @@
       </div>
     </div>
   
-    <div class="writing">
-      <div class="scroll">
+    <div class="writing-container">
+      <div class="writing-scroll">
         <div class="spacer"></div>
         <h1>Information Architecture</h1>
         <h3>Effective Techniques For Designers</h3>
