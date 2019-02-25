@@ -21,24 +21,14 @@
     *:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
-}
+   }
+  
    
    
+/* News Navigation
+-------------------------------------------------------------------------------------------- */
 
-.marquee-goose {
-  width: 2vw;
-  font-size: 2vw;
-  overflow: hidden;
-  text-align: center;
-  height: 2vw;
-  border-bottom: 2px solid white;
-}
-
-.marquee-goose:nth-last-child(1) {
-  border-bottom: 0px solid black;
-}
-
-.dontneed {
+.news-containter {
   color: white;
   cursor: pointer;
   background-color: red;
@@ -48,22 +38,92 @@
   border-right: 2px solid black;
 }
 
-.dontneed:hover {
+.news-containter:hover {
   color: red;
   background-color: white;
 }
 
-.dontneed:hover > .goose {
-  border-left: 2px solid green;
+.news-marquee {
+  width: 2vw;
+  font-size: 2vw;
+  overflow: hidden;
+  text-align: center;
+  height: 2vw;
+  border-bottom: 2px solid white;
 }
 
-.goose {
+.news-marquee:nth-last-child(1) {
+  border-bottom: 0px solid black;
+}
+   
+.news-marquee-element {
   height: 2vw;
   width: 2vw;
   border-left: 2px solid white;
 }
 
-.contan {
+   
+ 
+/* James Navigation
+-------------------------------------------------------------------------------------------- */  
+.james-container {
+  overflow: hidden;
+  position: fixed;
+  top: ;
+}
+
+.marquee-james {
+  width: 2vw;
+  font-size: 2vw;
+  overflow: hidden;
+  text-align: center;
+  height: 2vw;
+  font-family: arial;
+  border-right: 2px solid red;
+}
+
+.james {
+  display: block;
+  height: 2vw;
+  width: 2vw;
+  color: red;
+  border-top: 2px solid red;
+}
+
+.and {
+  display: block;
+  height: 2vw;
+  width: 2vw;
+  color: white;
+  background-color: red;
+  border-top: 2px solid white;
+}
+ 
+/* Half Screen
+-------------------------------------------------------------------------------------------- */
+
+.split {
+  height: 100%;
+  width: 49vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+   
+   
+/* Writing 
+-------------------------------------------------------------------------------------------- */
+.left {
+  left: 2vw;
+  background-color: #e6e6e6;
+  color: red;
+}
+   
+   
+/* Writing Navigation
+-------------------------------------------------------------------------------------------- */
+.writing-nav-container {
   z-index: 5;
   position: fixed;
   left: 2vw;
@@ -74,25 +134,14 @@
   border-bottom: 2px solid black;
   border-left: 2px solid black;
   border-right: 2px solid black;
-}
+} 
    
-   
-/* Writing
--------------------------------------------------------------------------------------------- */
-
-.left {
-  left: 2vw;
-  background-color: #e6e6e6;
-  color: red;
-}
-   
-   
-.writingnav {
+.writing-nav {
   background-color: white;
   overflow: hidden;
 }
 
-.writingicon {
+.writing-nav-element {
   height: 2vw;
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
@@ -100,7 +149,7 @@
   border-bottom: 2px solid red;
 }
 
-.writingicon:hover {
+.writing-nav-element:hover {
   background-color: red;
   color: white;
   cursor: pointer;
@@ -110,7 +159,7 @@
   transition: background-color 1s ease-out;
 }
 
-.writingicon > div {
+.writing-marquee-element > div {
   height: 2vw;
   text-align: left;
   padding-left: 1vw;
@@ -121,52 +170,16 @@
   line-height: 2vw;
 }
 
-.writingicon > div:nth-last-child(1) {
+.writing-marquee-element > div:nth-last-child(1) {
   text-align: right;
   padding-right: 1vw;
 }
-
-.container {
-  overflow: hidden;
-  position: fixed;
-  top: ;
-}
-
-.marquee-dog {
-  width: 2vw;
-  font-size: 2vw;
-  overflow: hidden;
-  text-align: center;
-  height: 2vw;
-  font-family: arial;
-  border-right: 2px solid red;
-}
-
-.dog {
-  display: block;
-  height: 2vw;
-  width: 2vw;
-  color: red;
-  border-top: 2px solid red;
-}
-
-.cat {
-  display: block;
-  height: 2vw;
-  width: 2vw;
-  color: white;
-  background-color: red;
-  border-top: 2px solid white;
-}
-   
    
 /* Writing Section
 -------------------------------------------------------------------------------------------- */
-
 .writing{
   display: block;
   height: 100%;
- 
 }
 
 .spacer{
@@ -223,21 +236,7 @@
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;
-}
-
-   
-   
-/* Half Screen
--------------------------------------------------------------------------------------------- */
-
-.split {
-  height: 100%;
-  width: 49vw;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-}
+} 
    
    /* Right Hand Side
 -------------------------------------------------------------------------------------------- */
@@ -310,134 +309,127 @@
 
 <body>
   
-  <div class="dontneed">
-  <div class="marquee-goose">
-    <div class="goose">N</div>
-    <div class="goose">N</div>
+  <div class="news-container">
+   <div class="news-marquee">
+    <div class="news-marquee-element">N</div>
+    <div class="news-marquee-element">N</div>
   </div>
-  <div class="marquee-goose">
-    <div class="goose">E</div>
-    <div class="goose">E</div>
+  <div class="news-marquee">
+    <div class="news-marquee-element">E</div>
+    <div class="news-marquee-element">E</div>
   </div>
-  <div class="marquee-goose">
-    <div class="goose">W</div>
-    <div class="goose">W</div>
+  <div class="news-marquee">
+    <div class="news-marquee-element">W</div>
+    <div class="news-marquee-element">W</div>
   </div>
-  <div class="marquee-goose">
-    <div class="goose">S</div>
-    <div class="goose">S</div>
+  <div class="news-marquee">
+    <div class="news-marquee-element">S</div>
+    <div class="news-marquee-element">S</div>
   </div>
 </div>
 
-    <div class="contan">
-      <div class="writingnav marquee-chalk">
-        <div class="writingicon"><div>Writings On A Wall</div><div>New York Times</div><div>2019</div></div>
-        <div class="writingicon"><div>Flat Out</div><div>The Guardian</div><div>1907</div></div>
-        <div class="writingicon"><div>Pidgin</div><div>Domus</div><div>4567</div></div>
-        <div class="writingicon"><div>Assemble</div><div>Broadsheet</div><div>9017</div></div>
-        <div class="writingicon"><div>MAS Content</div><div>Assemble Papers</div><div>2007</div></div>
-        <div class="writingicon"><div>Writings On A Wall</div><div>Washington Post</div><div>2667</div></div>
+<div class="james-container">
+  <div class="marquee-james">
+    <div class="james">J</div> <div class="james">J</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">A</div> <div class="james">I</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">M</div> <div class="james">M</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">E</div> <div class="james">M</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">S</div> <div class="james">Y</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">A</div> <div class="and">A</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">N</div> <div class="and">N</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">D</div> <div class="and">D</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">J</div> <div class="james">J</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">I</div>
+    <div class="james">A</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">M</div>
+    <div class="james">M</div>
+  </div>
+  <div class="marquee-james">
+    <div class="dog">M</div>
+    <div class="dog">E</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">Y</div>
+    <div class="james">S</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">A</div>
+    <div class="and">A</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">N</div>
+    <div class="and">N</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">D</div>
+    <div class="and">D</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">J</div>
+    <div class="james">J</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">A</div>
+    <div class="james">I</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">M</div>
+    <div class="james">M</div>
+  </div>
+  <div class="marquee-james">
+    <div class="james">E</div>
+    <div class="james">M</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">S</div>
+    <div class="dog">Y</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">A</div>
+    <div class="and">A</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">N</div>
+    <div class="and">N</div>
+  </div>
+  <div class="marquee-james">
+    <div class="and">D</div>
+    <div class="and">D</div>
+  </div>
+</div> 
+ 
+   <div class="split left">
+ 
+    <div class="writing-container">
+      <div class="writingnav writing-marquee">
+        <div class="writing-marquee-element"><div>Writings On A Wall</div><div>New York Times</div><div>2019</div></div>
+        <div class="writing-marquee-element"><div>Flat Out</div><div>The Guardian</div><div>1907</div></div>
+        <div class="writing-marquee-element"><div>Pidgin</div><div>Domus</div><div>4567</div></div>
+        <div class="writing-marquee-element"><div>Assemble</div><div>Broadsheet</div><div>9017</div></div>
+        <div class="writing-marquee-element"><div>MAS Content</div><div>Assemble Papers</div><div>2007</div></div>
+        <div class="writing-marquee-element"><div>Writings On A Wall</div><div>Washington Post</div><div>2667</div></div>
       </div>
     </div>
-
-<div class="container">
-  <div class="marquee-dog">
-    <div class="dog">J</div>
-    <div class="dog">J</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">A</div>
-    <div class="dog">I</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">M</div>
-    <div class="dog">M</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">E</div>
-    <div class="dog">M</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">S</div>
-    <div class="dog">Y</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">A</div>
-    <div class="cat">A</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">N</div>
-    <div class="cat">N</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">D</div>
-    <div class="cat">D</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">J</div>
-    <div class="dog">J</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">I</div>
-    <div class="dog">A</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">M</div>
-    <div class="dog">M</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">M</div>
-    <div class="dog">E</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">Y</div>
-    <div class="dog">S</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">A</div>
-    <div class="cat">A</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">N</div>
-    <div class="cat">N</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">D</div>
-    <div class="cat">D</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">J</div>
-    <div class="dog">J</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">A</div>
-    <div class="dog">I</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">M</div>
-    <div class="dog">M</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">E</div>
-    <div class="dog">M</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="dog">S</div>
-    <div class="dog">Y</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">A</div>
-    <div class="cat">A</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">N</div>
-    <div class="cat">N</div>
-  </div>
-  <div class="marquee-dog">
-    <div class="cat">D</div>
-    <div class="cat">D</div>
-  </div>
-</div>
   
     <div class="writing">
       <div class="scroll">
@@ -459,8 +451,9 @@
     </div>   
   </div>
  
+
   <div class="split right">
-    <div class="projects-nav marquee-superman">
+    <div class="projects-nav projects-marquee">
       <div id="pro-nav">
         <div class="projects-nav-cell jimmy" onclick="banana()">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
@@ -484,63 +477,41 @@
     </div>
    
 
-   <script>
- $('.marquee-goose').marquee({
-    //speed in milliseconds of the marquee
+<script>
+ 
+ $('.news-marquee').marquee({
     duration: 2000,
-    //gap in pixels between the tickers
     gap: 0,
-    //time in milliseconds before the marquee will start animating
     delayBeforeStart: 0,
-    //'left' or 'right'
     direction: 'left',
-    //true or false - should the marquee be duplicated to show an effect of continues flow
     duplicated: true
 });
 
-
-
-$('.marquee-chalk').marquee({
-    //speed in milliseconds of the marquee
-    duration: 10000,
-    //gap in pixels between the tickers
-    gap: 0,
-    //time in milliseconds before the marquee will start animating
-    delayBeforeStart: 0,
-    //'left' or 'right'
-    direction: 'up',
-    //true or false - should the marquee be duplicated to show an effect of continues flow
-    duplicated: true
-});
-
-
-$('.marquee-dog').marquee({
-    //speed in milliseconds of the marquee
+$('.james-marquee').marquee({
     duration: 2000,
-    //gap in pixels between the tickers
     gap: 0,
-    //time in milliseconds before the marquee will start animating
     delayBeforeStart: 0,
-    //'left' or 'right'
     direction: 'up',
-    //true or false - should the marquee be duplicated to show an effect of continues flow
     duplicated: true
 });
     
-    $('.marquee-superman').marquee({
-    //speed in milliseconds of the marquee
-    duration: 14000,
-    //gap in pixels between the tickers
+$('.writing-marquee').marquee({
+    duration: 10000,
     gap: 0,
-    //time in milliseconds before the marquee will start animating
     delayBeforeStart: 0,
-    //'left' or 'right'
-    direction: 'left',
-    //true or false - should the marquee be duplicated to show an effect of continues flow
+    direction: 'up',
     duplicated: true
 });
 
-  </script>
+$('.projects-marquee').marquee({
+    duration: 14000,
+    gap: 0,
+    delayBeforeStart: 0,
+    direction: 'left',
+    duplicated: true
+});
  
-  </body>
-  </html>
+</script>
+ 
+</body>
+</html>
