@@ -481,7 +481,7 @@
         // on cycle pause the marquee
         pauseOnCycle: false,
         // on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
-        pauseOnHover: false,
+        pauseOnHover: true,
         // the marquee is visible initially positioned next to the border towards it will be moving
         startVisible: false
     };
