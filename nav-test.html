@@ -28,7 +28,7 @@
 /* News Navigation
 -------------------------------------------------------------------------------------------- */
 
-.news-containter {
+.news-container {
   color: white;
   cursor: pointer;
   background-color: red;
@@ -38,7 +38,7 @@
   border-right: 2px solid black;
 }
 
-.news-containter:hover {
+.news-container:hover {
   color: red;
   background-color: white;
 }
@@ -62,8 +62,6 @@
   border-left: 2px solid white;
 }
 
-   
- 
 /* James Navigation
 -------------------------------------------------------------------------------------------- */  
 .james-container {
@@ -159,7 +157,7 @@
   transition: background-color 1s ease-out;
 }
 
-.writing-marquee-element > div {
+.writing-nav-marquee-element > div {
   height: 2vw;
   text-align: left;
   padding-left: 1vw;
@@ -170,7 +168,7 @@
   line-height: 2vw;
 }
 
-.writing-marquee-element > div:nth-last-child(1) {
+.writing-nav-marquee-element > div:nth-last-child(1) {
   text-align: right;
   padding-right: 1vw;
 }
@@ -270,7 +268,7 @@
   cursor: pointer;
 }
 
-.projects-nav-cell {
+.projects-nav-element {
   width: 8vw;
   height: 8vw;
   border-left: 2px solid red;
@@ -420,14 +418,14 @@
  
    <div class="split left">
  
-    <div class="writing-container">
-      <div class="writingnav writing-marquee">
-        <div class="writing-marquee-element"><div>Writings On A Wall</div><div>New York Times</div><div>2019</div></div>
-        <div class="writing-marquee-element"><div>Flat Out</div><div>The Guardian</div><div>1907</div></div>
-        <div class="writing-marquee-element"><div>Pidgin</div><div>Domus</div><div>4567</div></div>
-        <div class="writing-marquee-element"><div>Assemble</div><div>Broadsheet</div><div>9017</div></div>
-        <div class="writing-marquee-element"><div>MAS Content</div><div>Assemble Papers</div><div>2007</div></div>
-        <div class="writing-marquee-element"><div>Writings On A Wall</div><div>Washington Post</div><div>2667</div></div>
+    <div class="writing-nav-container">
+      <div class="writing-nav writing-nav-marquee">
+        <div class="writing-nav-marquee-element"><div>Writings On A Wall</div><div>New York Times</div><div>2019</div></div>
+        <div class="writing-nav-marquee-element"><div>Flat Out</div><div>The Guardian</div><div>1907</div></div>
+        <div class="writing-nav-marquee-element"><div>Pidgin</div><div>Domus</div><div>4567</div></div>
+        <div class="writing-nav-marquee-element"><div>Assemble</div><div>Broadsheet</div><div>9017</div></div>
+        <div class="writing-nav-marquee-element"><div>MAS Content</div><div>Assemble Papers</div><div>2007</div></div>
+        <div class="writing-nav-marquee-element"><div>Writings On A Wall</div><div>Washington Post</div><div>2667</div></div>
       </div>
     </div>
   
@@ -453,24 +451,24 @@
  
 
   <div class="split right">
-    <div class="projects-nav projects-marquee">
+    <div class="projects-nav projects-nav-marquee">
       <div id="pro-nav">
-        <div class="projects-nav-cell jimmy" onclick="banana()">
+        <div class="projects-nav-element jimmy" onclick="banana()">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
-        <div class="projects-nav-cell james" onclick="aRoomForKaraoke()">
+        <div class="projects-nav-element james" onclick="aRoomForKaraoke()">
           <img class="nav-image" src="/img/jc_hfo_1_icon.jpg">
         </div>
-        <div class="projects-nav-cell jimmy" onclick="plans()">
+        <div class="projects-nav-element jimmy" onclick="plans()">
           <img class="nav-image" src="/img/jc_kar_2_icon.jpg">
         </div>
-        <div class="projects-nav-cell james" onclick="millAbout()">
+        <div class="projects-nav-element james" onclick="millAbout()">
           <img class="nav-image" src="/img/jc_hfo_2_icon.jpg">
         </div>
-        <div class="projects-nav-cell jimmy" onclick="darkSpace()">
+        <div class="projects-nav-element jimmy" onclick="darkSpace()">
           <img class="nav-image" src="/img/jc_kar_3_icon.jpg">
         </div>
-        <div class="projects-nav-cell james" onclick="psychogeographical()">
+        <div class="projects-nav-element james" onclick="psychogeographical()">
           <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
         </div>
       </div>
@@ -495,7 +493,7 @@ $('.james-marquee').marquee({
     duplicated: true
 });
     
-$('.writing-marquee').marquee({
+$('.writing-nav-marquee').marquee({
     duration: 10000,
     gap: 0,
     delayBeforeStart: 0,
@@ -503,7 +501,7 @@ $('.writing-marquee').marquee({
     duplicated: true
 });
 
-$('.projects-marquee').marquee({
+$('.projects-nav-marquee').marquee({
     duration: 14000,
     gap: 0,
     delayBeforeStart: 0,
