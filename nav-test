@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<script>
+ <!-- JavaScript -->
+  <script src="https://jamesandjimmy/jquery.marquee.js"></script>
+ <style>
+ * {
+  margin: 0;
+  font-family: arial;
+}
+
+.marquee-goose {
+  width: 2vw;
+  font-size: 2vw;
+  overflow: hidden;
+  text-align: center;
+  height: 2vw;
+  border-bottom: 2px solid white;
+}
+
+.marquee-goose:nth-last-child(1) {
+  border-bottom: 0px solid black;
+}
+
+.dontneed {
+  color: white;
+  cursor: pointer;
+  background-color: red;
+  width: 2vw;
+  height: 8vw;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.dontneed:hover {
+  color: red;
+  background-color: white;
+}
+
+.dontneed:hover > .goose {
+  border-left: 2px solid green;
+}
+
+.goose {
+  height: 2vw;
+  width: 2vw;
+  border-left: 2px solid white;
+}
+
+.contan {
+  z-index: 5;
+  position: fixed;
+  left: 2vw;
+  top: 0;
+  width: 49vw;
+  height: 8vw;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.marquee {
+  top: 6em;
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  color: red;
+}
+
+.writingnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.writingicon {
+  height: 2vw;
+  display: grid;
+  grid-template-columns: 25vw 12vw 12vw;
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.writingicon:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.writingicon > div {
+  height: 2vw;
+  text-align: left;
+  padding-left: 1vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1vw;
+  line-height: 2vw;
+}
+
+.writingicon > div:nth-last-child(1) {
+  text-align: right;
+  padding-right: 1vw;
+}
+
+.container {
+  overflow: hidden;
+  position: fixed;
+  top: ;
+}
+
+.marquee-dog {
+  width: 2vw;
+  font-size: 2vw;
+  overflow: hidden;
+  text-align: center;
+  height: 2vw;
+  font-family: arial;
+  border-right: 2px solid red;
+}
+
+.dog {
+  display: block;
+  height: 2vw;
+  width: 2vw;
+  color: red;
+  border-top: 2px solid red;
+}
+
+.cat {
+  display: block;
+  height: 2vw;
+  width: 2vw;
+  color: white;
+  background-color: red;
+  border-top: 2px solid white;
+}
+</style>
+      
+<head>
+  
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.marquee.js"></script>
+
+  
+  <script src="jquery.pause.js">
+  </script>
+  
+  
+</head>
+
+
+<body>
+  
+  <div class="dontneed">
+  <div class="marquee-goose">
+    <div class="goose">N</div>
+    <div class="goose">N</div>
+  </div>
+  <div class="marquee-goose">
+    <div class="goose">E</div>
+    <div class="goose">E</div>
+  </div>
+  <div class="marquee-goose">
+    <div class="goose">W</div>
+    <div class="goose">W</div>
+  </div>
+  <div class="marquee-goose">
+    <div class="goose">S</div>
+    <div class="goose">S</div>
+  </div>
+</div>
+
+    <div class="contan">
+      <div class="writingnav marquee-chalk">
+        <div class="writingicon"><div>Writings On A Wall</div><div>New York Times</div><div>2019</div></div>
+        <div class="writingicon"><div>Flat Out</div><div>The Guardian</div><div>1907</div></div>
+        <div class="writingicon"><div>Pidgin</div><div>Domus</div><div>4567</div></div>
+        <div class="writingicon"><div>Assemble</div><div>Broadsheet</div><div>9017</div></div>
+        <div class="writingicon"><div>MAS Content</div><div>Assemble Papers</div><div>2007</div></div>
+        <div class="writingicon"><div>Writings On A Wall</div><div>Washington Post</div><div>2667</div></div>
+      </div>
+    </div>
+
+<div class="container">
+  <div class="marquee-dog">
+    <div class="dog">J</div>
+    <div class="dog">J</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">A</div>
+    <div class="dog">I</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">M</div>
+    <div class="dog">M</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">E</div>
+    <div class="dog">M</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">S</div>
+    <div class="dog">Y</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">A</div>
+    <div class="cat">A</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">N</div>
+    <div class="cat">N</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">D</div>
+    <div class="cat">D</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">J</div>
+    <div class="dog">J</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">I</div>
+    <div class="dog">A</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">M</div>
+    <div class="dog">M</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">M</div>
+    <div class="dog">E</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">Y</div>
+    <div class="dog">S</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">A</div>
+    <div class="cat">A</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">N</div>
+    <div class="cat">N</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">D</div>
+    <div class="cat">D</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">J</div>
+    <div class="dog">J</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">A</div>
+    <div class="dog">I</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">M</div>
+    <div class="dog">M</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">E</div>
+    <div class="dog">M</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="dog">S</div>
+    <div class="dog">Y</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">A</div>
+    <div class="cat">A</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">N</div>
+    <div class="cat">N</div>
+  </div>
+  <div class="marquee-dog">
+    <div class="cat">D</div>
+    <div class="cat">D</div>
+  </div>
+</div>
+  
+
+  </body>
+  </html>
