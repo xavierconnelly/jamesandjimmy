@@ -353,7 +353,7 @@
 </div>
   
   <div class="split right">
-    <div class="projects-nav">
+    <div class="projects-nav marquee-superman">
       <div id="pro-nav">
         <div class="projects-nav-cell jimmy" onclick="banana()">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
@@ -416,6 +416,19 @@ $('.marquee-dog').marquee({
     delayBeforeStart: 0,
     //'left' or 'right'
     direction: 'up',
+    //true or false - should the marquee be duplicated to show an effect of continues flow
+    duplicated: true
+});
+    
+    $('.marquee-superman').marquee({
+    //speed in milliseconds of the marquee
+    duration: 2000,
+    //gap in pixels between the tickers
+    gap: 0,
+    //time in milliseconds before the marquee will start animating
+    delayBeforeStart: 0,
+    //'left' or 'right'
+    direction: 'left',
     //true or false - should the marquee be duplicated to show an effect of continues flow
     duplicated: true
 });
