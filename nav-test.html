@@ -6,7 +6,6 @@
  <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="jquery.marquee.js"></script>
-  <script src="jquery.pause.js"></script>
    
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 
@@ -485,7 +484,10 @@
     gap: 0,
     delayBeforeStart: 0,
     direction: 'left',
-    duplicated: true
+    duplicated: true,
+    pauseOnHover: true,
+    startVisible: false
+
 });
 
 $('.james-marquee').marquee({
@@ -493,7 +495,9 @@ $('.james-marquee').marquee({
     gap: 0,
     delayBeforeStart: 0,
     direction: 'up',
-    duplicated: true
+    duplicated: true,
+    pauseOnHover: true,
+    startVisible: false
 });
     
 $('.writing-nav-marquee').marquee({
@@ -501,7 +505,9 @@ $('.writing-nav-marquee').marquee({
     gap: 0,
     delayBeforeStart: 0,
     direction: 'up',
-    duplicated: true
+    duplicated: true,
+    pauseOnHover: true,
+    startVisible: false
 });
 
 $('.projects-nav-marquee').marquee({
@@ -509,7 +515,9 @@ $('.projects-nav-marquee').marquee({
     gap: 0,
     delayBeforeStart: 0,
     direction: 'left',
-    duplicated: true
+    duplicated: true,
+    pauseOnHover: true,
+    startVisible: false
 });
  
 </script>
