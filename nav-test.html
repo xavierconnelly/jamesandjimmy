@@ -115,16 +115,14 @@
 /* Writing Navigation
 -------------------------------------------------------------------------------------------- */
 .writing-nav-container {
-  z-index: 5;
   position: fixed;
   left: 2vw;
   top: 0;
   width: 49vw;
   height: 8vw;
   overflow: hidden;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  outline: 1px solid black;
+  outline-offset: -2px;
 } 
    
 .writing-nav {
@@ -243,8 +241,8 @@
   top: 0;
   overflow: hidden;
   background-color: white;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  outline: 1px solid black;
+  outline-offset: -2px;
   z-index: 50;
   cursor: pointer;
 }
@@ -257,7 +255,7 @@
   display: inline-block;
 }
 
-.projects-nav-cell:hover {
+.projects-nav-element:hover {
   background-color: red;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
@@ -271,7 +269,8 @@
  margin: 1vw;
  overflow: hidden;
  cursor: pointer;
- border: 2px solid red;
+ outline: 2px solid red;
+ outline-offset: -2px;
 }
 
 .james{
