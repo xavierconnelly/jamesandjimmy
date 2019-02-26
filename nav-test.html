@@ -321,7 +321,8 @@
       </div>
     </div>
    
-    <div class="projects-nav projects-nav-marquee">
+    <div class="projects-nav-container">
+      <div class="projects-nav-marquee">
         <div class="projects-nav-element" onclick="banana()">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
@@ -340,7 +341,8 @@
         <div class="projects-nav-element" onclick="psychogeographical()">
           <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
         </div>
-     </div> 
+      </div>
+    </div> 
    
      <div class="james-container">
        <div class="james-marquee"><div class="james">J</div> <div class="james">J</div></div>
@@ -436,11 +438,8 @@ $('.writing-nav-marquee').marquee({
     pauseOnHover: true,
     startVisible: false
 });
-</script>
 
-<script>
  
-$(window).load(function() {
 $('.projects-nav-marquee').marquee({
     duration: 14000,
     gap: 0,
