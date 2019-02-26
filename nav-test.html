@@ -33,8 +33,8 @@
   background-color: red;
   width: 2vw;
   height: 8vw;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
+  outline: 2px solid black;
+  outline-offset: -2px;
 }
 
 .news-container:hover {
@@ -67,6 +67,8 @@
   overflow: hidden;
   position: fixed;
   top: ;
+  outline: 2px solid black;
+  outline-offset: -2px;
 }
 
 .james-marquee {
@@ -76,7 +78,6 @@
   text-align: center;
   height: 2vw;
   font-family: arial;
-  border-right: 2px solid red;
 }
 
 .james {
@@ -106,7 +107,7 @@
   width: 49vw;
   height: 8vw;
   overflow: hidden;
-  outline: 1px solid black;
+  outline: 2px solid black;
   outline-offset: -2px;
 } 
  
@@ -154,12 +155,14 @@
 -------------------------------------------------------------------------------------------- */
 .writing-container{
   display: block;
-  height: 100%;
+  height: 500px;
   postion: fixed;
   left: 2vw;
   top: 8vw;
-  width: 49vw;
+  width: 38vw;
   overflow: hidden;
+  outline: 2px solid black;
+  outline-offset: -2px;
 }
    
 .writing-scroll{
@@ -229,7 +232,7 @@
   top: 0;
   overflow: hidden;
   background-color: white;
-  outline: 1px solid black;
+  outline: 2px solid black;
   outline-offset: -2px;
   z-index: 50;
   cursor: pointer;
@@ -280,7 +283,8 @@
   height: 100%;
   width: 49vw;
   padding: 0px;
-  border-left: 2px solid red;
+  outline: 2px solid black;
+  outline-offset: -2px;
   z-index: 1;
   overflow-x: hidden;
   background-color: #276336;
