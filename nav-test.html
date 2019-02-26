@@ -245,16 +245,7 @@
   display: inline-block;
   outline: 1px solid red;
 }
-
-.projects-nav-element:hover {
-  background-color: red;
- 
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
-}
-
+   
 .nav-image{
  width: 6vw;
  height: 6vw;
@@ -264,6 +255,20 @@
  outline: 2px solid red;
  outline-offset: -2px;
 }
+   
+.projects-nav-element:hover {
+  background-color: red;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+   
+.projects-nav-element:hover > .nav-image {
+  outline: 2px solid white;
+  outline-offset: -2px;
+   }
+   
       
 /* Projects
 -------------------------------------------------------------------------------------------- */
