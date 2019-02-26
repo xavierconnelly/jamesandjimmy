@@ -14,7 +14,7 @@
   margin: 0;
    font-family: 'IBM Plex Sans', sans-serif;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  filter: grayscale(00%);
 }
  
  .grid-ontainer :hover {
@@ -33,14 +33,11 @@
 -------------------------------------------------------------------------------------------- */
    
 .grid-container {
-  display: flex; /* or inline-flex */
-  flex-wrap: nowrap;
   height: 100vh;
   width: 100vw;
   display: grid;
   grid-template-columns: 2vw 49vw 49vw;
-  grid-template-rows: 8vw auto;
-  text-align: center;
+  grid-template-rows: 8vw auto;  
 }
 
 .grid-container > div{
