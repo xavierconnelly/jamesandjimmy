@@ -386,22 +386,22 @@ p{
    
     <div class="projects-nav-container">
       <div class="projects-nav-marquee">
-        <div class="projects-nav-element" id="apple">
+        <div class="projects-nav-element" id="aHouse">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
-        <div class="projects-nav-element" onclick="aRoomForKaraoke()">
+        <div class="projects-nav-element" id="aRoomForKaraoke">
           <img class="nav-image" src="/img/jc_hfo_1_icon.jpg">
         </div>
-        <div class="projects-nav-element" onclick="plans()">
+        <div class="projects-nav-element" id="plans">
           <img class="nav-image" src="/img/jc_kar_2_icon.jpg">
         </div>
-        <div class="projects-nav-element" onclick="millAbout()">
+        <div class="projects-nav-element" id="millAbout">
           <img class="nav-image" src="/img/jc_hfo_2_icon.jpg">
         </div>
-        <div class="projects-nav-element" onclick="darkSpace()">
+        <div class="projects-nav-element" id="darkSpace">
           <img class="nav-image" src="/img/jc_kar_3_icon.jpg">
         </div>
-        <div class="projects-nav-element" onclick="psychogeographical()">
+        <div class="projects-nav-element" id="psychogeographical">
           <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
         </div>
       </div>
@@ -530,23 +530,25 @@ $('.projects-nav-marquee').marquee({
 });
 </script>
  
- <??>
- function apple() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("project-container").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "banana.txt", true);
-  xhttp.send();
-}
-</script>
- 
  <script>
 $(document).ready(function(){
-  $("#apple").click(function(){
+  $("#aHouse").click(function(){
     $("#project-container").load("banana.txt");
+  });
+   $("#aRoomForKaraoke").click(function(){
+    $("#project-container").load("/projects/aRoom.txt");
+  });
+   $("#plans").click(function(){
+    $("#project-container").load("plans.txt");
+  });
+   $("#millAbout").click(function(){
+    $("#project-container").load("millAbout.txt");
+  });
+   $("#darkSpace").click(function(){
+    $("#project-container").load("darkSpace.txt");
+  });
+   $("#psychogeographical").click(function(){
+    $("#project-container").load("psychogeographical.txt");
   });
 });
 </script>
