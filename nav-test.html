@@ -177,14 +177,14 @@
 
 #writing-scroll{
   height: 100%;
+  column-count: auto;
   column-fill: auto;
-  column-gap: 2vw;
+  column-gap: 2px;
   column-rule: 2px solid red;
-  column-width: 24vw;
+  column-width: 240px;
   font-size: 15px;
   text-align: justify;
   text-align-last: start;
-
   color: black;
   float: left;
   width: auto;
@@ -215,7 +215,7 @@ p{
 
 /* width */
 .writing-container-grid::-webkit-scrollbar {
-  height: 4vw;
+  height: 2vw;
 }
 
 /* Track */
@@ -240,11 +240,6 @@ p{
   transition: background-color 1s ease-out;
 } 
 
-.writing-scroll:hover > .writing-image {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-   }
-   
    
 /* Projects Navigation
 -------------------------------------------------------------------------------------------- */
