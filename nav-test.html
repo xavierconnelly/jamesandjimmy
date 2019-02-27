@@ -296,7 +296,7 @@ p{
 /* Projects
 -------------------------------------------------------------------------------------------- */
 
-.project-container{
+#project-container{
   font-size: 1.5em;
   z-index: 1;
   background-color: #276336;
@@ -317,7 +317,7 @@ p{
   filter: grayscale(0%);
    }
  
-.project-container::-webkit-scrollbar{
+#project-container::-webkit-scrollbar{
  display: none;
 } 
    
@@ -386,7 +386,7 @@ p{
    
     <div class="projects-nav-container">
       <div class="projects-nav-marquee">
-        <div class="projects-nav-element" onclick="banana()">
+        <div class="projects-nav-element" onclick="apple()">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
         <div class="projects-nav-element" onclick="aRoomForKaraoke()">
@@ -467,7 +467,7 @@ p{
        </div>
      </div>   
 
-     <div class="project-container">
+     <div id="project-container">
       <div class="project-inner">   
       <div class="project-titles">
          <h1>A House For One</h1>
@@ -528,6 +528,19 @@ $('.projects-nav-marquee').marquee({
     pauseOnHover: true,
     startVisible: false
 });
+</script>
+ 
+ <script>
+ function apple() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("project-container").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "banana.txt", true);
+  xhttp.send();
+}
 </script>
  
 </body>
