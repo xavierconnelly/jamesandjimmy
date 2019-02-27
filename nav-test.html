@@ -175,7 +175,7 @@
    height: 100%;
 }
 
-.writing-scroll{
+#writing-scroll{
   height: 100%;
   column-fill: auto;
   column-gap: 2vw;
@@ -379,29 +379,29 @@ p{
         <div class="writing-nav-marquee-element flatout"><div>Flat Out</div><div>The Guardian</div><div>1907</div></div>
         <div class="writing-nav-marquee-element pidgin"><div>Pidgin</div><div>Domus</div><div>4567</div></div>
         <div class="writing-nav-marquee-element assemble"><div>Assemble</div><div>Broadsheet</div><div>9017</div></div>
-        <div class="writing-nav-marquee-element mascontent"><div>MAS Content</div><div>Assemble Papers</div><div>2007</div></div>
+        <div class="writing-nav-marquee-element mascontext"><div>MAS Context</div><div>Assemble Papers</div><div>2007</div></div>
         <div class="writing-nav-marquee-element freshmeat"><div>Fresh Meat</div><div>Washington Post</div><div>2667</div></div>
       </div>
     </div>
    
     <div class="projects-nav-container">
       <div class="projects-nav-marquee">
-        <div class="projects-nav-element aHouse">
+        <div class="projects-nav-element ahouseforone">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
-        <div class="projects-nav-element" id="aRoomForKaraoke">
+        <div class="projects-nav-element aroomforkaraoke">
           <img class="nav-image" src="/img/jc_hfo_1_icon.jpg">
         </div>
-        <div class="projects-nav-element" id="plans">
+        <div class="projects-nav-element plans">
           <img class="nav-image" src="/img/jc_kar_2_icon.jpg">
         </div>
-        <div class="projects-nav-element" id="millAbout">
+        <div class="projects-nav-element millabout">
           <img class="nav-image" src="/img/jc_hfo_2_icon.jpg">
         </div>
-        <div class="projects-nav-element" id="darkSpace">
+        <div class="projects-nav-element darkspace">
           <img class="nav-image" src="/img/jc_kar_3_icon.jpg">
         </div>
-        <div class="projects-nav-element" id="psychogeographical">
+        <div class="projects-nav-element psychogeographical">
           <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
         </div>
       </div>
@@ -446,7 +446,7 @@ p{
        <div class="writing-container-grid">
          <div class="writing-scroll-margin">
          </div> 
-         <div class="writing-scroll">           
+         <div id="writing-scroll">           
            <div class="spacer">
            </div>
            <h2><b>Information Architecture</b></h2><br>
@@ -536,41 +536,41 @@ $(document).ready(function(){
     $("#writing-scroll").load("/writing/assemble.txt");
   });
    $(".flatout").click(function(){
-    $("#project-container").load("/writing/flatout.txt");
+    $("#writing-scroll").load("/writing/flatout.txt");
   });
    $(".freshmeat").click(function(){
-    $("#project-container").load("/writing/freshmeat.txt");
+    $("#writing-scroll").load("/writing/freshmeat.txt");
   });
    $(".hellohouse").click(function(){
-    $("#project-container").load("/writing/hellohouse.txt");
+    $("#writing-scroll").load("/writing/hellohouse.txt");
   });
    $(".mascontext").click(function(){
-    $("#project-container").load("/writing/mascontext.txt");
+    $("#writing-scroll").load("/writing/mascontext.txt");
   });
    $(".pidgin").click(function(){
-    $("#project-container").load("/writing/pidgin.txt");
+    $("#writing-scroll").load("/writing/pidgin.txt");
   });
 });
 </script>
 
  <script>
 $(document).ready(function(){
-  $(".aHouse").click(function(){
+  $(".ahouseforone").click(function(){
     $("#project-container").load("/projects/ahouseforone.txt");
   });
-   $("#aRoomForKaraoke").click(function(){
-    $("#project-container").load("/projects/aroom.txt");
+   $(".aroomforkaraoke").click(function(){
+    $("#project-container").load("/projects/aroomforkaraoke.txt");
   });
-   $("#plans").click(function(){
+   $(".plans").click(function(){
     $("#project-container").load("/projects/plans.txt");
   });
-   $("#millAbout").click(function(){
+   $(".millabout").click(function(){
     $("#project-container").load("/projects/millabout.txt");
   });
-   $("#darkSpace").click(function(){
+   $(".darkspace").click(function(){
     $("#project-container").load("/projects/darkspace.txt");
   });
-   $("#psychogeographical").click(function(){
+   $(".psychogeographical").click(function(){
     $("#project-container").load("/projects/psychogeographical.txt");
   });
 });
