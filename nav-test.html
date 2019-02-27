@@ -163,13 +163,14 @@
   height: 100%;
   width: 49vw;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   overflow: auto;
 }
 
 .writing-scroll{
   width: 49vw;
   height: 100%;
+  min-width: 500px;
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 10;
@@ -183,8 +184,8 @@
   text-align-last: start;
   overflow: auto;
   display: block;
-  padding-left: 50px;
-  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
    
 .spacer{
@@ -207,24 +208,24 @@ p{
 }
    
 /* width */
-.writing-container::-webkit-scrollbar {
+.writing-container-grid::-webkit-scrollbar {
   height: 20px;
 }
 
 /* Track */
-.writing-container::-webkit-scrollbar-track {
+.writing-container-grid::-webkit-scrollbar-track {
   background-color: #e6e6e6;
   border-top: 2px solid red;
 }
 
 /* Handle */
-.writing-container::-webkit-scrollbar-thumb {
+.writing-container-grid::-webkit-scrollbar-thumb {
   border: 2px solid red;
   background-color: red;
 }
    
 /* Handle on hover */
-.writing-container::-webkit-scrollbar-thumb:hover {
+.writing-container-grid::-webkit-scrollbar-thumb:hover {
   background-color: red; 
   cursor: grab;
   -webkit-transition: background-color 1s ease-out;
@@ -232,8 +233,6 @@ p{
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;
 } 
-
-   
    
    
 /* Projects Navigation
