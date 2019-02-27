@@ -17,7 +17,7 @@
   filter: grayscale(00%);
 }
  
- .grid-ontainer :hover {
+ .grid-container :hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
    }
@@ -157,7 +157,13 @@
 --------------------------------------------------------------------------------------------   */
 
 .writing-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
+.writing-container > div{
+  outline: 3px solid green;
+  overflow: hidden;
 }
    
 .writing-scroll{
@@ -166,7 +172,6 @@
   column-count: 10;
   font-size: 15px;
   min-width: 500px;
-  width: 49vw;
   height: 100%;
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
