@@ -386,7 +386,7 @@ p{
    
     <div class="projects-nav-container">
       <div class="projects-nav-marquee">
-        <div class="projects-nav-element" onclick="apple()">
+        <div class="projects-nav-element" id="apple">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
         <div class="projects-nav-element" onclick="aRoomForKaraoke()">
@@ -545,7 +545,7 @@ $('.projects-nav-marquee').marquee({
  
  <script>
 $(document).ready(function(){
-  $("apple").click(function(){
+  $("#apple").click(function(){
     $("#project-container").load("banana.txt");
   });
 });
