@@ -82,6 +82,7 @@
 
 /* James Navigation
 -------------------------------------------------------------------------------------------- */  
+
 .james-container {
   overflow: hidden;
   outline: 2px solid black;
@@ -107,18 +108,10 @@
    
    
 /* Writing Navigation
--------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------*/
+
 .writing-nav-container {
-  position: fixed;
-  left: 2vw;
-  top: 0;
-  width: 49vw;
-  height: 8vw;
-  overflow: hidden;
-  outline: 2px solid black;
-  outline-offset: -2px;
 } 
-   */
 
 .writing-nav-marquee {
   color: white;
@@ -128,17 +121,14 @@
   overflow: hidden;
   width: 49vw;
   height: 8vw;
+  cursor: pointer;
 }
 
 .writing-nav-marquee-element {
   height: 2vw;
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
-}  
-   
-.writing-nav-marquee:hover {
-  color: red;
-  background-color: white;
+  cursor: pointer;
 }  
    
 .writing-nav-marquee-element > div {
@@ -157,6 +147,11 @@
   text-align: right;
   padding-right: 1vw;
 }
+   
+.writing-nav-marquee-element:hover {
+  color: red;
+  background-color: white;
+}  
    
 /* Writing Section
 --------------------------------------------------------------------------------------------   */
@@ -230,11 +225,13 @@
 /* Projects Navigation
 -------------------------------------------------------------------------------------------- */
 .projects-nav-container{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/James_Earl_%22Jimmy%22_Carter_-_NARA_-_558522.tif/lossy-page1-1200px-James_Earl_%22Jimmy%22_Carter_-_NARA_-_558522.tif.jpg);
    }
 
 .projects-nav-marquee{
   cursor: pointer;
   width: 100%;
+  
 }
 
 .projects-nav-element {
@@ -243,6 +240,7 @@
   cursor: pointer;
   display: inline-block;
   float: right;
+  background-color: white;
   outline: 1px solid red;
 }
    
