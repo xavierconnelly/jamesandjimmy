@@ -4,7 +4,7 @@
  <head>
   
  <!-- JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="jquery.marquee.js"></script>
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
   
@@ -530,7 +530,7 @@ $('.projects-nav-marquee').marquee({
 });
 </script>
  
- <script>
+ <??>
  function apple() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -541,6 +541,14 @@ $('.projects-nav-marquee').marquee({
   xhttp.open("GET", "banana.txt", true);
   xhttp.send();
 }
+</script>
+ 
+ <script>
+$(document).ready(function(){
+  $("apple").click(function(){
+    $("#project-container").load("banana.txt");
+  });
+});
 </script>
  
 </body>
