@@ -102,10 +102,17 @@
   display: block;
   height: 2vw;
   width: 2vw;
-  color: red;
-  outline: 1px solid black;
+  color: white;
+  outline: 1px solid red;
   outline-offset: -1px;
 } 
+   
+   
+.james-marquee:hover {
+  color: red;
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
    
 /* Writing Navigation
 --------------------------------------------------------------------------------------------*/
@@ -130,6 +137,8 @@
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
   cursor: pointer;
+  outline: 1px solid black;
+  outline-offset: -1px;
 }  
    
 .writing-nav-marquee-element > div {
@@ -140,8 +149,6 @@
   white-space: nowrap;
   font-size: 1vw;
   line-height: 2vw;
-  outline: 1px solid black;
-  outline-offset: -1px;
 }
 
 .writing-nav-marquee-element > div:nth-last-child(1) {
@@ -180,17 +187,17 @@
   max-width: 3000px;
   column-fill: auto;
   column-width: 24vw;
-  color: purple;
-  float: left;
-   }
- 
-/* #writing-scroll{
-  width: 49vw;
+  color: black;
   font-size: 15px;
   text-align: justify;
   text-align-last: start;
   column-gap: 2vw;
   column-rule: 2px solid red;
+  float: left;
+   }
+ 
+/* #writing-scroll{
+  width: 49vw;
 }*/
    
 .spacer{
@@ -263,8 +270,8 @@ p{
   cursor: pointer;
   display: inline-block;
   float: right;
-  background-color: white;
-  outline: 2px solid red;
+  background-color: red;
+  outline: 2px solid black;
 }
    
 .nav-image{
@@ -273,12 +280,12 @@ p{
  margin: 1vw;
  overflow: hidden;
  cursor: pointer;
- outline: 2px solid red;
+ outline: 2px solid white;
  outline-offset: -2px;
 }
    
 .projects-nav-element:hover {
-  background-color: red;
+  background-color: white;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
@@ -286,7 +293,7 @@ p{
 }
    
 .projects-nav-element:hover > .nav-image {
-  outline: 2px solid white;
+  outline: 2px solid red;
   outline-offset: -2px;
    }
    
@@ -297,8 +304,8 @@ p{
 #project-container{
   font-size: 1.5em;
   z-index: 1;
-  background-color: #276336;
-  color: #e6e6e6;
+  background-color: red;
+  color: white;
   cursor: crosshair;
   overflow: auto;
    }
@@ -345,6 +352,11 @@ p{
 
 .project-image-other{
    
+   }
+   
+#project-container:hover{
+  background-color: white;
+  color: red;
    }
    
 </style>
