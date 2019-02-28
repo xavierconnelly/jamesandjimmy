@@ -103,7 +103,8 @@
   height: 2vw;
   width: 2vw;
   color: white;
-  outline: 1px solid red;
+  background-color: red;
+  outline: 1px solid black;
   outline-offset: -1px;
 } 
    
@@ -166,7 +167,8 @@
 
 .writing-container{
    cursor: crosshair;
-   background-color: #e6e6e6;
+   color: white;
+   background-color: red;
    }
    
 .writing-container-grid{
@@ -249,6 +251,11 @@ p{
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;
 } 
+   
+.writing-container:hover{
+   color: red;
+   background-color: white;
+   }
 
    
 /* Projects Navigation
@@ -280,16 +287,17 @@ p{
  margin: 1vw;
  overflow: hidden;
  cursor: pointer;
- outline: 2px solid white;
+ outline: 2px solid black;
  outline-offset: -2px;
 }
    
 .projects-nav-element:hover {
   background-color: white;
+ /*
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;*/
 }
    
 .projects-nav-element:hover > .nav-image {
@@ -341,7 +349,7 @@ p{
  display: inline-block;
  overflow: hidden;
  z-index: -10;
- outline: 2px solid red;
+ outline: 2px solid white;
    }
    
 #project-image-hero > img{
@@ -358,6 +366,7 @@ p{
   background-color: white;
   color: red;
    }
+  
    
 </style>
 </head>
