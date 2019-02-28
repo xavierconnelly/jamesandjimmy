@@ -14,6 +14,8 @@
    font-family: 'IBM Plex Mono', monospace;
   -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
   filter: grayscale(00%);
+  scroll-behavior: smooth;
+
 }
  
 *:hover {
@@ -574,31 +576,26 @@ $(document).ready(function(){
 });
 </script>
  
-  <script>
- $('.ahouseforone').on("click",function(){
-      $('#project-container').scrollTop(0);
-});
-</script>
-   
+
  <script>
 $(document).ready(function(){
   $(".ahouseforone").click(function(){
-    $("#project-container").load("/projects/ahouseforone.txt");
+    $("#project-container").load("/projects/ahouseforone.txt") .scrollTop(0);
   });
    $(".aroomforkaraoke").click(function(){
-    $("#project-container").load("/projects/aroomforkaraoke.txt");
+    $("#project-container").load("/projects/aroomforkaraoke.txt") .scrollTop(0);
   });
    $(".plans").click(function(){
-    $("#project-container").load("/projects/plans.txt");
+    $("#project-container").load("/projects/plans.txt") .scrollTop(0);
   });
    $(".millabout").click(function(){
-    $("#project-container").load("/projects/millabout.txt");
+    $("#project-container").load("/projects/millabout.txt") .scrollTop(0);
   });
    $(".darkspace").click(function(){
-    $("#project-container").load("/projects/darkspace.txt");
+    $("#project-container").load("/projects/darkspace.txt") .scrollTop(0);
   });
    $(".psychogeographical").click(function(){
-    $("#project-container").load("/projects/psychogeographical.txt");
+    $("#project-container").load("/projects/psychogeographical.txt") .scrollTop(0);
   });
 });
 </script>
