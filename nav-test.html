@@ -327,8 +327,10 @@ p{
 }
    
 .projects-nav-text{
+   width: 8vw;
+   height: 8vw;
    display: flex; 
-   background: white;
+   background-color: white;
    position: absolute;
    top: 0;
    left:0;
@@ -337,7 +339,7 @@ p{
    outline: 2px solid red;
 }
 
-.projects-nav-container > .projects-nav-marquee > .projects-nav-element > .projects-nav-text > h3{
+.projects-nav-text > h3{
    margin: auto; /* Important */ 
    text-align: center; 
    white-space: nowrap;
@@ -359,7 +361,7 @@ p{
   transition: background-color 1s ease-out;*/
 }
    
-.projects-nav-element:hover > .nav-image {
+.projects-nav-element:hover > .projects-nav-image {
   outline: 2px solid red;
   outline-offset: -2px;
    }
@@ -469,7 +471,7 @@ p{
           <div class="projects-nav-image">  
             <img src="/img/jc_kar_1_icon.jpg">
           </div>
-          <div class="text">
+          <div class="projects-nav-text">
             <h3> A House For One </h3>
           </div> 
         </div>
@@ -493,7 +495,7 @@ p{
           <div class="projects-nav-element millabout">
             <img class="projects-nav-image" src="/img/jc_hfo_2_icon.jpg">
           </div>
-          <div class="text">
+          <div class="projects-nav-text">
             <h3> Mill About </h3>
           </div> 
         </div>
