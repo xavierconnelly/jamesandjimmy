@@ -44,7 +44,7 @@
 }
 
 .grid-container > div{
-  outline: 1px solid black;
+  outline: 2px solid black;
   outline-offset: -1px;
 }
    
@@ -259,14 +259,14 @@ p{
 /* Track */
 .writing-container-grid::-webkit-scrollbar-track {
   background-color: red;
-  outline: 1px solid black;
-  outline-offset: ;
+  outline: 2px solid black;
+  outline-offset: -1px;
 }
 
 /* Handle */
 .writing-container-grid::-webkit-scrollbar-thumb {
-  outline: 1px solid black;
-  outline-offset: ;
+  outline: 2px solid black;
+  outline-offset: -1px;
   background-color: white;
 }
    
@@ -481,11 +481,11 @@ p{
           </div> 
         </div>
         <div class="projects-nav-element aroomforkaraoke">
-          <div class="projects-nav-image"> 
+          <div class="projects-nav-image">  
             <img src="/img/jc_hfo_1_icon.jpg">
           </div>
           <div class="projects-nav-text">
-            <h3> A Room <br> For <br> Karaoke </h3>
+            <h3> A House <br> For One </h3>
           </div> 
         </div>
         <div class="projects-nav-element plans">
@@ -517,7 +517,7 @@ p{
             <img src="/img/jc_hfo_3_icon.jpg">
           </div>
           <div class="projects-nav-text">
-            <h3> Psycho-geograph-ical </h3>
+            <h3> Psycho-<br>geograph-<br>ical </h3>
           </div> 
         </div> 
       </div>
@@ -657,23 +657,23 @@ $(document).ready(function(){
     $(".writing-container-grid").scrollLeft(0);
   });
    $(".flatout").click(function(){
-    $("#writing-scroll").load("/writing/flatout.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/flatout.txt");
     $(".writing-container-grid").scrollLeft(0);
   });
    $(".freshmeat").click(function(){
-    $("#writing-scroll").load("/writing/freshmeat.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/freshmeat.txt");
     $(".writing-container-grid").scrollLeft(0);
   });
    $(".hellohouse").click(function(){
-    $("#writing-scroll").load("/writing/hellohouse.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/hellohouse.txt");
     $(".writing-container-grid").scrollLeft(0);
   });
    $(".mascontext").click(function(){
-    $("#writing-scroll").load("/writing/mascontext.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/mascontext.txt");
     $(".writing-container-grid").scrollLeft(0);
   });
    $(".pidgin").click(function(){
-    $("#writing-scroll").load("/writing/pidgin.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/pidgin.txt");
     $(".writing-container-grid").scrollLeft(0);
   });
 });
