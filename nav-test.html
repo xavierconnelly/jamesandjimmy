@@ -313,7 +313,7 @@ p{
   outline: 2px solid black;
 }
    
-.nav-image{
+.projects-nav-image{
  width: 6vw;
  height: 6vw;
  margin: 1vw;
@@ -326,7 +326,7 @@ p{
  left:0;
 }
    
-.text{
+.projects-nav-text{
    display: flex; 
    background: white;
    position: absolute;
@@ -337,15 +337,16 @@ p{
    outline: 2px solid red;
 }
 
-.text > h3{
+.projects-nav-container > .projects-nav-marquee > .projects-nav-element > .projects-nav-text > h3{
    margin: auto; /* Important */ 
    text-align: center; 
    white-space: nowrap;
    overflow: hidden;
+   color: green;
    text-overflow: ellipsis;
 }
 
-.text:hover{
+.projects-nav-text:hover{
   opacity: 1;
 }
    
@@ -464,33 +465,33 @@ p{
    
     <div class="projects-nav-container">
       <div class="projects-nav-marquee">
-        <div>
-          <div class="projects-nav-element ahouseforone">
-            <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
+        <div class="projects-nav-element ahouseforone">
+          <div class="projects-nav-image">  
+            <img src="/img/jc_kar_1_icon.jpg">
           </div>
           <div class="text">
             <h3> A House For One </h3>
           </div> 
         </div>
-        <div>
-          <div class="projects-nav-element aroomforkaraoke">
-            <img class="nav-image" src="/img/jc_hfo_1_icon.jpg">
+        <div class="projects-nav-element aroomforkaraoke">
+          <div class="projects-nav-image"> 
+            <img src="/img/jc_hfo_1_icon.jpg">
           </div>
-          <div class="text">
+          <div class="projects-nav-text">
             <h3> A Room For Karaoke </h3>
           </div> 
         </div>
         <div>
           <div class="projects-nav-element plans">
-            <img class="nav-image" src="/img/jc_kar_2_icon.jpg">
+            <img class="projects-nav-image" src="/img/jc_kar_2_icon.jpg">
           </div>
-          <div class="text">
+          <div class="projects-nav-text">
             <h3> Plans </h3>
           </div> 
         </div> 
         <div>
           <div class="projects-nav-element millabout">
-            <img class="nav-image" src="/img/jc_hfo_2_icon.jpg">
+            <img class="projects-nav-image" src="/img/jc_hfo_2_icon.jpg">
           </div>
           <div class="text">
             <h3> Mill About </h3>
@@ -498,17 +499,17 @@ p{
         </div>
         <div>
           <div class="projects-nav-element darkspace">
-            <img class="nav-image" src="/img/jc_kar_3_icon.jpg">
+            <img class="projects-nav-image" src="/img/jc_kar_3_icon.jpg">
           </div>
-          <div class="text">
+          <div class="projects-nav-text">
             <h3> Dark Space </h3>
           </div> 
         </div>
         <div>
           <div class="projects-nav-element psychogeographical">
-            <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
+            <img class="projects-nav-image" src="/img/jc_hfo_3_icon.jpg">
           </div>
-          <div class="text">
+          <div class="projects-nav-text">
             <h3> Psychogeographical </h3>
           </div> 
         </div> 
