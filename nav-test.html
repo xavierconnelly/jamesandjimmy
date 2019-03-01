@@ -198,10 +198,14 @@
   text-align: justify;
   text-align-last: start;
   column-gap: 2vw;
-  column-rule: 2px solid red;
+  column-rule: 2px solid black;
   float: left;
    }
  
+  #writing-scroll:hover {
+   column-rule: 2px solid black;
+   }
+   
 /* #writing-scroll{
   width: 49vw;
 }*/
@@ -238,7 +242,7 @@ p{
   height: 16vw;
   overflow: hidden;
   margin-left: -1vw;
-  outline: 2px solid red;
+  outline: 2px solid black;
   outline-offset: -1px;
   float: left;
   margin-right: 10px;
@@ -246,6 +250,11 @@ p{
   display: inline;
    }
 
+#writing-scroll:hover > .writing-image{
+   outline: 2px solid black;
+  outline-offset: -1px;
+   }
+ 
 /* width */
 .writing-container-grid::-webkit-scrollbar {
   height: 2vw;
@@ -253,14 +262,14 @@ p{
 
 /* Track */
 .writing-container-grid::-webkit-scrollbar-track {
-  background-color: #e6e6e6;
-  outline: 2px solid red;
+  background-color: red;
+  outline: 2px solid black;
   outline-offset: -2px;
 }
 
 /* Handle */
 .writing-container-grid::-webkit-scrollbar-thumb {
-  outline: 2px solid red;
+  outline: 2px solid black;
   outline-offset: -2px;
   background-color: red;
 }
