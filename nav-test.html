@@ -209,6 +209,11 @@
  display: block;
 }
    
+.spacer > h2 h4 h5 h6{
+ color: green;
+ float: bottom;
+}
+   
 p{
  margin-block-end: 1.5em;
  margin-block-end: 1.5em;
@@ -471,10 +476,11 @@ p{
          </div> 
          <div id="writing-scroll">           
            <div class="spacer">
-           </div>
+           <h5> New York Times</h5> 
            <h2><b>Information Architecture</b></h2><br>
            <h4>Effective Techniques For Designers</h4><br>
-           <h6><i>Go to the profile of Tubik Studio. Tubik Studio. Jun 17, 2017</h6></i><br>
+           <h6><i>Go to the profile of Tubik Studio. Tubik Studio. Jun 17, 2017</h6></i><br> 
+           </div>
            <p>Content is a constituent that can make any digital product valuable. Informative copy and well-thought visual elements of UI design are able to create the foundation for the successful product. However, even good content may fail in case it is structured badly. One of our previous articles was devoted to the basic points of information architecture and today’s post continues the topic.</p>
            <p>In a nutshell, information architecture (IA) is a science of structuring content of the websites, web and mobile applications, and social media software. IA study aims at organizing content so that users would easily adjust to the functionality of the product and could find everything they need without big effort. Nowadays, when the user-centered approach in design is a top trend, many designers learn the principles of information architecture science which are believed to be a foundation of the powerful design. There are many experts working on IA development now, so loads of various techniques appear. Our article presents four efficient IA methodologies commonly used in design </p>
            <p>Before you start constructing a layout of the product, you need to understand what elements your project will consist of. One of the first stages of building information architecture is called content inventory. The technique considers creating a list of the components for the future design project. The inventory list usually includes various elements such as title, author/provider, meta elements (keywords, description, tags), copy, images, audio, video, and document files. </p>
@@ -556,7 +562,8 @@ $('.projects-nav-marquee').marquee({
  <script>
 $(document).ready(function(){
   $(".assemble").click(function(){
-    $("#writing-scroll").load("/writing/assemble.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/assemble.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".flatout").click(function(){
     $("#writing-scroll").load("/writing/flatout.txt") .scrollLeft(0);
