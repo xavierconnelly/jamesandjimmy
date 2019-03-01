@@ -321,6 +321,32 @@ p{
  cursor: pointer;
  outline: 2px solid black;
  outline-offset: -2px;
+ position: absolute;
+ top: 0;
+ left:0;
+}
+   
+.text{
+   display: flex; 
+   background: white;
+   position: absolute;
+   top: 0;
+   left:0;
+   opacity: 0;
+   text-align: center;
+   outline: 2px solid red;
+}
+
+.text > h3{
+   margin: auto; /* Important */ 
+   text-align: center; 
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.text:hover{
+  opacity: 1;
 }
    
 .projects-nav-element:hover {
@@ -441,23 +467,49 @@ p{
         <div class="projects-nav-element ahouseforone">
           <img class="nav-image" src="/img/jc_kar_1_icon.jpg">
         </div>
+        <div class="text">
+          <h3> A House For One </h3>
+        </div> 
         <div class="projects-nav-element aroomforkaraoke">
           <img class="nav-image" src="/img/jc_hfo_1_icon.jpg">
         </div>
+        <div class="text">
+          <h3> A Room For Karaoke </h3>
+        </div> 
         <div class="projects-nav-element plans">
           <img class="nav-image" src="/img/jc_kar_2_icon.jpg">
         </div>
+        <div class="text">
+          <h3> Plans </h3>
+        </div> 
         <div class="projects-nav-element millabout">
           <img class="nav-image" src="/img/jc_hfo_2_icon.jpg">
         </div>
+        <div class="text">
+          <h3> Mill About </h3>
+        </div> 
         <div class="projects-nav-element darkspace">
           <img class="nav-image" src="/img/jc_kar_3_icon.jpg">
         </div>
+        <div class="text">
+          <h3> Dark Space </h3>
+        </div> 
         <div class="projects-nav-element psychogeographical">
           <img class="nav-image" src="/img/jc_hfo_3_icon.jpg">
         </div>
+        <div class="text">
+          <h3> Psychogeographical </h3>
+        </div> 
       </div>
     </div> 
+   
+<div class="everything">
+  <div class="image">
+  </div> 
+   <div class="text">
+     <h3> hello </h3>
+  </div>
+</div>
    
      <div class="james-container">
        <div class="james-marquee"><div class="james">J</div> <div class="james">J</div></div>
