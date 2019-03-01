@@ -7,7 +7,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="jquery.marquee.js"></script>
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
-  
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
   <style>
  * {
   margin: 0;
@@ -208,13 +210,13 @@
  height: 50%;
  width: 100%;
  display: block;
+ position: relative;
+ color: green;
  outline: 1px solid white;
 }
    
-#writing-scroll > #publisher {
-  position: relative;
-  min-height: 150px;
- color: green;
+#writing-scroll > .spacer > #publisher {
+  color: green;
   outline: 1px solid white;
 }
 
@@ -582,18 +584,23 @@ $(document).ready(function(){
   });
    $(".flatout").click(function(){
     $("#writing-scroll").load("/writing/flatout.txt") .scrollLeft(0);
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".freshmeat").click(function(){
     $("#writing-scroll").load("/writing/freshmeat.txt") .scrollLeft(0);
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".hellohouse").click(function(){
     $("#writing-scroll").load("/writing/hellohouse.txt") .scrollLeft(0);
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".mascontext").click(function(){
     $("#writing-scroll").load("/writing/mascontext.txt") .scrollLeft(0);
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".pidgin").click(function(){
     $("#writing-scroll").load("/writing/pidgin.txt") .scrollLeft(0);
+    $(".writing-container-grid").scrollLeft(0);
   });
 });
 </script>
