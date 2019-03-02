@@ -238,19 +238,7 @@ p{
  margin-block-end: 1.5em;
  display: inline;
 }
-   
-.writing-image{
-  width: 16vw;
-  height: 16vw;
-  overflow: hidden;
-  margin-left: -1vw;
-  outline: 2px solid black;
-  outline-offset: -1px;
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  display: inline;
-   }
+  
 
 .writing-container:hover > .writing-image{
   outline: 2px solid black;
@@ -296,7 +284,21 @@ p{
 /* Writing Section - Image
 --------------------------------------------------------------------------------------------   */
 
-.big {
+.writing-image{
+  width: 16vw;
+  height: 16vw;
+  overflow: hidden;
+  margin-left: -1vw;
+  outline: 2px solid black;
+  outline-offset: -1px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline;
+   }
+   
+.writing-image-hover {
   pointer-events: none;
   position: fixed;
   top: calc(50% + 4vw);
@@ -306,25 +308,26 @@ p{
   height: calc(100% - 8vw);  
   background-color: white;
   transition: 1s ease;
-  opacity: 0;
+  opacity: 1;
   outline: 2px solid black;
 }
 
-.big-friends{
+.writing-image-hover-container {
   width: 70%;
+  max-height: 80%;
   position: relative;
   top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.big-friends > img{
+.writing-image-hover-container > img{
   width: 100%;
   border: 5px solid red;
   display: inline-block;
 }
 
-#big-text{
+#writing-image-hover-text{
   font-size:16px;
   width: 100%;
   color: red;
@@ -632,10 +635,10 @@ p{
            <p>Content inventory Before you start 
            <div class="writing-image" tabindex="0"> 
              <img src="https://jamesandjimmy.com/img/jc_kar_3_icon.jpg"> 
-               <div class="big">
-                 <div class="big-friends">
+               <div class="writing-image-hover">
+                 <div class="writing-image-hover-container">
                    <img src="https://jamesandjimmy.com/img/jc_kar_3_small.jpg">
-                   <p id="big-text"> endorsements to people on skateboards and Instagram.</p>
+                   <p id="writing-image-image-text"> Endorsements to people on skateboards and Instagram </p>
                  </div>
                </div>
             </div> 
