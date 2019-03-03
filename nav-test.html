@@ -1,552 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
+
+<head>
  
- <head>
-  
- <!-- JavaScript -->
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <title>James Carter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Australian architect and academic currently based in Chicago, U.S.A">
+  <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
+  <meta name="author" content="James Carter">
+ 
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
+
+
+  <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="jquery.marquee.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-
-  <style>
- * {
-  margin: 0;
-   font-family: 'IBM Plex Mono', monospace;
-  -webkit-filter: grayscale(00%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(000%);
-  scroll-behavior: smooth;
-
-}
  
-*:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-   }
-   
-*:focus{
-    filter: grayscale(100%);
-    outline: 5px solid black;
-   }
-  
-   
-   body{
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background-image:url('/img/president_jimmy.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-   }
-   
-/* Global Grid 
--------------------------------------------------------------------------------------------- */
-   
-.grid-container {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 2vw 49vw 49vw;
-  grid-template-rows: 8vw auto;  
-}
-
-.grid-container > div{
-  outline: 2px solid black;
-  outline-offset: -1px;
-}
-   
-.grid-container > div:hover{
-  outline: 5px solid black;
-  z-index: 50;
-}
-   
-/* News Navigation
--------------------------------------------------------------------------------------------- */
- 
-.news-container {
-  color: white;
-  cursor: pointer;
-  background-color: ;
-  width: 2vw;
-  height: 8vw;
-  overflow: hidden;
-}
-
-.news-container:hover {
-  color: red;
-  background-color: white;
-}
-
-.news-marquee {
-  width: 2vw;
-  font-size: 1.5vw;
-  overflow: hidden;
-  text-align: center;
-  height: 2vw;
-  outline: 1px solid black;
-  outline-offset: -1px;
-}
-   
-.news-marquee-element {
-  height: 2vw;
-  width: 2vw;
-  outline: 1px solid black;
-  outline-offset: -1px;
-}
-
-/* James Navigation
--------------------------------------------------------------------------------------------- */  
-
-.james-container {
-  overflow: hidden;
-  background-color: ;
-}
-
-.james-marquee {
-  width: 2vw;
-  height: 2vw;
-  font-size: 1.5vw;
-  overflow: hidden;
-  text-align: center;
-}
-
-.james {
-  display: block;
-  height: 2vw;
-  width: 2vw;
-  color: white;
-  background-color: red;
-  outline: 1px solid black;
-  outline-offset: -1px;
-} 
-   
-   
-.james-container:hover {
-  color: red;
-  outline: 1px solid white;
-  outline-offset: -1px;
-}
-   
-/* Writing Navigation
---------------------------------------------------------------------------------------------*/
-
-.writing-nav-container {
-   overflow: hidden;
-   }
-
-.writing-nav-marquee {
-  color: white;
-  background-color: ;
-  outline: 1px solid black;
-  outline-offset: -1px;
-  overflow: hidden;
-  width: 49vw;
-  height: 8vw;
-  cursor: pointer;
-}
-
-.writing-nav-marquee-element {
-  height: 2vw;
-  display: grid;
-  grid-template-columns: 25vw 12vw 12vw;
-  cursor: pointer;
-  outline: 1px solid black;
-  outline-offset: -1px;
-}  
-   
-.writing-nav-marquee-element > div {
-  text-align: left;
-  padding-left: 1vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 1vw;
-  line-height: 2vw;
-}
-
-.writing-nav-marquee-element > div:nth-last-child(1) {
-  text-align: right;
-  padding-right: 1vw;
-}
-   
-.writing-nav-marquee-element:hover {
-  color: red;
-  background-color: white;
-}  
-   
-/* Writing Section
---------------------------------------------------------------------------------------------   */
-
-.writing-container{
-   cursor: crosshair;
-   color: white;
-   background-color: red;
-   }
-   
-.writing-container-grid{
-  height: 100%;
-  display: grid;
-  grid-template-columns: max-content max-content max-content;
-  overflow: auto;
-}
-
-.writing-scroll-margin{
-  width: 2vw;
-   height: 100%;
-}
-
-#writing-scroll{
-  height: 100%;
-  width: auto;
-  max-width: 3000px;
-  column-fill: auto;
-  column-width: 24vw;
-  color: black;
-  font-size: 15px;
-  text-align: justify;
-  text-align-last: start;
-  column-gap: 2vw;
-  column-rule: 2px solid black;
-  float: left;
-   }
- 
-  #writing-scroll:hover {
-   column-rule: 2px solid black;
-   }
-   
-/* #writing-scroll{
-  width: 49vw;
-}*/
-   
-.spacer{
- height: 33%;
- width: 100%;
- display: block;
- position: relative;
-}
-   
-#writing-scroll > .spacer > #publisher {
-
-}
-
-#writing-scroll > .spacer > #title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-   
-p{
- margin-block-end: 1.5em;
- margin-block-end: 1.5em;
- display: inline;
-}
-  
-
-.writing-container:hover > .writing-image{
-  outline: 2px solid black;
-  outline-offset: -1px;
-   }
- 
-   
-/* width */
-.writing-container-grid::-webkit-scrollbar {
-  height: 2vw;
-}
-
-/* Track */
-.writing-container-grid::-webkit-scrollbar-track {
-  background-color: ;
-  cursor: pointer;
-  border: 2px solid black;
-}
-
-/* Handle */
-.writing-container-grid::-webkit-scrollbar-thumb {
-  border: 2px solid black;
-  background-color: red;
-}
-   
-/* Handle on hover */
-.writing-container-grid::-webkit-scrollbar-thumb:hover {
-  background-color: red; 
-  cursor: grab;
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
-} 
-   
-.writing-container:hover{
-   color: red;
-   background-color: white;
-   }
-
-
- 
-/* Writing Section - Image
---------------------------------------------------------------------------------------------   */
-
-.writing-image{
-  width: 16vw;
-  height: 16vw;
-  overflow: hidden;
-  margin-left: -1vw;
-  outline: 2px solid black;
-  outline-offset: -1px;
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline;
-   }
-   
-.writing-image-hover {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  left: 75.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: white;
-  transition: 1s ease;
-  opacity: 1;
-  outline: 2px solid black;
-}
-
-.writing-image-hover-container {
-  width: 70%;
-  max-height: 80%;
-  position: relative;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.writing-image-hover-container > img{
-  width: 100%;
-  border: 5px solid red;
-  display: inline-block;
-}
-
-#writing-image-hover-text{
-  font-size:16px;
-  width: 100%;
-  color: red;
-  position: relative;
-  display: inline-block;
-}
-
-.writing-image:hover .writing-image-hover.big{
-  opacity: 1;
-}   
-   
-/* Projects Navigation
--------------------------------------------------------------------------------------------- */
-.projects-nav-container{
-  overflow: hidden;
-  width: 100;
-  text-align: center;
-   }
-
-.projects-nav-marquee{
-  cursor: pointer;
-  width: 100%;
-}
-
-.projects-nav-element {
-  width: 8vw;
-  height: 8vw;
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  background-color: red;
-  outline: 2px solid black;
-}
-   
-.projects-nav-image{
- width: 6vw;
- height: 6vw;
- margin: 1vw;
- overflow: hidden;
- cursor: pointer;
- outline: 2px solid black;
- outline-offset: -2px;
- position: absolute;
- top: 0;
- left:0;
-}
-   
-.projects-nav-image > img{
-  width: 6vw;
-  height: 6vw;
-  overflow: hidden;
-  outline: 2px solid black;
-  outline-offset: -2px;
-}
-   
-.projects-nav-text{
-   width: 8vw;
-   height: 8vw;
-   display: flex; 
-   background-color: white;
-   position: absolute;
-   top: 0;
-   left:0;
-   opacity: 0;
-   outline: 2px solid black;
-   outline-offset: -2px;
-}
-
-.projects-nav-text > h3{
-   margin: auto; /* Important */ 
-  padding: 1vw;
-   text-align: center; 
-   white-space: nowrap;
-   word-break: keep-all;
-   overflow: hidden;
-   color: red;
-   font-size: 1vw;
-   cursor: pointer;
-   text-overflow: ellipsis;
-}
-
-.projects-nav-text:hover {
-  opacity: 1;
-}
-
-.projects-nav-element:focus > .projects-nav-text{
-   opacity: 1;
-}
- 
-.projects-nav-element:hover {
-  background-color: white;
- /*
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;*/
-}
-   
-.projects-nav-element:hover > .projects-nav-image {
-  outline: 2px solid red;
-  outline-offset: -2px;
-   }
-   
-      
-/* Projects
--------------------------------------------------------------------------------------------- */
-
-#project-container{
-  font-size: 1.5em;
-  z-index: 1;
-  background-color: red;
-  color: white;
-  cursor: crosshair;
-  overflow: auto;
-   text-align: center;
-   }
-
-.project-inner{
-  overflow: auto;
-  padding: 10px;
-  margin: 10px;
-  margin-bottom: 20px;
-   }
-   
- 
-#project-container::-webkit-scrollbar{
- display: none;
-} 
-   
-.project-titles{
- width: 25vw;
- display: inline-block;
-  }
-
-.project-text{
- 
-   }
-
-#project-image-hero{
- width: 24vw;
- height: 24vw;
- display: inline-block;
- overflow: hidden;
- z-index: -10;
- outline: 2px solid white;
-   }
-   
-#project-image-hero > img{
- height: 100%;
- width: 100%;
- overflow: hidden;
-   }
-
-.project-image-other{
-   
-   }
-   
-#project-container:hover{
-  background-color: white;
-  color: red;
-   }
-   
-   
-  /* Projects Image Hover
--------------------------------------------------------------------------------------------- */
-   /*
-.projects-image-small {
-  height: 4em;
-  width: 4em;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.projects-image-big {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  right: 24.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: white;
-  transition: 1s ease;
-  opacity: 0;
-  outline: 5px solid green;
-  offset: -5px;
-}
-
-.projects-image-big-friends{
-  width: 70%;
-  position: relative;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.projects-image-big-friends > img{
-  width: 100%;
-  border: 5px solid red;
-  display: inline-block;
-}
-
-#projects-image-big-text{
-  font-size:16px;
-  width: 100%;
-  color: red;
-  position: relative;
-  display: inline-block;
-}
-
-.projects-image-small:hover .projects-image-big{
-  opacity: 1;
-}
-   */
-   
-</style>
 </head>
 <body>
  
@@ -585,7 +58,7 @@ p{
       <div class="projects-nav-marquee">
         <div class="projects-nav-element ahouseforone" tabindex="0">
           <div class="projects-nav-image">  
-            <img src="/img/jc_kar_1_icon.jpg">
+            <img src="/img/jc_kar_1_icon.jpg" alt="Smiley face">
           </div>
           <div class="projects-nav-text">
             <h3> A House <br> For One </h3>
@@ -593,7 +66,7 @@ p{
         </div>
         <div class="projects-nav-element aroomforkaraoke" tabindex="0">
           <div class="projects-nav-image">  
-            <img src="/img/jc_hfo_1_icon.jpg">
+            <img src="/img/jc_hfo_1_icon.jpg" alt="Smiley face">
           </div>
           <div class="projects-nav-text">
             <h3> A House <br> For One </h3>
@@ -601,7 +74,7 @@ p{
         </div>
         <div class="projects-nav-element plans" tabindex="0">
           <div class="projects-nav-image">
-            <img src="/img/jc_kar_2_icon.jpg">
+            <img src="/img/jc_kar_2_icon.jpg" alt="Smiley face">
           </div>
           <div class="projects-nav-text">
             <h3> Plans </h3>
@@ -609,7 +82,7 @@ p{
         </div> 
         <div class="projects-nav-element millabout" tabindex="0">
           <div class="projects-nav-image">
-            <img src="/img/jc_hfo_2_icon.jpg">
+            <img src="/img/jc_hfo_2_icon.jpg" alt="Smiley face">
           </div>
           <div class="projects-nav-text">
             <h3> Mill <br> About </h3>
@@ -617,7 +90,7 @@ p{
         </div>
         <div class="projects-nav-element darkspace" tabindex="0">
           <div class="projects-nav-image">
-            <img src="/img/jc_kar_3_icon.jpg">
+            <img src="/img/jc_kar_3_icon.jpg" alt="Smiley face">
           </div>
           <div class="projects-nav-text">
             <h3> Dark <br> Space </h3>
@@ -625,7 +98,7 @@ p{
         </div>
         <div class="projects-nav-element psychogeographical" tabindex="0">
           <div class="projects-nav-image">
-            <img src="/img/jc_hfo_3_icon.jpg">
+            <img src="/img/jc_hfo_3_icon.jpg" alt="Smiley face">
           </div>
           <div class="projects-nav-text">
             <h3> Psycho-<br>geograph-<br>ical </h3>
@@ -688,10 +161,10 @@ p{
            <p>Before you start constructing a layout of the product, you need to understand what elements your project will consist of. One of the first stages of building information architecture is called content inventory. The technique considers creating a list of the components for the future design project. The inventory list usually includes various elements such as title, author/provider, meta elements (keywords, description, tags), copy, images, audio, video, and document files. </p>
            <p>Content inventory Before you start 
            <div class="writing-image" tabindex="0"> 
-             <img src="https://jamesandjimmy.com/img/jc_kar_3_icon.jpg"> 
+             <img src="https://jamesandjimmy.com/img/jc_kar_3_icon.jpg" alt="Smiley face"> 
                <div class="writing-image-hover">
                  <div class="writing-image-hover-container">
-                   <img src="https://jamesandjimmy.com/img/jc_kar_3_small.jpg">
+                   <img src="https://jamesandjimmy.com/img/jc_kar_3_small.jpg" alt="Smiley face">
                    <p id="writing-image-image-text"> Endorsements to people on skateboards and Instagram </p>
                  </div>
                </div>
@@ -721,10 +194,10 @@ p{
        <div class="project-text">
          <p>It is much faster and easier to edit the list rather than modify the design project when it’s been started. Finally, the list of components can help designers deeply comprehend the content that results in creating appropriate connections between elements so that the design of the product would look integral.</p>
          <div class="projects-image-small"> 
-           <img src="https://jamesandjimmy.com/img/jc_kar_2_icon.jpg"> 
+           <img src="https://jamesandjimmy.com/img/jc_kar_2_icon.jpg" alt="Smiley face"> 
            <div class="projects-image-big">
              <div class="projects-image-big-friends">
-               <img src="https://jamesandjimmy.com/img/jc_kar_2_icon.jpg">
+               <img src="https://jamesandjimmy.com/img/jc_kar_2_icon.jpg" alt="Smiley face">
                <p id="projects-image-big-text"> endorsements to people on skateboards and Instagram.</p>
             </div>
           </div>
