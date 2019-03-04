@@ -451,6 +451,10 @@ p{
    }
 
 .project-inner{
+    background-image:url('/img/backgroundeditthis.svg');
+    background-size: 50vw;
+    background-repeat: repeat-y;
+    background-attachment: local;
   overflow: auto;
   padding: 10px;
   margin: 10px;
