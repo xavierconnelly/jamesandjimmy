@@ -70,8 +70,8 @@
   color: white;
   cursor: pointer;
   background-color: ;
-  width: 2vw;
-  height: 8vw;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -81,18 +81,18 @@
 }
 
 .news-marquee {
-  width: 2vw;
-  font-size: 1.5vw;
+  width: 100%;
+  height: 25%;
   overflow: hidden;
-  text-align: center;
-  height: 2vw;
   outline: 1px solid black;
   outline-offset: -1px;
+  font-size: 1.5vw;
+  text-align: center;
 }
    
 .news-marquee-element {
-  height: 2vw;
-  width: 2vw;
+  width: 50%;
+  height: 200%;
   outline: 1px solid black;
   outline-offset: -1px;
 }
