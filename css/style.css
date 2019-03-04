@@ -456,9 +456,10 @@ p{
     background-repeat: repeat-y;
     background-attachment: local;
   overflow: auto;
+    /* 
   padding: 10px;
   margin: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;*/
    }
    
  
@@ -472,16 +473,19 @@ p{
   }
 
 .project-text{
- 
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
    }
 
 #project-image-hero{
- width: 24vw;
- height: 24vw;
+ width: 24.5vw;
+ height: 24.5vw;
+  position: relative;
+  right: 0;
+  top: 0;
  display: inline-block;
  overflow: hidden;
- z-index: -10;
-
    }
    
 #project-image-hero > img{
