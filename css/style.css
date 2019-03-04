@@ -81,7 +81,7 @@
 }
 
 .news-marquee {
-  width: 100%;
+  width: 200%;
   height: 25%;
   overflow: hidden;
   outline: 1px solid black;
@@ -92,7 +92,7 @@
    
 .news-marquee-element {
   width: 50%;
-  height: 200%;
+  height: 100%;
   outline: 1px solid black;
   outline-offset: -1px;
 }
