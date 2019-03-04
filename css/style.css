@@ -469,13 +469,13 @@ p{
  display: inline-block;
  overflow: hidden;
  z-index: -10;
- outline: 2px solid white;
+
    }
    
 #project-image-hero > img{
- height: 100%;
  width: 100%;
  overflow: hidden;
+ outline: 2px solid white;
    }
 
 .project-image-other{
@@ -540,6 +540,3 @@ p{
 }
    */
   
-img#hero{
-overflow: hidden;
-}
