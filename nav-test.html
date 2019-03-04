@@ -202,8 +202,9 @@
  
  
 <script>
- $(document).ready(function(){
- $(".news-marquee").marquee({
+$(document).ready(function(){
+
+$(".news-marquee").marquee({
     duration: 4000,
     gap: 0,
     delayBeforeStart: 0,
@@ -212,6 +213,7 @@
     pauseOnHover: true,
     startVisible: false
 });
+
 $(".james-marquee").marquee({
     duration: 4000,
     gap: 0,
@@ -241,6 +243,8 @@ $(".projects-nav-marquee").marquee({
     pauseOnHover: true,
     startVisible: false
 });
+
+function writingNav {
   $(".assemble").click(function(){
     $("#writing-scroll").load("/writing/assemble.txt");
     $(".writing-container-grid").scrollLeft(0);
@@ -265,26 +269,28 @@ $(".projects-nav-marquee").marquee({
     $("#writing-scroll").load("/writing/pidgin.txt");
     $(".writing-container-grid").scrollLeft(0);
   });
-  $(".ahouseforone").click(function(){
-    $("#project-container").load("/projects/ahouseforone.txt") .scrollTop(0);
+}
+
+function projectNav {
+  $("x").click(function(){
+    $("#project-container").load("y") .scrollTop(0);
   });
-   $(".aroomforkaraoke").click(function(){
-    $("#project-container").load("/projects/aroomforkaraoke.txt") .scrollTop(0);
-  });
-   $(".plans").click(function(){
-    $("#project-container").load("/projects/plans.txt") .scrollTop(0);
-  });
-   $(".millabout").click(function(){
-    $("#project-container").load("/projects/millabout.txt") .scrollTop(0);
-  });
-   $(".darkspace").click(function(){
-    $("#project-container").load("/projects/darkspace.txt") .scrollTop(0);
-  });
-   $(".psychogeographical").click(function(){
-    $("#project-container").load("/projects/psychogeographical.txt")
-    .scrollTop(0);
-  });
-});
+
+if (x = ".ahouseforone") {
+  y = "/projects/ahouseforone.txt";
+}
+
+if (x = ".plans") {
+  y = "/projects/plans.txt";
+}
+
+if (x = ".darkspace") {
+  y = "/projects/darkspace.txt";
+}
+
+}
+}
+
 </script>
  
  
