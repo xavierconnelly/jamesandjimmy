@@ -468,8 +468,12 @@ p{
 } 
    
 .project-titles{
- width: 25vw;
- display: inline-block;
+ width: 24.5vw;
+ height: 24.5vw;
+ position: absolute;
+ left: 0;
+ top: 0;
+  float: left;
   }
 
 .project-text{
@@ -481,10 +485,10 @@ p{
 #project-image-hero{
  width: 24.5vw;
  height: 24.5vw;
-  position: relative;
+  position: absolute;
   right: 0;
   top: 0;
- display: inline-block;
+  float: right;
  overflow: hidden;
    }
    
