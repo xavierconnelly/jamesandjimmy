@@ -203,43 +203,40 @@
  
 <script>
  $(document).ready(function(){
- $('.news-marquee').marquee({
+ $(".news-marquee").marquee({
     duration: 4000,
     gap: 0,
     delayBeforeStart: 0,
-    direction: 'left',
-    duplicated: true,
-    pauseOnHover: true,
-    startVisible: false
-
-});
-
-$('.james-marquee').marquee({
-    duration: 4000,
-    gap: 0,
-    delayBeforeStart: 0,
-    direction: 'up',
+    direction: "left",
     duplicated: true,
     pauseOnHover: true,
     startVisible: false
 });
-    
-$('.writing-nav-marquee').marquee({
+$(".james-marquee").marquee({
+    duration: 4000,
+    gap: 0,
+    delayBeforeStart: 0,
+    direction: "up",
+    duplicated: true,
+    pauseOnHover: true,
+    startVisible: false
+});
+
+$(".writing-nav-marquee").marquee({
     duration: 12000,
     gap: 0,
     delayBeforeStart: 0,
-    direction: 'up',
+    direction: "up",
     duplicated: true,
     pauseOnHover: true,
     startVisible: false
 });
 
- 
-$('.projects-nav-marquee').marquee({
+$(".projects-nav-marquee").marquee({
     duration: 17000,
     gap: 0,
     delayBeforeStart: 0,
-    direction: 'left',
+    direction: "left",
     duplicated: true,
     pauseOnHover: true,
     startVisible: false
@@ -284,10 +281,12 @@ $('.projects-nav-marquee').marquee({
     $("#project-container").load("/projects/darkspace.txt") .scrollTop(0);
   });
    $(".psychogeographical").click(function(){
-    $("#project-container").load("/projects/psychogeographical.txt") .scrollTop(0);
+    $("#project-container").load("/projects/psychogeographical.txt")
+    .scrollTop(0);
   });
 });
 </script>
+ 
  
  
 </body>
