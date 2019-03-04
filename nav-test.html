@@ -211,17 +211,16 @@
  
  $(document).ready(function(){
  $(".news-marquee").marquee({
-    duration: 4000,
+    speed: 10,
     gap: 0,
     delayBeforeStart: 0,
-    direction: "left",
     duplicated: true,
     pauseOnHover: true,
     startVisible: false
 });
   
 $(".james-marquee").marquee({
-    duration: 4000,
+    speed: 10,
     gap: 0,
     delayBeforeStart: 0,
     direction: "up",
@@ -236,15 +235,13 @@ $(".writing-nav-marquee").marquee({
     delayBeforeStart: 0,
     direction: "up",
     duplicated: true,
-    pauseOnHover: true,
-    startVisible: false
+    startVisible: true,
 });
 
 $(".projects-nav-marquee").marquee({
     duration: 17000,
     gap: 0,
     delayBeforeStart: 0,
-    direction: "left",
     duplicated: true,
     pauseOnHover: true,
     startVisible: false
