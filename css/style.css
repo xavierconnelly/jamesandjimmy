@@ -452,7 +452,7 @@ p{
 
 .project-inner{
     background-image:url('/img/backgroundeditthis.svg');
-    background-size: 50vw;
+    background-size: 49vw;
     background-repeat: repeat-y;
     background-attachment: local;
   overflow: auto;
@@ -468,9 +468,9 @@ p{
 } 
    
 .project-titles{
- width: 24.5vw;
- height: 24.5vw;
- position: absolute;
+ width: 20.5vw;
+ height: 20.5vw;
+ padding: 2vw;
  left: 0;
  top: 0;
   float: left;
@@ -484,10 +484,10 @@ p{
    }
 
 #project-image-hero{
- width: 48%;
- height: 25vw;
-  float: right;
-  margin: -1px;
+ width: 50%;
+ height: 24.5vw;
+ float: right;
+ outline: 1px solid green;
  overflow: hidden;
    }
    
