@@ -286,8 +286,8 @@ p{
 --------------------------------------------------------------------------------------------   */
 
 .writing-image{
-  width: 16vw;
-  height: 16vw;
+  width: 12vw;
+  height: 12vw;
   overflow: hidden;
   margin-left: -1vw;
   outline: 2px solid black;
@@ -298,6 +298,13 @@ p{
   margin-bottom: 10px;
   display: inline;
    }
+
+.writing-image > img{
+  height: 100%;
+  width: 100%;
+  min-width: 12vw;
+  min-height: 12vw;
+}
    
 .writing-image-hover {
   pointer-events: none;
