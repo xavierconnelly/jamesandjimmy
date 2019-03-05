@@ -336,7 +336,7 @@ p{
   display: inline-block;
 }
 
-#writing-scroll > div.writing-image > img:hover .writing-image-hover{
+#writing-scroll div.writing-image:hover > .writing-image-hover{
   opacity: 1;
 }   
 
