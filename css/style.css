@@ -17,10 +17,13 @@
 }
    
 *:focus, *:hover {
-    background-color: yellow;
-    color: green;
+    background-color: white;
     outline: 5px solid black;
    }
+
+tabindex:focus {
+  background-color: purple;
+}
   
  body{
     width: 100vw;
