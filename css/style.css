@@ -123,6 +123,66 @@
   outline: 1px solid white;
   outline-offset: -1px;
 }
+
+/* VERTICAL Marquee Start______________________________________________ */
+
+/* Marquee Container - wider */
+.jam-let-all {
+  width: 2vw;
+  height: calc(100% - 8vw);
+  overflow: hidden;
+}
+
+/* Marquee Container */
+.jam-let{ 
+  width: 2vw; /* Width of ONE element */
+  height: 2vw; /* Combined height of ALL elements */
+  overflow: hidden;
+}
+
+/* Marquee */
+.jam-let-mar {
+  height: 1000px; /*important! */
+  display: block;
+  position: relative;
+}
+
+/* Marquee Unit */
+.jam-let-mar-ele{
+  text-align: center;
+  width: 2vw;
+  height: 2vw;
+  font-size: 1.5vw;
+  display: block;
+  outline: 1px solid black;
+  outline-offset: -0.5px
+}
+
+
+
+/* Marquee Animation Request */
+.jam-let > .jam-let-mar > div { 
+  -webkit-animation: jam-up 3s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes jam-up { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( 0, -4vw, 0); /* Match to marquee height */
+  }
+}
+
+/* Marquee Animation Pause */
+.jam-let-all:hover > .jam-let > .jam-let-mar > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
    
 /* Writing Navigation
 --------------------------------------------------------------------------------------------*/
