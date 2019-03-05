@@ -566,6 +566,6 @@ p{
   display: inline-block;
 }
 
-#project-scroll div.writing-image:hover > .writing-image-hover{
+#project-container > div > div.project-text > div.project-image:hover > .project-image-hover{
   opacity: 1;
 }   
