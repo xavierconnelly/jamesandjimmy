@@ -480,15 +480,14 @@ p{
   padding: 10px;
   margin: 10px;
   margin-bottom: 20px;
+  position: relative;
    }
 
 #project-image-hero{
- width: 24.5vw;
- height: 24.5vw;
-  position: absolute;
-  right: 0;
-  top: 0;
+ width: 48%;
+ height: 25vw;
   float: right;
+  margin: -1px;
  overflow: hidden;
    }
    
