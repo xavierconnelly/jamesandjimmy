@@ -298,13 +298,6 @@ p{
   margin-bottom: 10px;
   display: inline;
    }
-
-.writing-image > img{
-  height: 100%;
-  width: 100%;
-  min-width: 12vw;
-  min-height: 12vw;
-}
    
 .writing-image-hover {
   pointer-events: none;
@@ -512,53 +505,6 @@ p{
   color: red;
    }
    
-   
-  /* Projects Image Hover
--------------------------------------------------------------------------------------------- */
-   /*
-.projects-image-small {
-  height: 4em;
-  width: 4em;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.projects-image-big {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  right: 24.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: white;
-  transition: 1s ease;
-  opacity: 0;
-  outline: 5px solid green;
-  offset: -5px;
-}
-
-.projects-image-big-friends{
-  width: 70%;
-  position: relative;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.projects-image-big-friends > img{
-  width: 100%;
-  border: 5px solid red;
-  display: inline-block;
-}
-
-#projects-image-big-text{
-  font-size:16px;
-  width: 100%;
-  color: red;
-  position: relative;
-  display: inline-block;
-}
 
 .projects-image-small:hover .projects-image-big{
   opacity: 1;
@@ -566,7 +512,7 @@ p{
    */
   
 
-/* Writing Section - Image
+/* Project Image Hover
 --------------------------------------------------------------------------------------------   */
 
 .project-image{
@@ -582,13 +528,6 @@ p{
   margin-bottom: 10px;
   display: inline;
    }
-
-.project-image > img{
-  height: 100%;
-  width: 100%;
-  min-width: 12vw;
-  min-height: 12vw;
-}
    
 .project-image-hover {
   pointer-events: none;
@@ -600,7 +539,7 @@ p{
   height: calc(100% - 8vw);  
   background-color: white;
   transition: 1s ease;
-  opacity: 0;
+  opacity: .5;
   outline: 2px solid black;
 }
 
