@@ -162,11 +162,11 @@
 
 /* Marquee Animation Request */
 .jam-let > .jam-let-mar > div { 
-  -webkit-animation: jam-up 3s infinite linear;
+  -webkit-animation: james-up 3s infinite linear;
 }
 
 /* Marquee Animation */
-@-webkit-keyframes jam-up { 
+@-webkit-keyframes james-up { 
   0% {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -185,17 +185,6 @@
 }
    
 /* Writing Navigation
---------------------------------------------------------------------------------------------*/
-
-.writing-nav-marquee {
-  outline: 1px solid black;
-  outline-offset: -1px;
-  cursor: pointer;
-} 
-  
-   
-
-/* Writing Navigation REPLACEMENT
 --------------------------------------------------------------------------------------------*/
 
 /* Marquee Container */
@@ -243,7 +232,7 @@
 
 /* Marquee Animation Request */
 .wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 5s infinite linear;
+  -webkit-animation: wri-up 10s infinite linear;
 }
 
 /* Marquee Animation */
@@ -263,9 +252,12 @@
   -o-animation-play-state:paused;
   animation-play-state:paused;
   cursor: pointer;
+}  
+}
+
+.wri-mar-ele {
   color: red;
   background-color: white;
-}  
 }
 
 
@@ -522,7 +514,7 @@ p{
 
 /* Marquee Animation Request */
 .pro-mar > div { 
-  -webkit-animation: animation-name 10s infinite linear;
+  -webkit-animation: animation-name 20s infinite linear;
 }
 
 /* Marquee Animation */
@@ -531,7 +523,7 @@ p{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(-49vw, 0, 0); /* Match to marquee width */
+    -webkit-transform: translate3d(-48vw, 0, 0); /* Match to marquee width */
   }
 }
 
