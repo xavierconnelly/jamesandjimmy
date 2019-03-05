@@ -16,14 +16,14 @@
   src: url(/IBMPlexMono-Regular.woff);
 }
    
-*:focus, *:hover {
+*:hover {
+
+   }
+
+*:focus  {
     background-color: white;
     outline: 5px solid black;
    }
-
-tabindex:focus {
-  background-color: purple;
-}
   
  body{
     width: 100vw;
@@ -336,7 +336,7 @@ p{
   display: inline-block;
 }
 
-#writing-scroll > div.writing-image > img:hover .writing-image-hover.big{
+#writing-scroll > div.writing-image > img:hover .writing-image-hover{
   opacity: 1;
 }   
 
