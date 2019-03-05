@@ -133,7 +133,7 @@
 
 .writing-nav-marquee {
   color: white;
-  background-color: ;
+  background-color: red;
   outline: 1px solid black;
   outline-offset: -1px;
   overflow: hidden;
