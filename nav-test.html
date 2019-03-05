@@ -52,6 +52,7 @@
         </div>
       </div>
     </div>
+   <!--
     <div class="projects-nav-container">
       <div class="projects-nav-marquee">
         <div class="projects-nav-element ahouseforone" tabindex="0">
@@ -102,6 +103,112 @@
             <h3> Psycho-<br>geograph-<br>ical </h3>
           </div> 
         </div> 
+      </div>
+    </div> 
+   
+   -->
+    <div class="pro-mar-con">
+      <div class="pro-mar">
+        <div>
+          <div class="pro-mar-ele ahouseforone" tabindex="0">
+            <div class="projects-nav-image">  
+              <img src="/img/jc_kar_1_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> A House <br> For One </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele aroomforkaraoke" tabindex="0">
+            <div class="projects-nav-image">  
+              <img src="/img/jc_hfo_1_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> A Room <br> For Karaoke </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele plans" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_kar_2_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Plans </h3>
+            </div> 
+          </div> 
+          <div class="pro-mar-ele millabout" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_hfo_2_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Mill <br> About </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele darkspace" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_kar_3_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Dark <br> Space </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele psychogeographical" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_hfo_3_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Psycho-<br>geograph-<br>ical </h3>
+            </div> 
+          </div> 
+        </div>
+        <div>
+          <div class="pro-mar-ele ahouseforone" tabindex="0">
+            <div class="projects-nav-image">  
+              <img src="/img/jc_kar_1_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> A House <br> For One </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele aroomforkaraoke" tabindex="0">
+            <div class="projects-nav-image">  
+              <img src="/img/jc_hfo_1_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> A Room <br> For Karaoke </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele plans" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_kar_2_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Plans </h3>
+            </div> 
+          </div> 
+          <div class="pro-mar-ele millabout" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_hfo_2_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Mill <br> About </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele darkspace" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_kar_3_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Dark <br> Space </h3>
+            </div> 
+          </div>
+          <div class="pro-mar-ele psychogeographical" tabindex="0">
+            <div class="projects-nav-image">
+              <img src="/img/jc_hfo_3_icon.jpg" alt="Smiley face">
+            </div>
+            <div class="projects-nav-text">
+              <h3> Psycho-<br>geograph-<br>ical </h3>
+            </div> 
+          </div> 
+        </div>
       </div>
     </div> 
     <div class="james-container" tabindex="0">
@@ -231,76 +338,7 @@
 
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="jquery.marquee.js"></script>
- 
- 
-<script>
- 
- $(document).ready(function(){
- $(".news-marquee").marquee({
-    speed: 10,
-    gap: 0,
-    delayBeforeStart: 0,
-    duplicated: true,
-    pauseOnHover: true,
-    startVisible: true,
-});
   
-$(".james-marquee").marquee({
-    speed: 10,
-    gap: 0,
-    delayBeforeStart: 0,
-    direction: "up",
-    duplicated: true,
-    pauseOnHover: true,
-    startVisible: true,
-});
-
-$(".writing-nav-marquee").marquee({
-    speed: 40,
-    gap: 0,
-    delayBeforeStart: 0,
-    direction: "up",
-    duplicated: true,
-    startVisible: true,
-});
-
-$(".projects-nav-marquee").marquee({
-    speed: 30,
-    gap: 0,
-    delayBeforeStart: 0,
-    duplicated: true,
-    startVisible: true,
-});
-  
-  $(".assemble").click(function(){
-    $("#writing-scroll").load("/writing/assemble.txt");
-    $(".writing-container-grid").scrollLeft(0);
-  });
-   $(".flatout").click(function(){
-    $("#writing-scroll").load("/writing/flatout.txt");
-    $(".writing-container-grid").scrollLeft(0);
-  });
-   $(".freshmeat").click(function(){
-    $("#writing-scroll").load("/writing/freshmeat.txt");
-    $(".writing-container-grid").scrollLeft(0);
-  });
-   $(".hellohouse").click(function(){
-    $("#writing-scroll").load("/writing/hellohouse.txt");
-    $(".writing-container-grid").scrollLeft(0);
-  });
-   $(".mascontext").click(function(){
-    $("#writing-scroll").load("/writing/mascontext.txt");
-    $(".writing-container-grid").scrollLeft(0);
-  });
-   $(".pidgin").click(function(){
-    $("#writing-scroll").load("/writing/pidgin.txt");
-    $(".writing-container-grid").scrollLeft(0);
-  });
-  });
- 
-  </script>
- 
   <script>
    $(document).ready(function(){
   $(".ahouseforone").click(function(){
