@@ -184,6 +184,10 @@
    cursor: crosshair;
    color: white;
    background-color: red;
+    background-image:url('/img/backgroundeditthis.svg');
+    background-size: 49vw;
+    background-repeat: repeat-y;
+    background-attachment: local;
    }
    
 .writing-container-grid{
@@ -191,10 +195,6 @@
   display: grid;
   grid-template-columns: max-content max-content max-content;
   overflow: auto;
-      background-image:url('/img/backgroundeditthis.svg');
-    background-size: 49vw;
-    background-repeat: repeat-y;
-    background-attachment: local;
 }
 
 .writing-scroll-margin{
