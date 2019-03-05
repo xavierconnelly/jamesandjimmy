@@ -309,7 +309,7 @@ p{
   height: calc(100% - 8vw);  
   background-color: white;
   transition: 1s ease;
-  opacity: 1;
+  opacity: 0.5;
   outline: 2px solid black;
 }
 
