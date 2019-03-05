@@ -221,7 +221,6 @@
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
   font-size: 1.5vw;
-  display: block;
   outline: 1px solid black;
   outline-offset: -1px;
 }
@@ -237,7 +236,7 @@
   line-height: 2vw;
 }
 
-.ri-mar-ele > div:nth-last-child(1) {
+.wri-mar-ele > div:nth-last-child(1) {
   text-align: right;
   padding-right: 1vw;
 }
@@ -253,7 +252,7 @@
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d( 0, -8vw, 0); /* Match to marquee height */
+    -webkit-transform: translate3d( 0, -12vw, 0); /* Match to marquee height */
   }
 }
 
@@ -441,32 +440,41 @@ p{
   opacity: 1;
 }   
 
-
-
    
 /* Projects Navigation
 -------------------------------------------------------------------------------------------- */
-.projects-nav-container{
-  background-color: red;
+
+/* Marquee Container (View Size) */
+.pro-mar-con { 
+  width: 100%; /* At least the width of all combined elements */
+  height: 8vw; /* Height of ONE element */
   overflow: hidden;
-  width: 100;
-  text-align: center;
-}
-
-.projects-nav-marquee{
   cursor: pointer;
-  width: 100%;
+  background-color: red;
 }
 
-.projects-nav-element {
+/* Marquee */
+.pro-mar {
+  width: 10000px; /*important! Greater than combined width of ALL elements */
+}
+
+/* Marquee Unit */
+.pro-mar-ele{
   width: 8vw;
   height: 8vw;
-  cursor: pointer;
   display: inline-block;
-  float: right;
+  float: left;
   outline: 1px solid black;
 }
- 
+
+.projects-nav-image > img{
+  width: 6vw;
+  height: 6vw;
+  overflow: hidden;
+  outline: 2px solid black;
+  outline-offset: -2px;
+}
+  
 .projects-nav-image{
  width: 6vw;
  height: 6vw;
@@ -475,19 +483,8 @@ p{
  cursor: pointer;
  outline: 2px solid black;
  outline-offset: -2px;
- position: absolute;
- top: 0;
- left:0;
 }
-   
-.projects-nav-image > img{
-  width: 6vw;
-  height: 6vw;
-  overflow: hidden;
-  outline: 2px solid black;
-  outline-offset: -2px;
-}
-   
+  
 .projects-nav-text{
    width: 8vw;
    height: 8vw;
@@ -499,8 +496,9 @@ p{
    opacity: 0;
    outline: 2px solid black;
    outline-offset: -2px;
+   text-align: center;
 }
-
+  
 .projects-nav-text > h3{
    margin: auto; /* Important */ 
   padding: 1vw;
@@ -513,52 +511,13 @@ p{
    cursor: pointer;
    text-overflow: ellipsis;
 }
-
+  
 .projects-nav-text:hover {
   opacity: 1;
 }
 
-.projects-nav-element:focus > .projects-nav-text{
+.pro-mar-ele:focus > .projects-nav-text{
    opacity: 1;
-}
- 
-.projects-nav-element:hover {
-  background-color: white;
- /*
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;*/
-}
-   
-.projects-nav-element:hover > .projects-nav-image {
-  outline: 2px solid red;
-  outline-offset: -2px;
-   }
-   
-/*  PRO NAV REPLACEMENT______________________________________________ */
-
-/* Marquee Container */
-.pro-mar-con { 
-  width: 49vw; /* Combined width of ALL elements */
-  height: 8vw; /* Height of ONE element */
-  overflow: hidden;
-  outline: 5px solid coral;
-}
-
-/* Marquee */
-.pro-mar {
-  width: 10000px; /*important! */
-  outline: 1px solid blue;
-}
-
-/* Marquee Unit */
-.pro-mar-ele{
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
-  float: left;
-  outline: 2px solid red;
 }
 
 /* Marquee Animation Request */
@@ -584,6 +543,15 @@ p{
   animation-play-state:paused;
   cursor: pointer;
 }
+
+.pro-mar-ele:hover {
+  background-color: white;
+} 
+  
+.pro-mar-ele:hover > .projects-nav-image {
+  outline: 2px solid red;
+  outline-offset: -2px;
+   }
 
 /* Projects
 -------------------------------------------------------------------------------------------- */
