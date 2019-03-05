@@ -336,9 +336,12 @@ p{
   display: inline-block;
 }
 
-.writing-image:hover .writing-image-hover.big{
+#writing-scroll > div.writing-image > img:hover .writing-image-hover.big{
   opacity: 1;
 }   
+
+
+
    
 /* Projects Navigation
 -------------------------------------------------------------------------------------------- */
