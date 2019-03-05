@@ -61,6 +61,7 @@
  
 .news-container {
   color: white;
+  background-color: red;
   cursor: pointer;
   background-color: ;
   overflow: hidden;
@@ -93,8 +94,9 @@
 -------------------------------------------------------------------------------------------- */  
 
 .james-container {
+  color: white;
+  background-color: red;
   overflow: hidden;
-  background-color: ;
 }
 
 .james-marquee {
@@ -346,10 +348,11 @@ p{
 /* Projects Navigation
 -------------------------------------------------------------------------------------------- */
 .projects-nav-container{
+  background-color: red;
   overflow: hidden;
   width: 100;
   text-align: center;
-   }
+}
 
 .projects-nav-marquee{
   cursor: pointer;
@@ -362,10 +365,9 @@ p{
   cursor: pointer;
   display: inline-block;
   float: right;
-  background-color: red;
-  outline: 2px solid black;
+  outline: 1px solid black;
 }
-   
+ 
 .projects-nav-image{
  width: 6vw;
  height: 6vw;
