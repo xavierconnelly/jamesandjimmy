@@ -527,6 +527,7 @@ p{
   margin-top: 10px;
   margin-bottom: 10px;
   display: inline;
+  font-size:16px;
    }
    
 .project-image-hover {
@@ -537,7 +538,7 @@ p{
   transform: translate(-50%, -50%);
   width: 49vw;
   height: calc(100% - 8vw);  
-  background-color: white;
+  background-color: red;
   transition: 1s ease;
   opacity: 0;
   outline: 2px solid black;
@@ -554,14 +555,13 @@ p{
 
 .project-image-hover-container > img{
   width: 100%;
-  border: 5px solid red;
+  border: 5px solid white;
   display: inline-block;
 }
 
 #project-image-hover-text{
-  font-size:16px;
   width: 100%;
-  color: red;
+  color: white;
   position: relative;
   display: inline-block;
 }
