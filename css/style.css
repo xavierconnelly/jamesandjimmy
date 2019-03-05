@@ -536,7 +536,55 @@ p{
   outline-offset: -2px;
    }
    
-      
+/*  PRO NAV REPLACEMENT______________________________________________ */
+
+/* Marquee Container */
+.pro-mar-con { 
+  width: 49vw; /* Combined width of ALL elements */
+  height: 8vw; /* Height of ONE element */
+  overflow: hidden;
+  outline: 5px solid coral;
+}
+
+/* Marquee */
+.pro-mar {
+  width: 10000px; /*important! */
+  outline: 1px solid blue;
+}
+
+/* Marquee Unit */
+.pro-mar-ele{
+  width: 8vw;
+  height: 8vw;
+  display: inline-block;
+  float: left;
+  outline: 2px solid red;
+}
+
+/* Marquee Animation Request */
+.pro-mar > div { 
+  -webkit-animation: animation-name 10s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes animation-name {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-49vw, 0, 0); /* Match to marquee width */
+  }
+}
+
+/* Marquee Animation Pause */
+.pro-mar:hover > div{
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
 /* Projects
 -------------------------------------------------------------------------------------------- */
 
