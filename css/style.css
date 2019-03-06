@@ -184,6 +184,71 @@
   cursor: pointer;
 }
    
+
+
+/* VERTICAL Marquee Start______________________________________________ */
+
+/* Marquee Container - wider */
+.con-let-all {
+  width: 2vw;
+  height: calc(100% - 8vw);
+  overflow: hidden;
+  background-color: yellow;
+  position: fixed;
+  left: 0;
+  top: calc(100vh - 14vw);
+}
+
+/* Marquee Container */
+.con-let{ 
+  width: 2vw; /* Width of ONE element */
+  height: 2vw; /* Combined height of ALL elements */
+  overflow: hidden;
+}
+
+/* Marquee */
+.con-let-mar {
+  height: 1000px; /*important! */
+  display: block;
+  position: relative;
+}
+
+/* Marquee Unit */
+.con-let-mar-ele{
+  text-align: center;
+  width: 2vw;
+  height: 2vw;
+  font-size: 1.5vw;
+  display: block;
+  color: black;
+  outline: 1px solid black;
+}
+
+/* Marquee Animation Request */
+.con-let > .con-let-mar > div { 
+  -webkit-animation: con-up 3s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes con-up { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( 0, -4vw, 0); /* Match to marquee height */
+  }
+}
+
+/* Marquee Animation Pause */
+.con-let-all:hover > .jam-let > .jam-let-mar > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+
 /* Writing Navigation
 --------------------------------------------------------------------------------------------*/
 
