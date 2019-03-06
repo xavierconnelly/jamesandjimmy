@@ -193,7 +193,7 @@
   width: 2vw;
   height: calc(100% - 8vw);
   overflow: hidden;
-  background-color: yellow;
+  background-color: white;
   position: fixed;
   left: 0;
   top: calc(100vh - 14vw);
