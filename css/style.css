@@ -60,7 +60,7 @@
 -------------------------------------------------------------------------------------------- */
  
 .news-container {
-  color: white;
+  color: black;
   background-color: red;
   cursor: pointer;
   background-color: ;
@@ -94,11 +94,12 @@
 -------------------------------------------------------------------------------------------- */  
 
 .james-container {
-  color: white;
+  color: black;
   background-color: red;
   overflow: hidden;
 }
 
+/* 
 .james-marquee {
   width: 2vw;
   height: 2vw;
@@ -116,12 +117,12 @@
   outline: 1px solid black;
   outline-offset: -1px;
 } 
+ */ 
    
-   
+  
 .james-container:hover {
   color: red;
-  outline: 1px solid white;
-  outline-offset: -1px;
+  background-color: white;
 }
 
 /* VERTICAL Marquee Start______________________________________________ */
@@ -193,7 +194,7 @@
   width: 2vw;
   height: calc(100% - 8vw);
   overflow: hidden;
-  background-color: white;
+  background-color: red;
   position: fixed;
   left: 0;
   top: calc(100vh - 14vw);
@@ -257,7 +258,7 @@
   width: 49vw; /* Width of ONE element */
   height: 8vw; /* Combined height of ALL elements */
   overflow: hidden;
-  color: white;
+  color: black;
   background-color: red;
 }
 
@@ -375,7 +376,7 @@
 }*/
    
 .spacer{
- height: 33%;
+ height: 50%;
  width: 100%;
  display: block;
  position: relative;
