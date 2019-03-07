@@ -163,7 +163,7 @@
 
 /* Marquee Animation Request */
 .jam-let > .jam-let-mar > div { 
-  -webkit-animation: james-up 3s infinite linear;
+  -webkit-animation: james-up 4s infinite linear;
 }
 
 /* Marquee Animation */
@@ -298,7 +298,7 @@
 
 /* Marquee Animation Request */
 .wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 10s infinite linear;
+  -webkit-animation: wri-up 12s infinite linear;
 }
 
 /* Marquee Animation */
@@ -580,7 +580,7 @@ p{
 
 /* Marquee Animation Request */
 .pro-mar > div { 
-  -webkit-animation: animation-name 20s infinite linear;
+  -webkit-animation: animation-name 28s infinite linear;
 }
 
 /* Marquee Animation */
