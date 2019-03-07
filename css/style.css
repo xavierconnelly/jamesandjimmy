@@ -227,7 +227,7 @@
 
 /* Marquee Animation Request */
 .con-let > .con-let-mar > div { 
-  -webkit-animation: con-up 3s infinite linear;
+  -webkit-animation: con-up 4s infinite linear;
 }
 
 /* Marquee Animation */
