@@ -580,7 +580,7 @@ p{
 
 /* Marquee Animation Request */
 .pro-mar > div { 
-  -webkit-animation: animation-name 28s infinite linear;
+  -webkit-animation: animation-name 36s infinite linear;
 }
 
 /* Marquee Animation */
