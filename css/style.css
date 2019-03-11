@@ -22,7 +22,7 @@
 
 *:focus  {
     background-color: white;
-    outline: 5px solid black;
+    outline: 1px solid white;
    }
   
  body{
@@ -52,7 +52,7 @@
 }
    
 .grid-container > div:hover{
-  outline: 5px solid black;
+  outline: 1px solid black;
   z-index: 50;
 }
    
