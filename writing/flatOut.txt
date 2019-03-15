@@ -1,9 +1,25 @@
            <div class="spacer">
            </div>
-           <h2><b>Flat Out</b></h2><br>
-           <h4>Where You Always Are</h4><br>
-           <h6><i></h6></i><br>
+
+           <h5 id="publisher">Publisher Here</h5> 
+           
+           <div id="title">
+            <h2><b>Heading Here</b></h2><br>
+              <h4>Sub Heading Here</h4><br>
+              <h6><i>Some Descriptive Text Here</h6></i><br> 
+            </div>
+          </div>
+          
            <p>You close the door to the children’s bedroom behind you and lock it quietly. The door to the living room must be locked as well, and then the door to your bedroom. Finally, you lock the glazed door to the outside. Only then are you alone. You put the toilet seat down. Extending your tired limbs, you watch the light from the skylight hit your glass of wine on the vanity centered in the middle of the room. Outside it is bright, and you gaze at the trees above the embankment through the glazed door. This window is the one point of certainty in the room, an image you can distinguish from the monolithic timber that lines its floor, ceiling, and walls. The whole room is a frame for its exterior view. You light a cigarette. </p>
+          <div class="writing-image" tabindex="0"> 
+            <img src="/img/jc_hfo_2_icon.jpg" alt="Describe Image Here"> 
+            <div class="writing-image-hover">
+              <div class="writing-image-hover-container">
+                <img src="/img/jc_hfo_2_small.jpg" alt="Describe Image Here">
+                <p id="writing-image-image-text">Describe Image Here</p>
+              </div>
+            </div>
+          </div>
            <p>You need this cigarette like this house needs locks. Solitude is not something that comes easily in this conglomeration of ten identically sized rooms. Room after room, someone is always watching you or barging in. Even in your bedroom, the two glazed double-doors remove any possibility of privacy—the blinds you ordered six months after the house was finished haven’t arrived. Three bedrooms, two bathrooms, a kitchen, a study, a dining room and two living rooms, and it is still hard to find a moment to yourself. The whole family has their own room, but no one has their own space. You can still hear your children screaming on the other side of the wall. They’re probably in one of the two living rooms. Connected via an enfilade along the west-wing, the social rooms align with the private rooms along the east-wing; cells of repetition tightly bound together like cigarettes in a pack. </p>
            <p>The house has a distorting ascetic opulence. The repetitive form and material of each room flattens programmatic difference, altering your understanding of need versus luxury. At thirteen feet by thirteen feet, each room allows for all activities, leveling everything to the same degree of importance. Sitting on the toilet hidden behind the vanity, you can rest in this bathroom. Yet even here you’re not safe. In this house, a sure way to arouse suspicion is to lock the doors for more than five minutes. The exactitude and symmetry of the rooms resist reduction to an open plan, instead offering an austere sequence delimited and dissected by thresholds. Proposed as an offering of complete openness and freedom of behavior, nowhere was to feel out of bounds. A locked door impedes that rule, signifying more than it would in a normal house. Not just a sign for solitude, it designates an exhaustion of interaction. Your son Andy calls you. You shut your eyes. </p>
            <p>You missed the part about how the bathrooms were to function when you moved in. Two weeks and some embarrassing interruptions later had you putting locks on all the doors, leaving four locks to be turned before you can sit down. Thirty seconds of your five minutes of peace is spent locking and unlocking doors as you move counter-clockwise around the vanity to lock the doors, and clockwise to unlock them; the children’s room is always the first locked and last unlocked. Made up of timber clad hinged doors, glazed double doors, and timber framed openings, all ten rooms have four thresholds: twenty-three doors and four openings in total. A room usually implies a unit of autonomy, but broken by the connectivity of the rigid thresholds it dissolves into a field of entering and exiting; there is no front door and no corridor. The center of the house is the center of each room. Without an open window the cigarette smoke lingers above the vanity. </p>
@@ -14,4 +30,4 @@
            <p>Inside you’re bound to be spotted. Outside, you can move past rooms incognito; an activity especially pleasant in the sun. The house looks simple from here. The house’s east elevation is poised with five glazed double doors symmetrically positioned. Each door is outlined by a small black trim, succinctly separating the interior from exterior. The roof lays low and flat, and the awning punches out like the elevation has been bent ninety degrees. Changing the scope to a holiday house during the design process, the architects outlined the new design on top of the previous one. The house is just a trace: it was permeable from the beginning. You look back toward the bathroom door. It isn’t drowned in shade; the skylight still shines on the vanity; another visual indication of action. You’ll have to leave your belonging on the vanity, no time to go back right now. </p>
            <p>You head south under the awning, peeping into the rooms as you pass by them. You check the children’s bedroom: no children. You walk past the other bathroom: not there either. The final bedroom: no one. The house repeats itself. Room after room after room after room after room. A house with no center. An ice cube tray for people. Two rows of five identical rooms. Our lives are a field of actions, finding frames of view in every direction and moments of respite in corners. You turn west now. You see Daisy and Andy holding marshmallow sticks in the southern living room, Michael scrubs the walls. It’s time to reemerge.  </p>
            <p>Everyone’s too engrossed in the fire and wall stains to notice you. You walk to the door; the stained pine paneling of the façade is the same color as the painted corrugated roof. Matching timber and metal, the architect’s fixation of continuity? You knock on the window. Michael, Daisy and Andy look up. They’re smiling, not alarmed. You’ve disturbed them, but everyone expects to be disturbed now. You have all adapted to this house, but are still trying to find your equilibrium within it. Privacy is sacred, yet privacy is hard to find without your own space. Plenty of rooms, but no space. You reenter into the living room. You’re back to where you were. To where you always are. </p>
-           <p>&#2976</p>
+           <p>'#9733'</p>
