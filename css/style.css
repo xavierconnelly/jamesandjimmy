@@ -610,7 +610,7 @@ p{
 .pro-mar-ele:hover > .projects-nav-image {
   outline: 2px solid red;
   outline-offset: -2px;
-   }
+}
 
 /* Projects
 -------------------------------------------------------------------------------------------- */
@@ -619,11 +619,12 @@ p{
   font-size: 1em;
   z-index: 1;
   background-color: red;
+  background-image:  url('/img/jc_kar_2_icon.jpg');
   color: white;
   cursor: crosshair;
   overflow: auto;
-   text-align: center;
-   }
+  text-align: center;
+}
 
 /*
 .project-inner{
