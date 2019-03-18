@@ -626,31 +626,28 @@ p{
   text-align: center;
 }
 
+#project-container::-webkit-scrollbar{
+ display: none;
+} 
+
 /*
 .project-inner{
     background-image:url('/img/backgroundeditthis.svg');
     background-size: 49vw;
     background-repeat: repeat-y;
     background-attachment: local;
-  overflow: auto;
+    overflow: auto;
 */
     /* 
   padding: 10px;
   margin: 10px;
-  margin-bottom: 20px;*/
+  margin-bottom: 20px;
    }
-   
+   */
  
-#project-container::-webkit-scrollbar{
- display: none;
-} 
    
 .project-titles{
  width: 100%;
- height: 20.5vw;
- padding: 2vw;
- left: 0;
- top: 0;
  text-align: center;
 }
 
@@ -664,7 +661,7 @@ p{
 #project-image-hero{
  width: 100%;
  height: ;
- outline: px solid green;
+ outline: 1px solid black;
  overflow: ;
 }
    
@@ -673,8 +670,8 @@ p{
  overflow: hidden;
 }
 
-.project-image-other{
-   
+.project-image > img{
+  width: 100%;
    }
    
 #project-container:hover{
@@ -683,15 +680,9 @@ p{
 }
    
 
-.projects-image-small:hover .projects-image-big{
-  opacity: 1;
-}
-   */
-  
-
 /* Project Image Hover
 --------------------------------------------------------------------------------------------   */
-
+/*
 .project-image{
   width: 12vw;
   height: 12vw;
@@ -746,3 +737,9 @@ p{
 #project-container > div > div.project-text > div.project-image:hover > .project-image-hover{
   opacity: 1;
 }   
+
+
+.projects-image-small:hover .projects-image-big{
+  opacity: 1;
+}
+*/
