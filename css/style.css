@@ -674,11 +674,13 @@ p{
 #project-image-hero > img{
  width: 100%;
  overflow: hidden;
+ margin: 10px 5px 10px 5px;
 }
 
 .project-image > img{
   width: 100%;
-   }
+   margin: 10px 5px 10px 5px;
+}
    
 #project-container:hover{
   background-color: white;
