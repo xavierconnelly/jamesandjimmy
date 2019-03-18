@@ -619,7 +619,6 @@ p{
   font-size: 1em;
   z-index: 1;
   background-color: red;
-  background-image:  url('/img/jc_kar_2_small.jpg');
   color: white;
   cursor: crosshair;
   overflow: auto;
