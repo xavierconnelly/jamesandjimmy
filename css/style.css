@@ -334,11 +334,10 @@
    cursor: crosshair;
    color: white;
    background-color: red;
-    background-image:url('/img/backgroundeditthis.svg');
-    background-size: 49vw;
-    background-repeat: repeat-y;
-    background-attachment: local;
-   }
+   background-size: 49vw;
+   background-repeat: repeat-y;
+   background-attachment: local;
+}
    
 .writing-container-grid{
   height: 100%;
@@ -360,16 +359,17 @@
   column-width: 24vw;
   color: black;
   font-size: 15px;
+  line-height: 1.2em;
   text-align: justify;
   text-align-last: start;
   column-gap: 2vw;
   column-rule: 2px solid black;
   float: left;
-   }
+}
  
   #writing-scroll:hover {
    column-rule: 2px solid black;
-   }
+}
    
 /* #writing-scroll{
   width: 49vw;
@@ -396,6 +396,7 @@ p{
  margin-block-end: 1.5em;
  margin-block-end: 1.5em;
  display: inline;
+ 
 }
   
 
@@ -624,12 +625,14 @@ p{
    text-align: center;
    }
 
+/*
 .project-inner{
     background-image:url('/img/backgroundeditthis.svg');
     background-size: 49vw;
     background-repeat: repeat-y;
     background-attachment: local;
   overflow: auto;
+*/
     /* 
   padding: 10px;
   margin: 10px;
