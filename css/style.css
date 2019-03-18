@@ -627,23 +627,12 @@ p{
 
 #project-container::-webkit-scrollbar{
  display: none;
-} 
+}
 
-/*
-.project-inner{
-    background-image:url('/img/backgroundeditthis.svg');
-    background-size: 49vw;
-    background-repeat: repeat-y;
-    background-attachment: local;
-    overflow: auto;
-*/
-    /* 
-  padding: 10px;
-  margin: 10px;
-  margin-bottom: 20px;
-   }
-   */
- 
+#project-container:hover{
+  background-color: white;
+  color: red;
+}
    
 .project-titles{
   mix-blend-mode: multiply;
@@ -657,29 +646,18 @@ p{
   transition: 1s;
 }
 
+.project-image > img{
+ width: calc(100% - 20px);
+ overflow: hidden;
+ margin: 5px 5px 0px 5px;
+ outline: 1px solid;
+}
+
 .project-text{
   padding: 10px;
   margin: 10px;
   margin-bottom: 100px;
   position: relative;
-}
-
-#project-image-hero{
- width: 100%;
- height: ;
- outline: 1px solid black;
- overflow: ;
-}
-
-.project-image > img{
- width: calc(100% - 20px);
- overflow: hidden;
- margin: 5px 5px 5px 10px;
-}
-   
-#project-container:hover{
-  background-color: white;
-  color: red;
 }
    
 
