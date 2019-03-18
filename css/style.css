@@ -646,8 +646,17 @@ p{
  
    
 .project-titles{
- width: 100%;
- text-align: center;
+  mix-blend-mode: multiply;
+  background-color: yellow ;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 100px; 
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  width: 70%;
+  transition: 2s;
 }
 
 .project-text{
