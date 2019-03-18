@@ -352,14 +352,15 @@
 }
 
 #writing-scroll{
+  font-family: arial;
   height: 100%;
   width: auto;
   max-width: 3000px;
   column-fill: auto;
   column-width: 24vw;
   color: black;
-  font-size: 15px;
-  line-height: 1.2em;
+  font-size: 14px;
+  line-height: 20px;
   text-align: justify;
   text-align-last: start;
   column-gap: 2vw;
