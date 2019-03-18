@@ -635,10 +635,10 @@ p{
 }
    
 .project-titles{
-  mix-blend-mode: multiply;
-  padding: 50px 10px;
+  background-color: white;
+  color: red;
+  border: 1px solid;
   text-align: center;
-  font-size: 100px; 
   font-weight: bold;
   position: sticky;
   top: 0;
