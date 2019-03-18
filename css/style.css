@@ -2,6 +2,8 @@
   margin: 0;
    font-family: 'Hello', monospace;
    scroll-behavior: smooth;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /* On screens that are 992px or less, set the background color to blue */
@@ -17,12 +19,12 @@
 }
    
 *:hover {
-
-   }
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
 
 *:focus  {
     background-color: white;
-    outline: 1px solid white;
    }
   
  body{
@@ -397,7 +399,7 @@ p{
  font-family: arial;
  margin-block-end: 1.5em;
  margin-block-end: 1.5em;
- display: inline;
+ display: inline-block;
  
 }
   
@@ -562,7 +564,7 @@ p{
   
 .projects-nav-text > h3{
    margin: auto; /* Important */ 
-  padding: 1vw;
+   padding: 1vw;
    text-align: center; 
    white-space: nowrap;
    word-break: keep-all;
@@ -620,6 +622,8 @@ p{
 #project-container{
   font-size: 1em;
   z-index: 1;
+  padding-top: 5px;
+  padding-bottom: 30px;
   background-color: red;
   color: white;
   cursor: crosshair;
@@ -637,15 +641,13 @@ p{
 }
    
 .project-titles{
-  background-color: white;
-  color: red;
-  border: 1px solid;
-  text-align: center;
+  margin: 5px 10px 0px 5px;
+  text-align: left;
   font-weight: bold;
   position: sticky;
+  float: left;
   top: 0;
-  width: 100%;
-  transition: 2.5s;
+  width: 40%;
 }
 
 .project-image > img{
@@ -657,9 +659,14 @@ p{
 
 .project-text{
   padding: 10px;
-  margin: 10px;
-  margin-bottom: 100px;
+  margin: 0px;
+  float: right;
   position: relative;
+}
+
+#next{
+  padding-top: 50px;
+  float: right;
 }
    
 
