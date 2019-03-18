@@ -653,14 +653,14 @@ p{
   font-weight: bold;
   position: sticky;
   top: 0;
-  width: 70%;
-  transition: 2s;
+  width: 100%;
+  transition: 1s;
 }
 
 .project-text{
   padding: 10px;
   margin: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   position: relative;
 }
 
@@ -670,16 +670,11 @@ p{
  outline: 1px solid black;
  overflow: ;
 }
-   
-#project-image-hero > img{
- width: 100%;
- overflow: hidden;
- margin: 10px 5px 10px 5px;
-}
 
 .project-image > img{
-  width: 100%;
-   margin: 10px 5px 10px 5px;
+ width: calc(100% - 20px);
+ overflow: hidden;
+ margin: 5px 5px 5px 10px;
 }
    
 #project-container:hover{
