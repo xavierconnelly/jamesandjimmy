@@ -647,11 +647,9 @@ p{
    
 .project-titles{
   mix-blend-mode: multiply;
-  background-color: yellow ;
   padding: 50px 10px;
-  color: black;
   text-align: center;
-  font-size: 100px; 
+  font-size: ; 
   font-weight: bold;
   position: sticky;
   top: 0;
