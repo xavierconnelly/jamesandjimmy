@@ -658,14 +658,16 @@ p{
 }
 
 .project-text{
-  padding: 10px;
-  margin: 0px;
-  float: right;
+    text-align: left;
+    float: right;
+    width: 50%;
+    display: inline-block;
   position: relative;
 }
 
 #next{
   padding-top: 50px;
+  padding-right: 10px;
   float: right;
 }
    
