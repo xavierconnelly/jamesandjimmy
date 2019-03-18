@@ -638,12 +638,12 @@ p{
   mix-blend-mode: multiply;
   padding: 50px 10px;
   text-align: center;
-  font-size: ; 
+  font-size: 100px; 
   font-weight: bold;
   position: sticky;
   top: 0;
   width: 100%;
-  transition: 1s;
+  transition: 2.5s;
 }
 
 .project-image > img{
