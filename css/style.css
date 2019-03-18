@@ -646,34 +646,32 @@ p{
 } 
    
 .project-titles{
- width: 20.5vw;
+ width: 100%;
  height: 20.5vw;
  padding: 2vw;
  left: 0;
  top: 0;
-  float: left;
-  }
+ text-align: center;
+}
 
 .project-text{
   padding: 10px;
   margin: 10px;
   margin-bottom: 20px;
   position: relative;
-   }
+}
 
 #project-image-hero{
- width: 50%;
- height: 24.5vw;
- float: right;
- outline: 1px solid green;
- overflow: hidden;
-   }
+ width: 100%;
+ height: ;
+ outline: px solid green;
+ overflow: ;
+}
    
 #project-image-hero > img{
  width: 100%;
  overflow: hidden;
- outline: 2px solid white;
-   }
+}
 
 .project-image-other{
    
@@ -682,7 +680,7 @@ p{
 #project-container:hover{
   background-color: white;
   color: red;
-   }
+}
    
 
 .projects-image-small:hover .projects-image-big{
