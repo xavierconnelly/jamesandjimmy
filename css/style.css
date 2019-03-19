@@ -2,8 +2,6 @@
   margin: 0;
    font-family: 'Hello', monospace;
    scroll-behavior: smooth;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
 }
 
 /* On screens that are 992px or less, set the background color to blue */
@@ -19,8 +17,6 @@
 }
    
 *:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
 }
 
 *:focus  {
@@ -51,11 +47,15 @@
 .grid-container > div{
   outline: 2px solid black;
   outline-offset: -1px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
    
 .grid-container > div:hover{
   outline: 1px solid black;
   z-index: 50;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
    
 /* News Navigation
@@ -647,6 +647,7 @@ p{
   position: sticky;
   float: left;
   top: 0;
+  z-index: 50;
   width: 40%;
 }
 
