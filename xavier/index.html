@@ -31,11 +31,17 @@
 
 .nav{
   padding-bottom: 20px;
+ position: fixed;
   width: 100%;
  display: flex;
      flex-wrap: wrap;
+ float: right;
     justify-content: center;
 }
+ 
+ .nav:first-child{
+  float: left;
+ }
 
 .nav > a{
   color: black;
@@ -114,11 +120,9 @@ img{
 <div class="container">
  
      <div class="nav">
-    <a href="#redbox">Contact</a>
-    <div class="header">
-  Xavier Connelly
-    </div>
+    <a href="#redbox">Xavier Connelly</a>
     <a href="#yellowbox">Projects</a>
+    <a href="#pinkbox">Writing</a>
     </div>
  
   <div class="blue box" id="redbox">
