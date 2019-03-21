@@ -641,7 +641,7 @@ p{
 }
    
 .project-titles{
-  margin: 5px 10px 0px 5px;
+  margin: 5px 10px 5px 10px;
   text-align: left;
   font-weight: bold;
   position: sticky;
@@ -659,9 +659,10 @@ p{
 }
 
 .project-text{
+    margin: 5px 10px 0px 0px;
     text-align: left;
     float: right;
-    width: 50%;
+    width: calc(50% - 5px);
     display: inline-block;
   position: relative;
 }
