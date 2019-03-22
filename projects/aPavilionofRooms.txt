@@ -24,6 +24,6 @@
       <div style="font-size:12px; text-align:left; margin-left:10px;">
        * Photos shot by Martha Poggioli
       </div> 
-      <div id="next" class="Corbusier">
+      <div id="next" class="corbusier">
         Next Project: Ando and Le Corbusier: Masters of Architecture -&gt;
       </div>
