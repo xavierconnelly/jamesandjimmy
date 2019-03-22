@@ -20,9 +20,9 @@
       <div class="project-image"> 
         <img src="/img/jc_kar_3_small.jpg" alt="Smiley face"> 
       </div> 
-      <div style="font-size:12px; text-align:left; margin-left:10px;">
+      <div class="photographer">
        * Photos shot by Martha Poggioli
       </div> 
-      <div id="next" class="aThesis">
-        Next Project: A Thesis -&gt;
+      <div id="next" class="anAdditionForThree">
+        Next Project: An Addition For Three -&gt;
       </div>
