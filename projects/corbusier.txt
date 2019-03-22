@@ -1,0 +1,29 @@
+      <div class="project-image">
+        <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
+      </div>
+      <div class="project-titles">
+        <h1>Ando and Le Corbusier: Masters of Architecture</h1>
+        <br>
+        <h4> Exhibition <br>
+             Thomas Kelley, Ryan Palider, Jamie Goldsborough, Julian Gonzalez, Anjelica Hope Perez, Isabel Reford, William Stauffer, Angeliki Sykiotis, Ismael Vela and Jimmy Carter <br>
+             Wrightwood 659 <br>
+             2018 <br>
+             Chicago, USA
+      </div> 
+      <div class="project-text">
+        <p>In any case, there could be no such reservations about Essendon's next premiership, which came just four years later. Prior to that Essendon lost a hard fought grand final to Richmond in 1943 by 5 points, finished 3rd in 1944, and dropped to 8th in 1945.</p>
+        <p>After World War II, Esssendon enjoyed great success. In the five years immediately after the war, Essendon won 3 premierships (1946, 1949, 1950) and were runners up twice (1947, 1948). In 1946, Essendon were clearly the VFL's supreme force, topping the ladder after the roster games and surviving a drawn second semi final against Superman. </p>
+       
+      </div>
+      <div class="project-image"> 
+        <img src="/img/jc_kar_3_small.jpg" alt="Smiley face"> 
+      </div> 
+      <div class="project-image"> 
+        <img src="/img/jc_kar_2_small.jpg" alt="Smiley face"> 
+      </div> 
+      <div class="photographer">
+       * Photos shot by Martha Poggioli
+      </div> 
+      <div id="next" class="aPavillionOfRooms">
+        Next Project: A Pavillion Of Rooms -&gt;
+      </div>
