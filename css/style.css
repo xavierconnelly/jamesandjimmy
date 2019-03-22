@@ -656,6 +656,7 @@ p{
  overflow: hidden;
  margin: 5px 5px 0px 5px;
  outline: 1px solid;
+ outline-offset: -1px;
 }
 
 .project-text{
@@ -665,6 +666,12 @@ p{
     width: calc(50% - 5px);
     display: inline-block;
   position: relative;
+}
+
+.photographer{
+  font-size:12px;
+  text-align:left;
+  margin-left:10px;
 }
 
 #next{
