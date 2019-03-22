@@ -20,6 +20,6 @@
       <div class="photographer">
        * Photos shot by Martha Poggioli
       </div> 
-      <div id="next" class="aRoomForKaraoke">
+      <div id="next" class="aHouseForOne">
         Next Project: A Room For Karaoke -&gt;
       </div>
