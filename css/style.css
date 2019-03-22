@@ -220,8 +220,8 @@
   margin: 1vw;
   overflow: hidden;
   cursor: pointer;
-  outline: 2px solid black;
-  outline-offset: -2px;
+  outline: 1px solid;
+  outline-offset: -1px;
 }
   
 .projects-nav-text{
@@ -233,8 +233,8 @@
    top: 0;
    left:0;
    opacity: 0;
-   outline: 2px solid black;
-   outline-offset: -2px;
+   outline: 1px solid;
+   outline-offset: -1px;
    text-align: center;
 }
   
@@ -270,7 +270,7 @@
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(-48vw, 0, 0); /* Match to marquee width */
+    -webkit-transform: translate3d(-56vw, 0, 0); /* Match to marquee width */
   }
 }
 
@@ -288,8 +288,8 @@
 } 
   
 .pro-mar-ele:hover > .projects-nav-image {
-  outline: 2px solid red;
-  outline-offset: -2px;
+  outline: 1px solid;
+  outline-offset: -1px;
 }
 
 
