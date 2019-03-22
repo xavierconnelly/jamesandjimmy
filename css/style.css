@@ -1,21 +1,31 @@
  * {
   margin: 0;
-   font-family: 'Hello', monospace;
+   font-family: 'Mono', monospace;
    scroll-behavior: smooth;
 }
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1000px) {
   * {
-    font-family: arial;
+    font-family: 'Sans';
   }
 }
 
 @font-face {
-  font-family: 'Hello';
+  font-family: 'Mono';
   src: url(/IBMPlexMono-Regular.woff);
 }
-   
+
+@font-face {
+  font-family: 'Serif';
+  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
+}
+
+@font-face {
+  font-family: 'Sans';
+  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
+}
+
 *:hover {
 }
 
@@ -93,6 +103,196 @@
 }
 
 
+/* Writing Navigation
+--------------------------------------------------------------------------------------------*/
+
+/* Marquee Container */
+.wri-mar-con { 
+  width: 49vw; /* Width of ONE element */
+  height: 8vw; /* Viewable height */
+  overflow: hidden;
+  color: black;
+  background-color: red;
+}
+
+/* Marquee */
+.wri-mar {
+  height: 1000px; /*important! */
+  outline: 1px solid blue;
+  display: block;
+  position: relative;
+}
+
+/* Marquee Unit */
+.wri-mar-ele {
+  height: 2vw;
+  display: grid;
+  grid-template-columns: 25vw 12vw 12vw;
+  font-size: 1.5vw;
+  outline: 1px solid black;
+  outline-offset: -1px;
+}
+
+/* Marquee Unit */
+.wri-mar-ele > div{
+  text-align: left;
+  padding-left: 1vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1vw;
+  line-height: 2vw;
+}
+
+.wri-mar-ele > div:nth-last-child(1) {
+  text-align: right;
+  padding-right: 1vw;
+}
+
+/* Marquee Animation Request */
+.wri-mar-con > .wri-mar > div { 
+  -webkit-animation: wri-up 10s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+}
+
+/* Marquee Animation */
+@-webkit-keyframes wri-up { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( 0, -10vw, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
+  }
+}
+
+/* Marquee Animation Pause */
+.wri-mar-con:hover > .wri-mar > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}  
+}
+
+.wri-mar-ele {
+  color: red;
+  background-color: white;
+}
+
+   
+/* Projects Navigation
+-------------------------------------------------------------------------------------------- */
+
+/* Marquee Container (View Size) */
+.pro-mar-con { 
+  width: 100%; /* At least the width of all combined elements */
+  height: 8vw; /* Height of ONE element */
+  overflow: hidden;
+  cursor: pointer;
+  background-color: red;
+}
+
+/* Marquee */
+.pro-mar {
+  width: 10000px; /*important! Greater than combined width of ALL elements */
+}
+
+/* Marquee Unit */
+.pro-mar-ele{
+  width: 8vw;
+  height: 8vw;
+  display: inline-block;
+  float: left;
+  outline: 1px solid black;
+}
+
+.projects-nav-image > img{
+  width: 6vw;
+  height: 6vw;
+  overflow: hidden;
+  outline: 2px solid black;
+  outline-offset: -2px;
+}
+  
+.projects-nav-image{
+  width: 6vw;
+  height: 6vw;
+  margin: 1vw;
+  overflow: hidden;
+  cursor: pointer;
+  outline: 2px solid black;
+  outline-offset: -2px;
+}
+  
+.projects-nav-text{
+   width: 8vw;
+   height: 8vw;
+   display: flex; 
+   background-color: white;
+   position: absolute;
+   top: 0;
+   left:0;
+   opacity: 0;
+   outline: 2px solid black;
+   outline-offset: -2px;
+   text-align: center;
+}
+  
+.projects-nav-text > h3{
+   margin: auto; /* Important */ 
+   padding: 1vw;
+   text-align: center; 
+   white-space: nowrap;
+   word-break: keep-all;
+   overflow: hidden;
+   color: red;
+   font-size: 1vw;
+   cursor: pointer;
+   text-overflow: ellipsis;
+}
+  
+.projects-nav-text:hover {
+   opacity: 1;
+}
+
+.pro-mar-ele:focus > .projects-nav-text{
+   opacity: 1;
+}
+
+/* Marquee Animation Request */
+.pro-mar > div { 
+  -webkit-animation: animation-name 36s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes animation-name {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-48vw, 0, 0); /* Match to marquee width */
+  }
+}
+
+/* Marquee Animation Pause */
+.pro-mar:hover > div{
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+.pro-mar-ele:hover {
+  background-color: white;
+} 
+  
+.pro-mar-ele:hover > .projects-nav-image {
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+
 /* James Navigation
 -------------------------------------------------------------------------------------------- */  
 
@@ -102,27 +302,6 @@
   overflow: hidden;
 }
 
-/* 
-.james-marquee {
-  width: 2vw;
-  height: 2vw;
-  font-size: 1.5vw;
-  overflow: hidden;
-  text-align: center;
-}
-
-.james {
-  display: block;
-  height: 2vw;
-  width: 2vw;
-  color: white;
-  background-color: red;
-  outline: 1px solid black;
-  outline-offset: -1px;
-} 
- */ 
-   
-  
 .james-container:hover {
   color: red;
   background-color: white;
@@ -252,84 +431,6 @@
   cursor: pointer;
 }
 
-
-/* Writing Navigation
---------------------------------------------------------------------------------------------*/
-
-/* Marquee Container */
-.wri-mar-con { 
-  width: 49vw; /* Width of ONE element */
-  height: 8vw; /* Viewable height */
-  overflow: hidden;
-  color: black;
-  background-color: red;
-}
-
-/* Marquee */
-.wri-mar {
-  height: 1000px; /*important! */
-  outline: 1px solid blue;
-  display: block;
-  position: relative;
-}
-
-/* Marquee Unit */
-.wri-mar-ele {
-  height: 2vw;
-  display: grid;
-  grid-template-columns: 25vw 12vw 12vw;
-  font-size: 1.5vw;
-  outline: 1px solid black;
-  outline-offset: -1px;
-}
-
-/* Marquee Unit */
-.wri-mar-ele > div{
-  text-align: left;
-  padding-left: 1vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 1vw;
-  line-height: 2vw;
-}
-
-.wri-mar-ele > div:nth-last-child(1) {
-  text-align: right;
-  padding-right: 1vw;
-}
-
-/* Marquee Animation Request */
-.wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 10s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
-}
-
-/* Marquee Animation */
-@-webkit-keyframes wri-up { 
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-  }
-  100% {
-    -webkit-transform: translate3d( 0, -10vw, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
-  }
-}
-
-/* Marquee Animation Pause */
-.wri-mar-con:hover > .wri-mar > div { 
-  -webkit-animation-play-state:paused;
-  -moz-animation-play-state:paused;
-  -o-animation-play-state:paused;
-  animation-play-state:paused;
-  cursor: pointer;
-}  
-}
-
-.wri-mar-ele {
-  color: red;
-  background-color: white;
-}
-
-
 /* Writing Section
 --------------------------------------------------------------------------------------------   */
 
@@ -347,43 +448,43 @@
 }
 
 .article-margin{
-  width: 20px;
+  width: 10px;
   height: 100%;
 }
 
 article{
-  font-family: arial;
   height: 100%;
   width: auto;
-  max-width: 2500px;
   column-fill: auto;
-  column-width: 24vw;
-  color: black;
+  column-width: 200px;
   font-size: 14px;
   line-height: 20px;
   text-align: justify;
   text-align-last: start;
-  column-gap: 2vw;
-  column-rule: 2px solid black;
+  column-gap: 10px;
+  column-rule: 1px solid;
   float: left;
 }
  
-  #article:hover {
+article:hover {
    column-rule: 2px solid red;
 }
-   
-/* #article{
-   width: 49vw;
-}*/
-   
+
+article > p {
+  font-family: 'Serif';
+  margin-block-end: 10px;
+  float: left;
+  display: inline-block;
+}
+
 .writing-titles{
-  margin-top: 20px;
-  height: calc (50% - 20px);
+  margin-top: 10px;
+  height: calc(50% - 10px);
   width: 100%;
   display: block;
   position: relative;
 }
-   
+
 #publisher {
   float: left;
 }
@@ -393,19 +494,11 @@ article{
 }
 
 #heading {
-  font-size: 2em;
+  font-size: 1.5em;
   position: absolute;
   bottom: 0;
   left: 0;
-}
-   
-p {
-  font-family: arial;
-  margin-block-end: 1.5em;
-  float: left;
-  display: inline-block;
-}
-  
+} 
 
 .writing-container:hover > .writing-image{
   outline: 1px solid black;
@@ -415,13 +508,14 @@ p {
    
 /* width */
 .writing-container-grid::-webkit-scrollbar {
-  height: 2vw;
+  height: 20px;
+  cursor: pointer;
 }
 
 /* Track */
 .writing-container-grid::-webkit-scrollbar-track {
   background-color: ;
-  cursor: pointer;
+  cursor: ew;
   border: 1px solid black;
 }
 
@@ -429,6 +523,7 @@ p {
 .writing-container-grid::-webkit-scrollbar-thumb {
   border: 1px solid black;
   background-color: red;
+  cursor: nw;
 }
    
 /* Handle on hover */
@@ -456,17 +551,15 @@ p {
 #next-article:hover{
   color: blue;
 }
-
-
  
 /* Writing Section - Image
 --------------------------------------------------------------------------------------------   */
 
 .writing-image{
-  width: 12vw;
-  height: 12vw;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
-  margin-left: -1vw;
+  margin-left: -10px;
   outline: 1px solid;
   outline-offset: -1px;
   float: left;
@@ -487,7 +580,7 @@ p {
   background-color: white;
   transition: 1s ease;
   opacity: 0;
-  outline: 2px solid black;
+  outline: 2px solid;
 }
 
 .writing-image-hover-container {
@@ -515,119 +608,6 @@ p {
 
 article div.writing-image:hover > .writing-image-hover{
   opacity: 1;
-}   
-
-   
-/* Projects Navigation
--------------------------------------------------------------------------------------------- */
-
-/* Marquee Container (View Size) */
-.pro-mar-con { 
-  width: 100%; /* At least the width of all combined elements */
-  height: 8vw; /* Height of ONE element */
-  overflow: hidden;
-  cursor: pointer;
-  background-color: red;
-}
-
-/* Marquee */
-.pro-mar {
-  width: 10000px; /*important! Greater than combined width of ALL elements */
-}
-
-/* Marquee Unit */
-.pro-mar-ele{
-  width: 8vw;
-  height: 8vw;
-  display: inline-block;
-  float: left;
-  outline: 1px solid black;
-}
-
-.projects-nav-image > img{
-  width: 6vw;
-  height: 6vw;
-  overflow: hidden;
-  outline: 2px solid black;
-  outline-offset: -2px;
-}
-  
-.projects-nav-image{
-  width: 6vw;
-  height: 6vw;
-  margin: 1vw;
-  overflow: hidden;
-  cursor: pointer;
-  outline: 2px solid black;
-  outline-offset: -2px;
-}
-  
-.projects-nav-text{
-   width: 8vw;
-   height: 8vw;
-   display: flex; 
-   background-color: white;
-   position: absolute;
-   top: 0;
-   left:0;
-   opacity: 0;
-   outline: 2px solid black;
-   outline-offset: -2px;
-   text-align: center;
-}
-  
-.projects-nav-text > h3{
-   margin: auto; /* Important */ 
-   padding: 1vw;
-   text-align: center; 
-   white-space: nowrap;
-   word-break: keep-all;
-   overflow: hidden;
-   color: red;
-   font-size: 1vw;
-   cursor: pointer;
-   text-overflow: ellipsis;
-}
-  
-.projects-nav-text:hover {
-   opacity: 1;
-}
-
-.pro-mar-ele:focus > .projects-nav-text{
-   opacity: 1;
-}
-
-/* Marquee Animation Request */
-.pro-mar > div { 
-  -webkit-animation: animation-name 36s infinite linear;
-}
-
-/* Marquee Animation */
-@-webkit-keyframes animation-name {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-  }
-  100% {
-    -webkit-transform: translate3d(-48vw, 0, 0); /* Match to marquee width */
-  }
-}
-
-/* Marquee Animation Pause */
-.pro-mar:hover > div{
-  -webkit-animation-play-state:paused;
-  -moz-animation-play-state:paused;
-  -o-animation-play-state:paused;
-  animation-play-state:paused;
-  cursor: pointer;
-}
-
-.pro-mar-ele:hover {
-  background-color: white;
-} 
-  
-.pro-mar-ele:hover > .projects-nav-image {
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 
 /* Projects
