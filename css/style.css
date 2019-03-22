@@ -259,7 +259,7 @@
 /* Marquee Container */
 .wri-mar-con { 
   width: 49vw; /* Width of ONE element */
-  height: 8vw; /* Combined height of ALL elements */
+  height: 8vw; /* Viewable height */
   overflow: hidden;
   color: black;
   background-color: red;
@@ -301,7 +301,7 @@
 
 /* Marquee Animation Request */
 .wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 12s infinite linear;
+  -webkit-animation: wri-up 10s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
 /* Marquee Animation */
@@ -310,7 +310,7 @@
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d( 0, -12vw, 0); /* Match to marquee height */
+    -webkit-transform: translate3d( 0, -10vw, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
   }
 }
 
