@@ -469,13 +469,6 @@ article:hover {
   column-rule: 2px solid red;
 }
 
-article > p {
-  font-family: arial;
-  margin-block-end: 10px;
-  float: left;
-  display: inline-block;
-}
-
 .writing-titles{
   margin-top: 10px;
   height: calc(50% - 10px);
@@ -499,6 +492,11 @@ article > p {
   bottom: 0;
   left: 0;
 } 
+
+article > p {
+  font-family: arial;
+  margin-block-end: 10px;
+}
 
 .writing-container:hover > .writing-image{
   outline: 1px solid black;
@@ -556,8 +554,8 @@ article > p {
 --------------------------------------------------------------------------------------------   */
 
 .writing-image{
-  width: 100px;
-  height: 100px;
+  width: 175px;
+  height: 175px;
   overflow: hidden;
   margin-left: -15px;
   outline: 1px solid;
