@@ -454,7 +454,7 @@ p {
   cursor: pointer;
 }
    
-#next-articlet:hover{
+#next-article:hover{
   color: blue;
 }
 
@@ -514,7 +514,7 @@ p {
   display: inline-block;
 }
 
-#writing-scroll div.writing-image:hover > .writing-image-hover{
+article div.writing-image:hover > .writing-image-hover{
   opacity: 1;
 }   
 
