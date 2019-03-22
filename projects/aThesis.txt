@@ -20,6 +20,26 @@
       <div class="photographer">
        * Photos shot by Martha Poggioli
       </div> 
-      <div id="next" class="aHouseForOne">
-        Next Project: A TEST Room For Karaoke -&gt;
+      <div id="next" 
+      <div class="aHouseForOne">
+        Next Project: TEST aHouseForOne -&gt;
+        </div>
+      <div class="aCertainKindOfLife">
+        Next Project: TEST aCertainKindOfLife -&gt;
+        </div>
+      <div class="aThesis">
+        Next Project: TEST aThesis -&gt;
+        </div>
+      <div class="corbusier">
+        Next Project: A TEST corbusier -&gt;
+        </div>
+      <div class="aPavillionOfRooms">
+        Next Project: A TEST aPavillionOfRooms -&gt;
+        </div>
+      <div class="aRoomForKaraoke">
+        Next Project: A TEST aRoomForKaraoke -&gt;
+        </div>
+      <div class="anAdditionForThree">
+        Next Project: A TEST anAdditionForThree -&gt;
+        </div>
       </div>
