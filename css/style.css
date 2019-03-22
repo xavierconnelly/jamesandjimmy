@@ -349,12 +349,12 @@
   overflow: auto;
 }
 
-.writing-scroll-margin{
+.article-margin{
   width: 2vw;
   height: 100%;
 }
 
-#writing-scroll{
+article{
   font-family: arial;
   height: 100%;
   width: auto;
@@ -371,11 +371,11 @@
   float: left;
 }
  
-  #writing-scroll:hover {
+  #article:hover {
    column-rule: 2px solid red;
 }
    
-/* #writing-scroll{
+/* #article{
    width: 49vw;
 }*/
    
@@ -398,10 +398,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-#writing-scroll > .spacer > #subheading {
-
 }
    
 p {
