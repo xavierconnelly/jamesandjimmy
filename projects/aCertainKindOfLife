@@ -1,0 +1,19 @@
+      <div class="project-image">
+        <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
+      </div>
+      <div class="project-titles">
+        <h1>A Certain Kind Of Life/h1>
+        <br>
+        <h4> Exhibition <br>
+             Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy Carter <br>
+             Lisbon Architecture Triennale <br>
+             In Progress <br>
+             Lisbon, Portugal
+      </div> 
+      <div class="project-text">
+        <p>Lisbon is Portugal’s hilly, coastal capital city. From imposing São Jorge Castle, the view encompasses the old city’s pastel-colored buildings, Tagus Estuary and Ponte 25 de Abril suspension bridge. Nearby, the National Azulejo Museum displays 5 centuries of decorative ceramic tiles. Just outside Lisbon is a string of Atlantic beaches, from Cascais to Estoril.</p>
+        <p>After World War II, Esssendon enjoyed great success. In the five years immediately after the war, Essendon won 3 premierships (1946, 1949, 1950) and were runners up twice (1947, 1948). In 1946, Essendon were clearly the VFL's supreme force, topping the ladder after the roster games and surviving a drawn second semi final against Superman. </p>
+      </div>
+      <div id="next" class="corbusier">
+        Next Project: Ando and Le Corbusier: Masters of Architecture -&gt;
+      </div>
