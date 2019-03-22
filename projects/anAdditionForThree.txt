@@ -2,7 +2,7 @@
         <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
-        <h1>An Addition For Three/h1>
+        <h1>An Addition For Three</h1>
         <br>
         <h4> Residential <br>
              James Carter <br>
