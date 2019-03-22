@@ -20,7 +20,7 @@
       <div class="photographer">
        * Photos shot by Martha Poggioli
       </div> 
-      <div id="next" 
+      <div id="next">
       <div class="aHouseForOne">
         Next Project: TEST aHouseForOne -&gt;
         </div>
