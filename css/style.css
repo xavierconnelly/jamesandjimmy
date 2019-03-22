@@ -358,7 +358,7 @@
   font-family: arial;
   height: 100%;
   width: auto;
-  max-width: 3000px;
+  max-width: 2500px;
   column-fill: auto;
   column-width: 24vw;
   color: black;
@@ -367,38 +367,35 @@
   text-align: justify;
   text-align-last: start;
   column-gap: 2vw;
-  column-rule: 1px solid black;
+  column-rule: 2px solid black;
   float: left;
 }
  
   #writing-scroll:hover {
-   column-rule: 1px solid red;
+   column-rule: 2px solid red;
 }
    
 /* #writing-scroll{
-  width: 49vw;
+   width: 49vw;
 }*/
    
 .writing-titles{
- height: 50%;
- width: 100%;
- display: block;
- position: relative;
+  height: 50%;
+  width: 100%;
+  display: block;
+  position: relative;
 }
    
 #publisher {
   float: left;
-  color: red;
 }
 
 #year {
   float: right;
-  color: green;
 }
 
 #heading {
   position: absolute;
-  color: blue;
   bottom: 0;
   left: 0;
 }
@@ -407,7 +404,7 @@
 
 }
    
-p{
+p {
   font-family: arial;
   margin-block-end: 1.5em;
   float: left;
@@ -475,7 +472,7 @@ p{
   height: 12vw;
   overflow: hidden;
   margin-left: -1vw;
-  outline: 2px solid black;
+  outline: 1px solid;
   outline-offset: -1px;
   float: left;
   margin-right: 10px;
