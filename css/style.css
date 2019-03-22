@@ -390,10 +390,18 @@
 
 }
 
-#writing-scroll > .spacer > #title {
+#writing-scroll > .spacer > #year {
+float: right;
+}
+
+#writing-scroll > .spacer > #heading {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+#writing-scroll > .spacer > #subheading {
+
 }
    
 p{
