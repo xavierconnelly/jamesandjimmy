@@ -1,0 +1,29 @@
+
+      <div class="project-image">
+        <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
+      </div>
+      <div class="project-titles">
+        <h1>A Pavilion <br> Of Rooms</h1>
+        <br>
+        <h4> Public <br>
+             Juan Suarez, Andrew Jennings and Jimmy Carter <br>
+             Private <br>
+             2018 <br>
+             Chicago, USA
+      </div> 
+      <div class="project-text">
+        <p>A founding member club of both the Victorian Football Association, in 1877, and the Victorian Football League (renamed the AFL in 1990), in 1896, Essendon is one of Australia's best-known football clubs.[2] Essendon has won 16 VFL/AFL premierships, which, along with Carlton, is the most of any club in the competition. The club won four consecutive VFA premierships between 1891 and 1894, a feat unmatched in VFA/VFL history.</p>
+        <p>The club was founded by members of the Royal Agricultural Society, the Melbourne Hunt Club and the Victorian Woolbrokers.[3] The Essendon Football Club is thought to have formed in 1872 at a meeting it the home of a well-known brewery family, the McCrackens, whose Ascot Vale property hosted a team of local junior players.[4]</p>
+      </div>
+      <div class="project-image"> 
+        <img src="/img/jc_kar_2_small.jpg" alt="Smiley face"> 
+      </div> 
+      <div class="project-image"> 
+        <img src="/img/jc_kar_3_small.jpg" alt="Smiley face"> 
+      </div> 
+      <div style="font-size:12px; text-align:left; margin-left:10px;">
+       * Photos shot by Martha Poggioli
+      </div> 
+      <div id="next" class="Corbusier">
+        Next Project: Ando and Le Corbusier: Masters of Architecture -&gt;
+      </div>
