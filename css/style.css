@@ -386,17 +386,17 @@
  position: relative;
 }
    
-#writing-scroll > .spacer > #publisher {
+#publisher {
   float: left;
   color: red;
 }
 
-#writing-scroll > .spacer > #year {
+#year {
   float: right;
   color: green;
 }
 
-#writing-scroll > .spacer > #heading {
+#heading {
   position: absolute;
   color: blue;
   bottom: 0;
