@@ -3,7 +3,7 @@
         <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
-        <h1>A Pavilion <br> Of Rooms</h1>
+        <h1>A Pavillion <br> Of Rooms</h1>
         <br>
         <h4> Public <br>
              Juan Suarez, Andrew Jennings and Jimmy Carter <br>
