@@ -337,9 +337,6 @@
    cursor: crosshair;
    color: white;
    background-color: red;
-   background-size: 49vw;
-   background-repeat: repeat-y;
-   background-attachment: local;
 }
    
 .writing-container-grid{
@@ -350,7 +347,7 @@
 }
 
 .article-margin{
-  width: 2vw;
+  width: 20px;
   height: 100%;
 }
 
@@ -380,7 +377,8 @@ article{
 }*/
    
 .writing-titles{
-  height: 50%;
+  margin-top: 20px;
+  height: calc (50% - 20px);
   width: 100%;
   display: block;
   position: relative;
@@ -395,6 +393,7 @@ article{
 }
 
 #heading {
+  font-size: 2em;
   position: absolute;
   bottom: 0;
   left: 0;
