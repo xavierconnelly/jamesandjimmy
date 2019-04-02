@@ -4,7 +4,7 @@
            <h5 id="publisher">Publisher Here</h5> 
            
            <div id="title">
-            <h2><b>Heading Here</b></h2><br>
+            <h2><b>Spectators Of Self Deceptiont</b></h2><br>
               <h4>Sub Heading Here</h4><br>
               <h6><i>Some Descriptive Text Here</h6></i><br> 
             </div>
