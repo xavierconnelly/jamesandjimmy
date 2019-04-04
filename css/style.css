@@ -98,8 +98,31 @@
   height: 2vw;
   display: block;
   margin: 0;
-  outline: 1px solid black;
-  outline-offset: -1px;
+  border-top: 1px solid black;
+}
+
+/* Marquee Animation Request */
+.news-container > .news-marquee > div { 
+  -webkit-animation: news-left 10s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+}
+
+/* Marquee Animation */
+@-webkit-keyframes news-left { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( -2vw, 0, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
+  }
+}
+
+/* Marquee Animation Pause */
+.news-container:hover > .news-marquee > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
 }
 
 
