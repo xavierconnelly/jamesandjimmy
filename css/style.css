@@ -94,16 +94,17 @@
 }
    
 .news-marquee-element {
-  width: 2vw;
-  height: 2vw;
+  width: calc(2vw - 1px);
+  height: calc(2vw - 1px);
   display: block;
   margin: 0;
   border-top: 1px solid black;
+  border-left: 1px solid black;  
 }
 
 /* Marquee Animation Request */
 .news-container > .news-marquee > div { 
-  -webkit-animation: news-left 10s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+  -webkit-animation: news-left 2s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
 /* Marquee Animation */
@@ -130,7 +131,8 @@
 --------------------------------------------------------------------------------------------*/
 
 /* Marquee Container */
-.wri-mar-con { 
+.wri-mar-con {
+  z-index: 100;
   width: 49vw; /* Width of ONE element */
   height: 8vw; /* Viewable height */
   overflow: hidden;
@@ -152,8 +154,6 @@
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
   font-size: 1.5vw;
-  color: red;
-  background-color: white;
 }
 
 .wri-mar-ele:hover {
