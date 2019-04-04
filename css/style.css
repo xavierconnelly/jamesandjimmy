@@ -118,19 +118,22 @@
 /* Marquee */
 .wri-mar {
   height: 1000px; /*important! */
-  outline: 1px solid blue;
   display: block;
   position: relative;
 }
 
 /* Marquee Unit */
 .wri-mar-ele {
-  height: 2vw;
+  height: calc(2vw - 1px);
+  border-top: 1px solid black;
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
   font-size: 1.5vw;
-  outline: 1px solid black;
-  outline-offset: -1px;
+}
+
+.wri-mar-ele:hover {
+  color: red;
+  background-color: white;
 }
 
 /* Marquee Unit */
@@ -172,11 +175,6 @@
   animation-play-state:paused;
   cursor: pointer;
 }  
-}
-
-.wri-mar-ele {
-  color: red;
-  background-color: white;
 }
 
    
