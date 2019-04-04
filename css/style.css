@@ -197,42 +197,40 @@
 
 /* Marquee Unit */
 .pro-mar-ele{
-  width: 8vw;
+  width: calc(8vw - 1px);
   height: 8vw;
+  border-left: 1px solid black;
   display: inline-block;
   float: left;
-  outline: 1px solid black;
 }
 
 .projects-nav-image > img{
   width: 6vw;
   height: 6vw;
   overflow: hidden;
-  outline: 2px solid black;
-  outline-offset: -2px;
 }
   
 .projects-nav-image{
   width: 6vw;
   height: 6vw;
+  outline: 1px solid;
+  outline-offset: -1px;
   margin: 1vw;
   overflow: hidden;
   cursor: pointer;
-  outline: 1px solid;
-  outline-offset: -1px;
 }
   
 .projects-nav-text{
    width: 8vw;
    height: 8vw;
+   outline: 1px solid;
+   outline-offset: -1px;
    display: flex; 
    background-color: white;
    position: absolute;
    top: 0;
    left:0;
    opacity: 0;
-   outline: 1px solid;
-   outline-offset: -1px;
    text-align: center;
 }
   
