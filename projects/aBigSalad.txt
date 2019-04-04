@@ -1,6 +1,6 @@
 
       <div class="project-image">
-        <img src="/img/jc_salad_1_small.jpg" alt="Smiley face">
+        <img src="/img/A Big Salad_01_Website.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
         <h1>A Big<br>Salas</h1>
@@ -15,19 +15,19 @@
         <p>A Big Salad is a summery arrangement of fruit-colored forms, mixed together and garnished to taste. Colorful swirls of columns lean together, while gold fruit finials adorn the tops. Collectively, they dance around a middle ground, converging into a ring—not a perfect circle, more like a gathering, spinning around while standing still. The 64-foot diameter “ring” consists of seven arcs of evenly spaced columns, chained into a spiral. Each arc has its own slightly different tilt and its own color, which cuts into the next, like slices of fruit. Like any good salad, A Big Salad brings together all the ingredients for a memorable performance and shakes them up.</p>
       </div>
       <div class="project-image"> 
-        <img src="/img/jc_salad_2_small.jpg" alt="Smiley face"> 
+        <img src="/img/A Big Salad_01a_Website.jpg" alt="Smiley face"> 
       </div> 
       <div class="project-image"> 
-        <img src="/img/jc_salad_3_small.jpg" alt="Smiley face"> 
+        <img src="/img/A Big Salad_02_Website.jpg" alt="Smiley face"> 
       </div> 
       <div class="project-image"> 
-        <img src="/img/jc_salad_4_small.jpg" alt="Smiley face"> 
+        <img src="/img/A Big Salad_03_Website.jpg" alt="Smiley face"> 
       </div> 
       <div class="project-image"> 
-        <img src="/img/jc_salad_5_small.jpg" alt="Smiley face"> 
+        <img src="/img/A Big Salad_04_Website.jpg" alt="Smiley face"> 
       </div> 
       <div class="project-image"> 
-        <img src="/img/jc_salad_6_small.jpg" alt="Smiley face"> 
+        <img src="/img/A Big Salad_05_Website.jpg" alt="Smiley face"> 
       </div>
       <div id="next" class="corbusier">
         Next Project: Ando and Le Corbusier: Masters of Architecture ➜
