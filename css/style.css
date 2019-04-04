@@ -56,8 +56,8 @@
 
 .grid-container > div{
   outline: 2px solid black;
-  -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(80%);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   transition: 0.5s;
 }
    
@@ -198,7 +198,6 @@
   -o-animation-play-state:paused;
   animation-play-state:paused;
   cursor: pointer;
-}  
 }
 
    
