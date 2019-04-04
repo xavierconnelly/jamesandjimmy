@@ -3,7 +3,7 @@
         <img src="/img/A Big Salad_01_Website.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
-        <h1>A Big<br>Salas</h1>
+        <h1>A Big<br>Salad</h1>
         <br>
         <h4> Public <br>
              Juan Suarez, Andrew Jennings and Jamie Goldsborough <br>
