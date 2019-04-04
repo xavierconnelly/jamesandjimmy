@@ -629,7 +629,7 @@ article div.writing-image:hover > .writing-image-hover{
 }
    
 .project-titles{
-  margin: 5px 10px 5px 10px;
+  margin: 5px 10px 50px 10px;
   text-align: left;
   font-weight: bold;
   position: sticky;
@@ -648,7 +648,7 @@ article div.writing-image:hover > .writing-image-hover{
 }
 
 .project-text{
-    margin: 5px 10px 0px 0px;
+    margin: 5px 10px 50px 0px;
     text-align: left;
     float: right;
     width: calc(50% - 5px);
