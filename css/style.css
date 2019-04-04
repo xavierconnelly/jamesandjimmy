@@ -129,6 +129,8 @@
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
   font-size: 1.5vw;
+  color: red;
+  background-color: white;
 }
 
 .wri-mar-ele:hover {
