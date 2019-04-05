@@ -243,6 +243,41 @@
   overflow: hidden;
   cursor: pointer;
 }
+
+
+ /* pro nav tooltip  */
+
+.pro-mar-ele .pro-mar-ele-fn-note {
+  visibility: hidden;
+  width: 49vw;
+  background-color: yellow;
+  color: green;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 0;
+  box-sizing: border-box;
+  /* Position the tooltip */
+  position: fixed;
+  left: 51vw;
+  top: 8vw;
+  z-index: 1;
+}
+
+.pro-mar-ele:hover .pro-mar-ele-fn-note {
+  visibility: visible;
+}
+
+.project-title{
+  float: left;
+  margin-left: 10px;
+}
+
+.project-details{
+  float: right;
+  margin-right: 10px;
+}
+
+/*
   
 .projects-nav-text{
    width: 8vw;
@@ -259,7 +294,7 @@
 }
   
 .projects-nav-text > h3{
-   margin: auto; /* Important */ 
+   margin: auto; /* Important */ /*
    padding: 1vw;
    text-align: center; 
    white-space: nowrap;
@@ -278,6 +313,7 @@
 .pro-mar-ele:focus > .projects-nav-text{
    opacity: 1;
 }
+*/
 
 /* Marquee Animation Request */
 .pro-mar > div { 
