@@ -1,5 +1,5 @@
       <div class="project-image">
-        <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
+        <img src="/img/01_High Quality_web.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
         <h1>A Certain Kind Of Life</h1>
