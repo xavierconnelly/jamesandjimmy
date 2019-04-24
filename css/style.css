@@ -715,6 +715,11 @@ article div.writing-image:hover > .writing-image-hover{
   position: relative;
 }
 
+.project-text a{
+  color: inherit;
+  text-decoration: none;
+}
+
 .photographer{
   font-size:12px;
   text-align:left;
