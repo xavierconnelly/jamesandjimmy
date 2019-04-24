@@ -5,15 +5,15 @@
         <h1>A Certain Kind Of Life</h1>
         <br>
         <h4> Exhibition <br>
-             Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy Carter <br>
-             Lisbon Architecture Triennale <br>
+             Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy <br>
+             2019 Lisbon Architecture Triennale <br>
              In Progress <br>
              Lisbon, Portugal
       </div> 
       <div class="project-text">
-        <p>Lisbon is Portugal’s hilly, coastal capital city. From imposing São Jorge Castle, the view encompasses the old city’s pastel-colored buildings, Tagus Estuary and Ponte 25 de Abril suspension bridge. Nearby, the National Azulejo Museum displays 5 centuries of decorative ceramic tiles. Just outside Lisbon is a string of Atlantic beaches, from Cascais to Estoril.</p>
-        <p>After World War II, Esssendon enjoyed great success. In the five years immediately after the war, Essendon won 3 premierships (1946, 1949, 1950) and were runners up twice (1947, 1948). In 1946, Essendon were clearly the VFL's supreme force, topping the ladder after the roster games and surviving a drawn second semi final against Superman. </p>
+        <p>An exhibition that explores the broadened contemporary asceticism within its spatial lineage, “<a href="https://www.trienaldelisboa.com/news/d/news_0769affd-2ad8-11e9-93f6-ac1f6b817f78">A Certain Kind of Life</a>” exposes the typology of the charterhouse as an architecture of absolute rationality. Taking place at the <i>Cartuxa de Laveiras</i> as parts of the <a href="https://www.trienaldelisboa.com/programme/triennali/2019">2019 Lisbon Triennale</a>, interventions across the site will include the installation of a cell—the paradigmatic evocation of asceticism; research material detailing the typological repetition and composition of several monasteries; projects for contemporary living; and a series of talks discussing ritual as rationalism and its resultant architectural form. 
+</p>
       </div>
       <div id="next" class="corbusier">
-        Next Project: Ando and Le Corbusier: Masters of Architecture -&gt;
+        Next Project: Ando and Le Corbusier: Masters of Architecture ➜
       </div>
