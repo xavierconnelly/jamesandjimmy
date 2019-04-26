@@ -1,29 +1,22 @@
       <div class="project-image">
-        <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
+        <img src="/img/jcarter.three.01.jpg" alt="architectural plans">
       </div>
       <div class="project-titles">
         <h1>An Addition For Three</h1>
         <br>
-        <h4> Residential <br>
-             James Carter <br>
-             Private <br>
-             In Progress <br>
-             Castlemaine, Australia
+        <h4>
+          Residential <br>
+          James <br>
+          Private <br>
+          In Progress <br>
+          Castlemaine, Australia
+        </h4>
       </div> 
       <div class="project-text">
-        <p>In any case, there could be no such reservations about Essendon's next premiership, which came just four years later. Prior to that Essendon lost a hard fought grand final to Richmond in 1943 by 5 points, finished 3rd in 1944, and dropped to 8th in 1945.</p>
-        <p>After World War II, Esssendon enjoyed great success. In the five years immediately after the war, Essendon won 3 premierships (1946, 1949, 1950) and were runners up twice (1947, 1948). In 1946, Essendon were clearly the VFL's supreme force, topping the ladder after the roster games and surviving a drawn second semi final against Superman. </p>
-       
+        <p>
+          An addition for three more, this two storey extension utilizes a spiral spatial composition to establish total openness within total privacy. Aided by the use of windows to direct movement, stepped levels of separate programs twist up and down to divide space. 
+        </p>
       </div>
-      <div class="project-image"> 
-        <img src="/img/jc_kar_3_small.jpg" alt="Smiley face"> 
-      </div> 
-      <div class="project-image"> 
-        <img src="/img/jc_kar_2_small.jpg" alt="Smiley face"> 
-      </div> 
-      <div class="photographer">
-       * Photos shot by Martha Poggioli
-      </div> 
-      <div id="next" class="aCertainKindOfLife">
-        Next Project: A Certain Kind Of Life -&gt;
+      <div id="next" class="something">
+        Next Project: something ➜
       </div>
