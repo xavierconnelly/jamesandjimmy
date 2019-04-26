@@ -1,25 +1,34 @@
       <div class="project-image">
-        <img src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/50217174_949121231965509_13305194502684672_n.jpg?_nc_cat=101&_nc_ht=scontent.fmel8-1.fna&oh=576ed51eee99f01a4d182c4ab42b0c51&oe=5CFD34E2" alt="Smiley face">
+        <img src="/img/jc_mwa_00.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
-        <h1>A Thesis </h1>
+        <h1>A Map with Audio</h1>
         <br>
-        <h4> Exhibition <br>
-             James Carter <br>
-             Private <br>
-             2016 <br>
-             Melbourne, Australia
+        <h4>
+          Audio-Exhibition <br>
+          Linus Gruszewski and James <br>
+          MPavilion <br>
+          2014 <br>
+          Melbourne, Australia
+        </h4>
       </div> 
       <div class="project-text">
-        <p>The Essendon Football Club, nicknamed the Bombers, is a professional Australian rules football club that plays in the Australian Football League (AFL), the sport's premier competition. Thought to have formed in 1872, the club played its first recorded game on 7 June 1873 against a Carlton Second 20, winning 1 goal to nil. The club played a senior club in the Victorian Football Association in 1878, one year after the VFA formed.</p>
-        <p>It is historically associated with Essendon, a suburb in the north-west of Melbourne, Victoria. Since 2013, the club has been headquartered at The Hangar, Melbourne Airport, and plays its home games at either Docklands Stadium or the Melbourne Cricket Ground; throughout most of its history the club's home ground and headquarters was Windy Hill, Essendon, where it played from 1922 until 1991. While it stopped playing games at the ground thereafter, Windy Hill remained its training and administration base until the end of 2013. Dyson Heppell is the current team captain.</p>
+        <p>
+          A self-guided audio exhibition within the Queen Victoria Gardens, “Psychogeographical: A Melbourne dérive” is a trip on which to discover the unknown stories of familiar places. Taking place during MPavilion’s 2014 summer, the exhibition constructs a territory that utilizes synchronous narratives to punctuate the experience of objects, events and encounters with memory, reason and humour.
+        </p>
+        <p>
+          <a href="http://2014.mpavilion.org/program/dis-course-audio-walk.html">More info</a>
+        </p>
       </div>
-      <div class="project-image"> 
-        <img src="/img/jc_hfo_5_small.jpg" alt="Smiley face"> 
-      </div> 
-      <div class="photographer">
-       * Photos shot by Martha Poggioli
-      </div> 
-      <div id="next" class="aRoomForKaraoke">
-        Next Project: A TEST aRoomForKaraoke -&gt;
+      <div class="project-image">
+        <img src="/img/jc_mwa_01.jpg" alt="Smiley face">
+      </div>
+      <div class="project-image">
+        <img src="/img/jc_mwa_02.jpg" alt="Smiley face">
+      </div>
+      <div class="project-image">
+        <img src="/img/jc_mwa_03.jpg" alt="Smiley face">
+      </div>
+      <div id="next" class="something">
+        Next Project: something ➜
       </div>
