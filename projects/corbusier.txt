@@ -26,7 +26,7 @@
         <img src="/img/jcarter.model.03.jpg" alt="Smiley face">
       </div>
       <div class="project-image">
-        <img src="/img/jcarter.model.04.jpg" alt="Smiley face">
+        <img src="/img/jcarter.model.04.png" alt="Smiley face">
       </div>
       <div class="photographer">
        * Photos by Michael Tropea & Angeliki Sykiotis
