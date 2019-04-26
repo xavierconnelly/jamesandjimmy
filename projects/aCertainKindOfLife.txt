@@ -1,19 +1,22 @@
       <div class="project-image">
-        <img src="/img/01_High Quality_web.jpg" alt="Smiley face">
+        <img src="/img/jcarter.life.01.jpg" alt="black and white European monastery">
       </div>
       <div class="project-titles">
         <h1>A Certain Kind Of Life</h1>
         <br>
-        <h4> Exhibition <br>
-             Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy <br>
-             2019 Lisbon Architecture Triennale <br>
-             In Progress <br>
-             Lisbon, Portugal
+        <h4>
+          Exhibition <br>
+          Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy <br>
+          2019 Lisbon Architecture Triennale <br>
+          In Progress <br>
+          Lisbon, Portugal
+        </h4>
       </div> 
       <div class="project-text">
-        <p>An exhibition that explores the broadened contemporary asceticism within its spatial lineage, <a href="https://www.trienaldelisboa.com/news/d/news_0769affd-2ad8-11e9-93f6-ac1f6b817f78">"A Certain Kind of Life"</a> exposes the typology of the charterhouse as an architecture of absolute rationality. Taking place at the <i>Cartuxa de Laveiras</i> as parts of the <a href="https://www.trienaldelisboa.com/programme/triennali/2019">2019 Lisbon Triennale</a>, interventions across the site will include the installation of a cell—the paradigmatic evocation of asceticism; research material detailing the typological repetition and composition of several monasteries; projects for contemporary living; and a series of talks discussing ritual as rationalism and its resultant architectural form. 
-</p>
+        <p>
+          An exhibition that explores the broadened contemporary asceticism within its spatial lineage, “<a href="https://www.trienaldelisboa.com/news/d/news_0769affd-2ad8-11e9-93f6-ac1f6b817f78">A Certain Kind of Life</a>” exposes the typology of the charterhouse as an architecture of absolute rationality. Taking place at the <i>Cartuxa de Laveiras</i> as parts of the <a href="https://www.trienaldelisboa.com/programme/triennali/2019"> 2019 Lisbon Triennale </a>, interventions across the site will include the installation of a cell—the paradigmatic evocation of asceticism; research material detailing the typological repetition and composition of several monasteries; projects for contemporary living; and a series of talks discussing ritual as rationalism and its resultant architectural form.
+        </p>
       </div>
-      <div id="next" class="corbusier">
-        Next Project: Ando and Le Corbusier: Masters of Architecture ➜
+      <div id="next" class="______">
+        Next Project: ______ ➜
       </div>
