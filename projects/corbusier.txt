@@ -1,5 +1,5 @@
       <div class="project-image">
-        <img src="/img/jc_lat_00.jpg" alt="Smiley face">
+        <img src="/img/jcarter.model.01.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
         <h1>A Model for Louis and Tadao</h1>
@@ -20,13 +20,13 @@
       </div>
 
       <div class="project-image">
-        <img src="/img/jc_lat_01.jpg" alt="Smiley face">
+        <img src="/img/jcarter.model.02.jpg" alt="Smiley face">
       </div>
       <div class="project-image">
-        <img src="/img/jc_lat_02.jpg" alt="Smiley face">
+        <img src="/img/jcarter.model.03.jpg" alt="Smiley face">
       </div>
       <div class="project-image">
-        <img src="/img/jc_lat_03.jpg" alt="Smiley face">
+        <img src="/img/jcarter.model.04.jpg" alt="Smiley face">
       </div>
       <div class="photographer">
        * Photos by Michael Tropea & Angeliki Sykiotis
