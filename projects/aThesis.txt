@@ -1,5 +1,5 @@
       <div class="project-image">
-        <img src="/img/jc_mwa_00.jpg" alt="Smiley face">
+        <img src="/img/jcarter.map.01.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
         <h1>A Map with Audio</h1>
@@ -21,13 +21,7 @@
         </p>
       </div>
       <div class="project-image">
-        <img src="/img/jc_mwa_01.jpg" alt="Smiley face">
-      </div>
-      <div class="project-image">
-        <img src="/img/jc_mwa_02.jpg" alt="Smiley face">
-      </div>
-      <div class="project-image">
-        <img src="/img/jc_mwa_03.jpg" alt="Smiley face">
+        <img src="/img/jcarter.map.02.jpg" alt="Smiley face">
       </div>
       <div id="next" class="something">
         Next Project: something ➜
