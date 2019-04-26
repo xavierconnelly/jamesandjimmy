@@ -1,32 +1,36 @@
       <div class="project-image">
-        <img src="/img/jc_kar_1_small.jpg" alt="Smiley face">
+        <img src="/img/jc_lat_00.jpg" alt="Smiley face">
       </div>
       <div class="project-titles">
-        <h1>Ando and Le Corbusier: Masters of Architecture</h1>
+        <h1>A Model for Louis and Tadao</h1>
         <br>
-        <h4> Exhibition <br>
-             Thomas Kelley, Ryan Palider, Jamie Goldsborough, Julian Gonzalez, Anjelica Hope Perez, Isabel Reford, William Stauffer, Angeliki Sykiotis, Ismael Vela and Jimmy Carter <br>
-             Wrightwood 659 <br>
-             2018 <br>
-             Chicago, USA
+        <h4>
+          Exhibition <br>
+          Thomas Kelly, Ryan Palider, Angeliki Sykiotis, William Stauffer, Isabel Reford, Jamie Goldsborough, Julian Gonzalez, Anjelica Hope Perez, Ismael Vela and Jimmy <br>
+          Wrightwood 659 <br>
+          2018 <br>
+          Chicago, USA
+        </h4>
       </div> 
       <div class="project-text">
-        <p>Former Richmond player Kevin Sheedy started as head coach in 1981. Essendon reached the Grand Final in 1983, the first time since 1968. Hawthorn won by a then record 83 points.</p>
-        <p>Following the 1991 season, Essendon moved its home games from its traditional home ground at Windy Hill to the larger and newly renovated MCG. This move generated large increases in game attendance, membership and revenue for the club. The club's training and administrative base remained at Windy Hill until 2013.</p>
-       
+        <p>
+          Seeking to exacerbate distinctions between two architectural endeavours, this model investigates difference through similarity. Made for <a href="https://wrightwood659.org/exhibitions/ando-and-le-corbusier-masters-of-architecture">Ando and Le Corbusier: Masters of Architecture</a>
+          as the inaugural exhibition at Wrightwood 659, the model reformulates Tadao Ando’s Fort Worth Modern Art Museum, flattening predecessors and descendants into an architecture of friendship.
+        </p>
       </div>
-      <div class="project-image"> 
-        <img src="/img/jc_kar_3_small.jpg" alt="Smiley face"> 
-      </div> 
-      <div class="project-image"> 
-        <img src="/img/jc_kar_6_small.jpg" alt="Smiley face"> 
-      </div> 
-      <div class="project-image"> 
-        <img src="/img/jc_kar_2_small.jpg" alt="Smiley face"> 
-      </div> 
+
+      <div class="project-image">
+        <img src="/img/jc_lat_01.jpg" alt="Smiley face">
+      </div>
+      <div class="project-image">
+        <img src="/img/jc_lat_02.jpg" alt="Smiley face">
+      </div>
+      <div class="project-image">
+        <img src="/img/jc_lat_03.jpg" alt="Smiley face">
+      </div>
       <div class="photographer">
-       * Photos shot by Martha Poggioli
+       * Photos by Michael Tropea & Angeliki Sykiotis
       </div> 
-      <div id="next" class="aPavillionOfRooms">
-        Next Project: A Pavillion Of Rooms -&gt;
+      <div id="next" class="corbusier">
+        Next Project: Ando and Le Corbusier: Masters of Architecture ➜
       </div>
