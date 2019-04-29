@@ -428,13 +428,10 @@
 
 /* Marquee Container - wider */
 .con-let-all {
-  width: 2vw;
-  height: calc(100% - 8vw);
-  overflow: hidden;
-  background-color: red;
-  position: fixed;
-  left: 0;
-  top: calc(100vh - 14vw);
+    background-color: red;
+    position: fixed;
+    left: 0;
+    bottom: 0vw;
 }
 
 /* Marquee Container */
