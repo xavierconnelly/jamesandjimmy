@@ -698,12 +698,18 @@ article div.writing-image:hover > .writing-image-hover{
   width: 40%;
 }
 
-.project-image > img{
+.project-image {
  width: calc(100% - 20px);
  overflow: hidden;
  margin: 5px 5px 0px 5px;
  outline: 1px solid;
  outline-offset: -1px;
+}
+
+.project-plan {
+ width: calc(100% - 20px);
+ overflow: hidden;
+ margin: 5px 5px 0px 5px;
 }
 
 .project-text{
