@@ -41,13 +41,13 @@
       <div class="project-image">
         <img src="/img/jcarter.house.09.jpg" alt="Smiley face">
       </div>
-      <div class="project-image">
+      <div class="project-image plan">
         <img src="/img/jcarter.house.10.jpg" alt="Smiley face">
       </div>
-      <div class="project-image">
+      <div class="project-image plan">
         <img src="/img/jcarter.house.11.jpg" alt="Smiley face">
       </div>
-      <div class="project-image">
+      <div class="project-image plan">
         <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
       </div>
       <div id="next" class="something">
