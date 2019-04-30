@@ -49,19 +49,19 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: 2vw 49vw 49vw;
-  grid-template-rows: 8vw auto;  
+  grid-template-columns: calc(2vw - 1px) calc(49vw - 2px) calc(49vw - 1px);
+  grid-template-rows: calc(8vw - 1px) auto;  
 }
 
 .grid-container > div{
-  border: 1px solid black;
+  border: 1px solid #200B02;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
   transition: 0.5s;
 }
    
 .grid-container > div:hover{
-  outline: 1px solid black;
+  outline: 1px solid #200B02;
   z-index: 50;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
@@ -71,7 +71,7 @@
 -------------------------------------------------------------------------------------------- */
  
 .news-container {
-  color: black;
+  color: #200B02;
   background-color: #BF0A30;
   cursor: pointer;
   background-color: ;
@@ -80,7 +80,7 @@
 
 .news-container:hover {
   color: #BF0A30;
-  background-color: white;
+  background-color: #E1DEDD;
 }
 
 .news-marquee {
@@ -96,8 +96,8 @@
   height: calc(2vw - 1px);
   display: block;
   margin: 0;
-  border-top: 1px solid black;
-  border-left: 1px solid black;  
+  border-top: 1px solid #200B02;
+  border-left: 1px solid #200B02;  
 }
 
 /* Marquee Animation Request */
@@ -134,7 +134,7 @@
   width: 49vw; /* Width of ONE element */
   height: 8vw; /* Viewable height */
   overflow: hidden;
-  color: black;
+  color: #200B02;
   background-color: #BF0A30;
 }
 
@@ -148,7 +148,7 @@
 /* Marquee Unit */
 .wri-mar-ele {
   height: calc(2vw - 1px);
-  border-top: 1px solid black;
+  border-top: 1px solid #200B02;
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
   font-size: 1.5vw;
@@ -156,7 +156,7 @@
 
 .wri-mar-ele:hover {
   color: #BF0A30;
-  background-color: white;
+  background-color: #E1DEDD;
 }
 
 /* Marquee Unit */
@@ -220,7 +220,7 @@
 .pro-mar-ele{
   width: calc(8vw - 1px);
   height: 8vw;
-  border-left: 1px solid black;
+  border-left: 1px solid #200B02;
   display: inline-block;
   float: left;
 }
@@ -248,7 +248,7 @@
   width: 49vw;
   background-color: yellow;
   color: green;
-  border: 1px solid black;
+  border: 1px solid #200B02;
   text-align: center;
   padding: 5px 0;
   box-sizing: border-box;
@@ -300,7 +300,7 @@
 }
 
 .pro-mar-ele:hover {
-  background-color: white;
+  background-color: #E1DEDD;
 } 
   
 .pro-mar-ele:hover > .projects-nav-image {
@@ -313,14 +313,14 @@
 -------------------------------------------------------------------------------------------- */  
 
 .james-container {
-  color: black;
+  color: #200B02;
   background-color: #BF0A30;
   overflow: hidden;
 }
 
 .james-container:hover {
   color: #BF0A30;
-  background-color: white;
+  background-color: #E1DEDD;
 }
 
 /* VERTICAL Marquee Start______________________________________________ */
@@ -353,7 +353,7 @@
   height: calc(2vw - 1px);
   font-size: 1.5vw;
   display: block;
-  border-top: 1px solid black;
+  border-top: 1px solid #200B02;
 }
 
 /* Marquee Animation Request */
@@ -413,8 +413,8 @@
   height: calc(2vw - 1px);
   font-size: 1.5vw;
   display: block;
-  color: white;
-  border-top: 1px solid black;
+  color: #E1DEDD;
+  border-top: 1px solid #200B02;
 }
 
 /* Marquee Animation Request */
@@ -446,7 +446,7 @@
 
 .writing-container{
   cursor: crosshair;
-  color: white;
+  color: #E1DEDD;
   background-color: #BF0A30;
 }
    
@@ -509,7 +509,7 @@ article > p {
 }
 
 .writing-container:hover > .writing-image{
-  outline: 1px solid black;
+  outline: 1px solid #200B02;
   outline-offset: -1px;
 }
  
@@ -524,12 +524,12 @@ article > p {
 .writing-container-grid::-webkit-scrollbar-track {
   background-color: ;
   cursor: ;
-  border: 1px solid black;
+  border: 1px solid #200B02;
 }
 
 /* Handle */
 .writing-container-grid::-webkit-scrollbar-thumb {
-  border: 1px solid black;
+  border: 1px solid #200B02;
   background-color: #BF0A30;
   cursor: ;
 }
@@ -546,7 +546,7 @@ article > p {
    
 .writing-container:hover{
   color: #BF0A30;
-  background-color: white;
+  background-color: #E1DEDD;
 }
 
 #next-article{
@@ -585,7 +585,7 @@ article > p {
   transform: translate(-50%, -50%);
   width: 49vw;
   height: calc(100% - 8vw);  
-  background-color: white;
+  background-color: #E1DEDD;
   transition: 1s ease;
   opacity: 0;
   outline: 2px solid;
@@ -627,7 +627,7 @@ article div.writing-image:hover > .writing-image-hover{
   padding-top: 5px;
   padding-bottom: 30px;
   background-color: #BF0A30;
-  color: white;
+  color: #E1DEDD;
   cursor: crosshair;
   overflow: auto;
   text-align: center;
@@ -638,7 +638,7 @@ article div.writing-image:hover > .writing-image-hover{
 }
 
 #project-container:hover{
-  background-color: white;
+  background-color: #E1DEDD;
   color: #BF0A30;
 }
    
@@ -700,7 +700,7 @@ article div.writing-image:hover > .writing-image-hover{
   height: 12vw;
   overflow: hidden;
   margin-left: -1vw;
-  outline: 2px solid black;
+  outline: 2px solid #200B02;
   outline-offset: -1px;
   float: left;
   margin-right: 10px;
@@ -722,7 +722,7 @@ article div.writing-image:hover > .writing-image-hover{
   background-color: #BF0A30;
   transition: 1s ease;
   opacity: 0;
-  outline: 2px solid black;
+  outline: 2px solid #200B02;
 }
 
 .project-image-hover-container {
