@@ -83,7 +83,6 @@
 }
 
 .news-marquee {
-  width: calc(2vw - 1px);
   height: 8vw;
   overflow: hidden;
   font-size: 1.5vw;
@@ -93,6 +92,8 @@
 .news-marquee-element {
   display: inline-block;
   float: left;
+  top: -1px;
+  border-left: 1px solid black;
 }
 
 .news-marquee-element > div {
@@ -100,14 +101,15 @@
   border-left: 1px solid #200B02; 
   display: block;
   margin: 0;
-  width: calc(2vw - 2px);
-  height: calc(2vw - 2px);
+  width: calc(2vw - 1px);
+  height: calc(2vw - 1px);
 }
 
 /* Marquee Animation Request */
 .news-container > .news-marquee > div { 
   -webkit-animation: news-left 2s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
+
 
 /* Marquee Animation */
 @-webkit-keyframes news-left { 
@@ -444,25 +446,25 @@
 /* Writing Section
 --------------------------------------------------------------------------------------------   */
 
-.writing-container{
+.writing-container {
   cursor: crosshair;
   color: #E1DEDD;
   background-color: #BF0A30;
 }
    
-.writing-container-grid{
+.writing-container-grid {
   height: 100%;
   display: grid;
   grid-template-columns: max-content max-content max-content;
   overflow: auto;
 }
 
-.article-margin{
+.article-margin {
   width: 2vw;
   height: 100%;
 }
 
-article{
+article {
   height: 100%;
   width: auto;
   column-fill: auto;
@@ -476,10 +478,10 @@ article{
 }
  
 article:hover {
-  column-rule: 2px solid #BF0A30;
+  column-rule: 1px solid #BF0A30;
 }
 
-.writing-titles{
+.writing-titles {
   margin-top: 10px;
   height: calc(50% - 10px);
   width: 100%;
@@ -512,8 +514,7 @@ article > p {
   outline: 1px solid #200B02;
   outline-offset: -1px;
 }
- 
-   
+
 /* width */
 .writing-container-grid::-webkit-scrollbar {
   height: 30px;
@@ -567,7 +568,7 @@ article > p {
   width: 175px;
   height: 175px;
   overflow: hidden;
-  margin-left: -15px;
+  margin-left: -16px;
   outline: 1px solid;
   outline-offset: -1px;
   float: left;
