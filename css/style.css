@@ -49,7 +49,7 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: calc(2vw - 1px) calc(49vw - 2px) calc(49vw - 1px);
+  grid-template-columns: calc(2vw - 1px) calc(49vw - 1px) calc(49vw - 1px);
   grid-template-rows: calc(8vw - 1px) auto;  
 }
 
@@ -201,8 +201,6 @@
 
 /* Marquee Container (View Size) */
 .pro-mar-con { 
-  width: 100%; /* At least the width of all combined elements */
-  height: 8vw; /* Height of ONE element */
   overflow: hidden;
   cursor: pointer;
   background-color: #BF0A30;
