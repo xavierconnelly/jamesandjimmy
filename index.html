@@ -69,42 +69,42 @@
     <div class="wri-mar-con">
       <div class="wri-mar">
         <div>
-          <div class="wri-mar-ele flatout" tabindex="0">
+          <div class="wri-mar-ele construction" tabindex="0">
             <div>Construction of an Architect</div>
-            <div>ASCA</div>
+            <div>MAS Context</div>
             <div>Upcoming</div>
           </div>
-          <div class="wri-mar-ele pidgin" tabindex="0">
+          <div class="wri-mar-ele display" tabindex="0">
             <div>Display Rooms</div>
             <div>ASCA</div>
             <div>Upcoming</div>
           </div>
-          <div class="wri-mar-ele hellohouse" tabindex="0">
+          <div class="wri-mar-ele bubble" tabindex="0">
             <div>Bubble Matter</div>
             <div>Fresh Meat</div>
             <div>2019</div>
           </div>
-          <div class="wri-mar-ele mascontext" tabindex="0">
+          <div class="wri-mar-ele whereyou" tabindex="0">
             <div>Where You Always Are</div>
             <div>Flat Out</div>
             <div>2019</div>
           </div>
-          <div class="wri-mar-ele mascontext" tabindex="0">
+          <div class="wri-mar-ele freshmeat" tabindex="0">
             <div>Fresh Meat IX</div>
             <div>Fresh Meat</div>
             <div>2017</div>
           </div>
-          <div class="wri-mar-ele pidgin" tabindex="0">
+          <div class="wri-mar-ele spectators" tabindex="0">
             <div>Spectators of Self-Deception</div>
             <div>Pidgin</div>
             <div>2017</div>
           </div>
-          <div class="wri-mar-ele something" tabindex="0">
+          <div class="wri-mar-ele fatspace" tabindex="0">
             <div>Fatspace</div>
             <div>DATUM Journal</div>
             <div>2016</div>
           </div>
-          <div class="wri-mar-ele something" tabindex="0">
+          <div class="wri-mar-ele thinktank" tabindex="0">
             <div>Urban Think-Tank</div>
             <div>Assemble Papers</div>
             <div>2016</div>
@@ -116,42 +116,42 @@
 <!---------------------------|--------------------------------->
 
         <div>
-          <div class="wri-mar-ele flatout" tabindex="0">
+          <div class="wri-mar-ele construction" tabindex="0">
             <div>Construction of an Architect</div>
-            <div>ASCA</div>
+            <div>MAS Context</div>
             <div>Upcoming</div>
           </div>
-          <div class="wri-mar-ele pidgin" tabindex="0">
+          <div class="wri-mar-ele display" tabindex="0">
             <div>Display Rooms</div>
             <div>ASCA</div>
             <div>Upcoming</div>
           </div>
-          <div class="wri-mar-ele hellohouse" tabindex="0">
+          <div class="wri-mar-ele bubble" tabindex="0">
             <div>Bubble Matter</div>
             <div>Fresh Meat</div>
             <div>2019</div>
           </div>
-          <div class="wri-mar-ele mascontext" tabindex="0">
+          <div class="wri-mar-ele whereyou" tabindex="0">
             <div>Where You Always Are</div>
             <div>Flat Out</div>
             <div>2019</div>
           </div>
-          <div class="wri-mar-ele mascontext" tabindex="0">
+          <div class="wri-mar-ele freshmeat" tabindex="0">
             <div>Fresh Meat IX</div>
             <div>Fresh Meat</div>
             <div>2017</div>
           </div>
-          <div class="wri-mar-ele pidgin" tabindex="0">
+          <div class="wri-mar-ele spectators" tabindex="0">
             <div>Spectators of Self-Deception</div>
             <div>Pidgin</div>
             <div>2017</div>
           </div>
-          <div class="wri-mar-ele something" tabindex="0">
+          <div class="wri-mar-ele fatspace" tabindex="0">
             <div>Fatspace</div>
             <div>DATUM Journal</div>
             <div>2016</div>
           </div>
-          <div class="wri-mar-ele something" tabindex="0">
+          <div class="wri-mar-ele thinktank" tabindex="0">
             <div>Urban Think-Tank</div>
             <div>Assemble Papers</div>
             <div>2016</div>
@@ -452,7 +452,7 @@
 
         <span class="article-margin"></span> 
 
-        <article class="writing-scroll">           
+        <article id="writing-scroll">           
           <div class="writing-titles">
             <span id="publisher">Flat Out #3</span> 
             <span id="year">2019</span> 
@@ -557,24 +557,29 @@
   <script>
    $(document).ready(function(){
     
-  $(".flatout").click(function(){
-    $("#writing-scroll").load("/writing/flatout.txt") .scrollLeft(0);
+  $(".construction").click(function(){
+    $("#writing-scroll").load("/writing/construction.txt") .scrollLeft(0);
+  });
+   $(".display").click(function(){
+    $("#writing-scroll").load("/writing/display.txt") .scrollLeft(0);
+  });
+   $(".bubble").click(function(){
+    $("#writing-scroll").load("/writing/bubble.txt") .scrollLeft(0);
+  });
+   $(".whereyou").click(function(){
+    $("#writing-scroll").load("/writing/whereyou.txt") .scrollLeft(0);
   });
    $(".freshmeat").click(function(){
     $("#writing-scroll").load("/writing/freshmeat.txt") .scrollLeft(0);
   });
-   $(".assemble").click(function(){
-    $("#writing-scroll").load("/writing/assemble.txt") .scrollLeft(0);
+   $(".spectators").click(function(){
+    $("#writing-scroll").load("/writing/spectators.txt").scrollLeft(0);
   });
-   $(".pidgin").click(function(){
-    $("#writing-scroll").load("/writing/pidgin.txt") .scrollLeft(0);
+   $(".fatspace").click(function(){
+    $("#writing-scroll").load("/writing/fatspace.txt") .scrollLeft(0);
   });
-   $(".mascontext").click(function(){
-    $("#writing-scroll").load("/writing/mascontext.txt") .scrollLeft(0);
-  });
-   $(".hellohouse").click(function(){
-    $("#writing-scroll").load("/writing/hellohouse.txt")
-    .scrollLeft(0);
+   $(".thinktank").click(function(){
+    $("#writing-scroll").load("/writing/thinktank.txt").scrollLeft(0);
   });
     
 
