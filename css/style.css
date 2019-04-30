@@ -55,8 +55,8 @@
 
 .grid-container > div{
   border: 1px solid black;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   transition: 0.5s;
 }
    
@@ -72,14 +72,14 @@
  
 .news-container {
   color: black;
-  background-color: red;
+  background-color: #BF0A30;
   cursor: pointer;
   background-color: ;
   overflow: hidden;
 }
 
 .news-container:hover {
-  color: red;
+  color: #BF0A30;
   background-color: white;
 }
 
@@ -135,7 +135,7 @@
   height: 8vw; /* Viewable height */
   overflow: hidden;
   color: black;
-  background-color: red;
+  background-color: #BF0A30;
 }
 
 /* Marquee */
@@ -155,7 +155,7 @@
 }
 
 .wri-mar-ele:hover {
-  color: red;
+  color: #BF0A30;
   background-color: white;
 }
 
@@ -208,7 +208,7 @@
   height: 8vw; /* Height of ONE element */
   overflow: hidden;
   cursor: pointer;
-  background-color: red;
+  background-color: #BF0A30;
 }
 
 /* Marquee */
@@ -314,12 +314,12 @@
 
 .james-container {
   color: black;
-  background-color: red;
+  background-color: #BF0A30;
   overflow: hidden;
 }
 
 .james-container:hover {
-  color: red;
+  color: #BF0A30;
   background-color: white;
 }
 
@@ -386,7 +386,7 @@
 
 /* Marquee Container - wider */
 .con-let-all {
-  background-color: red;
+  background-color: #BF0A30;
   position: fixed;
   left: 0;
   bottom: 0vw;
@@ -447,7 +447,7 @@
 .writing-container{
   cursor: crosshair;
   color: white;
-  background-color: red;
+  background-color: #BF0A30;
 }
    
 .writing-container-grid{
@@ -476,7 +476,7 @@ article{
 }
  
 article:hover {
-  column-rule: 2px solid red;
+  column-rule: 2px solid #BF0A30;
 }
 
 .writing-titles{
@@ -530,13 +530,13 @@ article > p {
 /* Handle */
 .writing-container-grid::-webkit-scrollbar-thumb {
   border: 1px solid black;
-  background-color: red;
+  background-color: #BF0A30;
   cursor: ;
 }
    
 /* Handle on hover */
 .writing-container-grid::-webkit-scrollbar-thumb:hover {
-  background-color: red; 
+  background-color: #BF0A30; 
   cursor: grab;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
@@ -545,7 +545,7 @@ article > p {
 } 
    
 .writing-container:hover{
-  color: red;
+  color: #BF0A30;
   background-color: white;
 }
 
@@ -602,14 +602,14 @@ article > p {
 
 .writing-image-hover-container > img{
   width: 100%;
-  border: 5px solid red;
+  border: 5px solid #BF0A30;
   display: inline-block;
 }
 
 #writing-image-hover-text{
   font-size:16px;
   width: 100%;
-  color: red;
+  color: #BF0A30;
   position: relative;
   display: inline-block;
 }
@@ -626,7 +626,7 @@ article div.writing-image:hover > .writing-image-hover{
   z-index: 1;
   padding-top: 5px;
   padding-bottom: 30px;
-  background-color: red;
+  background-color: #BF0A30;
   color: white;
   cursor: crosshair;
   overflow: auto;
@@ -639,7 +639,7 @@ article div.writing-image:hover > .writing-image-hover{
 
 #project-container:hover{
   background-color: white;
-  color: red;
+  color: #BF0A30;
 }
    
 .project-titles{
@@ -719,7 +719,7 @@ article div.writing-image:hover > .writing-image-hover{
   transform: translate(-50%, -50%);
   width: 49vw;
   height: calc(100% - 8vw);  
-  background-color: red;
+  background-color: #BF0A30;
   transition: 1s ease;
   opacity: 0;
   outline: 2px solid black;
