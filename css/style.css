@@ -130,9 +130,6 @@
 
 /* Marquee Container */
 .wri-mar-con {
-  z-index: 100;
-  width: 49vw; /* Width of ONE element */
-  height: 8vw; /* Viewable height */
   overflow: hidden;
   color: #200B02;
   background-color: #BF0A30;
