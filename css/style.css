@@ -1,13 +1,13 @@
  * {
   margin: 0;
-   font-family: 'Mono', monospace;
-   scroll-behavior: smooth;
+  font-family: 'Mono', monospace;
+  scroll-behavior: smooth;
 }
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1000px) {
   * {
-    font-family: 'Sans';
+  font-family: 'Sans';
   }
 }
 
@@ -30,17 +30,16 @@
 }
 
 *:focus  {
-   
    }
   
  body{
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background-image:url('/img/pres_jimmy.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-   }
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('/img/pres_jimmy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
       
    
 /* Global Grid 
@@ -55,8 +54,7 @@
 }
 
 .grid-container > div{
-  outline: 1px solid black;
-  outline-offset: -1px;
+  border: 1px solid black;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   transition: 0.5s;
@@ -200,7 +198,6 @@
   animation-play-state:paused;
   cursor: pointer;
 }
-
    
 /* Projects Navigation
 -------------------------------------------------------------------------------------------- */
@@ -244,7 +241,6 @@
   cursor: pointer;
 }
 
-
  /* pro nav tooltip  */
 
 .pro-mar-ele .pro-mar-ele-fn-note {
@@ -256,6 +252,7 @@
   text-align: center;
   padding: 5px 0;
   box-sizing: border-box;
+
   /* Position the tooltip */
   position: fixed;
   left: 51vw;
@@ -277,43 +274,6 @@
   margin-right: 10px;
 }
 
-/*
-  
-.projects-nav-text{
-   width: 8vw;
-   height: 8vw;
-   outline: 1px solid;
-   outline-offset: -1px;
-   display: flex; 
-   background-color: white;
-   position: absolute;
-   top: 0;
-   left:0;
-   opacity: 0;
-   text-align: center;
-}
-  
-.projects-nav-text > h3{
-   margin: auto; /* Important */ /*
-   padding: 1vw;
-   text-align: center; 
-   white-space: nowrap;
-   word-break: keep-all;
-   overflow: hidden;
-   color: red;
-   font-size: 1vw;
-   cursor: pointer;
-   text-overflow: ellipsis;
-}
-  
-.projects-nav-text:hover {
-   opacity: 1;
-}
-
-.pro-mar-ele:focus > .projects-nav-text{
-   opacity: 1;
-}
-*/
 
 /* Marquee Animation Request */
 .pro-mar > div { 
@@ -396,8 +356,6 @@
   border-top: 1px solid black;
 }
 
-
-
 /* Marquee Animation Request */
 .jam-let > .jam-let-mar > div { 
   -webkit-animation: james-up 4s infinite linear;
@@ -428,10 +386,10 @@
 
 /* Marquee Container - wider */
 .con-let-all {
-    background-color: red;
-    position: fixed;
-    left: 0;
-    bottom: 0vw;
+  background-color: red;
+  position: fixed;
+  left: 0;
+  bottom: 0vw;
 }
 
 /* Marquee Container */
@@ -487,9 +445,9 @@
 --------------------------------------------------------------------------------------------   */
 
 .writing-container{
-   cursor: crosshair;
-   color: white;
-   background-color: red;
+  cursor: crosshair;
+  color: white;
+  background-color: red;
 }
    
 .writing-container-grid{
@@ -587,8 +545,8 @@ article > p {
 } 
    
 .writing-container:hover{
-   color: red;
-   background-color: white;
+  color: red;
+  background-color: white;
 }
 
 #next-article{
@@ -703,16 +661,12 @@ article div.writing-image:hover > .writing-image-hover{
  outline-offset: -1px;
 }
 
-.plan{
- outline: 0px solid;
-}
-
 .project-text{
-    margin: 5px 20px 50px 0px;
-    text-align: left;
-    float: right;
-    width: calc(50% - 10px);
-    display: inline-block;
+  margin: 5px 20px 50px 0px;
+  text-align: left;
+  float: right;
+  width: calc(50% - 10px);
+  display: inline-block;
   position: relative;
 }
 
@@ -735,7 +689,7 @@ article div.writing-image:hover > .writing-image-hover{
 }
    
 #next:hover{
-  color: blue;
+  color: green;
 }
 
 /* Project Image Hover
