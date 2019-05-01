@@ -1,7 +1,20 @@
-           <div class="spacer">
-           </div>
-           <h2><b>Fresh Meat IX</b></h2><br>
-           <h4>Fake Fiction</h4><br>
-           <h6><i>Editors: Jamie Goldsborough, Juan Suarez and Jimmy</h6></i><br>
-           <p>In a moment when the very idea of reality was challenged, "Fake Fiction" offered a critical understanding of the present; a double negative disconnected from the real and its often unfathomable nature. What is presented in this journal through the term Fake Fiction is an attempt to bring into question architecture, and its representation, through a negation of its fiction. </p>
-           <p><a href="http://2014.mpavilion.org/program/dis-course-audio-walk.html:> More info</a></p>
+        <article id="writing-scroll">           
+          <div class="writing-titles">
+            <span id="publisher">Jamie Goldsborough, Juan Suarez and Jimmy</span> 
+            <span id="year">2017</span> 
+            <div id="heading">
+              <h2><b>Fresh Meat IX</b></h2><br>
+              <h4><i>Fake Fiction</i></h4><br>
+            </div>
+          </div>
+          <p>
+           In a moment when the very idea of reality was challenged, "Fake Fiction" offered a critical understanding of the present; a double negative disconnected from the real and its often unfathomable nature. What is presented in this journal through the term <i>Fake Fiction</i> is an attempt to bring into question architecture, and its representation, through a negation of its fiction.
+          </p>
+          <br>
+          <p>
+            <a href="http://www.freshmeatjournal.com/"  target="_blank"> More info </a>
+          </p>  
+          <div id="next-article" class="something">
+            Next Article: Something ➜
+          </div>
+        </article>
