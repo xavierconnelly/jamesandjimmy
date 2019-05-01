@@ -1,46 +1,15 @@
-           <div class="spacer">
-           </div>
-           <h2><b>Fatspace</b></h2><br>
-           <h4>Arabic alphabet</h4><br>
-           <h6><i>From Wikipedia, the free encyclopedia</h6></i><br>
-           <p>The Arabic alphabet (Arabic: الْأَبْجَدِيَّة الْعَرَبِيَّة‎ al-ʾabjadīyah al-ʿarabīyah, or الْحُرُوف الْعَرَبِيَّة al-ḥurūf al-ʿarabīyah) or Arabic abjad is the Arabic script as it is codified for writing Arabic. It is written from right to left in a cursive style and includes 28 letters. Most letters have contextual letterforms. Originally[citation needed], the alphabet was an abjad, with only consonants, but it is now considered an "impure abjad". As with other abjads, such as the Hebrew alphabet, scribes later devised means of indicating vowel sounds by separate vowel diacritics.</p>
-           <p>ترتيب المداخل والبطاقات في القوائم والفهارس الموضوعية
-تهدف عملية تقنين قواعد ترتيب مداخل رؤوس الموضوعات في القوائم والفهارس الموضوعية إلى سرعة الوصول إلى المداخل المطلوبة وبأقل جهد ممكن وألا ستصبح العملية مضيعة للوقت .
-ولا يتم ذلك ما لم تتوفر قواعد مقننة وملزمة وتطبق بكل دقة حتى لا تضيع البطاقات في الفهارس إذا وضعت في غير موضوعها.
-الواقع أن عملية التحليل الموضوعي ينتج عنها أعدادا كبيرة من المداخل الموضوعية مما يشكل بعض الصعوبة في ترتيبها , ولكن يزداد الأمر صعوبة في حالة المكتبات ومراكز المعلومات الكبيرة التي تحتاج إلى سيطرة كاملة على فهارسها, ومن هنا نشأت أهمية وضع قواعد محددة لترتيب المداخل في القوائم أو البطاقات في الفهارس الموضوعية يلتزم بها الجميع لتحقيق وحدة التطبيق من قبل المفهرسين والمكتبات ووحدة الإدراك من قبل المستفيدين .
-ومن أهم هذه القواعد:
-1- ترتيب المداخل في قوائم رؤوس الموضوعات والبطاقات في الفهارس الموضوعية طبقا للترتيب الهجائي الالفبائي المتعارف عليه في حروف اللغة العربية ولا يجب الخلط بين الترتيب الهجائي والالفبائي المتعارف عليه في اللغة العربية وبين الترتيب الأبجدي الذي لم يعد مستخدم إلا نادرا وغالبا في ترقيم صفحات مقدمات الكتب والترتيب الهجائي الالفبائي ينقسم إلى قسمين:
-*- الترتيب المشرقي : وهو المعروف في مصر ومعظم دول الخليج وهو : أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي .
-*- الترتيب المغربي : وهو المستخدم في المغرب العربي وهو : أ ب ت ث ج ح خ د ذ ر ز ط ظ ك ل م ن ص ض ع غ ف ق س ش هـ و ى.
-*- أما الترتيب ال</p>
-           <p>
-2- ترتيب المداخل طبقا لطريقة ((كلمة بكلمة)) وليس ((حرف بحرف)) لان الطريقة الأولى أكثر شيوعا وأفضل في الترتيب لأنها تحافظ على تتابع الموضوعات المتصلة ببعضها البعض ولا يشتتها في القائمة أو الفهرس وعلى أي حال لتتخذ المكتبة الطريقة التي تناسبها ولكن على شرط الثبات في التنفيذ على طول الخط.
- في حالة تعددها طبقا للاتي :
-التفريعات الوجهيه – التفريعات الجغرافية – التفريعات الزمنية – التفريعات الشكلية وبطبيعة الحال يأتي الرأس الخالي من التفريعات أولا ؛ أمثلة :
-* البترول
-* البترول – اقتصاديات
-* البترول اقتصاديات – مصر
-* البترول اقتصاديات – مصر – 1980 – 1990 م
-* البترول اقتصاديات – مصر 1980 - 1990م – دوريات 
-أما التفريعات الزمنية فترتب ترتيبا تصاعديا بحيث</p>
-           <p>C
-2- ترتيب المداخل طبقا لطريقة ((كلمة بكلمة)) وليس ((حرف بحرف)) لان الطريقة الأولى أكثر شيوعا وأفضل في الترتيب لأنها تحافظ على تتابع الموضوعات المتصلة ببعضها البعض ولا يشتتها في القائمة أو الفهرس وعلى أي حال لتتخذ المكتبة الطريقة التي تناسبها ولكن على شرط الثبات في التنفيذ على طول الخط.
-
-
- ترتيب التفريعات الخاصة بالموضوع هجائيا ؛ أمثلة :
-* الأدب العربي – جمعيات
-* الأدب العربي – دوائر معارف
-* الأدب العربي – دوريات
-أما في حالة التفريعات الزمنية فترتب طبقا لتاريخها وترتيبها الزمني ؛ أمثلة :
-* الأدب العربي – العصر الجاهلي
-* الأدب العربي – عصر صدر الإسلام
-* الأدب العربي – العصر الأموي
-
-4 – ترتيب تفريعات رأس الموضوعالموضوع في حالة تعددها طبقا للاتي :
-التفريعات الوجهيه – التفريعات الجغرافية – التفريعات الزمنية – التفريعات الشكلية وبطبيعة الحال يأتي الرأس الخالي من التفريعات أولا ؛ أمثلة :
-* البترول
-* البترول – اقتصاديات
-* البترول اقتصاديات – مصر
-* البترول اقتصاديات – مصر – 1980 – 1990 م
-* البترول اقتصاديات – مصر 1980 - 1990م – دوريات 
-أما التفريعات الزمنية فترتب ترتيبا تصاعديا بحيث</p>
+        <article id="writing-scroll">           
+          <div class="writing-titles">
+            <span id="publisher">DATUM Journal #9</span> 
+            <span id="year">2017</span> 
+            <div id="heading">
+              <h2><b>Fatspace</b></h2><br>
+            </div>
+          </div>
+          <p>
+           With the increase in door to door deliveries of easily accessible commodities and the resulting enlargement of storage spaces in households, the relationship between the private domain and the public realm is set to augment. The concept of the threshold is being constantly degraded by the incursion of all our commodities now bought online. In addition to the door, other fundamental interfaces such as the elevator, the lobby, the gate, and the sidewalk, are being challenged by the distribution of deliverables to our desired destination. Last mile delivery has become the last fifty-yard traffic jam, as analog reliant building interfaces struggle to deal with the digital driven entrance of goods. Maintaining the safety of our prized symbols of significance—commodities—yet able to function as an efficient mediated interface, the once fundamental spatial mechanism of the threshold must transform into <i>fatspace.</i>
+          </p>
+          <div id="next-article" class="something">
+            Next Article: Something ➜
+          </div>
+        </article>
