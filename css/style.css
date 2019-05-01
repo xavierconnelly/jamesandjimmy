@@ -81,6 +81,14 @@
 /* Bio
 -------------------------------------------------------------------------------------------- */
 
+#bio{
+background: #200B02;
+color: #E1DEDD;
+  padding: 10px;
+  font-family: arial;
+  font-size: 24px;
+  text-align: left;
+}
 
 .closebtn{
   float: right;
