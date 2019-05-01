@@ -585,6 +585,10 @@
   <script>
    $(document).ready(function(){
     
+  $( function() {
+    $( document ).tooltip();
+  } );
+    
   $(".construction").click(function(){
     $("#writing-scroll").load("/writing/constructionOfAnArchitect.txt");
     $(".writing-container-grid").scrollLeft(0);
