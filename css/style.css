@@ -494,6 +494,10 @@ article {
   text-align: justify;
   text-align-last: start;
 }
+
+article > a{
+  color: inherit;
+}
  
 article:hover {
   column-rule: 1px solid #BF0A30;
