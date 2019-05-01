@@ -32,6 +32,10 @@
 *:focus  {
    }
 
+a{
+  color: inherit;
+}
+
 ::selection{
   cursor: text;
   color: #E1DEDD;
