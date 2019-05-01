@@ -236,7 +236,7 @@
   overflow: hidden;
 }
   
-.projects-nav-image{
+.pro-mar-ele > img{
   width: 6vw;
   height: 6vw;
   outline: 1px solid;
@@ -249,20 +249,18 @@
  /* pro nav tooltip  */
 
 .pro-mar-ele .pro-mar-ele-fn-note {
-  visibility: visible;
+  visibility: hidden;
   width: 49vw;
-  background-color: yellow;
-  color: green;
-  border: 1px solid #200B02;
+  color: #E1DEDD;
+  background-color: #200B02;
+  border: 1px solid #E1DEDD;
   text-align: center;
   padding: 5px 0;
-  box-sizing: border-box;
-
   /* Position the tooltip */
   position: fixed;
   left: 51vw;
   top: 8vw;
-  z-index: 200;
+  z-index: 1;
 }
 
 .pro-mar-ele:hover .pro-mar-ele-fn-note {
@@ -278,7 +276,6 @@
   float: right;
   margin-right: 10px;
 }
-
 
 /* Marquee Animation Request */
 .pro-mar > div { 
