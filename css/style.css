@@ -272,7 +272,7 @@
 }
 
 /* Marquee Animation Request */
-.pro-mar.unit { 
+.pro-mar-unit { 
   -webkit-animation: projects-left 42s infinite linear;
 }
 
