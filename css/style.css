@@ -482,16 +482,17 @@
 }
 
 article {
-  height: 100%;
+  height: calc(100% - 20px);
   width: auto;
+  margin-top: 10px;
   column-fill: auto;
   column-width: 300px;
+  column-gap: 30px;
+  column-rule: 1px solid;
   font-size: 14px;
   line-height: 20px;
   text-align: justify;
   text-align-last: start;
-  column-gap: 30px;
-  column-rule: 1px solid;
 }
  
 article:hover {
@@ -508,6 +509,7 @@ article:hover {
 
 #publisher {
   float: left;
+  width: 50%;
 }
 
 #year {
@@ -585,7 +587,7 @@ article > p {
   width: 175px;
   height: 175px;
   overflow: hidden;
-  margin-left: -16px;
+  margin-left: -15px;
   outline: 1px solid;
   outline-offset: -1px;
   float: left;
@@ -606,7 +608,8 @@ article > p {
   background-color: #E1DEDD;
   transition: 1s ease;
   opacity: 0;
-  outline: 2px solid;
+  outline: 1px solid;
+  outline-offset: -1px;
 }
 
 .writing-image-hover-container {
