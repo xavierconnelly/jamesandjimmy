@@ -57,11 +57,11 @@
   border: 1px solid #200B02;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
-  transition: 0.5s;
+  transition: 0s;
 }
    
 .grid-container > div:hover{
-  outline: 1px solid #200B02;
+  outline: 2px solid #200B02;
   z-index: 50;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
@@ -70,43 +70,49 @@
 /* News Navigation
 -------------------------------------------------------------------------------------------- */
  
+/* News Navigation
+-------------------------------------------------------------------------------------------- */
+
 .news-container {
   color: #200B02;
   background-color: #BF0A30;
   cursor: pointer;
   overflow: hidden;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  text-align: center;
+  height: 8vw;
+  width: 2vw;
+  border: 1px solid;
 }
 
 .news-container:hover {
   color: #BF0A30;
   background-color: #E1DEDD;
 }
-
-.news-marquee {
-  height: 8vw;
-  overflow: hidden;
-  font-size: 1.5vw;
-  text-align: center;
-}
    
-.news-marquee-element {
+.news-marquee{
   display: inline-block;
-  float: left;
-  top: -1px;
-  border-left: 1px solid black;
+  width: 4vw; /* important ~ double element size */
 }
 
-.news-marquee-element > div {
-  border-top: 1px solid #200B02;
-  border-left: 1px solid #200B02; 
+.news-marquee-element {
+  float: left;
+  width: 2vw;
+  display: inline-block;
+  outline: 1px solid;
+}
+
+.news-letter {
   display: block;
   margin: 0;
-  width: calc(2vw - 1px);
-  height: calc(2vw - 1px);
+  width: 2vw;
+  height: 2vw;
+  outline: 1px solid;
 }
 
 /* Marquee Animation Request */
-.news-container > .news-marquee > div { 
+.news-marquee-element { 
   -webkit-animation: news-left 2s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
@@ -122,7 +128,7 @@
 }
 
 /* Marquee Animation Pause */
-.news-container:hover > .news-marquee > div { 
+.news-container:hover > .news-marquee > span { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
