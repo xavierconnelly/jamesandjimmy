@@ -272,12 +272,12 @@
 }
 
 /* Marquee Animation Request */
-.pro-mar > div { 
-  -webkit-animation: animation-name 42s infinite linear;
+.pro-mar.unit { 
+  -webkit-animation: projects-left 42s infinite linear;
 }
 
 /* Marquee Animation */
-@-webkit-keyframes animation-name {
+@-webkit-keyframes projects-left {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -298,11 +298,6 @@
 .pro-mar-ele:hover {
   background-color: #E1DEDD;
 } 
-  
-.pro-mar-ele:hover > .projects-nav-image {
-  outline: 1px solid;
-  outline-offset: -1px;
-}
 
 /* James Navigation
 -------------------------------------------------------------------------------------------- */  
