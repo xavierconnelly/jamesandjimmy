@@ -68,7 +68,6 @@
 }
    
 .grid-container > div:hover{
-  outline: 2px solid #200B02;
   z-index: 10;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
@@ -111,8 +110,8 @@
   margin: 0;
   width: calc(2vw - 1px);
   height: calc(2vw - 1px);
-  border-left: 1px solid;
-  border-top: 1px solid;
+  border-left: 1px solid #200B02;
+  border-top: 1px solid #200B02;
   font-size: 1.5vw;
   line-height: calc(2vw - 1px);
 }
@@ -264,7 +263,31 @@
   z-index: 1;
 }
 
-.anAdditionForThree, .aCertainKindOfLife, .aBigSalad, .corbusier, .aHouseForOne, .aRoomForKaraoke, .aThesis {
+.anAdditionForThree:hover{
+   visibility: visible;
+}
+
+.aCertainKindOfLife{
+   visibility: visible;
+}
+
+.aBigSalad{
+   visibility: visible;
+}
+
+.corbusier{
+   visibility: visible;
+}
+
+.aHouseForOne{
+   visibility: visible;
+}
+
+.aRoomForKaraoke{
+   visibility: visible;
+}
+
+.aThesis {
   visibility: visible;
 }
 
