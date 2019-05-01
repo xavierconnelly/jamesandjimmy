@@ -82,7 +82,7 @@
   cursor: pointer;
   overflow: hidden;
   text-align: center;
-  z-index: 6;
+  z-index: 11;
 }
 
 .news-container:hover {
@@ -568,9 +568,7 @@ article > p {
 
 /* Track */
 .writing-container-grid::-webkit-scrollbar-track {
-  background-color: ;
-  cursor: ;
-  border: 1px solid #200B02;
+  border-top: 1px solid #200B02;
 }
 
 /* Handle */
