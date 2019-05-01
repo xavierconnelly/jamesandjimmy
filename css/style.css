@@ -4,10 +4,6 @@
   scroll-behavior: smooth;
 }
 
-::selection{
-background: yellow;
-}
-
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1000px) {
   * {
@@ -35,7 +31,13 @@ background: yellow;
 
 *:focus  {
    }
-  
+
+::selection{
+  cursor: text;
+  color: #BF0A30;
+  background-color: #E1DEDD;
+}
+
  body {
   width: 100vw;
   height: 100vh;
@@ -493,12 +495,6 @@ article:hover {
   column-rule: 1px solid #BF0A30;
 }
 
-article::selection {
-  cursor: text;
-  color: #BF0A30;
-  background-color: #E1DEDD;
-}
-
 .writing-titles {
   margin-top: 10px;
   height: calc(50% - 10px);
@@ -653,12 +649,6 @@ article div.writing-image:hover > .writing-image-hover{
   cursor: crosshair;
   overflow: auto;
   text-align: center;
-}
-
-#project-container::selection {
-  cursor: text;
-  color: #BF0A30;
-  background-color: #E1DEDD;
 }
 
 #project-container::-webkit-scrollbar{
