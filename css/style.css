@@ -461,7 +461,7 @@
   cursor: crosshair;
   color: #E1DEDD;
   background-color: #BF0A30;
-  z-index: 6;
+  z-index: 11;
 }
 
 .writing-container-grid {
