@@ -63,7 +63,7 @@
    
 .grid-container > div:hover{
   outline: 2px solid #200B02;
-  z-index: 50;
+  z-index: 10;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
@@ -143,7 +143,7 @@
   color: #200B02;
   background-color: #BF0A30;
   overflow: hidden;
-  z-index: 4;
+  z-index: 15;
 }
 
 /* Marquee */
