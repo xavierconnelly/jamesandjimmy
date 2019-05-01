@@ -455,12 +455,6 @@
   background-color: #BF0A30;
 }
 
-.writing-container::selection {
-  cursor: text;
-  color: #BF0A30;
-  background-color: #E1DEDD;
-}
-
 .writing-container-grid {
   height: 100%;
   display: grid;
@@ -493,6 +487,12 @@ article > a{
  
 article:hover {
   column-rule: 1px solid #BF0A30;
+}
+
+article::selection {
+  cursor: text;
+  color: #BF0A30;
+  background-color: #E1DEDD;
 }
 
 .writing-titles {
