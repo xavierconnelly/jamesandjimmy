@@ -249,7 +249,7 @@
 
  /* pro nav tooltip  */
 
-.pro-mar-ele .pro-mar-ele-fn-note {
+.pro-mar-ele + div {
   visibility: hidden;
   width: 49vw;
   color: #E1DEDD;
@@ -264,9 +264,10 @@
   z-index: 1;
 }
 
-.pro-mar-ele:hover .pro-mar-ele-fn-note {
+.pro-mar-ele:hover + div {
   visibility: visible;
 }
+
 
 .project-title{
   float: left;
