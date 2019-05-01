@@ -1,6 +1,6 @@
         <article id="writing-scroll">           
           <div class="writing-titles">
-            <span id="publisher">Assemble Papers Issue 5: The Ecological Age</span> 
+            <span id="publisher">Assemble Papers <br> Issue 5: <br> The Ecological Age</span> 
             <span id="year">2016</span> 
             <div id="heading">
               <h2><b>Urban Think-Tank</b></h2><br>
