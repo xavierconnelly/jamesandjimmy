@@ -211,9 +211,9 @@
 
 /* Marquee Container (View Size) */
 .pro-mar-con { 
-  overflow: hidden;
   cursor: pointer;
   background-color: #BF0A30;
+  z-index: -10;
 }
 
 /* Marquee */
@@ -228,12 +228,6 @@
   border-left: 1px solid #200B02;
   display: inline-block;
   float: left;
-}
-
-.projects-nav-image > img{
-  width: 6vw;
-  height: 6vw;
-  overflow: hidden;
 }
   
 .pro-mar-ele > img{
@@ -646,7 +640,7 @@ article div.writing-image:hover > .writing-image-hover{
 
 #project-container{
   font-size: 1em;
-  z-index: 1;
+  z-index: -11;
   padding-top: 5px;
   padding-bottom: 30px;
   background-color: #BF0A30;
