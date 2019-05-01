@@ -321,11 +321,6 @@
   overflow: hidden;
 }
 
-.james-container:hover {
-  color: #BF0A30;
-  background-color: #E1DEDD;
-}
-
 /* VERTICAL Marquee Start______________________________________________ */
 
 /* Marquee Container - wider */
@@ -333,6 +328,12 @@
   width: 2vw;
   height: calc(100% - 8vw);
   overflow: hidden;
+  z-index: 1;
+}
+
+.jam-let-all:hover {
+  color: #BF0A30;
+  background-color: #E1DEDD;
 }
 
 /* Marquee Container */
@@ -394,6 +395,12 @@
   position: fixed;
   left: 0;
   bottom: 0vw;
+  z-index: 10;
+}
+
+.con-let-all:hover {
+  color: #BF0A30;
+  background-color: #E1DEDD;
 }
 
 /* Marquee Container */
@@ -501,7 +508,7 @@ article:hover {
 
 #heading {
   font-size: 1.5em;
-  line-height: 1em;
+  line-height: 2em;
   position: absolute;
   bottom: 0;
   left: 0;
