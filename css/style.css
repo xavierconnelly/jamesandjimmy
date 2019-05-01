@@ -143,6 +143,7 @@
   color: #200B02;
   background-color: #BF0A30;
   overflow: hidden;
+  z-index: 4;
 }
 
 /* Marquee */
@@ -210,10 +211,10 @@
 -------------------------------------------------------------------------------------------- */
 
 /* Marquee Container (View Size) */
-.pro-mar-con { 
+.pro-mar-con {
   cursor: pointer;
   background-color: #BF0A30;
-  z-index: -10;
+  z-index: 3;
 }
 
 /* Marquee */
@@ -237,7 +238,6 @@
   outline-offset: -1px;
   margin: 1vw;
   overflow: hidden;
-  cursor: pointer;
 }
 
  /* pro nav tooltip  */
@@ -640,7 +640,7 @@ article div.writing-image:hover > .writing-image-hover{
 
 #project-container{
   font-size: 1em;
-  z-index: -11;
+  z-index: 2;
   padding-top: 5px;
   padding-bottom: 30px;
   background-color: #BF0A30;
