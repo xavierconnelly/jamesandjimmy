@@ -110,7 +110,7 @@
 
 /* Marquee Animation Request */
 .news-marquee-element { 
-  -webkit-animation: news-left 2s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+  -webkit-animation: news-left 4s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
 
@@ -182,7 +182,7 @@
 
 /* Marquee Animation Request */
 .wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 10s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+  -webkit-animation: wri-up 16s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
 /* Marquee Animation */
@@ -280,7 +280,7 @@
 
 /* Marquee Animation Request */
 .pro-mar > div { 
-  -webkit-animation: animation-name 36s infinite linear;
+  -webkit-animation: animation-name 42s infinite linear;
 }
 
 /* Marquee Animation */
@@ -402,6 +402,7 @@
   bottom: 0vw;
   z-index: 10;
   border-top: 1px solid #200B02;
+  cursor: pointer;
 }
 
 .con-let-all:hover {
