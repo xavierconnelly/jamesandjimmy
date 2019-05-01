@@ -51,15 +51,19 @@
 /* Global Grid 
 -------------------------------------------------------------------------------------------- */
    
-.grid-container {
+#grid-container {
   height: 100vh;
-  width: 100vw;
+  width: 149vw;
+  position: fixed;
+  left: -49vw;
   display: grid;
-  grid-template-columns: calc(2vw) calc(49vw) calc(49vw);
-  grid-template-rows: calc(8vw) auto;  
+  grid-template-columns: 49vw 2vw 49vw 49vw;
+  grid-template-rows: 8vw auto;
+  text-align: center;
+  transition: 1s;
 }
 
-.grid-container > div {
+#grid-container > div {
   border-right: 1px solid #200B02;
   border-top: 1px solid #200B02;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
@@ -67,7 +71,7 @@
   transition: 0s;
 }
    
-.grid-container > div:hover{
+#grid-container > div:hover{
   z-index: 10;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
