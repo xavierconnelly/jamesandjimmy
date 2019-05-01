@@ -455,7 +455,7 @@
   background-color: #BF0A30;
 }
 
-.writing-container:selection {
+.writing-container::selection {
   cursor: text;
   color: #BF0A30;
   background-color: #E1DEDD;
@@ -651,7 +651,7 @@ article div.writing-image:hover > .writing-image-hover{
   text-align: center;
 }
 
-#project-container:selection {
+#project-container::selection {
   cursor: text;
   color: #BF0A30;
   background-color: #E1DEDD;
