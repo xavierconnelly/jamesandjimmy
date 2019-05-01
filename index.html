@@ -551,10 +551,10 @@
             ★
           </p>
           <div>
-            <a href="/img/jcarter.house.01.jpg" target="_blank">
-            [ DOWNLOAD PDF ]</a></div>
-          <div id="next-article" class="aThesis">
-            Next Article: Hello ⇰
+            <a href="/img/jcarter.house.01.jpg" download="ArticleName">[ DOWNLOAD PDF ]</a>
+          </div>
+          <div id="next-article" class="something">
+            Next Article: Something ➜
           </div>
         </article>
 
@@ -602,28 +602,36 @@
    $(document).ready(function(){
     
   $(".construction").click(function(){
-    $("#writing-scroll").load("/writing/constructionOfAnArchitect.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/constructionOfAnArchitect.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".display").click(function(){
-    $("#writing-scroll").load("/writing/displayRooms.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/displayRooms.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".bubble").click(function(){
-    $("#writing-scroll").load("/writing/bubbleMatter.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/bubbleMatter.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".whereyou").click(function(){
-    $("#writing-scroll").load("/writing/whereYouAlwaysAre.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/whereYouAlwaysAre.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".freshmeat").click(function(){
-    $("#writing-scroll").load("/writing/freshMeat.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/freshMeat.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".spectators").click(function(){
-    $("#writing-scroll").load("/writing/spectatorsOfSelfDeception.txt").scrollLeft(0);
+    $("#writing-scroll").load("/writing/spectatorsOfSelfDeception.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".fatspace").click(function(){
-    $("#writing-scroll").load("/writing/fatspace.txt") .scrollLeft(0);
+    $("#writing-scroll").load("/writing/fatspace.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
    $(".thinktank").click(function(){
-    $("#writing-scroll").load("/writing/urbanThinkTank.txt").scrollLeft(0);
+    $("#writing-scroll").load("/writing/urbanThinkTank.txt");
+    $(".writing-container-grid").scrollLeft(0);
   });
     
 
