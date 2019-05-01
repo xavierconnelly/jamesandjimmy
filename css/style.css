@@ -83,6 +83,7 @@
   cursor: pointer;
   overflow: hidden;
   text-align: center;
+  z-index: 6;
 }
 
 .news-container:hover {
@@ -459,6 +460,7 @@
   cursor: crosshair;
   color: #E1DEDD;
   background-color: #BF0A30;
+  z-index: 6;
 }
 
 .writing-container-grid {
