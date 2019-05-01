@@ -269,6 +269,7 @@ color: #E1DEDD;
   cursor: pointer;
   background-color: #BF0A30;
   z-index: 3;
+  overflow-x: hidden;
 }
 
 /* Marquee */
