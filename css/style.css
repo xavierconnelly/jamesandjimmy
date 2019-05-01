@@ -249,12 +249,12 @@
 
  /* pro nav tooltip  */
 
-.pro-mar-ele + div {
+.pro-mar-ele-fn-note {
   visibility: hidden;
   width: 49vw;
-  color: #E1DEDD;
-  background-color: #200B02;
-  border: 1px solid #E1DEDD;
+  color: #200B02;
+  background-color: #E1DEDD;
+  border: 1px solid #200B02;
   text-align: center;
   padding: 5px 0;
   /* Position the tooltip */
@@ -264,14 +264,17 @@
   z-index: 1;
 }
 
-.pro-mar-ele:hover + div {
+.anAdditionForThree, .aCertainKindOfLife, .aBigSalad, .corbusier, .aHouseForOne, .aRoomForKaraoke, .aThesis {
   visibility: visible;
 }
-
 
 .project-title{
   float: left;
   margin-left: 10px;
+  width: 24vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .project-details{
