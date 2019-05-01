@@ -454,7 +454,13 @@
   color: #E1DEDD;
   background-color: #BF0A30;
 }
-   
+
+.writing-container:selection {
+  cursor: text;
+  color: #BF0A30;
+  background-color: #E1DEDD;
+}
+
 .writing-container-grid {
   height: 100%;
   display: grid;
@@ -643,6 +649,12 @@ article div.writing-image:hover > .writing-image-hover{
   cursor: crosshair;
   overflow: auto;
   text-align: center;
+}
+
+#project-container:selection {
+  cursor: text;
+  color: #BF0A30;
+  background-color: #E1DEDD;
 }
 
 #project-container::-webkit-scrollbar{
