@@ -54,7 +54,8 @@
 }
 
 .grid-container > div {
-  border: 1px solid #200B02;
+  border-right: 1px solid #200B02;
+  border-top: 1px solid #200B02;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
   transition: 0s;
@@ -76,9 +77,6 @@
   cursor: pointer;
   overflow: hidden;
   text-align: center;
-  height: 8vw;
-  width: 2vw;
-  border: 1px solid;
 }
 
 .news-container:hover {
@@ -95,6 +93,10 @@
   float: left;
   width: 2vw;
   display: inline-block;
+}
+
+.news-letter  > div:first-child {
+  border-top: 0px solid;
 }
 
 .news-letter {
