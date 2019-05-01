@@ -69,17 +69,12 @@
    
 /* News Navigation
 -------------------------------------------------------------------------------------------- */
- 
-/* News Navigation
--------------------------------------------------------------------------------------------- */
 
 .news-container {
   color: #200B02;
   background-color: #BF0A30;
   cursor: pointer;
   overflow: hidden;
-  font-size: 1.5vw;
-  line-height: 2vw;
   text-align: center;
   height: 8vw;
   width: 2vw;
@@ -100,15 +95,17 @@
   float: left;
   width: 2vw;
   display: inline-block;
-  outline: 1px solid;
 }
 
 .news-letter {
   display: block;
   margin: 0;
-  width: 2vw;
-  height: 2vw;
-  outline: 1px solid;
+  width: calc(2vw - 1px);
+  height: calc(2vw - 1px);
+  border-left: 1px solid;
+  border-top: 1px solid;
+  font-size: 1.5vw;
+  line-height: calc(2vw - 1px);
 }
 
 /* Marquee Animation Request */
@@ -135,7 +132,6 @@
   animation-play-state:paused;
   cursor: pointer;
 }
-
 
 /* Writing Navigation
 --------------------------------------------------------------------------------------------*/
