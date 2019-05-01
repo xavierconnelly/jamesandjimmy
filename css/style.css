@@ -76,7 +76,39 @@
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
-   
+
+
+/* Bio
+-------------------------------------------------------------------------------------------- */
+
+
+.closebtn{
+  float: right;
+}
+
+#jamesnews{
+  font-size: 16px;
+  padding-top: 50px;
+}
+
+#jamesnews span{
+  color: red;
+}
+
+#jamesnews p{
+  padding-top: 20px;
+}
+
+#jamesbio{
+  padding-top: 100px;
+  border-top: 2px solid red;
+}
+
+#jamescontact{
+  padding-top: 100px;
+  border-top: 2px solid red;
+}
+
 /* News Navigation
 -------------------------------------------------------------------------------------------- */
 
