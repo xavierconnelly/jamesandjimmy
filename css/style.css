@@ -474,7 +474,7 @@ color: #E1DEDD;
   background-color: #BF0A30;
   position: fixed;
   left: 0;
-  bottom: 0vw;
+  top: calc(100vh - 22vw);
   z-index: 10;
   border-top: 1px solid #200B02;
   cursor: pointer;
