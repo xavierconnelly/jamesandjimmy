@@ -1,13 +1,11 @@
-        <article id="writing-scroll">           
-          <div class="writing-titles">
-            <span id="publisher">ASCA 2018 Fall Conference (Play with the Rules)</span> 
-            <span id="year">Upcoming</span> 
-            <div id="heading">
-              <h2><b>Display Rooms</b></h2><br>
-            </div>
-          </div>
+        <div class="writing-titles">
+          <span id="publisher">ASCA 2018 <br> Fall Conference <br> (Play with the Rules)</span> 
+          <span id="year">Upcoming</span> 
+          <div id="heading">Display Rooms<br></div>
+        </div>
+        <article id="writing-scroll">  
           <p>
-           For both the home and the exhibition, the room can be recognized as a space constructed by its content. The domestic room contrasts with the exhibition room, whose content is disseminated, produced, and received through a much wider set of ‘channels’ and media. Unfolding an analysis of the contemporary exhibition room through the 2017 Chicago Architecture Biennial and its family tree, it can be argued that the role of the exhibition has begun to impact contemporary architecture’s concept of the room; a result of conflating the room of the project with the room of the exhibition. 
+           For both the home and the exhibition, the room can be recognized as a space constructed by its content. The domestic room contrasts with the exhibition room, whose content is disseminated, produced, and received through a much wider set of ‘channels’ and media. Unfolding an analysis of the contemporary exhibition room through the 2017 Chicago Architecture Biennial and its family tree, it can be argued that the role of the exhibition has begun to impact contemporary architecture’s concept of the room; a result of conflating the room of the project with the room of the exhibition. ★
           </p>
           <div id="next-article" class="something">
             Next Article: Something ➜
