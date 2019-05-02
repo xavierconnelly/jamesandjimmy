@@ -90,7 +90,6 @@ a{
   color: #200B02;
   padding: 20px;
   font-size: 16px;
-  padding-top: 50px;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -99,13 +98,16 @@ a{
  display: none;
 }
 
-
 #jamesnews span{
   color: red;
 }
 
 #jamesnews p{
   padding-top: 20px;
+}
+
+#jamesnews p:first-child{
+  padding-top: 0px;
 }
 
 
