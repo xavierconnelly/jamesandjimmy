@@ -86,7 +86,7 @@ a{
 
 #jamesnews{
   background: #BF0A30;
-  color: #E1DEDD;
+  color: #200B02;
   text-align: left;
   padding: 20px;
   font-size: 16px;
@@ -104,7 +104,11 @@ a{
 }
 
 #jamesnews span{
-  color: red;
+  color: #E1DEDD;
+}
+
+#jamesnews:hover span{
+  color: #BF0A30;
 }
 
 #jamesnews p{
@@ -121,7 +125,7 @@ a{
 
 #bio {
   background: #BF0A30;
-  color: #E1DEDD;
+  color:  #200B02;
   padding: 20px;
   font-family: arial;
   font-size: 24px;
@@ -149,7 +153,7 @@ a{
 }
 
 #jamescontact{
-  border-top: 2px solid #200B02;
+  border-top: 2px solid;
   padding-top: 50px;
 }
 
