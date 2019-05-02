@@ -583,6 +583,7 @@ a{
   background-color: #BF0A30;
   z-index: 11;
   overflow: auto;
+  margin: 20px;
 }
 
 .writing-container:hover {
@@ -599,19 +600,13 @@ a{
  display: none;
 }
 
-.writing-container-grid {
-  margin-top: 50px;
-  margin: 20px;
-}
-
 .writing-titles {
   display: block;
-  height: 300px;
+  border-bottom: 2px solid;
 }
 
 #publisher {
   float: left;
-  width: 60%;
 }
 
 #year {
@@ -629,7 +624,7 @@ a{
 }
 
 article {
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
