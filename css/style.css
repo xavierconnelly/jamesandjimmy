@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   font-family: 'Mono', monospace;
   scroll-behavior: smooth;
@@ -52,8 +52,8 @@ a{
 }
       
    
-/* Global Grid 
--------------------------------------------------------------------------------------------- */
+/* Global Grid ________________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
    
 #grid-container {
   height: 100vh;
@@ -81,8 +81,8 @@ a{
   filter: grayscale(0%);
 }
 
-/* News
--------------------------------------------------------------------------------------------- */
+/* News _______________________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/
 
 #jamesnews{
   background: #BF0A30;
@@ -120,8 +120,8 @@ a{
 }
 
 
-/* Bio
--------------------------------------------------------------------------------------------- */
+/* Bio ________________________________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/  
 
 #bio {
   background: #BF0A30;
@@ -157,8 +157,8 @@ a{
   padding-top: 50px;
 }
 
-/* News Navigation
--------------------------------------------------------------------------------------------- */
+/* News Navigation ____________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
 
 .news-container {
   color: #200B02;
@@ -226,8 +226,8 @@ a{
   cursor: pointer;
 }
 
-/* Writing Navigation
---------------------------------------------------------------------------------------------*/
+/* Writing Navigation _________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
 
 /* Marquee Container */
 .wri-mar-con {
@@ -298,8 +298,8 @@ a{
   cursor: pointer;
 }
    
-/* Projects Navigation
--------------------------------------------------------------------------------------------- */
+/* Projects Navigation ________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
 
 /* Marquee Container (View Size) */
 .pro-mar-con {
@@ -420,8 +420,9 @@ a{
   background-color: #E1DEDD;
 } 
 
-/* James Navigation
--------------------------------------------------------------------------------------------- */  
+/* James Navigation____________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
+
 
 .james-container {
   color: #200B02;
@@ -433,7 +434,8 @@ a{
   text-decoration: none;
 }
 
-/* VERTICAL Marquee Start______________________________________________ */
+/* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________________________*/  
 
 /* Marquee Container - wider */
 .jam-let-all {
@@ -503,7 +505,8 @@ a{
 */
 
 
-/* VERTICAL Marquee Start______________________________________________ */
+/* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________________________*/
 
 /* Marquee Container - wider */
 .con-let-all {
@@ -571,38 +574,38 @@ a{
   cursor: pointer;
 }
 
-/* Writing Section
---------------------------------------------------------------------------------------------   */
+/* Writing Section _________________________________________________________________________________________________________   */
+/* ____________________________________________________________________________________________________________________________*/
+
 
 .writing-container {
-  cursor: crosshair;
   color: #E1DEDD;
   background-color: #BF0A30;
   z-index: 11;
 }
 
+.writing-container::-webkit-scrollbar{
+ display: none;
+}
+
 .writing-container-grid {
   height: 100%;
   display: grid;
-  grid-template-columns: max-content max-content max-content;
   overflow: auto;
 }
 
 .article-margin {
   width: 2vw;
   height: 100%;
+  display: none;
 }
 
 article {
-  height: calc(100% - 20px);
-  width: auto;
+  margin-top: 100px;
+  width: 70%;
   margin-top: 10px;
-  column-fill: auto;
-  column-width: 300px;
-  column-gap: 30px;
-  column-rule: 1px solid;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 24px;
+  line-height: 28px;
   text-align: justify;
   text-align-last: start;
 }
@@ -610,17 +613,13 @@ article {
 article > a{
   color: inherit;
 }
- 
-article:hover {
-  column-rule: 1px solid #BF0A30;
-}
 
 .writing-titles {
-  margin-top: 10px;
+  margin-top: 50px;
   height: calc(50% - 10px);
   width: 100%;
   display: block;
-  position: relative;
+  position: absolute;
   text-align: left;
 }
 
@@ -642,7 +641,7 @@ article:hover {
 } 
 
 article > p {
-  font-family: arial;
+  font-family: ;
   margin-block-end: 10px;
 }
 
@@ -695,8 +694,9 @@ article > p {
   color: blue;
 }
  
-/* Writing Section - Image
---------------------------------------------------------------------------------------------   */
+/* Writing Section - Image ____________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
 
 .writing-image{
   width: 175px;
@@ -754,8 +754,9 @@ article div.writing-image:hover > .writing-image-hover{
   opacity: 1;
 }
 
-/* Projects
--------------------------------------------------------------------------------------------- */
+/* Projects___________________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________________________*/
+
 
 #project-container{
   font-size: 1em;
@@ -827,67 +828,3 @@ article div.writing-image:hover > .writing-image-hover{
 #next:hover{
   color: green;
 }
-
-/* Project Image Hover
---------------------------------------------------------------------------------------------   */
-/*
-.project-image{
-  width: 12vw;
-  height: 12vw;
-  overflow: hidden;
-  margin-left: -1vw;
-  outline: 2px solid #200B02;
-  outline-offset: -1px;
-  float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline;
-  font-size:16px;
-  color: white;
-   }
-   
-.project-image-hover {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  right: 24.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: #BF0A30;
-  transition: 1s ease;
-  opacity: 0;
-  outline: 2px solid #200B02;
-}
-
-.project-image-hover-container {
-  width: 70%;
-  max-height: 80%;
-  position: relative;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.project-image-hover-container > img{
-  width: 100%;
-  border: 5px solid white;
-  display: inline-block;
-}
-
-#project-image-hover-text{
-  width: 100%;
-  position: relative;
-  display: inline-block;
-}
-
-#project-container > div > div.project-text > div.project-image:hover > .project-image-hover{
-  opacity: 1;
-}   
-
-
-.projects-image-small:hover .projects-image-big{
-  opacity: 1;
-}
-*/
