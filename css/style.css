@@ -85,13 +85,18 @@ a{
 -------------------------------------------------------------------------------------------- */
 
 #jamesnews{
-  background: #E1DEDD;
+  background: #BF0A30;
+  color: #E1DEDD;
   text-align: left;
-  color: #200B02;
   padding: 20px;
   font-size: 16px;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+#jamesnews:hover{
+  background: #E1DEDD;
+  color: #200B02;
 }
 
 #jamesnews::-webkit-scrollbar{
@@ -115,8 +120,8 @@ a{
 -------------------------------------------------------------------------------------------- */
 
 #bio {
-  background: #E1DEDD;
-  color: #200B02;
+  background: #BF0A30;
+  color: #E1DEDD;
   padding: 20px;
   font-family: arial;
   font-size: 24px;
@@ -126,10 +131,14 @@ a{
   padding-bottom: 100px;
 }
 
+#bio:hover{
+  background: #E1DEDD;
+  color: #200B02;
+}
+
 #bio::-webkit-scrollbar{
  display: none;
 }
-
 
 .closebtn{
   float: right;
