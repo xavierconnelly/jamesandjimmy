@@ -582,15 +582,26 @@ a{
   color: #E1DEDD;
   background-color: #BF0A30;
   z-index: 11;
+  overflow: auto;
+}
+
+.writing-container:hover {
+  color: #200B02;
+  background-color: #E1DEDD;
+}
+
+.writing-container:hover > .writing-image{
+  outline: 1px solid #200B02;
+  outline-offset: -1px;
+}
+
+.writing-container::-webkit-scrollbar{
+ display: none;
 }
 
 .writing-container-grid {
   margin-top: 50px;
   margin: 20px;
-}
-
-.writing-container-grid::-webkit-scrollbar{
- display: none;
 }
 
 .writing-titles {
@@ -615,7 +626,6 @@ a{
 } 
 
 #sub-heading {
-
 }
 
 article {
@@ -633,11 +643,6 @@ article > a{
 article > p {
   font-family:  arial;
   margin-block-end: 10px;
-}
-
-.writing-container:hover > .writing-image{
-  outline: 1px solid #200B02;
-  outline-offset: -1px;
 }
 
 #next-article{
