@@ -612,7 +612,7 @@
           <div class="writing-titles">
             <span id="publisher">Flat Out #3</span> 
             <span id="year">2019</span> 
-            <div id="heading">
+            <div id="heading" onclick="openLeft()">
               <h2><b>Where You Always Are</b></h2><br>
               <h4><i></i></h4><br>
             </div>
@@ -773,6 +773,11 @@
     $("#project-container").load("/projects/aRoomForKaraoke.txt") .scrollTop(0);
   });
     
+});
+   
+ </script>
+ 
+  <script> 
 /* Info/About Section */
 function openLeft() {
   document.getElementById("grid-container").style.left = "0";
@@ -780,10 +785,8 @@ function openLeft() {
 function closeLeft() {
   document.getElementById("grid-container").style.left = "-49vw";
 }
-    
-});
    
  </script>
- 
+   
 </body>
 </html>
