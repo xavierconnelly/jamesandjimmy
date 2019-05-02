@@ -73,7 +73,6 @@ a{
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
   transition: 0s;
-  overflow: auto;
 }
    
 #grid-container > div:hover{
