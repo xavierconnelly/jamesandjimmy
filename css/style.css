@@ -233,18 +233,13 @@ a{
 .wri-mar-con {
   color: #200B02;
   background-color: #BF0A30;
-  overflow-Y: scroll;
-  overflow-X: hidden;
+  overflow: hidden;
   z-index: 15;
-}
-
-.wri-mar-con::-webkit-scrollbar{
- display: none;
 }
 
 /* Marquee */
 .wri-mar {
-  height: 28vw; /*important! */
+  height: 1000px; /*important! */
   display: block;
   position: relative;
 }
@@ -311,17 +306,13 @@ a{
   cursor: pointer;
   background-color: #BF0A30;
   z-index: 3;
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: hidden;
-}
-
-.pro-mar-con::-webkit-scrollbar{
- display: none;
 }
 
 /* Marquee */
 .pro-mar {
-  width: 140vw; /*important! Greater than combined width of ALL elements */
+  width: 10000px; /*important! Greater than combined width of ALL elements */
 }
 
 /* Marquee Unit */
@@ -587,7 +578,7 @@ a{
 /* ____________________________________________________________________________________________________________________________*/
 
 
-.writing-container {
+#writing-container {
   color: #E1DEDD;
   background-color: #BF0A30;
   z-index: 11;
@@ -595,17 +586,17 @@ a{
   padding: 20px;
 }
 
-.writing-container:hover {
+#writing-container:hover {
   color: #200B02;
   background-color: #E1DEDD;
 }
 
-.writing-container:hover > .writing-image{
+#writing-container:hover > .writing-image{
   outline: 1px solid #200B02;
   outline-offset: -1px;
 }
 
-.writing-container::-webkit-scrollbar{
+#writing-container::-webkit-scrollbar{
  display: none;
 }
 
