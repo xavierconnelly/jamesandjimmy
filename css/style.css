@@ -233,8 +233,13 @@ a{
 .wri-mar-con {
   color: #200B02;
   background-color: #BF0A30;
-  overflow: hidden;
+  overflow-Y: scroll;
+  overflow-X: hidden;
   z-index: 15;
+}
+
+.wri-mar-con::-webkit-scrollbar{
+ display: none;
 }
 
 /* Marquee */
@@ -306,13 +311,17 @@ a{
   cursor: pointer;
   background-color: #BF0A30;
   z-index: 3;
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: hidden;
+}
+
+.pro-mar-con::-webkit-scrollbar{
+ display: none;
 }
 
 /* Marquee */
 .pro-mar {
-  width: 10000px; /*important! Greater than combined width of ALL elements */
+  width: 140vw; /*important! Greater than combined width of ALL elements */
 }
 
 /* Marquee Unit */
