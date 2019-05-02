@@ -602,6 +602,8 @@ a{
 
 .writing-titles {
   display: block;
+  padding-top: 50px;
+  border-bottom: 2px solid;
 }
 
 #publisher {
@@ -623,7 +625,6 @@ a{
 }
 
 article {
-  border-top: 2px solid;
   padding-top: 50px;
   font-size: 20px;
   line-height: 24px;
@@ -662,9 +663,14 @@ article > p {
   outline: 1px solid;
   outline-offset: -1px;
   margin: 10px;
+  float: left;
   display: inline;
 }
-   
+.writing-image > img{
+  width: 100%;
+  height: 100%;
+}
+
 .writing-image-hover {
   pointer-events: none;
   position: fixed;
