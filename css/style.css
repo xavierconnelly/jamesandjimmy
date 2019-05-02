@@ -391,6 +391,10 @@ color: #E1DEDD;
   overflow: hidden;
 }
 
+.james-container a{
+  text-decoration: none;
+}
+
 /* VERTICAL Marquee Start______________________________________________ */
 
 /* Marquee Container - wider */
