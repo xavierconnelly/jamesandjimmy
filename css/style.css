@@ -641,46 +641,13 @@ article > a{
 } 
 
 article > p {
-  font-family: ;
+  font-family:  'Sans';
   margin-block-end: 10px;
 }
 
 .writing-container:hover > .writing-image{
   outline: 1px solid #200B02;
   outline-offset: -1px;
-}
-
-/* width */
-.writing-container-grid::-webkit-scrollbar {
-  height: 30px;
-  cursor: pointer;
-}
-
-/* Track */
-.writing-container-grid::-webkit-scrollbar-track {
-  border-top: 1px solid #200B02;
-}
-
-/* Handle */
-.writing-container-grid::-webkit-scrollbar-thumb {
-  border: 1px solid #200B02;
-  background-color: #BF0A30;
-  cursor: ;
-}
-   
-/* Handle on hover */
-.writing-container-grid::-webkit-scrollbar-thumb:hover {
-  background-color: #BF0A30; 
-  cursor: grab;
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
-} 
-   
-.writing-container:hover{
-  color: #BF0A30;
-  background-color: #E1DEDD;
 }
 
 #next-article{
