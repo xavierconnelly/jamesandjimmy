@@ -1,11 +1,9 @@
-        <article id="writing-scroll">           
-          <div class="writing-titles">
-            <span id="publisher">MAS Context #32</span> 
-            <span id="year">Upcoming</span> 
-            <div id="heading">
-              <h2><b>Construction of an Architect</b></h2><br>
-            </div>
-          </div>
+        <div class="writing-titles">
+          <span id="publisher">MAS Context #32</span> 
+          <span id="year">Upcoming</span> 
+          <div id="heading">Construction of an Architect</div>
+        </div>
+        <article id="writing-scroll">    
           <p>
            Coming soon...
           </p>
