@@ -583,7 +583,7 @@ a{
   background-color: #BF0A30;
   z-index: 11;
   overflow: auto;
-  margin: 20px;
+  padding: 20px;
 }
 
 .writing-container:hover {
@@ -602,7 +602,6 @@ a{
 
 .writing-titles {
   display: block;
-  border-bottom: 2px solid;
 }
 
 #publisher {
@@ -614,17 +613,19 @@ a{
 }
 
 #heading {
-  font-size: 1.5em;
-  line-height: 2em;
+  font-size: 2em;
+  line-height: 3em;
   text-align: left;
   float: left;
+  width: 100%;
 } 
 
 #sub-heading {
 }
 
 article {
-  margin-top: 20px;
+  border-top: 2px solid;
+  padding-top: 50px;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
