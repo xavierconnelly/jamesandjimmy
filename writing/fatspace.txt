@@ -1,13 +1,11 @@
-        <article id="writing-scroll">           
-          <div class="writing-titles">
-            <span id="publisher">DATUM Journal #9</span> 
-            <span id="year">2017</span> 
-            <div id="heading">
-              <h2><b>Fatspace</b></h2><br>
-            </div>
-          </div>
+       <div class="writing-titles">
+          <span id="publisher">DATUM Journal #9</span> 
+          <span id="year">2017</span> 
+          <div id="heading">Fatspace</div>
+        </div>
+        <article id="writing-scroll">     
           <p>
-           With the increase in door to door deliveries of easily accessible commodities and the resulting enlargement of storage spaces in households, the relationship between the private domain and the public realm is set to augment. The concept of the threshold is being constantly degraded by the incursion of all our commodities now bought online. In addition to the door, other fundamental interfaces such as the elevator, the lobby, the gate, and the sidewalk, are being challenged by the distribution of deliverables to our desired destination. Last mile delivery has become the last fifty-yard traffic jam, as analog reliant building interfaces struggle to deal with the digital driven entrance of goods. Maintaining the safety of our prized symbols of significance—commodities—yet able to function as an efficient mediated interface, the once fundamental spatial mechanism of the threshold must transform into <i>fatspace.</i>
+           With the increase in door to door deliveries of easily accessible commodities and the resulting enlargement of storage spaces in households, the relationship between the private domain and the public realm is set to augment. The concept of the threshold is being constantly degraded by the incursion of all our commodities now bought online. In addition to the door, other fundamental interfaces such as the elevator, the lobby, the gate, and the sidewalk, are being challenged by the distribution of deliverables to our desired destination. Last mile delivery has become the last fifty-yard traffic jam, as analog reliant building interfaces struggle to deal with the digital driven entrance of goods. Maintaining the safety of our prized symbols of significance—commodities—yet able to function as an efficient mediated interface, the once fundamental spatial mechanism of the threshold must transform into <i>fatspace.</i> ★
           </p>
           <div id="next-article" class="something">
             Next Article: Something ➜
