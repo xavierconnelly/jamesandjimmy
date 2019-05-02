@@ -244,7 +244,7 @@ a{
 
 /* Marquee */
 .wri-mar {
-  height: 1000px; /*important! */
+  height: 28vw; /*important! */
   display: block;
   position: relative;
 }
