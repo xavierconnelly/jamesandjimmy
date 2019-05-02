@@ -73,6 +73,7 @@ a{
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
   transition: 0s;
+  overflow: auto;
 }
    
 #grid-container > div:hover{
@@ -85,13 +86,15 @@ a{
 /* Bio
 -------------------------------------------------------------------------------------------- */
 
-#bio{
-background: #200B02;
-color: #E1DEDD;
+#bio {
+  background: #200B02;
+  color: #E1DEDD;
   padding: 10px;
   font-family: arial;
   font-size: 24px;
   text-align: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .closebtn{
@@ -128,8 +131,9 @@ color: #E1DEDD;
   color: #200B02;
   background-color: #BF0A30;
   cursor: pointer;
-  overflow: hidden;
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
   z-index: 11;
 }
 
@@ -270,6 +274,7 @@ color: #E1DEDD;
   background-color: #BF0A30;
   z-index: 3;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* Marquee */
