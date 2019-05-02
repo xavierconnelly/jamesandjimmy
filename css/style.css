@@ -602,22 +602,23 @@ a{
 
 .writing-titles {
   display: block;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 20px;
   border-bottom: 2px solid;
 }
 
 #publisher {
-  float: left;
+  float: ;
 }
 
 #year {
-  float: right;
+  float: ;
 }
 
 #heading {
-  font-size: 2em;
-  text-align: left;
-  float: left;
+  font-size: 3em;
+  text-align: ;
+  float: ;
   width: 100%;
 } 
 
@@ -625,7 +626,7 @@ a{
 }
 
 article {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
