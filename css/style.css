@@ -595,33 +595,10 @@ a{
  display: none;
 }
 
-.article-margin {
-  width: 2vw;
-  height: 100%;
-  display: none;
-}
-
-article {
-  margin-top: 100px;
-  width: 70%;
-  margin-top: 10px;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: justify;
-  text-align-last: start;
-}
-
-article > a{
-  color: inherit;
-}
-
 .writing-titles {
   margin-top: 50px;
-  height: calc(50% - 10px);
   width: 100%;
   display: block;
-  position: absolute;
-  text-align: left;
 }
 
 #publisher {
@@ -636,13 +613,29 @@ article > a{
 #heading {
   font-size: 1.5em;
   line-height: 2em;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  text-align: left;
 } 
 
+#sub-heading {
+
+}
+
+article {
+  margin-top: 100px;
+  width: 80%;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  text-align-last: start;
+}
+
+article > a{
+  color: inherit;
+}
+
 article > p {
-  font-family:  'Sans';
+  font-family:  arial;
   margin-block-end: 10px;
 }
 
