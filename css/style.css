@@ -584,14 +584,15 @@ a{
   z-index: 11;
 }
 
-.writing-container::-webkit-scrollbar{
- display: none;
-}
-
 .writing-container-grid {
   height: 100%;
+  margin-left: 10px;
   display: grid;
   overflow: auto;
+}
+
+.writing-container-grid::-webkit-scrollbar{
+ display: none;
 }
 
 .article-margin {
