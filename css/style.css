@@ -585,10 +585,8 @@ a{
 }
 
 .writing-container-grid {
-  height: 100%;
-  margin-left: 10px;
-  display: grid;
-  overflow: auto;
+  margin-top: 50px;
+  margin: 20px;
 }
 
 .writing-container-grid::-webkit-scrollbar{
@@ -596,14 +594,13 @@ a{
 }
 
 .writing-titles {
-  margin-top: 50px;
-  width: 100%;
   display: block;
+  height: 300px;
 }
 
 #publisher {
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
 #year {
@@ -614,6 +611,7 @@ a{
   font-size: 1.5em;
   line-height: 2em;
   text-align: left;
+  float: left;
 } 
 
 #sub-heading {
@@ -622,8 +620,6 @@ a{
 
 article {
   margin-top: 100px;
-  width: 80%;
-  margin-top: 10px;
   font-size: 20px;
   line-height: 24px;
   text-align: justify;
