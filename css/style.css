@@ -87,6 +87,8 @@ a{
 #jamesnews{
   font-size: 16px;
   padding-top: 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 #jamesnews::-webkit-scrollbar{
