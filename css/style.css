@@ -85,6 +85,10 @@ a{
 -------------------------------------------------------------------------------------------- */
 
 #jamesnews{
+  background: #E1DEDD;
+  text-align: left;
+  color: #200B02;
+  padding: 20px;
   font-size: 16px;
   padding-top: 50px;
   overflow-x: hidden;
