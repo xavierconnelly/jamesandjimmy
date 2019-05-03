@@ -636,6 +636,8 @@ article {
   padding-top: 20px;
   font-size: 20px;
   line-height: 24px;
+  float: left;
+  width: 70%;
   text-align: justify;
   text-align-last: start;
 }
@@ -664,6 +666,19 @@ article > h4 {
    
 #next-article:hover{
   color: blue;
+}
+
+ 
+/* Writing Section - Footnotes ________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+#footnotes{
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  width: 20%;
+  float: left;
+  text-align: left;
 }
 
  
