@@ -650,7 +650,9 @@ article > p {
 }
 
 article > h4 {
-  text-align: center;
+  font-size: 24px;
+  border-bottom: 2px solid;
+  line-height: 36px;
 }
 
 #next-article{
@@ -721,9 +723,11 @@ article > h4 {
   display: inline-block;
 }
 
-article div.writing-image:hover > .writing-image-hover{
+.writing-image:hover > .writing-image-hover{
   opacity: 1;
 }
+
+
 
 /* Projects___________________________________________________________________________________________________________________*/
 /*____________________________________________________________________________________________________________________________*/
