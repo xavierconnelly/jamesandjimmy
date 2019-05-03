@@ -665,6 +665,53 @@ article > h4 {
 #next-article:hover{
   color: blue;
 }
+
+ 
+/* Writing Section - Tooltips _________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+
+sup{
+  color: #BF0A30;
+  font-style: bold;
+}
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  display: none;
+}
+
+  .ui-tooltip, .arrow:after {
+    background-color: #BF0A30;
+    border: 2px solid white;
+  }
+
+  .ui-tooltip {
+    background-color: white;
+    padding: 10px 20px;
+    color: #200B02;
+    text-transform: uppercase;
+    width: 25vw;
+    border: 1px solid black;
+  }
+
+.footref {
+    border-radius: ;
+    background-color: red;
+    border: 1px solid black !important;
+    color: #200B02;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
  
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
