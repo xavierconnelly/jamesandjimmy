@@ -5,23 +5,49 @@
         </div>
         <article id="writing-scroll">    
           <p>
-            In 1960 Bubblewrap was invented by pneumatically filling shower curtains into a gridded field of bubbles. That same year, Buckminster Fuller and Shoji Sadao proposed to cover New York with just one (Fig. 1).
+            In 1960 Bubblewrap was invented by pneumatically filling shower curtains into a gridded field of bubbles. That same year, Buckminster Fuller and Shoji Sadao proposed to cover New York with just one (Fig. 1). 
             <span class="writing-image" tabindex="0"> 
               <img src="/img/jcarter.bubble.01.small.jpg" alt="Smiley face"> 
               <span class="writing-image-hover">
                 <span class="writing-image-hover-container">
                   <img src="/img/jcarter.bubble.01.big.jpg" alt="Smiley face">
-                  <div id="writing-image-image-text"> Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York. </div>
+                  <div id="writing-image-image-text"> 
+                    Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York. 
+                  </div>
                 </span>
               </span>
             </span> 
             Unlike the metropolis’ monumental enclosure, Bubblewrap covered its object in a dependability of expendability. The multiplicity of air pockets ensured each sheet lasted long after one pop. Yet for all the bubblemania of the sixties, the bubble’s pluralistic composition remained singular. The architects seemed to take all the air out of the room.
           </p>
           <p>
-           
+           With Fuller’s and other inflatable spaces, architects of the time caught the eye of the media as radicals. In the face of monumentalized global powers after the war, <i>Utopie</i>, Coop Himmelb(l)au, Haus-Rucker-Co, and several others all politicized the individual bubble as a symbol of ephemerality, translucency and discontinuity. Yet these bubbles symbolically never broke. They overlooked their own capacity to burst instead of their ability to shelter. Unbeknownst to them, it was the release and the liberation of air that made a bubble useful. 
           </p>
           <p>
-            
+            The concept of the architectural bubble had been around since Le Corbusier’s <i>Towards a New Architecture</i>. “A building is like a soap bubble. This bubble is perfect and harmonious if the breath has been evenly distributed from the inside. The exterior is the result of an interior.”<span>1</span> Thirty years later, these architects began to float the bubble alongside the socially progressive changes of the time as a malleable plastic lining. It was <i>the</i> flexible enclosure, imbued with concepts of spatial agency in lieu of rigid early twentieth century modernism. Marc Dessauce would say that it was “as if the propensity to describe the epoch as lacking in relief had reflected itself in an exactly inverse manner, in an image of perpetual roundness and turgescence.”<span>2</span> Ever expanding, this social bubble became more than a symbol of technological development; it was projected as the liberation of architecture and its occupants from the overbearing mass of the recent and distant historical past. In a show of architecture’s new transformation, Coop Himmelb(l)au ran through the streets of Basel in 1971 inside their own inflatable performance (Fig. 2).
+            <span class="writing-image" tabindex="0"> 
+              <img src="/img/jcarter.bubble.02.small.jpg" alt="Smiley face"> 
+              <span class="writing-image-hover">
+                <span class="writing-image-hover-container">
+                  <img src="/img/jcarter.bubble.02.big.jpg" alt="Smiley face">
+                  <div id="writing-image-image-text"> 
+                    Fig. 2: Coop Himmelb(l)au roll down the hill in "a demonstrationof pneumatic construction" and hyperfocalization.
+                  </div>
+                </span>
+              </span>
+            </span> 
+            That bubble’s expanding tensile stress personified the architects' own agenda to take advantage of a bubble and architecture’s propensity to intensify, instead of its tendency to abate. Via the concept of an alternate individual perception, bubbles like Himmelb(l) au’s “Restless Sphere” proposed new inhabitation of the city centered on the subject. Together with Haus-Rucker-Co’s “OASE no.7” (Fig. 3),
+            <span class="writing-image" tabindex="0"> 
+              <img src="/img/jcarter.bubble.03.small.jpg" alt="Smiley face"> 
+              <span class="writing-image-hover">
+                <span class="writing-image-hover-container">
+                  <img src="/img/jcarter.bubble.03.big.jpg" alt="Smiley face">
+                  <div id="writing-image-image-text"> 
+                    Fig. 3: All set up and ready to go, Haus-Rucker-Co would never get the chance to give the public a chance to expand their minds.
+                  </div>
+                </span>
+              </span>
+            </span> 
+            they proposed a psychoanalytical approach that proffered a negation of the total city that Le Corbusier had sought, and pursued experimental occupation for the individual. To this degree, they relied on the city as a contrary figure, using a constructed dialectic to confirm the subject’s incapacity to have a voice within it, and projecting the bubble as an enclosure of mediatization against it. With each bubble, “Himmelb(l)au and co” strove to internalize architecture so that the individual could formulate it. As single entities of protest, the bubbles signified their own importance over what was around them. Their resolution was precise, but their malleability was representational: “OASE no.7” was popped before it could ever be used. Cantilevered out over the street like a catwalk, this fashion advert focused only on itself, leaving the city to be constructed around it.
           </p>
           <p>
             
