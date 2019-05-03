@@ -112,6 +112,6 @@
             Next Article: Something ➜
           </div>
         </article>
-        <span id="footnotes">
+        <aside>
         In this Sokolsky remake, the image of the bubble has solidified beyond the social agendas the architects had tried to ignite. Himmelb(l)au now proliferates a modernity it once sought to negate, and fashion falls foul of a bubble’s figurative strength. Banham’s bubble in contrast has remained intangible. It is an image that never promised the world, leaving others to proffer its success. It has no connection to place, time, or space: fashion and architecture were eliminated by its internal clearing operations. As the other sixties bubbles explain, an image of symbolic conception long outlives material quality. Himmelb(l)au and Sokolsky must have known their bubbles would last through their image, not real life. They stand as proof that an image is like a bubble. Floating and falling, it’s an enclosure to intensify. Its material quality is its malleability, passing through time and disciplines to come up when least expected. Just like a bubble, an image is most effective when the world places pressure on it, and not the other way around.
-        </span>
+        </aside>
