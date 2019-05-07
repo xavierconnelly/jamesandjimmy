@@ -146,10 +146,13 @@ a{
 
 .closebtn{
   float: right;
+  position: sticky;
+  top: 0;
 }
 
 #jamesbio{
  padding-bottom: 50px;
+ width: 80%;
 }
 
 #jamescontact{
