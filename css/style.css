@@ -153,6 +153,7 @@ a{
 #jamesbio{
  padding-bottom: 50px;
  width: 80%;
+ padding-top: 20px;
 }
 
 #jamescontact{
@@ -625,10 +626,12 @@ a{
 
 #publisher {
   float: ;
+  font-size: ;
 }
 
 #year {
   float: ;
+  font-size: ;
 }
 
 #heading {
@@ -646,7 +649,6 @@ article {
   font-size: 20px;
   line-height: 24px;
   float: left;
-  width: 75%;
   text-align: justify;
   text-align-last: start;
 }
@@ -656,14 +658,19 @@ article > a{
 }
 
 article > p {
+  margin-left: 20%;
+  width: 60%;
   font-family:  arial;
   margin-block-end: 10px;
+  text-indent: 90px;
 }
 
-article > h4 {
-  font-size: 24px;
-  border-bottom: 2px solid;
-  line-height: 36px;
+article > p:first-child {
+  text-indent: 0px;
+}
+
+#download{
+  float: right;
 }
 
 #next-article{
@@ -681,26 +688,96 @@ article > h4 {
 /* Writing Section - Footnotes ________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
-aside {
+#writing-container:hover sup{
+  color: #BF0A30;
+}
+
+sup{
+  color: #200B02;
+  font-style: bold;
+  line-height: 1px;
+}
+
+sup::before{
+  content: '['
+}
+
+sup::after{
+  content: ']'
+}
+
+sup > a{
+  color: inherit;
+}
+
+.sidenote {
   font-family:  arial;
-  padding-left: 20px;
-  padding-top: 20px;
   font-size: 12px;
   line-height: 15px;
-  width: 20%;
-  float: left;
   text-align: left;
+  display: block;
+  float: right;
+  position: relative;
+  clear: both;
+  width: calc(20% - 40px);
+  padding: 10px 20px 10px 20px;
+}
+
+.footnotes{
+  font-size: 12px;
+  line-height: 15px;
+}
+
+
+ 
+/* Writing Section - Media Queries ________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+
+@media only screen and (max-width: 500px) {
+  article > p{
+    width: 100%;
+    margin-left: 0px;
+  }
+   .sidenote {
+    display: none;
+  }
+  .footnotes{
+    display: none;
+  }
+  .writing-something{
+  display: block;
+  padding-left: 0px;
+  padding-right: 20px;
+  position: relative;
+  width: calc(50% - 40px);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footnotes{
+    display: block ;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .footnotes{
+    display: none ;
+  }
+}
+
+
+.footnotes{
+  font-size: 12px;
+  line-height: 15px;
 }
 
  
 /* Writing Section - Tooltips _________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
+/*
 
-sup{
-  color: #BF0A30;
-  font-style: bold;
-}
 
 .ui-helper-hidden-accessible {
   border: 0;
@@ -737,26 +814,44 @@ sup{
     padding: 10px 20px;
     text-decoration: none;
 }
-
+*/
  
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
 
-.writing-image{
-  width: 175px;
-  height: 175px;
-  overflow: hidden;
-  outline: 1px solid;
-  outline-offset: -1px;
-  margin-top: 15px;
-  margin-right: 15px;
+.writing-something{
+  display: block;
+  padding-left: 5%;
+  padding-right: 20px;
+  width: calc(15% - 20px);
   float: left;
-  display: inline;
+  position: relative;
+  clear: both;
 }
+
+.writing-image{
+  position: relative;
+  float: right;
+  border: 1px solid #200B02;
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+}
+
+.image-text{
+  padding: 3px;
+  text-align: left;
+  color: #200B02;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .writing-image > img{
-  width: 100%;
-  height: 100%;
+  background-color: #fff;
+  border: 1px solid #200B02;
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
+  margin: 3px;
 }
 
 .writing-image-hover {
