@@ -324,6 +324,7 @@ a{
 
 .pro-mar-con::-webkit-scrollbar{  
  display: none;
+}
 
 /* Marquee */
 .pro-mar {
