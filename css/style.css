@@ -173,6 +173,10 @@ a{
   z-index: 11;
 }
 
+.news-container::-webkit-scrollbar{  
+ display: none;
+}
+
 .news-container:hover {
   color: #BF0A30;
   background-color: #E1DEDD;
@@ -243,6 +247,7 @@ a{
 
 .wri-mar-con::-webkit-scrollbar{  
  display: none;
+}
 
 /* Marquee */
 .wri-mar {
