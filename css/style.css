@@ -53,6 +53,18 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.next{
+  padding-top: 50px;
+  padding-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+   
+.next:hover{
+  color: #BF0A30;
+}
+
       
    
 /* Global Grid ________________________________________________________________________________________________________________*/  
@@ -606,6 +618,7 @@ a{
   overflow-y: auto;
   overflow-x: hidden;
   padding: 10px;
+  padding-bottom: 30px;
 }
 
 #writing-container:hover {
@@ -701,17 +714,6 @@ h4 + p {
 #download{
   float: right;
 }
-
-#next-article{
-  padding: 50px 20px;
-  float: right;
-  cursor: pointer;
-}
-   
-#next-article:hover{
-  color: #BF0A30;
-}
-
  
 /* Writing Section - Footnotes ________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
@@ -759,7 +761,6 @@ sup > a{
   font-size: 12px;
   line-height: 15px;
 }
-
 
  
 /* Writing Section - Media Queries ________________________________________________________________________________________________*/
@@ -856,50 +857,6 @@ sup > a{
 }
 }
 
- 
-/* Writing Section - Tooltips _________________________________________________________________________________________________*/
-/* ____________________________________________________________________________________________________________________________*/
-
-/*
-
-
-.ui-helper-hidden-accessible {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  display: none;
-}
-
-  .ui-tooltip, .arrow:after {
-    background-color: #BF0A30;
-    border: 2px solid white;
-  }
-
-  .ui-tooltip {
-    background-color: white;
-    padding: 10px 20px;
-    color: #200B02;
-    text-transform: uppercase;
-    width: 25vw;
-    border: 1px solid black;
-  }
-
-.footref {
-    border-radius: ;
-    background-color: red;
-    border: 1px solid black !important;
-    color: #200B02;
-    font-size: 15px;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-*/
- 
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
@@ -1040,15 +997,4 @@ sup > a{
   font-size:12px;
   text-align:left;
   margin-left:10px;
-}
-
-#next{
-  padding-top: 50px;
-  padding-right: 10px;
-  float: right;
-  cursor: pointer;
-}
-   
-#next:hover{
-  color: green;
 }
