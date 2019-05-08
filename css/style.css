@@ -844,8 +844,9 @@ sup > a{
 
 .image-text{
   padding: 3px;
-  text-align: left;
   color: #200B02;
+  text-align: left;
+  font-family:  arial;
   font-size: 12px;
   line-height: 15px;
 }
