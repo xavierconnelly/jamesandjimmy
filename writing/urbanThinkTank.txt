@@ -1,18 +1,19 @@
         <div class="writing-titles">
-          <span id="publisher">Assemble Papers <br> Issue 5: <br> The Ecological Age</span> 
-          <span id="year">2016</span> 
+          <div id="year">2016</div> 
+          <div id="publisher">Assemble Papers Issue 5: The Ecological Age</div> 
           <div id="heading">Urban Think-Tank</div>
           <div id="sub-heading">The right to the city</div>
         </div>
-        <article id="writing-scroll">           
+        <article id="writing-scroll">   
+          <div id="download" class="sidenote">
+            <p>
+              <a href="https://assemblepapers.com.au/2016/09/13/urban-think-tank-the-right-to-the-city/"  target="_blank"> More info </a>
+            </p>
+          </div>  
           <p>
            ‘Interdisciplinary’ is often described as the collaboration between different fields—a synthesis of professions in order to usher in new perspectives. In general, the term  can bring to mind marketing jargon, or the pseudo-intellectual. Yet, in the context of Urban Think-Tank, the Caracas and Zurich-based ‘interdisciplinary design studio’, the word symbolises the broader ethical role architects can play in built outcomes. ★
           </p>
-          <br>
-          <p>
-            <a href="https://assemblepapers.com.au/2016/09/13/urban-think-tank-the-right-to-the-city/"  target="_blank"> More info </a>
-          </p>  
-          <div id="next-article" class="something">
-            Next Article: Something ➜
-          </div>
         </article>
+        <div id="next-article" class="something">
+          Next Article: Something ➜
+        </div>
