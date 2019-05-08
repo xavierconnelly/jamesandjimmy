@@ -264,6 +264,6 @@
           </ol>
         </div>
       </article>
-      <div id="next-article" class="SOMETHING">
+      <div class="next SOMETHING">
         Next Article: Something ➜
       </div>
