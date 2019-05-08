@@ -31,6 +31,6 @@
       <div class="photographer">
        * Photos by Michael Tropea & Angeliki Sykiotis
       </div> 
-      <div id="next" class="corbusier">
-        Next Project: Ando and Le Corbusier: Masters of Architecture ➜
+      <div class="next something">
+        Next Project: Something ➜
       </div>
