@@ -691,6 +691,8 @@ h4 + p {
   padding-top: 100px;
   text-align: center;
   text-align-last: auto;
+  width: 100%;
+  height: 20%;  
 }
 
 #download{
