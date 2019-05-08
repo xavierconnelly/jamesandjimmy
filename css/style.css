@@ -13,16 +13,19 @@
 
 @font-face {
   font-family: 'Mono';
+  font-display: auto;
   src: url(/IBMPlexMono-Regular.woff);
 }
 
 @font-face {
   font-family: 'Serif';
+  font-display: auto;
   src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
 }
 
 @font-face {
   font-family: 'Sans';
+  font-display: auto;
   src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
 }
 
