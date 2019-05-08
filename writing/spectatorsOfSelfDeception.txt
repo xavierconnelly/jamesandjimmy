@@ -48,19 +48,20 @@
           As an adolescent in the early 1990s who devoted himself to daily television like a monastic monk would religion, the workings of the rear projection television appeared obvious to me, except for one thing. Happy Days, that blissful 1970s replica of 1950s American life, appeared like another world, irrelevant to my upbringing in Australia. Sitting in the living room across the other side of the world, the show was characteristic for its simple hilarity of the American life of Richie Cunningham. Typical scenes staged the characters surrounded by an indistinct warm light, never depicting any of the dark hues or deep corners I knew to be true of the greater reality of life. Scenes garnered with this hazy light made one automatically think each was fabricated on a flat set in the misty Californian sun (Figs. 1 & 2). Yet it wasn’t necessarily the lighting or the color that left the images wanting. There was something lacking in the haze of fabricated Californian sunshine; there was less of something. Less detail, less shadow, less feeling. The scenes, lightened by the synthetic buoyancy of pastel col­ors, remained devoid of true darkness or uncertain­ty; a lack of depth that added to the unassuming merriment of the show.
         </p>
 
-        <h4> A Way of Seeing </h4>
-        <hr>
+        <p>
+          <h4> A Way of Seeing </h4>
+        </p>
 
         <p> 
           The television in our Australian living room was a rectangular box; four feet by four feet and as deep as the vanity table that held it. Typical of its time, the box was covered in a faux timber veneer and was punctured by a rounded grey glass screen. In retrospect, the screen’s concave face and round­ed corners gave it a bizarre three-dimensionality compared to contemporary televisions. The glass screen was in fact a truncated pyramid from whose apex, inside the television box, projected the images we dined on. The projections on the screen appeared flat but the surface itself had depth; the hollowness of the glass pyramid jarred my concep­tion of flatness.
         </p>
 
         <aside class="sidenote" id="fn-one">
-          As Debord notes, “[t]he externality of the spectacle in relation to the active man appears in the fact that his own gestures are no longer his but those of another who represents them to him. This is why the spectator feels at home nowhere, because the spec­tacle is everywhere.” As the primary mode of entertainment in houses across the world for sixty years, the television embod­ies Debord’s concept of the spectacle. Here understood as the flat layer upon which the accumulation of images of society are projected, the television screen manifests our resignation to the spectacle. As Debord goes on, “[t]he spectacle is the nightmare of imprisoned modern society which ultimately expresses noth­ing more than its desire to sleep. The spectacle is the guardian of sleep.” Guy Debord, Society of the Spectacle (Detroit: Black & Red, 1983), 21, 30.
+          1. As Debord notes, “[t]he externality of the spectacle in relation to the active man appears in the fact that his own gestures are no longer his but those of another who represents them to him. This is why the spectator feels at home nowhere, because the spec­tacle is everywhere.” As the primary mode of entertainment in houses across the world for sixty years, the television embod­ies Debord’s concept of the spectacle. Here understood as the flat layer upon which the accumulation of images of society are projected, the television screen manifests our resignation to the spectacle. As Debord goes on, “[t]he spectacle is the nightmare of imprisoned modern society which ultimately expresses noth­ing more than its desire to sleep. The spectacle is the guardian of sleep.” Guy Debord, Society of the Spectacle (Detroit: Black & Red, 1983), 21, 30.
         </aside>
 
         <aside class="sidenote" id="fn-two">
-          To Marshall McLuhan, television was a cool medium, some­thing that engendered ritual, rhythm, and pattern. The people that watched it would “lose interest in being private individu­als [… as a result of] one of the hidden and perhaps insidi­ous effects of television;”—Marshall McLuhan, “What Television Does Best,” Marshall McLuhan Speaks, interview with Tom Sny­der, The National Broadcasting Corporation (1976); accessed No­vember 09, 2017, http://www.marshallmcluhanspeaks.com/inter­view/1976-what-television-does-best.
+          2. To Marshall McLuhan, television was a cool medium, some­thing that engendered ritual, rhythm, and pattern. The people that watched it would “lose interest in being private individu­als [… as a result of] one of the hidden and perhaps insidi­ous effects of television;”—Marshall McLuhan, “What Television Does Best,” Marshall McLuhan Speaks, interview with Tom Sny­der, The National Broadcasting Corporation (1976); accessed No­vember 09, 2017, http://www.marshallmcluhanspeaks.com/inter­view/1976-what-television-does-best.
         </aside>
 
         <p>
@@ -95,8 +96,9 @@
           Blurring the surety one had of the world, the sur­face of the television produced within its reflective grayish surface the presence of the unknown, the unsure, and the imperceptible. This surface was the inanimate muse much like the impressionists’ Claude Mirror. Used by Manet and Matisse for its specific mode of vision, such screens emphasized sensation itself over objects of sensation. The subjects of the mirror would travel great distances to incredible sceneries, only to turn their backs on the world in order to view it reflected in the palm of their hand. The Claude Mirror, as a form of tech­nology, enhanced the possibility of the unknown and utilized it for discovery. In contrast to its elec­trified self whose projection formalized uncertainty via a lack of information, the grey television surface was an analog experience of reflection, opening up and expanding the world beyond its visual conception.
         </p>
 
-        <h4> A Way of Hiding </h4>
-        <hr>
+        <p>
+          <h4> A Way of Hiding </h4>
+        </p>
 
         <aside class="sidenote" id="fn-three">
           3. The <i>pensieve</i> is a fictional object from J.K. Rowling’s <i>Harry Potter</i> series; it is used to review a person’s memories by pouring vials of liquid into its shallow pool of substance that resembles liquid gas.
@@ -148,7 +150,7 @@
                 </span>
               </span>
             </span>
-          </aside>5
+          </aside>
         </aside>
 
         <p>
@@ -163,8 +165,9 @@
           Much like the magic of Dumbledore’s pensieve, to us wee muggles superstitions are incomprehensi­ble, the intelligence behind their objects relying on an esoteric knowledge. Dumbledore is a magician; a horseshoe’s luck is foretold in folk tales. Both establish a division between those who know and those who don’t know. Magic, or the unknown, can be taken as that which only a few people can ex­plain or comprehend; maintaining power through segregation. The muggles and the magicians, or the superstitious and those who manipulate them, are here contextualized as a hierarchy of power under the guise of surfaces; immaterial or material, their framing provides a partitioning of knowledge that results in exclusion.
         </p>
 
-        <h4> A Way of Segregating</h4>
-        <hr>
+        <p>
+          <h4> A Way of Segregating</h4>
+        </p>
 
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
@@ -180,7 +183,7 @@
                 </span>
               </span>
             </span>
-          </aside>6
+          </aside>
         </aside>
 
         <p>
@@ -207,8 +210,9 @@
           While Rumsfeld’s statement didn’t mark a clear shift in the way we gathered information, it did highlight the clear deceit with which we received it. Irrelevant of our new-found inhalation of informa­tion, disinformation brought only the same contin­ued indifference; technology had progressed, but our system of belief was still a form of anesthetic to get us to bedtime. The unknowns of the world were held back from our consciousness by our complete deferral of governance, and with this we were col­lectively content.
         </p>
 
-        <h4> A Way of Containing</h4>
-        <hr>
+        <p>
+          <h4> A Way of Containing</h4>
+        </p>
 
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
@@ -224,7 +228,7 @@
                 </span>
               </span>
             </span>
-          </aside>777
+          </aside>
         </aside>
 
         <p>
@@ -263,10 +267,10 @@
         <div class="footnotes">
           <ol>
             <li id="fn-one"> 
-              As Debord notes, “[t]he externality of the spectacle in relation to the active man appears in the fact that his own gestures are no longer his but those of another who represents them to him. This is why the spectator feels at home nowhere, because the spec­tacle is everywhere.” As the primary mode of entertainment in houses across the world for sixty years, the television embod­ies Debord’s concept of the spectacle. Here understood as the flat layer upon which the accumulation of images of society are projected, the television screen manifests our resignation to the spectacle. As Debord goes on, “[t]he spectacle is the nightmare of imprisoned modern society which ultimately expresses noth­ing more than its desire to sleep. The spectacle is the guardian of sleep.” Guy Debord, Society of the Spectacle (Detroit: Black & Red, 1983), 21, 30.
+              As Debord notes, “[t]he externality of the spectacle in relation to the active man appears in the fact that his own gestures are no longer his but those of another who represents them to him. This is why the spectator feels at home nowhere, because the spec­tacle is everywhere.” As the primary mode of entertainment in houses across the world for sixty years, the television embod­ies Debord’s concept of the spectacle. Here understood as the flat layer upon which the accumulation of images of society are projected, the television screen manifests our resignation to the spectacle. As Debord goes on, “[t]he spectacle is the nightmare of imprisoned modern society which ultimately expresses nothing more than its desire to sleep. The spectacle is the guardian of sleep.” Guy Debord, Society of the Spectacle (Detroit: Black & Red, 1983), 21, 30.
             </li>
             <li id="fn-two">
-              To Marshall McLuhan, television was a cool medium, some­thing that engendered ritual, rhythm, and pattern. The people that watched it would “lose interest in being private individu­als [… as a result of] one of the hidden and perhaps insidi­ous effects of television;”—Marshall McLuhan, “What Television Does Best,” Marshall McLuhan Speaks, interview with Tom Sny­der, The National Broadcasting Corporation (1976); accessed No­vember 09, 2017, http://www.marshallmcluhanspeaks.com/inter­view/1976-what-television-does-best.
+              To Marshall McLuhan, television was a cool medium, something that engendered ritual, rhythm, and pattern. The people that watched it would “lose interest in being private individuals [… as a result of] one of the hidden and perhaps insidious effects of television;”—Marshall McLuhan, “What Television Does Best,” Marshall McLuhan Speaks, interview with Tom Snyder, The National Broadcasting Corporation (1976); accessed November 09, 2017, http://www.marshallmcluhanspeaks.com/interview/1976-what-television-does-best.
             </li>
             <li id="fn-three">
               The <i>pensieve</i> is a fictional object from J.K. Rowling’s <i>Harry Potter</i> series; it is used to review a person’s memories by pouring vials of liquid into its shallow pool of substance that resembles liquid gas.
