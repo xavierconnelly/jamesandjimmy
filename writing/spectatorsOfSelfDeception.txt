@@ -15,28 +15,13 @@
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.01.small.jpg" alt="Smiley face">
-            <div class=image-text>
-              <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.spect.01.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.02.small.jpg" alt="Smiley face">
             <div class=image-text>
               <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
+                <img src="/img/jcarter.spect.01.big.jpg" alt="Smiley face">
                 <img src="/img/jcarter.spect.02.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
                   <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
