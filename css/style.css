@@ -674,7 +674,10 @@ article > p:first-child {
 article h4{
   border-bottom: 2px solid;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
+  font-size: 1.5em;
+  margin-left: 20%;
+  width: 60%;
 }
 
 #coming-soon{
