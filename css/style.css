@@ -599,7 +599,9 @@ a{
   color: #E1DEDD;
   background-color: #BF0A30;
   z-index: 11;
-  overflow: auto;
+ /* overflow: auto;*/
+  overflow-y: auto;
+  overflow-x: hidden;
   padding: 20px;
 }
 
@@ -734,7 +736,7 @@ sup > a{
 /* ____________________________________________________________________________________________________________________________*/
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   article > p{
     width: 100%;
     margin-left: 0px;
@@ -745,6 +747,14 @@ sup > a{
   .footnotes{
     display: none;
   }
+}
+
+@media only screen and (max-width: 1200px) {
+  article > p{
+    width: 80%;
+    margin-left: 0px;
+  }
+
   .writing-something{
   display: block;
   padding-left: 0px;
@@ -754,13 +764,13 @@ sup > a{
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .footnotes{
     display: block ;
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
   .footnotes{
     display: none ;
   }
