@@ -934,6 +934,36 @@ sup > a{
 }
 
 
+.wri-img-all {
+  height: 4em;
+  width: 4em;
+  overflow: hidden;
+  display: inline-block;
+}
+  
+.wri-img-all:hover .duck{
+  opacity: 1;
+}
+
+.duck {
+  pointer-events: none;
+  position: fixed;
+  top: calc(50% + 4vw);
+  left: calc(75.5vw - 1px);
+  transform: translate(-50%, -50%);
+  width: calc(49vw - 1px);
+  height: calc(100% - 8vw);  
+  background-color: white;
+  transition: 1s ease;
+  opacity: 0;
+  outline: 1px solid;
+  outline-offset: -1px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+  
+
 
 /* Projects___________________________________________________________________________________________________________________*/
 /*____________________________________________________________________________________________________________________________*/
