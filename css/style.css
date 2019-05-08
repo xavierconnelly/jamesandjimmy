@@ -785,15 +785,31 @@ sup > a{
   }
 }
 
-
 /* Screens Larger than 1200px (sections > 588px)______________________________________*/
-
 
 @media only screen and (min-width: 1200px) {
   .footnotes{
     display: none ;
   }
 
+
+/* Screens Larger than 1200px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .writing-something{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(20% - 40px);
+    float: left;
+    clear: both;
+}
+
+}
+
+
+/* Screens Larger than 1600px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1200px) {
   .writing-something{
     padding-left: 5%;
     padding-right: 20px;
@@ -801,7 +817,6 @@ sup > a{
     float: left;
     clear: both;
 }
-
 }
 
  
