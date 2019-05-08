@@ -26,7 +26,7 @@
 @font-face {
   font-family: 'Sans';
   font-display: auto;
-  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
+  src: url("/assets/font/IBMPlexSans-Regular.ttf");
 }
 
 *:hover {
@@ -130,7 +130,7 @@ a{
   background: #BF0A30;
   color:  #200B02;
   padding: 20px;
-  font-family: arial;
+  font-family: 'Sans';
   font-size: 24px;
   text-align: left;
   overflow-x: hidden;
@@ -663,7 +663,7 @@ article > a{
 }
 
 article > p {
-  font-family:  arial;
+  font-family:  'Sans';
   margin-block-end: 10px;
   text-indent: 50px;
 }
@@ -703,14 +703,13 @@ h4 + p {
 }
 
 #next-article{
-  padding-top: 50px;
-  padding-right: 10px;
+  padding: 50px 20px;
   float: right;
   cursor: pointer;
 }
    
 #next-article:hover{
-  color: blue;
+  color: #BF0A30;
 }
 
  
@@ -740,7 +739,7 @@ sup > a{
 }
 
 .sidenote {
-  font-family:  arial;
+  font-family:  'Sans';
   font-size: 12px;
   line-height: 15px;
   text-align: left;
@@ -753,7 +752,7 @@ sup > a{
 }
 
 .sidenote i {
-    font-family: arial;
+    font-family: 'Sans';
   }
 
 .footnotes{
@@ -922,7 +921,7 @@ sup > a{
   padding: 3px;
   color: #200B02;
   text-align: left;
-  font-family:  arial;
+  font-family:  'Sans';
   font-size: 12px;
   line-height: 15px;
 }
