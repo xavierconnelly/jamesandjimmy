@@ -734,7 +734,7 @@ sup > a{
 /* ____________________________________________________________________________________________________________________________*/
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
   article > p{
     width: 100%;
     margin-left: 0px;
@@ -754,22 +754,16 @@ sup > a{
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
   .footnotes{
     display: block ;
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   .footnotes{
     display: none ;
   }
-}
-
-
-.footnotes{
-  font-size: 12px;
-  line-height: 15px;
 }
 
  
