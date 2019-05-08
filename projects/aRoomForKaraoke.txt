@@ -35,6 +35,6 @@
       <div class="photographer">
        * Photos by Martha Poggioli
       </div> 
-      <div id="next" class="something">
+      <div class="next something">
         Next Project: something ➜
       </div>
