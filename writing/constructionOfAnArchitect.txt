@@ -8,6 +8,6 @@
            Coming soon...
           </p>
         </article>
-        <div id="next-article" class="something">
+        <div class="next SOMETHING">
           Next Article: Something ➜
         </div>
