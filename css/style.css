@@ -602,7 +602,7 @@ a{
  /* overflow: auto;*/
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 20px;
+  padding: 10px;
 }
 
 #writing-container:hover {
