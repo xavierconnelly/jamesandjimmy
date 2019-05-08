@@ -736,6 +736,7 @@ sup > a{
 /* ____________________________________________________________________________________________________________________________*/
 
 
+
 @media only screen and (max-width: 900px) {
   article > p{
     width: 100%;
@@ -747,19 +748,17 @@ sup > a{
   .footnotes{
     display: none;
   }
+
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 900px) (max-width: 1200px) {
   article > p{
     width: 80%;
     margin-left: 0px;
   }
 
   .writing-something{
-  display: block;
   padding-left: 0px;
-  padding-right: 20px;
-  position: relative;
   width: calc(50% - 40px);
   }
 }
@@ -774,6 +773,14 @@ sup > a{
   .footnotes{
     display: none ;
   }
+
+  .writing-something{
+  padding-left: 5%;
+  width: calc(15% - 20px);
+  float: left;
+  clear: both;
+}
+
 }
 
  
@@ -826,12 +833,8 @@ sup > a{
 
 .writing-something{
   display: block;
-  padding-left: 5%;
   padding-right: 20px;
-  width: calc(15% - 20px);
-  float: left;
   position: relative;
-  clear: both;
 }
 
 .writing-image{
