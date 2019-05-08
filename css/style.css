@@ -664,7 +664,7 @@ article > p {
   width: 60%;
   font-family:  arial;
   margin-block-end: 10px;
-  text-indent: 90px;
+  text-indent: 50px;
 }
 
 article > p:first-child {
@@ -802,6 +802,7 @@ sup > a{
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   article > p{
     width: 70%;
+    margin-left: 15%;
   }
 
   .writing-something{
