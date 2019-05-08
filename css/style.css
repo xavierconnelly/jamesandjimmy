@@ -768,12 +768,13 @@ sup > a{
   }
 
   .writing-something{
+    clear: both;
+    float: left;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 20px;
     width: calc(50% - 40px);
   }
 }
-
 
 /* Screens Below than 1200px (sections < 588px)______________________________________*/
 
