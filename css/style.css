@@ -721,8 +721,8 @@ sup > a{
   float: right;
   position: relative;
   clear: both;
-  width: calc(20% - 40px);
-  padding: 10px 20px 10px 20px;
+  width: calc(20% - 20px);
+  padding: 10px;
 }
 
 .footnotes{
@@ -783,6 +783,10 @@ sup > a{
   .footnotes{
     display: block ;
   }
+
+  .sidenote i {
+    font-family: arial;
+  }
 }
 
 /* Screens Larger than 1200px (sections > 588px)______________________________________*/
@@ -796,10 +800,13 @@ sup > a{
 /* Screens Larger than 1200px (sections > 588px)______________________________________*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  article > p{
+    width: 70%;
+  }
+
   .writing-something{
-    padding-left: 20px;
-    padding-right: 20px;
-    width: calc(20% - 40px);
+    padding: 10px;
+    width: calc(20% - 20px);
     float: left;
     clear: both;
 }
