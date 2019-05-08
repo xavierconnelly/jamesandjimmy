@@ -50,6 +50,6 @@
       <div class="project-image plan">
         <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
       </div>
-      <div id="next" class="something">
+      <div class="next something">
         Next Project: something ➜
       </div>
