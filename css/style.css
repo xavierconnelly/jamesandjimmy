@@ -809,7 +809,7 @@ sup > a{
 
 /* Screens Larger than 1600px (sections > 588px)______________________________________*/
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
   .writing-something{
     padding-left: 5%;
     padding-right: 20px;
