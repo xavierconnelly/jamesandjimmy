@@ -671,6 +671,12 @@ article > p:first-child {
   text-indent: 0px;
 }
 
+#coming-soon{
+  padding-top: 100px;
+  text-align: center;
+  text-align-last: auto;
+}
+
 #download{
   float: right;
 }
