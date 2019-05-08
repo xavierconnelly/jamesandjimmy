@@ -15,13 +15,14 @@
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.01.small.jpg" alt="Smiley face">
-            <div class=image-text>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.
+            <div class=image-text>
+              <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.01.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                  Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.
+                  <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
                 </span>
               </span>
             </span>
@@ -31,21 +32,22 @@
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.02.small.jpg" alt="Smiley face">
-            <div class=image-text>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.
+            <div class=image-text>
+              <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.02.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                  Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.
+                  <i>Figs. 1 & 2: Two images of the Happy Days crew. One interior and one exterior; seemingly both have a muted color range and haziness, eschewing anything imperceptible.</i>
                 </span>
               </span>
             </span>
           </aside>
         </aside>
 
-         <p>
-          As an adolescent in the early 1990s who devoted himself to daily television like a monastic monk would religion, the workings of the rear projection television appeared obvious to me, except for one thing. Happy Days, that blissful 1970s replica of 1950s American life, appeared like another world, irrelevant to my upbringing in Australia. Sitting in the living room across the other side of the world, the show was characteristic for its simple hilarity of the American life of Richie Cunningham. Typical scenes staged the characters surrounded by an indistinct warm light, never depicting any of the dark hues or deep corners I knew to be true of the greater reality of life. Scenes garnered with this hazy light made one automatically think each was fabricated on a flat set in the misty Californian sun (Figs. 1 & 2). Yet it wasn’t necessarily the lighting or the color that left the images wanting. There was <i>something</i> lacking in the haze of fabricated Californian sunshine; there was <i>less</i> of something. Less detail, less shadow, less feeling. The scenes, lightened by the synthetic buoyancy of pastel col­ors, remained devoid of true darkness or uncertain­ty; a lack of depth that added to the unassuming merriment of the show.
+        <p>
+          As an adolescent in the early 1990s who devoted himself to daily television like a monastic monk would religion, the workings of the rear projection television appeared obvious to me, except for one thing. <i>Happy Days</i>, that blissful 1970s replica of 1950s American life, appeared like another world, irrelevant to my upbringing in Australia. Sitting in the living room across the other side of the world, the show was characteristic for its simple hilarity of the American life of Richie Cunningham. Typical scenes staged the characters surrounded by an indistinct warm light, never depicting any of the dark hues or deep corners I knew to be true of the greater reality of life. Scenes garnered with this hazy light made one automatically think each was fabricated on a flat set in the misty Californian sun (Figs. 1 & 2). Yet it wasn’t necessarily the lighting or the color that left the images wanting. There was <i>something</i> lacking in the haze of fabricated Californian sunshine; there was <i>less</i> of something. Less detail, less shadow, less feeling. The scenes, lightened by the synthetic buoyancy of pastel col­ors, remained devoid of true darkness or uncertain­ty; a lack of depth that added to the unassuming merriment of the show.
         </p>
 
         <h4> A Way of Seeing </h4>
@@ -73,13 +75,14 @@
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.03.small.jpg" alt="Smiley face">
-            <div class=image-text>Fig. 3: Unelectrified television in the corner of a room. The bulbous grey glass surface protruding from the veneered box.
+            <div class=image-text>
+              <i>Fig. 3: Unelectrified television in the corner of a room. The bulbous grey glass surface protruding from the veneered box.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.03.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                  Fig. 3: Unelectrified television in the corner of a room. The bulbous grey glass surface protruding from the veneered box.
+                  <i>Fig. 3: Unelectrified television in the corner of a room. The bulbous grey glass surface protruding from the veneered box.</i>
                 </span>
               </span>
             </span>
@@ -103,13 +106,14 @@
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.04.small.jpg" alt="Smiley face">
-            <div class=image-text> Fig. 4: Albus Dumbledore casts an inquiring glance at the magic flowing surface of memory, the pensieve, in Harry Potter and the Goblet of Fire (2005).
+            <div class=image-text> 
+              <i>Fig. 4: Albus Dumbledore casts an inquiring glance at the magic flowing surface of memory, the pensieve, in Harry Potter and the Goblet of Fire (2005).</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.04.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                   Fig. 4: Albus Dumbledore casts an inquiring glance at the magic flowing surface of memory, the pensieve, in Harry Potter and the Goblet of Fire (2005).
+                   <i>Fig. 4: Albus Dumbledore casts an inquiring glance at the magic flowing surface of memory, the pensieve, in Harry Potter and the Goblet of Fire (2005).</i>
                 </span>
               </span>
             </span>
@@ -117,7 +121,7 @@
         </aside>
 
         <p>
-          Sitting in front of my plasma television in the 2000s, with six times the definition of earlier apparatuses and 1080 lines of resolution at 1920 pixels per line, the surface itself was now fashion­ing the images it projected. With the DVD spinning at 1000 rotations per minute and the DVD player’s laser reading the disk’s individual bumps spaced at 740 nanometers apart (1/1,000,000 of a meter), the world of Hogwarts and Harry Potter was illuminat­ed. The religious consumption of television still took place within a rectangular frame, two meters in front of me, yet my trough had evolved, along with the feed. The rear projection television had been replaced by a field of two million individual pixels, forming a new generation of images to tem­per both imagination and insecurities. As Albus Dumbledore cast an enquiring glance into the surface of the ethereal <i>pensieve</i> <sup><a href="#fn-three">3</a></sup> from the television (Fig. 4), my family pewter clock appeared in full luster. Both objects presented themselves as two of the same; one immaterial and one material. The clock’s surface flowed with variations formed into its ultra-reflective pewter, while the pensieve undulated as a surface of reflective memories. Moving like waves within the bounds of a frame, the <i>pensieve</i> tantalized the scene with flicks and flecks of light. This flowing amorphous surface pre­sented other realms from which moments could be imparted onto its surface. Even though it was fic­tional, the pensieve was emblematic of many other surfaces of magic and superstition used to initiate another form of reality.
+          Sitting in front of my plasma television in the 2000s, with six times the definition of earlier apparatuses and 1080 lines of resolution at 1920 pixels per line, the surface itself was now fashion­ing the images it projected. With the DVD spinning at 1000 rotations per minute and the DVD player’s laser reading the disk’s individual bumps spaced at 740 nanometers apart (1/1,000,000 of a meter), the world of Hogwarts and Harry Potter was illuminat­ed. The religious consumption of television still took place within a rectangular frame, two meters in front of me, yet my trough had evolved, along with the feed. The rear projection television had been replaced by a field of two million individual pixels, forming a new generation of images to tem­per both imagination and insecurities. As Albus Dumbledore cast an enquiring glance into the surface of the ethereal <i>pensieve</i> <sup><a href="#fn-three">3</a></sup> from the television (Fig. 4), my family pewter clock appeared in full luster. Both objects presented themselves as two of the same; one immaterial and one material. The clock’s surface flowed with variations formed into its ultra-reflective pewter, while the <i>pensieve</i> undulated as a surface of reflective memories. Moving like waves within the bounds of a frame, the <i>pensieve</i> tantalized the scene with flicks and flecks of light. This flowing amorphous surface pre­sented other realms from which moments could be imparted onto its surface. Even though it was fic­tional, the <i>pensieve</i> was emblematic of many other surfaces of magic and superstition used to initiate another form of reality.
         </p>
 
         <p>
@@ -136,13 +140,13 @@
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.05.small.jpg" alt="Smiley face">
             <div class=image-text>
-              Fig. 5: Étienne-Louis Boulleé’s Temple of Death, 1790.
+              <i>Fig. 5: Étienne-Louis Boulleé’s Temple of Death, 1790.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.05.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                  Fig. 5: Étienne-Louis Boulleé’s Temple of Death, 1790. 
+                  <i>Fig. 5: Étienne-Louis Boulleé’s Temple of Death, 1790.</i>
                 </span>
               </span>
             </span>
@@ -150,7 +154,7 @@
         </aside>
 
         <p>
-          The surfaces of the clock and the pensieve present the magical hold of obscurity, and my unconscious insecurity of their reflections represents a mixture of memory and fear. The resulting lack of distinc­tion from these surfaces between subject and space exhibits Minkowski’s idea of dark space; not simply the absence of light, but something that forever penetrates us and distorts our own representation of ourselves in space, forcing the sensory organs to play a modest role in spatial recognition. <sup><a href="#fn-four">4</a></sup> The objects’ sparks of light and glints of color were emblematic of the unknown, enveloping egos and causing disquiet within. If Vidler proposed such a space could be held within Étienne-Louis Boulleé’s etched Temple of Death (Fig. 5), these objects were proof of it in a formal capacity. Where Vidler saw the Temple of Death’s infinitely thin etching as dis­solving “the bodily substantiality of the traditional monument […] into a mirror of the projection of a disappearing subject,” <sup><a href="#fn-five">5</a></sup> these indistinguishable objects removed the certitude of the subject’s presence altogether, distorting any concept of the finality of the space around them. 
+          The surfaces of the clock and the <i>pensieve</i> present the magical hold of obscurity, and my unconscious insecurity of their reflections represents a mixture of memory and fear. The resulting lack of distinc­tion from these surfaces between subject and space exhibits Minkowski’s idea of dark space; not simply the absence of light, but something that forever penetrates us and distorts our own representation of ourselves in space, forcing the sensory organs to play a modest role in spatial recognition. <sup><a href="#fn-four">4</a></sup> The objects’ sparks of light and glints of color were emblematic of the unknown, enveloping egos and causing disquiet within. If Vidler proposed such a space could be held within Étienne-Louis Boulleé’s etched Temple of Death (Fig. 5), these objects were proof of it in a formal capacity. Where Vidler saw the Temple of Death’s infinitely thin etching as dis­solving “the bodily substantiality of the traditional monument […] into a mirror of the projection of a disappearing subject,” <sup><a href="#fn-five">5</a></sup> these indistinguishable objects removed the certitude of the subject’s presence altogether, distorting any concept of the finality of the space around them. 
         </p>
 
         <p>
@@ -158,7 +162,7 @@
         </p>
 
         <p>
-          Much like the magic of Dumbledore’s pensieve, to us wee muggles superstitions are incomprehensi­ble, the intelligence behind their objects relying on an esoteric knowledge. Dumbledore is a magician; a horseshoe’s luck is foretold in folk tales. Both establish a division between those who know and those who don’t know. Magic, or the unknown, can be taken as that which only a few people can ex­plain or comprehend; maintaining power through segregation. The muggles and the magicians, or the superstitious and those who manipulate them, are here contextualized as a hierarchy of power under the guise of surfaces; immaterial or material, their framing provides a partitioning of knowledge that results in exclusion.
+          Much like the magic of Dumbledore’s <i>pensieve</i>, to us wee muggles superstitions are incomprehensi­ble, the intelligence behind their objects relying on an esoteric knowledge. Dumbledore is a magician; a horseshoe’s luck is foretold in folk tales. Both establish a division between those who know and those who don’t know. Magic, or the unknown, can be taken as that which only a few people can ex­plain or comprehend; maintaining power through segregation. The muggles and the magicians, or the superstitious and those who manipulate them, are here contextualized as a hierarchy of power under the guise of surfaces; immaterial or material, their framing provides a partitioning of knowledge that results in exclusion.
         </p>
 
         <h4> A Way of Segregating</h4>
@@ -167,13 +171,13 @@
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.06.small.jpg" alt="Smiley face">
             <div class=image-text>
-              Fig. 6: The man of the unknown. Donald Rumsfeld giving a press conference to the media about the Iraq war and the lack of information in regards to weapons of mass destruction, 2002.
+              <i>Fig. 6: The man of the unknown. Donald Rumsfeld giving a press conference to the media about the Iraq war and the lack of information in regards to weapons of mass destruction, 2002.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.06.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                  Fig. 6: The man of the unknown. Donald Rumsfeld giving a press conference to the media about the Iraq war and the lack of information in regards to weapons of mass destruction, 2002.
+                  <i>Fig. 6: The man of the unknown. Donald Rumsfeld giving a press conference to the media about the Iraq war and the lack of information in regards to weapons of mass destruction, 2002.</i>
                 </span>
               </span>
             </span>
@@ -205,18 +209,18 @@
         </p>
 
         <h4> A Way of Containing</h4>
-        
+
         <aside class="writing-something">
           <aside class="writing-image" tabindex="0">
             <img src="https://jamesandjimmy.com/img/jcarter.spect.07.small.jpg" alt="Smiley face">
             <div class=image-text>
-              Fig. 7: An image of the earth taken from Apollo 17 on December 7, 1972. This was the first time the earth had been fully shot through photography, providing a solitary and potentially (at the time) unifying image of the world.
+              <i>Fig. 7: An image of the earth taken from Apollo 17 on December 7, 1972. This was the first time the earth had been fully shot through photography, providing a solitary and potentially (at the time) unifying image of the world.</i>
             </div>
             <span class="writing-image-hover">
               <span class="writing-image-hover-container">
                 <img src="/img/jcarter.spect.07.big.jpg" alt="Smiley face">
                 <span id="writing-image-image-text"> 
-                  Fig. 7: An image of the earth taken from Apollo 17 on December 7, 1972. This was the first time the earth had been fully shot through photography, providing a solitary and potentially (at the time) unifying image of the world.7
+                  <i>Fig. 7: An image of the earth taken from Apollo 17 on December 7, 1972. This was the first time the earth had been fully shot through photography, providing a solitary and potentially (at the time) unifying image of the world.</i>
                 </span>
               </span>
             </span>
@@ -224,7 +228,7 @@
         </aside>
 
         <p>
-          My new faith is now held in the portable flat screen. 200 years after the Claude Mirror reflected Manet’s gaze, the screen is the perfect reflection of my exteriority; a beautiful wafer-thin film of my continued religion and existence. My trough now overflows with feed that I view on my wristwatch or phone, and with online maps and satellite imagery the whole world is bounded within each surface. Unlike The Blue Marble (Fig. 7) image from Apollo 17 that provided one solitary representation of the world and its people, the new landscape and ter­rain of Google Maps represents our modern world full of detail, in high-definition, and relative to ev­erything. Accessible and complete, every extent of the earth is scalable and comparable to every other street, mountain, or building.
+          My new faith is now held in the portable flat screen. 200 years after the Claude Mirror reflected Manet’s gaze, the screen is the perfect reflection of my exteriority; a beautiful wafer-thin film of my continued religion and existence. My trough now overflows with feed that I view on my wristwatch or phone, and with online maps and satellite imagery the whole world is bounded within each surface. Unlike <i>The Blue Marble</i> (Fig. 7) image from Apollo 17 that provided one solitary representation of the world and its people, the new landscape and ter­rain of Google Maps represents our modern world full of detail, in high-definition, and relative to ev­erything. Accessible and complete, every extent of the earth is scalable and comparable to every other street, mountain, or building.
         </p>
 
         <aside class="writing-something">
