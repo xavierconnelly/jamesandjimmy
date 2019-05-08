@@ -3,27 +3,26 @@
         <div id="publisher">Fresh Meat X</div>
         <div id="heading">Bubble Matter</div>
       </div>
-      <article id="writing-scroll">
 
-        <div id="download" class="sidenote">
-          <a href="article link here" download="ArticleName">
-            [DOWNLOAD PDF]
-          </a>
-        </div>
+      <div id="download" class="sidenote">
+        <a href="article link here" download="ArticleName">
+          [DOWNLOAD PDF]
+        </a>
+      </div>
 
-        <p>
-          In 1960 Bubblewrap was invented by pneumatically filling shower curtains into a gridded field of bubbles. That same year, Buckminster Fuller and Shoji Sadao proposed to cover New York with just one (Fig. 1). Unlike the metropolis’ monumental enclosure, Bubblewrap covered its object in a dependability of expendability. The multiplicity of air pockets ensured each sheet lasted long after one pop. Yet for all the bubblemania of the sixties, the bubble’s pluralistic composition remained singular. The architects seemed to take all the air out of the room.
-        </p>
+      <p>
+        In 1960 Bubblewrap was invented by pneumatically filling shower curtains into a gridded field of bubbles. That same year, Buckminster Fuller and Shoji Sadao proposed to cover New York with just one (Fig. 1). Unlike the metropolis’ monumental enclosure, Bubblewrap covered its object in a dependability of expendability. The multiplicity of air pockets ensured each sheet lasted long after one pop. Yet for all the bubblemania of the sixties, the bubble’s pluralistic composition remained singular. The architects seemed to take all the air out of the room.
+      </p>
 
-        <aside class="writing-something">
-          <div class="wri-img-all"> 
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.01.small.jpg">
-            <div class=image-text>Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York.
-            </div> 
-            <div class="duck" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
-            </div>
+      <aside class="writing-something">
+        <div class="wri-img-all"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.01.small.jpg">
+          <div class=image-text>Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York.
+          </div> 
+          <div class="duck" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
           </div>
-        </aside>
+        </div>
+      </aside>
 
         <p> 
           With Fuller’s and other inflatable spaces, architects of the time caught the eye of the media as radicals. In the face of monumentalized global powers after the war, <i>Utopie</i>, Coop Himmelb(l)au, Haus-Rucker-Co, and several others all politicized the individual bubble as a symbol of ephemerality, translucency and discontinuity. Yet these bubbles symbolically never broke. They overlooked their own capacity to burst instead of their ability to shelter. Unbeknownst to them, it was the release and the liberation of air that made a bubble useful.
