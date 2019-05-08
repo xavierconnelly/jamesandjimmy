@@ -22,7 +22,8 @@
             </div> 
             <div class="duck" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
             </div>
-        </div>
+          </div>
+        </aside>
 
         <p> 
           With Fuller’s and other inflatable spaces, architects of the time caught the eye of the media as radicals. In the face of monumentalized global powers after the war, <i>Utopie</i>, Coop Himmelb(l)au, Haus-Rucker-Co, and several others all politicized the individual bubble as a symbol of ephemerality, translucency and discontinuity. Yet these bubbles symbolically never broke. They overlooked their own capacity to burst instead of their ability to shelter. Unbeknownst to them, it was the release and the liberation of air that made a bubble useful.
