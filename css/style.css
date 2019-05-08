@@ -662,7 +662,7 @@ a{
 #sub-heading {
 }
 
-article {
+#writing-container {
   padding-top: 20px;
   font-size: 20px;
   line-height: 24px;
@@ -671,26 +671,26 @@ article {
   text-align-last: start;
 }
 
-article > a{
+#writing-container > a{
   color: inherit;
 }
 
-article > p {
+#writing-container > p {
   font-family:  'Sans';
   margin-block-end: 10px;
   text-indent: 50px;
 }
 
-article > p, article > h4{
+#writing-container > p, article > h4{
   margin-left: 20%;
   width: 60%;
 }
 
-article > p:first-child {
+#writing-container > p:first-child {
   text-indent: 0px;
 }
 
-article h4{
+#writing-container h4{
   border-bottom: 2px solid;
   text-align: center;
   padding-top: 40px;
@@ -771,7 +771,7 @@ sup > a{
 
 
 @media only screen and (max-width: 900px) {
-  article > p, article > h4{
+  #writing-container > p, #writing-container > h4{
     width: 100%;
     margin-left: 0px;
   }
@@ -784,7 +784,7 @@ sup > a{
     display: none;
   }
 
-  .writing-something{
+ .writing-something{
     padding-right: 20px;
     padding-left: 20px;
     width: calc(100% - 40px);
@@ -796,7 +796,7 @@ sup > a{
 
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
-  article > p, article > h4{
+  #writing-container > p, #writing-container > h4{
     width: 80%;
     margin-left: 0px;
   }
@@ -830,7 +830,7 @@ sup > a{
 /* Screens Larger than 1200px (sections > 588px)______________________________________*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  article > p, article > h4{
+  #writing-container > p, #writing-container > h4{
     width: 70%;
     margin-left: 15%;
   }
