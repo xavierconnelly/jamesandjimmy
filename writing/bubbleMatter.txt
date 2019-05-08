@@ -16,20 +16,13 @@
         </p>
 
         <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.02.small.jpg" alt="Smiley face">
+          <div class="wri-img-all"> 
+            <img src="https://jamesandjimmy.com/img/jcarter.bubble.01.small.jpg">
             <div class=image-text>Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York.
+            </div> 
+            <div class="duck" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
             </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.02.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York. 
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
+        </div>
 
         <p> 
           With Fuller’s and other inflatable spaces, architects of the time caught the eye of the media as radicals. In the face of monumentalized global powers after the war, <i>Utopie</i>, Coop Himmelb(l)au, Haus-Rucker-Co, and several others all politicized the individual bubble as a symbol of ephemerality, translucency and discontinuity. Yet these bubbles symbolically never broke. They overlooked their own capacity to burst instead of their ability to shelter. Unbeknownst to them, it was the release and the liberation of air that made a bubble useful.
