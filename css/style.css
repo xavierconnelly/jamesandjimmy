@@ -709,7 +709,7 @@ sup::after{
 }
 
 sup > a{
-  color: inherit;
+  text-decoration: none;
 }
 
 .sidenote {
