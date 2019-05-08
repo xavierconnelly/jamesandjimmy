@@ -671,6 +671,12 @@ article > p:first-child {
   text-indent: 0px;
 }
 
+article h4{
+  border-bottom: 2px solid;
+  text-align: center;
+  padding-top: 20px;
+}
+
 #coming-soon{
   padding-top: 100px;
   text-align: center;
@@ -731,6 +737,10 @@ sup > a{
   padding: 10px;
 }
 
+.sidenote i {
+    font-family: arial;
+  }
+
 .footnotes{
   font-size: 12px;
   line-height: 15px;
@@ -788,10 +798,6 @@ sup > a{
 @media only screen and (max-width: 1200px) {
   .footnotes{
     display: block ;
-  }
-
-  .sidenote i {
-    font-family: arial;
   }
 }
 
