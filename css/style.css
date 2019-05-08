@@ -736,6 +736,8 @@ sup > a{
 /* ____________________________________________________________________________________________________________________________*/
 
 
+/* Screens Below 900px (sections < 441px)______________________________________*/
+
 
 @media only screen and (max-width: 900px) {
   article > p{
@@ -748,37 +750,55 @@ sup > a{
   .footnotes{
     display: none;
   }
+  .writing-something{
+    padding-right: 20px;
+    padding-left: 20px;
+    width: calc(100% - 40px);
+  }
 
 }
 
-@media only screen and (min-width: 900px) (max-width: 1200px) {
+/* Screens Between 900px and 1200px (441px < sections < 588px)______________________________________*/
+
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
   article > p{
     width: 80%;
     margin-left: 0px;
   }
 
   .writing-something{
-  padding-left: 0px;
-  width: calc(50% - 40px);
+    padding-right: 0px;
+    padding-left: 0px;
+    width: calc(50% - 40px);
   }
 }
 
-@media only screen and (max-width: 900px) {
+
+/* Screens Below than 1200px (sections < 588px)______________________________________*/
+
+
+@media only screen and (max-width: 1200px) {
   .footnotes{
     display: block ;
   }
 }
 
-@media only screen and (min-width: 900px) {
+
+/* Screens Larger than 1200px (sections > 588px)______________________________________*/
+
+
+@media only screen and (min-width: 1200px) {
   .footnotes{
     display: none ;
   }
 
   .writing-something{
-  padding-left: 5%;
-  width: calc(15% - 20px);
-  float: left;
-  clear: both;
+    padding-left: 5%;
+    padding-right: 20px;
+    width: calc(15% - 20px);
+    float: left;
+    clear: both;
 }
 
 }
@@ -833,7 +853,6 @@ sup > a{
 
 .writing-something{
   display: block;
-  padding-right: 20px;
   position: relative;
 }
 
