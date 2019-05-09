@@ -914,7 +914,7 @@ sup > a{
 }
    
 .project-titles{
-  margin: 5px 10px 50px 20px;
+  /*margin: 5px 10px 50px 20px;*/
   text-align: left;
   font-weight: bold;
   position: sticky;
@@ -927,13 +927,13 @@ sup > a{
 .project-image > img {
  width: calc(100% - 20px);
  overflow: hidden;
- margin: 5px 5px 0px 5px;
+ /*margin: 5px 5px 0px 5px;*/
  outline: 1px solid;
  outline-offset: -1px;
 }
 
 .project-text{
-  margin: 5px 20px 50px 0px;
+  /*margin: 5px 20px 50px 0px;*/
   text-align: left;
   float: right;
   width: calc(50% - 10px);
