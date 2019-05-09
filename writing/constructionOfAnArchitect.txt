@@ -1,13 +1,13 @@
-        <div class="writing-titles">
+        <div id="writing-titles">
           <div id="year">* Upcoming *</div> 
           <div id="publisher">MAS Context #32</div> 
           <div id="heading">Construction of an Architect</div>
         </div>
-        <article id="coming-soon">    
-          <p>
-           Coming soon...
-          </p>
-        </article>
+ 
+        <p id="coming-soon">
+         Coming soon...
+        </p>
+
         <div class="next SOMETHING">
           Next Article: Something ➜
         </div>
