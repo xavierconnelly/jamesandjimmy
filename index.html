@@ -93,7 +93,7 @@
 <!----------------------- NEWS NAV ---------------------------->
 <!---------------------------|--------------------------------->
    
-    <div class="news-container" onclick="openLeft()" tabindex="0">
+    <div id="news-container" onclick="openLeft()" tabindex="0">
       <a href="#jamesnews">
         <div class="news-marquee">
           <span class="news-marquee-element">
@@ -116,7 +116,7 @@
 <!--------------------- WRITING NAV --------------------------->
 <!---------------------------|--------------------------------->
 
-    <div class="wri-mar-con">
+    <div id="wri-mar-con">
       <div class="wri-mar">
 
         <div>
@@ -216,7 +216,7 @@
 <!--------------------- PROJECT NAV --------------------------->
 <!---------------------------|--------------------------------->
 
-    <div class="pro-mar-con">
+    <div id="pro-mar-con">
       <div class="pro-mar">
        
         <div class="pro-mar-unit">
@@ -391,10 +391,10 @@
 <!----------------------- JAMES NAV --------------------------->
 <!---------------------------|--------------------------------->
 
-    <div class="james-container">
+    <div id="james-container">
 
       <a href="#jamesbio">
-        <div class="jam-let-all" tabindex="0" onclick="openLeft()">
+        <div id="jam-let-all" tabindex="0" onclick="openLeft()">
 
           <div class="jam-let">
             <div class="jam-let-mar">
@@ -596,7 +596,7 @@
 <!----------------------- WRITING ----------------------------->
 <!---------------------------|--------------------------------->
 
-    <div class="writing-container">
+    <div id="writing-container">
       <div id="writing-titles">
         <span id="publisher">Flat Out #3</span> 
         <span id="year">2019</span> 
@@ -702,36 +702,28 @@
   } );
     
   $(".construction").click(function(){
-    $("#writing-scroll").load("/writing/constructionOfAnArchitect.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/constructionOfAnArchitect.txt") .scrollTop(0);
   });
    $(".display").click(function(){
-    $("#writing-scroll").load("/writing/displayRooms.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/displayRooms.txt") .scrollTop(0);
   });
    $(".bubble").click(function(){
-    $("#writing-scroll").load("/writing/bubbleMatter.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/bubbleMatter.txt") .scrollTop(0);
   });
    $(".whereyou").click(function(){
-    $("#writing-scroll").load("/writing/whereYouAlwaysAre.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/whereYouAlwaysAre.txt") .scrollTop(0);
   });
    $(".freshmeat").click(function(){
-    $("#writing-scroll").load("/writing/freshMeat.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/freshMeat.txt") .scrollTop(0);
   });
    $(".spectators").click(function(){
-    $("#writing-scroll").load("/writing/spectatorsOfSelfDeception.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/spectatorsOfSelfDeception.txt") .scrollTop(0);
   });
    $(".fatspace").click(function(){
-    $("#writing-scroll").load("/writing/fatspace.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/fatspace.txt") .scrollTop(0);
   });
    $(".thinktank").click(function(){
-    $("#writing-scroll").load("/writing/urbanThinkTank.txt");
-    $(".writing-container-grid").scrollLeft(0);
+    $("#writing-container").load("/writing/urbanThinkTank.txt") .scrollTop(0);
   });
     
 
