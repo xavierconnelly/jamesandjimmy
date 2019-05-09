@@ -1,7 +1,5 @@
-      <div class="project-image">
-        <img src="/img/jcarter.karaoke.01.jpg" alt="Smiley face">
-      </div>
-      <div class="project-titles">
+      <img src="/img/jcarter.karaoke.01.jpg" alt="Smiley face">
+      <span id="project-titles">
         <h1>A Room for Karaoke and Other Things</h1>
         <br>
         <h4>
@@ -11,28 +9,18 @@
           2015 <br>
           Melbourne, Australia
         </h4>
-      </div> 
-      <div class="project-text">
+      </span> 
+      <span id="project-text">
         <p>
           Centered around the conversion of an existing storage space in a Japanese restaurant, this tiny 2.5 x 3.5 metre room establishes manifold occupation through furniture and surface treatment. Used for both karaoke and private dining, the room’s patterned elevations provide simultaneous acoustic retention and surface activation, enabling the co-existence of business and frivolity. The 270 degree booth seating and table anticipates both formal eating and raucous performing, as chairs become stages, armrests become seats, and tables become podiums. 
         </p>
-      </div>
-      <div class="project-image">
-        <img src="/img/jcarter.karaoke.02.jpg" alt="Smiley face">
-      </div>
-      <div class="project-image">
-        <img src="/img/jcarter.karaoke.03.jpg" alt="Smiley face">
-      </div>
-      <div class="project-image">
-        <img src="/img/jcarter.karaoke.04.jpg" alt="Smiley face">
-      </div>
-      <div class="project-image">
-        <img src="/img/jcarter.karaoke.05.jpg" alt="Smiley face">
-      </div>
-      <div class="project-image">
-        <img src="/img/jcarter.karaoke.06.jpg" alt="Smiley face">
-      </div>
-      <div class="photographer">
+      </span>
+      <img src="/img/jcarter.karaoke.02.jpg" alt="Smiley face">
+      <img src="/img/jcarter.karaoke.03.jpg" alt="Smiley face">
+      <img src="/img/jcarter.karaoke.04.jpg" alt="Smiley face">
+      <img src="/img/jcarter.karaoke.05.jpg" alt="Smiley face">
+      <img src="/img/jcarter.karaoke.06.jpg" alt="Smiley face">
+      <div id="photographer">
        * Photos by Martha Poggioli
       </div> 
       <div class="next something">
