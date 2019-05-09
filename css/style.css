@@ -932,7 +932,7 @@ sup > a{
   position: relative;
 }
 
-.project-container > img {
+#project-container > img {
  width: 100%;
  overflow: hidden;
  margin-top: 5px;
