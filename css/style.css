@@ -938,6 +938,10 @@ sup > a{
  outline-offset: -1px;
 }
 
+#project-container > img:first-child {
+  margin-top: 0px;
+}
+
 #photographer {
   font-size:12px;
   text-align:left;
