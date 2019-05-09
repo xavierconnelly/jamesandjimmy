@@ -892,8 +892,7 @@ sup > a{
 /* Projects___________________________________________________________________________________________________________________*/
 /*____________________________________________________________________________________________________________________________*/
 
-
-#project-container{
+#project-container {
   font-size: 1em;
   z-index: 2;
   padding: 10px 10px 30px;
@@ -904,17 +903,17 @@ sup > a{
   text-align: center;
 }
 
-#project-container::-webkit-scrollbar{
+#project-container::-webkit-scrollbar {
  display: none;
 }
 
-#project-container:hover{
+#project-container:hover {
   background-color: #E1DEDD;
   color: #BF0A30;
 }
    
-.project-titles{
-  /*margin: 5px 10px 50px 20px;*/
+.project-titles {
+  margin: 5px 10px 50px 20px;
   text-align: left;
   font-weight: bold;
   position: sticky;
@@ -924,16 +923,8 @@ sup > a{
   width: 40%;
 }
 
-.project-image > img {
- width: calc(100% - 20px);
- overflow: hidden;
- /*margin: 5px 5px 0px 5px;*/
- outline: 1px solid;
- outline-offset: -1px;
-}
-
-.project-text{
-  /*margin: 5px 20px 50px 0px;*/
+.project-text {
+  margin: 5px 20px 50px 0px;
   text-align: left;
   float: right;
   width: calc(50% - 10px);
@@ -941,12 +932,15 @@ sup > a{
   position: relative;
 }
 
-.project-text a{
-  color: inherit;
-  text-decoration: ;
+.project-container > img {
+ width: 100%;
+ overflow: hidden;
+ margin-top: 5px;
+ outline: 1px solid #200B02;
+ outline-offset: -1px;
 }
 
-.photographer{
+.photographer {
   font-size:12px;
   text-align:left;
   margin-left:10px;
