@@ -129,52 +129,10 @@ a{
   padding-top: 0px;
 }
 
-
-/* Bio ________________________________________________________________________________________________________________________*/
-/* ____________________________________________________________________________________________________________________________*/  
-
-#bio {
-  background: #BF0A30;
-  color:  #200B02;
-  padding: 20px;
-  font-family: 'Sans';
-  font-size: 24px;
-  text-align: left;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  padding-bottom: 100px;
-}
-
-#bio:hover{
-  background: #E1DEDD;
-  color: #200B02;
-}
-
-#bio::-webkit-scrollbar{
- display: none;
-}
-
-.closebtn{
-  float: right;
-  position: sticky;
-  top: 0;
-}
-
-#jamesbio{
- padding-bottom: 50px;
- width: 80%;
- padding-top: 20px;
-}
-
-#jamescontact{
-  border-top: 2px solid;
-  padding-top: 50px;
-}
-
 /* News Navigation ____________________________________________________________________________________________________________*/  
 /* ____________________________________________________________________________________________________________________________*/  
 
-.news-container {
+#news-container {
   color: #200B02;
   background-color: #BF0A30;
   cursor: pointer;
@@ -184,11 +142,11 @@ a{
   z-index: 11;
 }
 
-.news-container::-webkit-scrollbar{  
+#news-container::-webkit-scrollbar{  
  display: none;
 }
 
-.news-container:hover {
+#news-container:hover {
   color: #BF0A30;
   background-color: #E1DEDD;
 }
@@ -236,7 +194,7 @@ a{
 }
 
 /* Marquee Animation Pause */
-.news-container:hover > .news-marquee > span { 
+#news-container:hover > .news-marquee > span { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -248,7 +206,7 @@ a{
 /* ____________________________________________________________________________________________________________________________*/  
 
 /* Marquee Container */
-.wri-mar-con {
+#wri-mar-con {
   color: #200B02;
   background-color: #BF0A30;
   overflow-Y: scroll;
@@ -256,7 +214,7 @@ a{
   z-index: 15;
 }
 
-.wri-mar-con::-webkit-scrollbar{  
+#wri-mar-con::-webkit-scrollbar{  
  display: none;
 }
 
@@ -298,7 +256,7 @@ a{
 }
 
 /* Marquee Animation Request */
-.wri-mar-con > .wri-mar > div { 
+#wri-mar-con > .wri-mar > div { 
   -webkit-animation: wri-up 16s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
@@ -313,7 +271,7 @@ a{
 }
 
 /* Marquee Animation Pause */
-.wri-mar-con:hover > .wri-mar > div { 
+#wri-mar-con:hover > .wri-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -325,7 +283,7 @@ a{
 /* ____________________________________________________________________________________________________________________________*/  
 
 /* Marquee Container (View Size) */
-.pro-mar-con {
+#pro-mar-con {
   cursor: pointer;
   background-color: #BF0A30;
   z-index: 3;
@@ -333,7 +291,7 @@ a{
   overflow-y: hidden;
 }
 
-.pro-mar-con::-webkit-scrollbar{  
+#pro-mar-con::-webkit-scrollbar{  
  display: none;
 }
 
@@ -447,17 +405,58 @@ a{
   background-color: #E1DEDD;
 } 
 
+/* Bio ________________________________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/  
+
+#bio {
+  background: #BF0A30;
+  color:  #200B02;
+  padding: 20px;
+  font-family: 'Sans';
+  font-size: 24px;
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+
+#bio:hover{
+  background: #E1DEDD;
+  color: #200B02;
+}
+
+#bio::-webkit-scrollbar{
+ display: none;
+}
+
+.closebtn{
+  float: right;
+  position: sticky;
+  top: 0;
+}
+
+#jamesbio{
+ padding-bottom: 50px;
+ width: 80%;
+ padding-top: 20px;
+}
+
+#jamescontact{
+  border-top: 2px solid;
+  padding-top: 50px;
+}
+
 /* James Navigation____________________________________________________________________________________________________________*/  
 /* ____________________________________________________________________________________________________________________________*/  
 
 
-.james-container {
+#james-container {
   color: #200B02;
   background-color: #BF0A30;
   overflow: hidden;
 }
 
-.james-container a{
+#james-container a{
   text-decoration: none;
 }
 
@@ -465,14 +464,14 @@ a{
 /* ____________________________________________________________________________________________________________________________*/  
 
 /* Marquee Container - wider */
-.jam-let-all {
+#jam-let-all {
   width: 2vw;
   height: calc(100% - 8vw);
   overflow: hidden;
   z-index: 1;
 }
 
-.jam-let-all:hover {
+#jam-let-all:hover {
   color: #BF0A30;
   background-color: #E1DEDD;
 }
@@ -517,7 +516,7 @@ a{
 }
 
 /* Marquee Animation Pause */
-.jam-let-all:hover > .jam-let > .jam-let-mar > div { 
+#jam-let-all:hover > .jam-let > .jam-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -529,7 +528,7 @@ a{
 /* ____________________________________________________________________________________________________________________________*/
 
 /* Marquee Container - wider */
-.con-let-all {
+#con-let-all {
   border-top: 1px solid;
   color: #E1DEDD;
   background-color: #BF0A30;
@@ -541,7 +540,7 @@ a{
   overflow: hidden;
 }
 
-.con-let-all:hover {
+#con-let-all:hover {
   color: #BF0A30;
   background-color: #E1DEDD;
 }
@@ -586,7 +585,7 @@ a{
 }
 
 /* Marquee Animation Pause */
-.con-let-all:hover > .jam-let > .jam-let-mar > div { 
+#con-let-all:hover > .con-let > .con-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -680,13 +679,12 @@ a{
   padding-top: 20px;
 }
 
-#writing-container #coming-soon{
+#coming-soon{
   padding-top: 100px;
   text-align: center;
+  text-align-last: auto;
   width: 100%;
-  height: 20%; 
-  margin: 0;
-  text-indent: 0px;
+  height: 20%;  
 }
 
 #download{
