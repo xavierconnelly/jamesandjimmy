@@ -14,249 +14,211 @@
         In 1960 Bubblewrap was invented by pneumatically filling shower curtains into a gridded field of bubbles. That same year, Buckminster Fuller and Shoji Sadao proposed to cover New York with just one (Fig. 1). Unlike the metropolis’ monumental enclosure, Bubblewrap covered its object in a dependability of expendability. The multiplicity of air pockets ensured each sheet lasted long after one pop. Yet for all the bubblemania of the sixties, the bubble’s pluralistic composition remained singular. The architects seemed to take all the air out of the room.
       </p>
 
-      <aside class="writing-something">
-        <div class="wri-img-all"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.01.small.jpg">
-          <div class=image-text>Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York.
-          </div> 
-          <div class="duck" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.02.small.jpg">
+          <p>Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.02.big.jpg);">
           </div>
         </div>
       </aside>
 
-        <p> 
-          With Fuller’s and other inflatable spaces, architects of the time caught the eye of the media as radicals. In the face of monumentalized global powers after the war, <i>Utopie</i>, Coop Himmelb(l)au, Haus-Rucker-Co, and several others all politicized the individual bubble as a symbol of ephemerality, translucency and discontinuity. Yet these bubbles symbolically never broke. They overlooked their own capacity to burst instead of their ability to shelter. Unbeknownst to them, it was the release and the liberation of air that made a bubble useful.
-        </p>
+      <p> 
+        With Fuller’s and other inflatable spaces, architects of the time caught the eye of the media as radicals. In the face of monumentalized global powers after the war, <i>Utopie</i>, Coop Himmelb(l)au, Haus-Rucker-Co, and several others all politicized the individual bubble as a symbol of ephemerality, translucency and discontinuity. Yet these bubbles symbolically never broke. They overlooked their own capacity to burst instead of their ability to shelter. Unbeknownst to them, it was the release and the liberation of air that made a bubble useful.
+      </p>
 
-        <aside class="sidenote" id="fn-one">
-          1. Le Corbusier, <i>Towards a New Architecture</i> (New York: Dover Publications, 1986), 181.
-        </aside>
+      <aside class="sidenote" id="fn-one">
+        1. Le Corbusier, <i>Towards a New Architecture</i> (New York: Dover Publications, 1986), 181.
+      </aside>
 
-        <aside class="sidenote" id="fn-two">
-          2. Marc Dessauce, <i>The Inflatable Moment: Pneumatics and Protest in ’68</i> (New York: Princeton Architectural Press, 1999), 7.
-        </aside>
+      <aside class="sidenote" id="fn-two">
+        2. Marc Dessauce, <i>The Inflatable Moment: Pneumatics and Protest in ’68</i> (New York: Princeton Architectural Press, 1999), 7.
+      </aside>
 
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.03.small.jpg" alt="Smiley face">
-            <div class=image-text>Fig. 2: Coop Himmelb(l)au roll down the hill in "a demonstration of pneumatic construction" and hyperfocalization.
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.03.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 2: Coop Himmelb(l)au roll down the hill in "a demonstrationof pneumatic construction" and hyperfocalization.
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.04.small.jpg" alt="Smiley face">
-            <div class=image-text>Fig. 3: All set up and ready to go, Haus-Rucker-Co would never get the chance to give the public a chance to expand their minds.
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.04.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 3: All set up and ready to go, Haus-Rucker-Co would never get the chance to give the public a chance to expand their minds.
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-    
-        <p>
-          The concept of the architectural bubble had been around since Le Corbusier’s <i>Towards a New Architecture</i>. “A building is like a soap bubble. This bubble is    perfect and harmonious if the breath has been evenly distributed from the inside. The exterior is the result of an interior.” <sup><a href="#fn-one">1</a></sup> Thirty years later, these architects began to float the bubble alongside the socially progressive changes of the time as a malleable plastic lining. It was <i>the</i> flexible enclosure, imbued with concepts of spatial agency in lieu of rigid early twentieth century modernism. Marc Dessauce would say that it was “as if the propensity to describe the epoch as lacking in relief had reflected itself in an exactly inverse manner, in an image of perpetual roundness and turgescence.” <sup><a href="#fn-two">2</a></sup> Ever expanding, this social bubble became more than a symbol of technological development; it was projected as the liberation of architecture and its occupants from the overbearing mass of the  recent and distant historical past. In a show of architecture’s new transformation, Coop Himmelb(l)au ran through the streets of Basel in 1971 inside their own inflatable performance (Fig. 2). That bubble’s expanding tensile stress personified the architects' own agenda to take advantage of a bubble and architecture’s propensity to intensify, instead of its tendency to abate. Via the concept of an alternate individual perception, bubbles like Himmelb(l)au’s “Restless Sphere” proposed new inhabitation of the city centered on the subject. Together with Haus-Rucker-Co’s “OASE no.7” (Fig. 3), they proposed a psychoanalytical approach that proffered a negation of the total city that Le Corbusier had sought, and pursued experimental occupation for the individual. To this degree, they relied on the city as a contrary figure, using a constructed dialectic to confirm the subject’s incapacity to have a voice within it, and projecting the bubble as an enclosure of mediatization against it. With each bubble, “Himmelb(l)au and co” strove to internalize architecture so that the individual could formulate it. As single entities of protest, the bubbles signified their own importance over what was around them. Their resolution was precise, but their malleability was representational: “OASE no.7” was popped before it could ever be used. Cantilevered out over the street like a catwalk, this fashion advert focused only on itself, leaving the city to be constructed around it.
-        </p>
-
-        <aside class="sidenote" id="fn-three">
-          3. François Dallegret, Alessandra Ponte, Laurent Stalder, and Thomas Weaver, God &amp; Co: <i>François Dallegret Beyond the Bubble</i> (London: Architectural Association Publications, 2011).
-        </aside>
-
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.05.small.jpg" alt="Smiley face">
-            <div class=image-text>
-              Fig. 4: 1965, François Dallegret’s The Environmental Bubble.
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.05.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 4: 1965, François Dallegret’s The Environmental Bubble. 
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-
-        <p>
-          Six years before “Himmelb(l)au and co,” François Dallegret’s 1965 image, The Environmental Bubble (Fig. 4), had already established itself as the preeminent image of the bubble. Made in conversation with Reyner Banham for his article “A House is not a Home”, the image was the encapsulation of Banham’s architectural principles of expediency despite America’s more monumental ideal of “the home.” The image circumscribed the social revolutionary undertones of the bubble and its technophilic proclivities to exaggerate nothing. With simple black lines surrounding figures and machines, the image juxtaposed Dallegret’s previous precise linear cars of “Twelve Astrological Automobiles,” and instead espoused a softer environment of civility. The image’s lack of resolution resulted from its fabrication in conjunction with the text, as if the image had been a model for Banham’s own formulation. Yet what is definitive is the bubble’s occupants, populated by the heads of both Banham and Dallegret but fixed onto Dallegret’s own body. This home was not for a family, but the birth of a new humanity. More of a techno-womb, <sup><a href="#fn-three">3</a></sup> the bubble reflected neither promiscuity nor immaturity, but the refinement of civility without need for the accoutrements of clothes or sexual reproduction. Complete with television, radio, flood lighting, and refrigerator, the transparent shell assisted each immaculate individual in complete hedonistic delight, allowing for Banham’s own appetite for decadent, unencumbered movement throughout the natural world.
-        </p>
-
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.06.small.jpg" alt="Smiley face">
-            <div class=image-text>
-              Fig. 5: 1963, Simone D'Aillencourt. Photograph by Melvin Sokolsky.
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.06.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 5: 1963, Simone D'Aillencourt. Photograph by Melvin Sokolsky.
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-
-        <p>
-          Two years earlier in 1963, the fashion industry had taken notice of the bubble. Melvin Sokolsky took a photograph of a plexiglass bubble above New York. Containing a model whose high heels had her hard pressed to fit inside, the bubble was shipped to Paris a year later for a Harper’s Bazaar photoshoot entitled “The Pictures of Paris” (Fig. 5) The shoot produced a multitude of images across the capital of fashion, reaffirming the industry’s prowess in all things beauty, perfection and inviolability. A few streets away from Dallegret’s studio at the time, the photo of Simone D’Aillencourt floating on the river Seine emphasized immateriality, while its reality was atop a large-scale crane as it hung from a cable that was strong enough to lift a car. Each image, doctored without today’s digital tools such as Photoshop, represented an ephemeral and picturesque moment that belied the gravity of weight commensurate with the fashion industry’s pockets. In an image of total beauty, this bubble was all matter; an object to exacerbate its contents without any chance of rupture. Far removed from any social democratic connotations, it was a bubble at the center of attention, advertising that the bourgeois enclosure (high fashion) and the body were now bigger than their surroundings; these bubbles had negated their precarity, and solidified.
-        </p>
-
-        <aside class="sidenote" id="fn-four">
-          4. Peter Sloterdijk, <i>Bubbles: Spheres Volume I: Microspherology</i>, trans. Wieland Hoban (Los Angeles: Semiotext(e), 2011), 77.
-        </aside>
-    
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.07.small.jpg" alt="Smiley face">
-            <div class=image-text>
-              Fig. 6: The backside of Hieronymus Bosch’s Garden of Earthly Delights.
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.07.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 6: The backside of Hieronymus Bosch’s Garden of Earthly Delights.
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-    
-        <p> 
-          In this hyperbolic manner, a bubble’s immateriality is symbolic. As an amplifier dating back to Hieronymus Bosch’s <i>Garden of Earthly Delights</i>, the image of a bubble can espouse a state of excess in juxtaposition with its surroundings. On the plains of Bosch’s world, the carnality of lust between naked lovers is brought to the point of breakage under pure spherical microscopes. As the Dutch proverb suggests, “happiness is like glass, it soon breaks.” Yet after the sixteenth century modernity had played out, and the fragility and independency of the bubble had augmented; its matter more unwilling to be broken. On the back of Bosch’s painting sits another painting of a world within a sphere (Fig. 6), indicative of how unitary bubbles would normally break up into an overall whole. Yet as Peter Sloterdijk has retraced, modernity’s bubbles should be represented in an altered formulation: accumulating without ever popping. Separated from their exterior in self-completion, the modern concept of the bubble had formed a modern foam society in which the individual and his bubble were impregnable. As he remarks, “if everything has become the center, there is no longer any valid center; when everything is transmitting, the allegedly central transmitter is lost in the tangle of messages.” <sup><a href="#fn-four">4</a></sup> Our modern hard-bodied bubbles, unwilling to burst, only opacify the whole.
-        </p>
-
-        <aside class="sidenote" id="fn-five">
-          5. Much like Gottfried Semper's "The Four Elements of Architecture;" the hearth, the roof, the enclosure, and the mound, we shouldn't forget Reyner Banham's "Los Angeles: The Architecture of Four Ecologies;" the beach, the freeway, the flatlands, and the foothills.
-        </aside>
-
-        <p>
-          On the other hand, Banham’s bubble was forever inflating and deflating. Perched on a hill, the floor was pneumatically leveled by a hardware “fireplace.” The cushion of air raises the base and frees the occupants of any connection with site, detaching the bubble even further from any notion of sedentary architecture. In this symbiotic relationship with hardware, the bubble allows for elastic movement to any corner of the earth. Able to be blown up and let down, its expendability is part of its hardware; a type of architecture that goes back to the four elements of Gottfried Semper, <sup><a href="#fn-five">5</a></sup> yet swaps carpentry for air. The bubble sought not to isolate its inhabitants, but to civilize them along with the surrounding wilderness. As procreants of a techno-womb devoid of societal contamination, these naked clones were given everything but the baggage of a cultural home. Humans are born naked, and look for a bubble. Sex and clothes are unnecessary.
-        </p>
-
-        <aside class="sidenote" id="fn-six">
-          6. “This dream of the un-house may sound anti-architectural but it is so only in degree, and architecture deprived of its European roots but trying to strike news ones in alien soil has comes close to the anti-house once or twice already.” Refer to Reyner Banham, “A Home is not a House,” <i>Art in America</i> 53, (April 1965): 78.
-        </aside>
-
-        <p>
-          For Banham, architecture was to be fabricated upon the alien soil on which the bubble landed. <sup><a href="#fn-six">6</a></sup> Fashion and the city weren’t required because they hadn’t been born. The only things that existed were the hardware, the software, and the space around them. Devoid of cultural reference, Dallegret’s image focused on the bubble’s capacity to connect with any world as a generic enclosed space. It was a gadget Laugier hut which didn’t lead to typologies, merely things that came up and popped. Positioned on the page as if like a snow globe on a podium, the image utilized the symbolism of a singular bubble, but its clones projected an unseen multiplicity. This house was just another bubble to spread across the surface of the earth. It didn’t need a city in the background, its civility was portable. Just as the Chicago balloon frame had enabled the rapid habitation of the alien lands of the west, Banham’s bubble would rapidly swell up and proliferate, establishing communities untainted by previous masters; a balloon frame without the frame.
-        </p>
-
-        <aside class="sidenote" id="fn-seven">
-          7. Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 133.
-        </aside>
-
-        <aside class="sidenote" id="fn-eight">
-          8. As Banham would note about bubble at a LA party, "Trying to hold them steady against the light night-wind was a bit like trying to handle a plump, drunk, amiable, unstable girl at a party. Suddenly you'd find you were half-smothered in bulging, yielding, demanding plastic that wouldn't go away when you pushed it. And there this bird came up (I think she'd been sniffing helium) and said could she borrow a balloon because they seemed kinda, well, you know, friendly; vanished with it into the professionally designed landscaping; and reappeared about 20 minutes later, weeping and freaked out, with its exploded remnants." Refer to Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 134.
-        </aside>
-
-        <p> 
-          Reading Banham’s film review of <i>Barbarella</i> in 1968, he further clarifies his version of the bubble, endorsing the film’s enunciation of hardware’s fallibility without software. Jane Fonda, the film’s heroine, was perpetually surrounded, covered and enclosed within bubbles that inflated and deflated, as if in the midst of a great expansive software landscape. Banham would note that the “<i>Candy-coloured</i> script (could only) combine to produce a love-object about as kinky as the All England Lawn Tennis and Croquet Club.” <sup><a href="#fn-seven">7</a></sup> Within <i>Barbarella</i>, sex and form were transient givens. They were not endorsed as unattainable or superior, merely part and parcel of each newly formed pneumatic environment. Like the clones of Dallegret’s bubble, the body need not be hidden in such an open environment; software would protect the body thermodynamically. The simple qualities of expendability and softness would be the protectors of Fonda’s own hard body. <sup><a href="#fn-eight">8</a></sup>
-        </p>
-
-        <aside class="sidenote" id="fn-nine">
-          9. Sylvia Lavin, “Plasticity at Work,” in <i>Mood River</i> (Columbus, Ohio: Wexner Center for the Arts, 2002), 77
-        </aside>
-
-        <aside class="sidenote" id="fn-ten">
-          10. Reyner Banham, “A Home is not a House,” Art in America 53, (April 1965): 75, 79.
-        </aside>
-
-        <p>
-          In recent times, Sylvia Lavin has presented Banham’s hard/soft opposition as forgetful of the lineage within modernity. Claiming modernity had an abstract ideal of plasticity repressed within it, Lavin noted that “almost every major modern architect… was interested in this kind of plasticity and claimed it as a distinguishing and privileged feature of modernism itself.” <sup><a href="#fn-nine">9</a></sup> In this regard, Lavin downgrades Banham’s bubble, bringing him back into the fold of standard modernism. Yet plasticity wasn’t Banham’s objective; his architectural proposition was always the fireplace, which acted from near and far, high and low. Plasticity is the byproduct of his project. The hardware “fireplace” was the environment and the bubble its precipice, an ideal form that “interfer[ed] with the local meteorology, usually by means of a campfire…It is simply an environment suited to what you are going to do next.” <sup><a href="#fn-ten">10</a></sup> <i>The Environmental Bubble</i> was always an image of symbiotic architecture, materializing an atmosphere to ensure no form was replicated, and no cultural construct continues. Banham doesn’t just negate symbolic exaggeration of the bubble, but the plasticity that was materially formal.
-        </p>
-
-        <aside class="writing-something">
-          <aside class="writing-image" tabindex="0">
-            <img src="https://jamesandjimmy.com/img/jcarter.bubble.08.small.jpg" alt="Smiley face">
-            <div class=image-text>
-              Fig. 7: Jennifer Aniston: Nothing But Blue Skies, Harper’s Bazaar 2014. Photograph by Melvin Sokolsky.
-            </div>
-            <span class="writing-image-hover">
-              <span class="writing-image-hover-container">
-                <img src="/img/jcarter.bubble.08.big.jpg" alt="Smiley face">
-                <span id="writing-image-image-text"> 
-                  Fig. 7: Jennifer Aniston: Nothing But Blue Skies, Harper’s Bazaar 2014. Photograph by Melvin Sokolsky. 
-                </span>
-              </span>
-            </span>
-          </aside>
-        </aside>
-    
-        <aside class="sidenote" id="fn-eleven">
-          11. Wolf D. Prix, “The Tougher Architecture” in <i>Get Off My Cloud. Wolf D. Prix. Coop HImmelb(l)au. Texts 1968-2005</i>, eds. Martina Kandeler-Fritsch, and Thomas Kramer (Stuttgart: Hatje Cante, 2005), 40-41.
-        </aside>
-
-        <aside class="sidenote" id="fn-twelve">
-          12. Reyner Banham, Los Angeles: The Architecture of Four Ecologies, 2nd ed. (1971; repr., Los Angeles: University of California Press, 2009), 219.
-        </aside>
-
-        <p>
-          Fifty years later, in almost emblematic confirmation, the bubble images of the 1960s migrated and merged into one <i>Harper’s Bazaar</i> remake. Sokolsky’s original bubble now sits in front of the Central Los Angeles Area High School No. 9 by Coop Himmelb(l)au (Fig. 7). The bubble, now even closer to perfection with the help of airbrush and Photoshop, exposes a transfer of mediation Sokolsky and Himmelb(l)au both accepted. For Wolf Prix, architecture was a representation of society’s demand, “the more constricting the demand…the tougher architecture has to respond. Till it breaks.” <sup><a href="#fn-eleven">11</a></sup> Prix’s cracks have obviously become holes, and he has opened up about his Corbusian lineage by brushing aside augmented occupation for formal expressiveness. In Sokolsky’s image, the uninhabitable tower of LAAHS is a clear derivative of La Tourette’s bell. Himmelb(l)au’s experimental inhabitation has become merely a formal gesture. The human model inside the bubble is a forty-five-year-old Jennifer Aniston who defies the stereotype of a fashion and film industry centered around youth and fleeting beauty. Raised up, she marks a clear affront to ephemerality, and instead proffers longevity. Fashion and architecture are here conjoined in a change of material and message, both conferring their solid forms. In a city in which Banham said “that there is no simple correlation between urban form and social form,” <sup><a href="#fn-twelve">12</a></sup> the image encapsulates a different story.
-        </p>
-
-        <p>
-          In this Sokolsky remake, the image of the bubble has solidified beyond the social agendas the architects had tried to ignite. Himmelb(l)au now proliferates a modernity it once sought to negate, and fashion falls foul of a bubble’s figurative strength. Banham’s bubble in contrast has remained intangible. It is an image that never promised the world, leaving others to proffer its success. It has no connection to place, time, or space: fashion and architecture were eliminated by its internal clearing operations. As the other sixties bubbles explain, an image of symbolic conception long outlives material quality. Himmelb(l)au and Sokolsky must have known their bubbles would last through their image, not real life. They stand as proof that an image is like a bubble. Floating and falling, it’s an enclosure to intensify. Its material quality is its malleability, passing through time and disciplines to come up when least expected. Just like a bubble, an image is most effective when the world places pressure on it, and not the other way around. ★ 
-        </p>
-
-        <div class="footnotes">
-          <ol>
-            <li id="fn-one"> 
-              Le Corbusier, <i>Towards a New Architecture</i> (New York: Dover Publications, 1986), 181.
-            </li>
-            <li id="fn-two">
-              Marc Dessauce, <i>The Inflatable Moment: Pneumatics and Protest in ’68</i> (New York: Princeton Architectural Press, 1999), 7.
-            </li>
-            <li id="fn-three">
-              François Dallegret, Alessandra Ponte, Laurent Stalder, and Thomas Weaver, God &amp; Co: <i>François Dallegret Beyond the Bubble</i> (London: Architectural Association Publications, 2011).
-            </li>
-            <li id="fn-four">
-              Peter Sloterdijk, <i>Bubbles: Spheres Volume I: Microspherology</i>, trans. Wieland Hoban (Los Angeles: Semiotext(e), 2011), 77.
-            </li>
-            <li id="fn-five">
-              Much like Gottfried Semper's "The Four Elements of Architecture;" the hearth, the roof, the enclosure, and the mound, we shouldn't forget Reyner Banham's "Los Angeles: The Architecture of Four Ecologies;" the beach, the freeway, the flatlands, and the foothills.
-            </li>
-            <li id="fn-six">
-              “This dream of the un-house may sound anti-architectural but it is so only in degree, and architecture deprived of its European roots but trying to strike news ones in alien soil has comes close to the anti-house once or twice already.” Refer to Reyner Banham, “A Home is not a House,” <i>Art in America</i> 53, (April 1965): 78.
-            </li>
-            <li id="fn-seven">
-              Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 133.
-            </li>
-            <li id="fn-eight">
-              As Banham would note about bubble at a LA party, "Trying to hold them steady against the light night-wind was a bit like trying to handle a plump, drunk, amiable, unstable girl at a party. Suddenly you'd find you were half-smothered in bulging, yielding, demanding plastic that wouldn't go away when you pushed it. And there this bird came up (I think she'd been sniffing helium) and said could she borrow a balloon because they seemed kinda, well, you know, friendly; vanished with it into the professionally designed landscaping; and reappeared about 20 minutes later, weeping and freaked out, with its exploded remnants." Refer to Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 134.
-            </li>
-            <li id="fn-nine">
-              Sylvia Lavin, “Plasticity at Work,” in <i>Mood River</i> (Columbus, Ohio: Wexner Center for the Arts, 2002), 77.
-            </li>
-            <li id="fn-ten">
-              Reyner Banham, “A Home is not a House,” Art in America 53, (April 1965): 75, 79.
-            </li>
-            <li id="fn-eleven">
-              Wolf D. Prix, “The Tougher Architecture” in <i>Get Off My Cloud. Wolf D. Prix. Coop HImmelb(l)au. Texts 1968-2005</i>, eds. Martina Kandeler-Fritsch, and Thomas Kramer (Stuttgart: Hatje Cante, 2005), 40-41.
-            </li>
-            <li id="fn-twelve">
-              Reyner Banham, Los Angeles: The Architecture of Four Ecologies, 2nd ed. (1971; repr., Los Angeles: University of California Press, 2009), 219.
-            </li>
-          </ol>
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.03.small.jpg" alt="Smiley face">
+          <p>Fig. 2: Coop Himmelb(l)au roll down the hill in "a demonstration of pneumatic construction" and hyperfocalization.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.03.big.jpg);">
+          </div>
         </div>
-      </article>
+      </aside>
+
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.04.small.jpg" alt="Smiley face">
+          <p>Fig. 3: All set up and ready to go, Haus-Rucker-Co would never get the chance to give the public a chance to expand their minds.
+          </p>
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.04.big.jpg);">
+          </div>
+        </div>
+      </aside>
+    
+      <p>
+        The concept of the architectural bubble had been around since Le Corbusier’s <i>Towards a New Architecture</i>. “A building is like a soap bubble. This bubble is    perfect and harmonious if the breath has been evenly distributed from the inside. The exterior is the result of an interior.” <sup><a href="#fn-one">1</a></sup> Thirty years later, these architects began to float the bubble alongside the socially progressive changes of the time as a malleable plastic lining. It was <i>the</i> flexible enclosure, imbued with concepts of spatial agency in lieu of rigid early twentieth century modernism. Marc Dessauce would say that it was “as if the propensity to describe the epoch as lacking in relief had reflected itself in an exactly inverse manner, in an image of perpetual roundness and turgescence.” <sup><a href="#fn-two">2</a></sup> Ever expanding, this social bubble became more than a symbol of technological development; it was projected as the liberation of architecture and its occupants from the overbearing mass of the  recent and distant historical past. In a show of architecture’s new transformation, Coop Himmelb(l)au ran through the streets of Basel in 1971 inside their own inflatable performance (Fig. 2). That bubble’s expanding tensile stress personified the architects' own agenda to take advantage of a bubble and architecture’s propensity to intensify, instead of its tendency to abate. Via the concept of an alternate individual perception, bubbles like Himmelb(l)au’s “Restless Sphere” proposed new inhabitation of the city centered on the subject. Together with Haus-Rucker-Co’s “OASE no.7” (Fig. 3), they proposed a psychoanalytical approach that proffered a negation of the total city that Le Corbusier had sought, and pursued experimental occupation for the individual. To this degree, they relied on the city as a contrary figure, using a constructed dialectic to confirm the subject’s incapacity to have a voice within it, and projecting the bubble as an enclosure of mediatization against it. With each bubble, “Himmelb(l)au and co” strove to internalize architecture so that the individual could formulate it. As single entities of protest, the bubbles signified their own importance over what was around them. Their resolution was precise, but their malleability was representational: “OASE no.7” was popped before it could ever be used. Cantilevered out over the street like a catwalk, this fashion advert focused only on itself, leaving the city to be constructed around it.
+      </p>
+
+      <aside class="sidenote" id="fn-three">
+        3. François Dallegret, Alessandra Ponte, Laurent Stalder, and Thomas Weaver, God &amp; Co: <i>François Dallegret Beyond the Bubble</i> (London: Architectural Association Publications, 2011).
+      </aside>
+                   
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.05.small.jpg" alt="Smiley face">
+          <p>Fig. 4: 1965, François Dallegret’s The Environmental Bubble.
+          </p>
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.05.big.jpg);">
+          </div>
+        </div>
+      </aside>
+
+      <p>
+        Six years before “Himmelb(l)au and co,” François Dallegret’s 1965 image, The Environmental Bubble (Fig. 4), had already established itself as the preeminent image of the bubble. Made in conversation with Reyner Banham for his article “A House is not a Home”, the image was the encapsulation of Banham’s architectural principles of expediency despite America’s more monumental ideal of “the home.” The image circumscribed the social revolutionary undertones of the bubble and its technophilic proclivities to exaggerate nothing. With simple black lines surrounding figures and machines, the image juxtaposed Dallegret’s previous precise linear cars of “Twelve Astrological Automobiles,” and instead espoused a softer environment of civility. The image’s lack of resolution resulted from its fabrication in conjunction with the text, as if the image had been a model for Banham’s own formulation. Yet what is definitive is the bubble’s occupants, populated by the heads of both Banham and Dallegret but fixed onto Dallegret’s own body. This home was not for a family, but the birth of a new humanity. More of a techno-womb, <sup><a href="#fn-three">3</a></sup> the bubble reflected neither promiscuity nor immaturity, but the refinement of civility without need for the accoutrements of clothes or sexual reproduction. Complete with television, radio, flood lighting, and refrigerator, the transparent shell assisted each immaculate individual in complete hedonistic delight, allowing for Banham’s own appetite for decadent, unencumbered movement throughout the natural world.
+      </p>
+
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.06.small.jpg" alt="Smiley face">
+          <p>Fig. 5: 1963, Simone D'Aillencourt. Photograph by Melvin Sokolsky.
+          </p>
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.06.big.jpg);">
+          </div>
+        </div>
+      </aside>
+
+      <p>
+        Two years earlier in 1963, the fashion industry had taken notice of the bubble. Melvin Sokolsky took a photograph of a plexiglass bubble above New York. Containing a model whose high heels had her hard pressed to fit inside, the bubble was shipped to Paris a year later for a Harper’s Bazaar photoshoot entitled “The Pictures of Paris” (Fig. 5) The shoot produced a multitude of images across the capital of fashion, reaffirming the industry’s prowess in all things beauty, perfection and inviolability. A few streets away from Dallegret’s studio at the time, the photo of Simone D’Aillencourt floating on the river Seine emphasized immateriality, while its reality was atop a large-scale crane as it hung from a cable that was strong enough to lift a car. Each image, doctored without today’s digital tools such as Photoshop, represented an ephemeral and picturesque moment that belied the gravity of weight commensurate with the fashion industry’s pockets. In an image of total beauty, this bubble was all matter; an object to exacerbate its contents without any chance of rupture. Far removed from any social democratic connotations, it was a bubble at the center of attention, advertising that the bourgeois enclosure (high fashion) and the body were now bigger than their surroundings; these bubbles had negated their precarity, and solidified.
+      </p>
+
+      <aside class="sidenote" id="fn-four">
+        4. Peter Sloterdijk, <i>Bubbles: Spheres Volume I: Microspherology</i>, trans. Wieland Hoban (Los Angeles: Semiotext(e), 2011), 77.
+      </aside>
+    
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.07.small.jpg" alt="Smiley face">
+          <p>Fig. 6: The backside of Hieronymus Bosch’s Garden of Earthly Delights.
+          </p>
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.07.big.jpg);">
+          </div>
+        </div>
+      </aside>
+    
+      <p> 
+        In this hyperbolic manner, a bubble’s immateriality is symbolic. As an amplifier dating back to Hieronymus Bosch’s <i>Garden of Earthly Delights</i>, the image of a bubble can espouse a state of excess in juxtaposition with its surroundings. On the plains of Bosch’s world, the carnality of lust between naked lovers is brought to the point of breakage under pure spherical microscopes. As the Dutch proverb suggests, “happiness is like glass, it soon breaks.” Yet after the sixteenth century modernity had played out, and the fragility and independency of the bubble had augmented; its matter more unwilling to be broken. On the back of Bosch’s painting sits another painting of a world within a sphere (Fig. 6), indicative of how unitary bubbles would normally break up into an overall whole. Yet as Peter Sloterdijk has retraced, modernity’s bubbles should be represented in an altered formulation: accumulating without ever popping. Separated from their exterior in self-completion, the modern concept of the bubble had formed a modern foam society in which the individual and his bubble were impregnable. As he remarks, “if everything has become the center, there is no longer any valid center; when everything is transmitting, the allegedly central transmitter is lost in the tangle of messages.” <sup><a href="#fn-four">4</a></sup> Our modern hard-bodied bubbles, unwilling to burst, only opacify the whole.
+      </p>
+
+      <aside class="sidenote" id="fn-five">
+        5. Much like Gottfried Semper's "The Four Elements of Architecture;" the hearth, the roof, the enclosure, and the mound, we shouldn't forget Reyner Banham's "Los Angeles: The Architecture of Four Ecologies;" the beach, the freeway, the flatlands, and the foothills.
+      </aside>
+
+      <p>
+        On the other hand, Banham’s bubble was forever inflating and deflating. Perched on a hill, the floor was pneumatically leveled by a hardware “fireplace.” The cushion of air raises the base and frees the occupants of any connection with site, detaching the bubble even further from any notion of sedentary architecture. In this symbiotic relationship with hardware, the bubble allows for elastic movement to any corner of the earth. Able to be blown up and let down, its expendability is part of its hardware; a type of architecture that goes back to the four elements of Gottfried Semper, <sup><a href="#fn-five">5</a></sup> yet swaps carpentry for air. The bubble sought not to isolate its inhabitants, but to civilize them along with the surrounding wilderness. As procreants of a techno-womb devoid of societal contamination, these naked clones were given everything but the baggage of a cultural home. Humans are born naked, and look for a bubble. Sex and clothes are unnecessary.
+      </p>
+
+      <aside class="sidenote" id="fn-six">
+        6. “This dream of the un-house may sound anti-architectural but it is so only in degree, and architecture deprived of its European roots but trying to strike news ones in alien soil has comes close to the anti-house once or twice already.” Refer to Reyner Banham, “A Home is not a House,” <i>Art in America</i> 53, (April 1965): 78.
+      </aside>
+
+      <p>
+        For Banham, architecture was to be fabricated upon the alien soil on which the bubble landed. <sup><a href="#fn-six">6</a></sup> Fashion and the city weren’t required because they hadn’t been born. The only things that existed were the hardware, the software, and the space around them. Devoid of cultural reference, Dallegret’s image focused on the bubble’s capacity to connect with any world as a generic enclosed space. It was a gadget Laugier hut which didn’t lead to typologies, merely things that came up and popped. Positioned on the page as if like a snow globe on a podium, the image utilized the symbolism of a singular bubble, but its clones projected an unseen multiplicity. This house was just another bubble to spread across the surface of the earth. It didn’t need a city in the background, its civility was portable. Just as the Chicago balloon frame had enabled the rapid habitation of the alien lands of the west, Banham’s bubble would rapidly swell up and proliferate, establishing communities untainted by previous masters; a balloon frame without the frame.
+      </p>
+
+      <aside class="sidenote" id="fn-seven">
+        7. Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 133.
+      </aside>
+
+      <aside class="sidenote" id="fn-eight">
+        8. As Banham would note about bubble at a LA party, "Trying to hold them steady against the light night-wind was a bit like trying to handle a plump, drunk, amiable, unstable girl at a party. Suddenly you'd find you were half-smothered in bulging, yielding, demanding plastic that wouldn't go away when you pushed it. And there this bird came up (I think she'd been sniffing helium) and said could she borrow a balloon because they seemed kinda, well, you know, friendly; vanished with it into the professionally designed landscaping; and reappeared about 20 minutes later, weeping and freaked out, with its exploded remnants." Refer to Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 134.
+      </aside>
+
+      <p> 
+        Reading Banham’s film review of <i>Barbarella</i> in 1968, he further clarifies his version of the bubble, endorsing the film’s enunciation of hardware’s fallibility without software. Jane Fonda, the film’s heroine, was perpetually surrounded, covered and enclosed within bubbles that inflated and deflated, as if in the midst of a great expansive software landscape. Banham would note that the “<i>Candy-coloured</i> script (could only) combine to produce a love-object about as kinky as the All England Lawn Tennis and Croquet Club.” <sup><a href="#fn-seven">7</a></sup> Within <i>Barbarella</i>, sex and form were transient givens. They were not endorsed as unattainable or superior, merely part and parcel of each newly formed pneumatic environment. Like the clones of Dallegret’s bubble, the body need not be hidden in such an open environment; software would protect the body thermodynamically. The simple qualities of expendability and softness would be the protectors of Fonda’s own hard body. <sup><a href="#fn-eight">8</a></sup>
+      </p>
+
+      <aside class="sidenote" id="fn-nine">
+        9. Sylvia Lavin, “Plasticity at Work,” in <i>Mood River</i> (Columbus, Ohio: Wexner Center for the Arts, 2002), 77
+      </aside>
+
+      <aside class="sidenote" id="fn-ten">
+        10. Reyner Banham, “A Home is not a House,” Art in America 53, (April 1965): 75, 79.
+      </aside>
+
+      <p>
+        In recent times, Sylvia Lavin has presented Banham’s hard/soft opposition as forgetful of the lineage within modernity. Claiming modernity had an abstract ideal of plasticity repressed within it, Lavin noted that “almost every major modern architect… was interested in this kind of plasticity and claimed it as a distinguishing and privileged feature of modernism itself.” <sup><a href="#fn-nine">9</a></sup> In this regard, Lavin downgrades Banham’s bubble, bringing him back into the fold of standard modernism. Yet plasticity wasn’t Banham’s objective; his architectural proposition was always the fireplace, which acted from near and far, high and low. Plasticity is the byproduct of his project. The hardware “fireplace” was the environment and the bubble its precipice, an ideal form that “interfer[ed] with the local meteorology, usually by means of a campfire…It is simply an environment suited to what you are going to do next.” <sup><a href="#fn-ten">10</a></sup> <i>The Environmental Bubble</i> was always an image of symbiotic architecture, materializing an atmosphere to ensure no form was replicated, and no cultural construct continues. Banham doesn’t just negate symbolic exaggeration of the bubble, but the plasticity that was materially formal.
+      </p>
+
+
+    
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.bubble.08.small.jpg" alt="Smiley face">
+          <p>Fig. 7: Jennifer Aniston: Nothing But Blue Skies, Harper’s Bazaar 2014. Photograph by Melvin Sokolsky.
+          </p>
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.08.big.jpg);">
+          </div>
+        </div>
+      </aside>
+
+      <aside class="sidenote" id="fn-eleven">
+        11. Wolf D. Prix, “The Tougher Architecture” in <i>Get Off My Cloud. Wolf D. Prix. Coop HImmelb(l)au. Texts 1968-2005</i>, eds. Martina Kandeler-Fritsch, and Thomas Kramer (Stuttgart: Hatje Cante, 2005), 40-41.
+      </aside>
+
+      <aside class="sidenote" id="fn-twelve">
+        12. Reyner Banham, Los Angeles: The Architecture of Four Ecologies, 2nd ed. (1971; repr., Los Angeles: University of California Press, 2009), 219.
+      </aside>
+
+      <p>
+        Fifty years later, in almost emblematic confirmation, the bubble images of the 1960s migrated and merged into one <i>Harper’s Bazaar</i> remake. Sokolsky’s original bubble now sits in front of the Central Los Angeles Area High School No. 9 by Coop Himmelb(l)au (Fig. 7). The bubble, now even closer to perfection with the help of airbrush and Photoshop, exposes a transfer of mediation Sokolsky and Himmelb(l)au both accepted. For Wolf Prix, architecture was a representation of society’s demand, “the more constricting the demand…the tougher architecture has to respond. Till it breaks.” <sup><a href="#fn-eleven">11</a></sup> Prix’s cracks have obviously become holes, and he has opened up about his Corbusian lineage by brushing aside augmented occupation for formal expressiveness. In Sokolsky’s image, the uninhabitable tower of LAAHS is a clear derivative of La Tourette’s bell. Himmelb(l)au’s experimental inhabitation has become merely a formal gesture. The human model inside the bubble is a forty-five-year-old Jennifer Aniston who defies the stereotype of a fashion and film industry centered around youth and fleeting beauty. Raised up, she marks a clear affront to ephemerality, and instead proffers longevity. Fashion and architecture are here conjoined in a change of material and message, both conferring their solid forms. In a city in which Banham said “that there is no simple correlation between urban form and social form,” <sup><a href="#fn-twelve">12</a></sup> the image encapsulates a different story.
+      </p>
+
+      <p>
+        In this Sokolsky remake, the image of the bubble has solidified beyond the social agendas the architects had tried to ignite. Himmelb(l)au now proliferates a modernity it once sought to negate, and fashion falls foul of a bubble’s figurative strength. Banham’s bubble in contrast has remained intangible. It is an image that never promised the world, leaving others to proffer its success. It has no connection to place, time, or space: fashion and architecture were eliminated by its internal clearing operations. As the other sixties bubbles explain, an image of symbolic conception long outlives material quality. Himmelb(l)au and Sokolsky must have known their bubbles would last through their image, not real life. They stand as proof that an image is like a bubble. Floating and falling, it’s an enclosure to intensify. Its material quality is its malleability, passing through time and disciplines to come up when least expected. Just like a bubble, an image is most effective when the world places pressure on it, and not the other way around. ★ 
+      </p>
+
+      <div class="footnotes">
+        <ol>
+          <li id="fn-one"> 
+            Le Corbusier, <i>Towards a New Architecture</i> (New York: Dover Publications, 1986), 181.
+          </li>
+          <li id="fn-two">
+            Marc Dessauce, <i>The Inflatable Moment: Pneumatics and Protest in ’68</i> (New York: Princeton Architectural Press, 1999), 7.
+          </li>
+          <li id="fn-three">
+            François Dallegret, Alessandra Ponte, Laurent Stalder, and Thomas Weaver, God &amp; Co: <i>François Dallegret Beyond the Bubble</i> (London: Architectural Association Publications, 2011).
+          </li>
+          <li id="fn-four">
+            Peter Sloterdijk, <i>Bubbles: Spheres Volume I: Microspherology</i>, trans. Wieland Hoban (Los Angeles: Semiotext(e), 2011), 77.
+          </li>
+          <li id="fn-five">
+            Much like Gottfried Semper's "The Four Elements of Architecture;" the hearth, the roof, the enclosure, and the mound, we shouldn't forget Reyner Banham's "Los Angeles: The Architecture of Four Ecologies;" the beach, the freeway, the flatlands, and the foothills.
+          </li>
+          <li id="fn-six">
+            “This dream of the un-house may sound anti-architectural but it is so only in degree, and architecture deprived of its European roots but trying to strike news ones in alien soil has comes close to the anti-house once or twice already.” Refer to Reyner Banham, “A Home is not a House,” <i>Art in America</i> 53, (April 1965): 78.
+          </li>
+          <li id="fn-seven">
+            Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 133.
+          </li>
+          <li id="fn-eight">
+            As Banham would note about bubble at a LA party, "Trying to hold them steady against the light night-wind was a bit like trying to handle a plump, drunk, amiable, unstable girl at a party. Suddenly you'd find you were half-smothered in bulging, yielding, demanding plastic that wouldn't go away when you pushed it. And there this bird came up (I think she'd been sniffing helium) and said could she borrow a balloon because they seemed kinda, well, you know, friendly; vanished with it into the professionally designed landscaping; and reappeared about 20 minutes later, weeping and freaked out, with its exploded remnants." Refer to Reyner Banham, “The Triumph of Software,” in <i>Design By Choice</i>, ed. Penny Sparke (London: Academy Editions, 1981), 134.
+          </li>
+          <li id="fn-nine">
+            Sylvia Lavin, “Plasticity at Work,” in <i>Mood River</i> (Columbus, Ohio: Wexner Center for the Arts, 2002), 77.
+          </li>
+          <li id="fn-ten">
+            Reyner Banham, “A Home is not a House,” Art in America 53, (April 1965): 75, 79.
+          </li>
+          <li id="fn-eleven">
+            Wolf D. Prix, “The Tougher Architecture” in <i>Get Off My Cloud. Wolf D. Prix. Coop HImmelb(l)au. Texts 1968-2005</i>, eds. Martina Kandeler-Fritsch, and Thomas Kramer (Stuttgart: Hatje Cante, 2005), 40-41.
+          </li>
+          <li id="fn-twelve">
+            Reyner Banham, Los Angeles: The Architecture of Four Ecologies, 2nd ed. (1971; repr., Los Angeles: University of California Press, 2009), 219.
+          </li>
+        </ol>
+      </div>
+
       <div class="next SOMETHING">
         Next Article: Something ➜
       </div>
