@@ -282,13 +282,16 @@ a{
 /* Projects Navigation ________________________________________________________________________________________________________*/  
 /* ____________________________________________________________________________________________________________________________*/  
 
+#grid-container #pro-mar-con {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 /* Marquee Container (View Size) */
 #pro-mar-con {
   cursor: pointer;
   background-color: #BF0A30;
   z-index: 3;
-  overflow-x: scroll;
-  overflow-y: hidden;
 }
 
 #pro-mar-con::-webkit-scrollbar{  
