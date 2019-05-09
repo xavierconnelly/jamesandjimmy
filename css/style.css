@@ -530,6 +530,7 @@ a{
 /* Marquee Container - wider */
 #con-let-all {
   border-top: 1px solid;
+  border-right: 1px solid;
   color: #E1DEDD;
   background-color: #BF0A30;
   position: absolute;
@@ -836,7 +837,7 @@ sup > a{
     margin-left: 0px;
   }
 
-  .image-float{
+  .image-float {
     clear: both;
     float: left;
     padding-right: 0px;
@@ -869,7 +870,7 @@ sup > a{
     margin-left: 15%;
   }
 
-  .image-float{
+  .image-float {
     padding: 10px;
     width: calc(20% - 20px);
     float: left;
@@ -880,7 +881,7 @@ sup > a{
 /* Screens Larger than 1600px (sections > 588px)______________________________________*/
 
 @media only screen and (min-width: 1600px) {
-  .image-float{
+  .image-float {
     padding-left: 5%;
     padding-right: 20px;
     width: calc(15% - 20px);
@@ -912,10 +913,9 @@ sup > a{
   color: #BF0A30;
 }
    
-.project-titles {
-  margin: 5px 10px 50px 20px;
+#project-titles {
+  margin: 0px 10px 50px 10px;
   text-align: left;
-  font-weight: bold;
   position: sticky;
   float: left;
   top: 0;
@@ -923,13 +923,11 @@ sup > a{
   width: 40%;
 }
 
-.project-text {
-  margin: 5px 20px 50px 0px;
+#project-text {
+  margin: 0px 10px 50px 0px;
   text-align: left;
   float: right;
   width: calc(50% - 10px);
-  display: inline-block;
-  position: relative;
 }
 
 #project-container > img {
@@ -940,7 +938,7 @@ sup > a{
  outline-offset: -1px;
 }
 
-.photographer {
+#photographer {
   font-size:12px;
   text-align:left;
   margin-left:10px;
