@@ -238,7 +238,7 @@
           <div class="pro-mar-ele aRoomForKaraoke" tabindex="0"> 
             <img src="/img/jcarter.karaoke.icon.jpg" alt="Smiley face">
           </div>
-          <div class="pro-mar-ele aMapWtihAudio" tabindex="0">
+          <div class="pro-mar-ele aMapWithAudio" tabindex="0">
             <img src="/img/jcarter.map.icon.jpg" alt="Smiley face">
           </div>
         </div>
@@ -325,7 +325,7 @@
             <span class="project-title">A Room For Karaoke And Other Things:</span>
             <span class="project-details">Hospitality Melbourne 2015</span>
           </div>
-          <div class="pro-mar-ele aMapWtihAudio" tabindex="0">
+          <div class="pro-mar-ele aMapWithAudio" tabindex="0">
             <img src="/img/jcarter.map.icon.jpg" alt="Smiley face">
           </div>
           <div class="pro-mar-ele-fn-note">
@@ -663,10 +663,9 @@
 <!----------------------- PROJECTS ---------------------------->
 <!---------------------------|--------------------------------->
 
-      <div class="project-image">
-        <img src="/img/jcarter.life.01.jpg" alt="black and white European monastery">
-      </div>
-      <div class="project-titles">
+    <div id="project-container" tabindex="0">
+      <img src="/img/jcarter.life.01.jpg" alt="black and white European monastery">
+      <span id="project-titles">
         <h1>A Certain Kind Of Life</h1>
         <br>
         <h4>
@@ -676,17 +675,17 @@
           In Progress <br>
           Lisbon, Portugal
         </h4>
-      </div> 
-      <div class="project-text">
+      </span> 
+      <span id="project-text">
         <p>
           An exhibition that explores the broadened contemporary asceticism within its spatial lineage, “<a href="https://www.trienaldelisboa.com/news/d/news_0769affd-2ad8-11e9-93f6-ac1f6b817f78">A Certain Kind of Life</a>” exposes the typology of the charterhouse as an architecture of absolute rationality. Taking place at the <i>Cartuxa de Laveiras</i> as parts of the <a href="https://www.trienaldelisboa.com/programme/triennali/2019"> 2019 Lisbon Triennale </a>, interventions across the site will include the installation of a cell—the paradigmatic evocation of asceticism; research material detailing the typological repetition and composition of several monasteries; projects for contemporary living; and a series of talks discussing ritual as rationalism and its resultant architectural form.
         </p>
-        <div class="next something">
-          Next Project: something ➜
-        </div>
+      </span>
+      <div class="next something">
+        Next Project: something ➜
       </div>
-
     </div>
+  </div>
  
 <!---------------------------|--------------------------------->
 <!---------------------- JAVASCRIPT --------------------------->
@@ -742,8 +741,8 @@
   $(".aHouseForOne").click(function(){
     $("#project-container").load("/projects/aHouseForOne.txt") .scrollTop(0);
   });
-   $(".aMapWtihAudio").click(function(){
-    $("#project-container").load("/projects/aMapWtihAudio.txt") .scrollTop(0);
+   $(".aMapWithAudio").click(function(){
+    $("#project-container").load("/projects/aMapWithAudio.txt") .scrollTop(0);
   });
    $(".aRoomForKaraoke").click(function(){
     $("#project-container").load("/projects/aRoomForKaraoke.txt") .scrollTop(0);
