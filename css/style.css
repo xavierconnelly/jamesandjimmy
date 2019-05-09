@@ -1,14 +1,13 @@
+/*
+  dark brown: #200B02;
+  red: #BF0A30;
+  grey: #E1DEDD;
+*/
+
 * {
   margin: 0;
   font-family: 'Mono', monospace;
   scroll-behavior: smooth;
-}
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 1000px) {
-  * {
-  font-family: 'Sans';
-  }
 }
 
 @font-face {
@@ -58,15 +57,14 @@ a{
   padding-top: 50px;
   padding-right: 10px;
   float: right;
-  cursor: pointer;
+  font-size: 20px;
+  line-height: 24px;
 }
    
 .next:hover{
   color: #BF0A30;
   cursor: pointer;
 }
-
-      
    
 /* Global Grid ________________________________________________________________________________________________________________*/  
 /* ____________________________________________________________________________________________________________________________*/  
@@ -86,15 +84,11 @@ a{
 #grid-container > div {
   border-right: 1px solid #200B02;
   border-top: 1px solid #200B02;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-  transition: 0s;
+  overflow: auto;
 }
-   
+
 #grid-container > div:hover{
   z-index: 10;
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
 }
 
 /* News _______________________________________________________________________________________________________________________*/  
@@ -530,13 +524,6 @@ a{
   animation-play-state:paused;
   cursor: pointer;
 }
-   
-/*
-  dark brown: #200B02;
-  red: #BF0A30;
-  grey: #E1DEDD;
-*/
-
 
 /* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
 /* ____________________________________________________________________________________________________________________________*/
@@ -610,15 +597,14 @@ a{
 /* Writing Section _________________________________________________________________________________________________________   */
 /* ____________________________________________________________________________________________________________________________*/
 
-
 #writing-container {
   color: #E1DEDD;
   background-color: #BF0A30;
   z-index: 11;
- /* overflow: auto;*/
   overflow-y: auto;
   overflow-x: hidden;
   padding: 10px 10px 30px;
+  float: left;
 }
 
 #writing-container:hover {
@@ -626,16 +612,12 @@ a{
   background-color: #E1DEDD;
 }
 
-#writing-container:hover > .writing-image{
-  outline: 1px solid #200B02;
-  outline-offset: -1px;
-}
-
 #writing-container::-webkit-scrollbar{
  display: none;
 }
 
-.writing-titles {
+#writing-titles {
+  text-align: center;
   display: block;
   padding-top: 100px;
   padding-bottom: 20px;
@@ -662,32 +644,22 @@ a{
 #sub-heading {
 }
 
-#writing-container {
-  padding-top: 20px;
-  font-size: 20px;
-  line-height: 24px;
-  float: left;
-  text-align: justify;
-  text-align-last: start;
-}
-
 #writing-container > a{
   color: inherit;
 }
 
 #writing-container > p {
   font-family:  'Sans';
-  margin-block-end: 10px;
   text-indent: 50px;
+  text-align: justify;
+  text-align-last: start;
+  font-size: 20px;
+  line-height: 24px;
 }
 
-#writing-container > p, article > h4{
+#writing-container > p, #writing-container  > h4{
   margin-left: 20%;
   width: 60%;
-}
-
-#writing-container > p:first-child {
-  text-indent: 0px;
 }
 
 #writing-container h4{
@@ -699,8 +671,13 @@ a{
   margin-bottom: 10px;
 }
 
-h4 + p {
+#writing-container p {
   text-indent: 50px;
+}
+
+#writing-container #first{
+  text-indent: 0px;
+  padding-top: 20px;
 }
 
 #coming-soon{
@@ -762,190 +739,14 @@ sup > a{
   line-height: 15px;
 }
 
- 
-/* Writing Section - Media Queries ________________________________________________________________________________________________*/
-/* ____________________________________________________________________________________________________________________________*/
-
-
-/* Screens Below 900px (sections < 441px)______________________________________*/
-
-
-@media only screen and (max-width: 900px) {
-  #writing-container > p, #writing-container > h4{
-    width: 100%;
-    margin-left: 0px;
-  }
-
-  .sidenote {
-    display: none;
-  }
-
-  .footnotes{
-    display: none;
-  }
-
- .writing-something{
-    padding-right: 20px;
-    padding-left: 20px;
-    width: calc(100% - 40px);
-  }
-
-}
-
-/* Screens Between 900px and 1200px (441px < sections < 588px)______________________________________*/
-
-
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
-  #writing-container > p, #writing-container > h4{
-    width: 80%;
-    margin-left: 0px;
-  }
-
-  .writing-something{
-    clear: both;
-    float: left;
-    padding-right: 0px;
-    padding-left: 20px;
-    width: calc(50% - 40px);
-  }
-}
-
-/* Screens Below than 1200px (sections < 588px)______________________________________*/
-
-
-@media only screen and (max-width: 1200px) {
-  .footnotes{
-    display: block ;
-  }
-}
-
-/* Screens Larger than 1200px (sections > 588px)______________________________________*/
-
-@media only screen and (min-width: 1200px) {
-  .footnotes{
-    display: none ;
-  }
-
-
-/* Screens Larger than 1200px (sections > 588px)______________________________________*/
-
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  #writing-container > p, #writing-container > h4{
-    width: 70%;
-    margin-left: 15%;
-  }
-
-  .writing-something{
-    padding: 10px;
-    width: calc(20% - 20px);
-    float: left;
-    clear: both;
-}
-
-}
-
-
-/* Screens Larger than 1600px (sections > 588px)______________________________________*/
-
-@media only screen and (min-width: 1600px) {
-  .writing-something{
-    padding-left: 5%;
-    padding-right: 20px;
-    width: calc(15% - 20px);
-    float: left;
-    clear: both;
-}
-}
-
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
-
-.writing-something{
-  display: block;
-  position: relative;
-}
-
-.writing-image{
-  position: relative;
-  float: right;
-  border: 1px solid #200B02;
-  background-color: #f8f9fa;
-  margin-bottom: 10px;
-}
-
-.image-text{
-  padding: 3px;
-  color: #200B02;
-  text-align: left;
-  font-family:  'Sans';
-  font-size: 12px;
-  line-height: 15px;
-}
-
-.writing-image > img{
-  background-color: #fff;
-  border: 1px solid #200B02;
-  height: calc(100% - 8px);
-  width: calc(100% - 8px);
-  margin: 3px;
-}
-
-.writing-image-hover {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  left: 75.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: #E1DEDD;
-  transition: 1s ease;
-  opacity: 0;
-  outline: 1px solid;
-  outline-offset: -1px;
-}
-
-.writing-image-hover-container {
-  width: 70%;
-  max-height: 80%;
-  position: relative;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.writing-image-hover-container > img{
-  width: 100%;
-  border: 5px solid #BF0A30;
-  display: inline-block;
-}
-
-#writing-image-hover-text{
-  font-size:16px;
-  width: 100%;
-  color: #BF0A30;
-  position: relative;
-  display: inline-block;
-}
-
-.writing-image:hover > .writing-image-hover{
+.image-group:hover .image-big{
   opacity: 1;
 }
 
-
-.wri-img-all {
-  height: 4em;
-  width: 4em;
-  overflow: hidden;
-  display: inline-block;
-}
-  
-.wri-img-all:hover .duck{
-  opacity: 1;
-}
-
-.duck {
+.image-big {
   pointer-events: none;
   position: fixed;
   top: calc(50% + 4vw);
@@ -962,12 +763,138 @@ sup > a{
   background-position: center center;
   background-repeat: no-repeat;
 }
-  
 
+.image-float{
+  padding-right: 20px;
+  padding-left: 20px;
+  width: calc(30% - 40px);
+  float: left;
+  clear: both;
+}
+
+.image-group{
+  position: relative;
+  float: right;
+  border: 1px solid #200b02;
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+  
+.image-group > img{
+  background-color: pink;
+  border: 1px solid #200B02;
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
+  margin: 3px;
+}
+
+.image-group p{
+  padding: 3px;
+  color: #200B02;
+  background-color: pink; 
+  text-align: left;
+  font-family:  arial;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#writing-container > .image-float > .image-group > p {
+  text-indent: 0px; 
+}
+
+/* Writing Section - Media Queries ________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+
+/* Screens Below 900px (sections < 441px)______________________________________*/
+
+@media only screen and (max-width: 900px) {
+
+  article > p, article > h4{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .sidenote {
+    display: none;
+  }
+
+  .footnotes {
+    display: none;
+  }
+
+  .writing-something {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+/* Screens Between 900px and 1200px (441px < sections < 588px)______________________________________*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+
+  article > p, article > h4 {
+    width: 80%;
+    margin-left: 0px;
+  }
+
+  .writing-something {
+    clear: both;
+    float: left;
+    padding-right: 0px;
+    padding-left: 20px;
+    width: calc(50% - 40px);
+  }
+}
+
+/* Screens Below than 1200px (sections < 588px)______________________________________*/
+
+@media only screen and (max-width: 1200px) {
+
+  .footnotes{
+    display: block ;
+  }
+}
+
+/* Screens Larger than 1200px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1200px) {
+  .footnotes{
+    display: none ;
+  }
+
+/* Screens Larger than 1200px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+  article > p, article > h4{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .writing-something{
+    padding: 10px;
+    width: calc(20% - 20px);
+    float: left;
+    clear: both;
+  }
+}
+
+/* Screens Larger than 1600px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1600px) {
+  .writing-something{
+    padding-left: 5%;
+    padding-right: 20px;
+    width: calc(15% - 20px);
+    float: left;
+    clear: both;
+  }
+}
 
 /* Projects___________________________________________________________________________________________________________________*/
 /*____________________________________________________________________________________________________________________________*/
-
 
 #project-container{
   font-size: 1em;
