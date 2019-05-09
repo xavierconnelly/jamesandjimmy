@@ -1,7 +1,5 @@
-      <div class="project-image">
-        <img src="/img/jcarter.map.01.jpg" alt="Smiley face">
-      </div>
-      <div class="project-titles">
+      <img src="/img/jcarter.map.01.jpg" alt="Smiley face">
+      <span id="project-titles">
         <h1>A Map with Audio</h1>
         <br>
         <h4>
@@ -11,18 +9,17 @@
           2014 <br>
           Melbourne, Australia
         </h4>
-      </div> 
-      <div class="project-text">
+      </span> 
+      <span id="project-text">
         <p>
           A self-guided audio exhibition within the Queen Victoria Gardens, “Psychogeographical: A Melbourne dérive” is a trip on which to discover the unknown stories of familiar places. Taking place during MPavilion’s 2014 summer, the exhibition constructs a territory that utilizes synchronous narratives to punctuate the experience of objects, events and encounters with memory, reason and humour.
         </p>
+        <br><br>
         <p>
-          <a href="http://2014.mpavilion.org/program/dis-course-audio-walk.html">More info</a>
+          <a href="http://2014.mpavilion.org/program/dis-course-audio-walk.html"  target="_blank">More info</a>
         </p>
-      </div>
-      <div class="project-image">
-        <img src="/img/jcarter.map.02.jpg" alt="Smiley face">
-      </div>
+      </span>
+      <img src="/img/jcarter.map.02.jpg" alt="Smiley face">
       <div class="next something">
         Next Project: something ➜
       </div>
