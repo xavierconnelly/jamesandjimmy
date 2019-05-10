@@ -532,8 +532,8 @@ a{
 
 /* Marquee Container - wider */
 #con-let-all {
-  border-top: 1px solid;
-  border-right: 1px solid;
+  border-top: 1px solid #200B02;
+  border-right: 1px solid #200B02;
   color: #E1DEDD;
   background-color: #BF0A30;
   position: absolute;
@@ -551,8 +551,8 @@ a{
 
 /* Marquee Container */
 .con-let{ 
-  width: 2vw; /* Width of ONE element */
-  height: 2vw; /* Combined height of ALL elements */
+  width: calc(2vw - 1px); /* Width of ONE element */
+  height: calc(2vw - 1px); /* Combined height of ALL elements */
   overflow: hidden;
 }
 
@@ -566,7 +566,7 @@ a{
 /* Marquee Unit */
 .con-let-mar-ele{
   text-align: center;
-  width: 2vw;
+  width: calc(2vw - 1px);
   height: calc(2vw - 1px);
   font-size: 1.5vw;
   display: block;
@@ -792,7 +792,8 @@ sup > a{
 }
 
 .image-group p{
-  padding: 3px;
+  padding: 6px;     
+  padding-top: 0px;
   color: #200B02;
   background-color: white; 
   text-align: left;
