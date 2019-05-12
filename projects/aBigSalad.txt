@@ -11,7 +11,7 @@
         </h4>
       </span> 
       <span id="project-text">
-        <p id="first">
+        <p>
           A summery arrangement of fruit-coloured moments, mixed together and garnished to taste, this pavilion is a permeable ring for all types of theatre. Consisting of evenly spaced tubes chained into a spiral and tilted at various angles, the pavilion invites entry from all sides by pulling occupants along a journey or directly into its interior. As a backdrop for static performance, the final arc of tubes huddles together, while the swirling interstitial assembly that surrounds the audience engenders a more dynamic performance. 
         </p>
         <br>
