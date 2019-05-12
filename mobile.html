@@ -49,10 +49,17 @@ body {
  display: none;
 }
 
-.bottomnav {
+.topnav{
+ top:0;
+}
+ 
+.bottomnav{
+ bottom: 0;
+ }
+ 
+.topnav, .bottomnav {
   width: 100%;
   position: fixed;
-  bottom: 0;
   left: 0;
   overflow: hidden;
   background-color: #BF0A30;
@@ -132,31 +139,28 @@ div.scrollmenu a,  div.scrollmenu div{
 </head>
 <body>
 
-<div style="padding:16px">
-  <h3>James And Jimmy</h3>
-   <div id="bio">
-        <div id="jamescontact">
-          <b>Contact</b>
-          <br><br>
-          Phone number:
-          <br>
-           +1 415 802 4665
-          <br>
-          <br>
-          Email:
-          <br>
-          info@jamesandjimmy.com
-          <br>
-          <br>
-          Instagram:
-          <br>
-          @jamesandjimmyand
-          <br>
-          <br>
-        </div>
+ <div class="topnav">
+   James And Jimmy
+ </div
+ 
+ <div id="bio">
+   <div id="jamescontact">
+     <b>Contact</b>
+     <br><br>
+     Phone number:
+     <br>
+     +1 415 802 4665
+     <br><br>
+     Email:
+     <br>
+     info@jamesandjimmy.com
+     <br><br>
+     Instagram:
+     <br>
+     @jamesandjimmyand
+     </div>
+   </div>
  </div>
-</div>
-
  
 <!-- Bottom Navigation Menu -->
 <div class="bottomnav">
