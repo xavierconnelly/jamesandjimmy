@@ -23,7 +23,7 @@
         </div>
       </aside>
 
-      <p>
+      <p id="first">
         As an adolescent in the early 1990s who devoted himself to daily television like a monastic monk would religion, the workings of the rear projection television appeared obvious to me, except for one thing. <i>Happy Days</i>, that blissful 1970s replica of 1950s American life, appeared like another world, irrelevant to my upbringing in Australia. Sitting in the living room across the other side of the world, the show was characteristic for its simple hilarity of the American life of Richie Cunningham. Typical scenes staged the characters surrounded by an indistinct warm light, never depicting any of the dark hues or deep corners I knew to be true of the greater reality of life. Scenes garnered with this hazy light made one automatically think each was fabricated on a flat set in the misty Californian sun <i>(Figs. 1 & 2)</i>. Yet it wasn’t necessarily the lighting or the color that left the images wanting. There was <i>something</i> lacking in the haze of fabricated Californian sunshine; there was <i>less</i> of something. Less detail, less shadow, less feeling. The scenes, lightened by the synthetic buoyancy of pastel col­ors, remained devoid of true darkness or uncertain­ty; a lack of depth that added to the unassuming merriment of the show.
       </p>
 
