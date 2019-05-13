@@ -962,21 +962,21 @@ sup > a {
 /* Screens Below 900px (sections < 441px)______________________________________*/
 
 @media only screen and (max-width: 900px) {
-  #writing-container > p, #writing-container > h4{
+  #writing-container > p, #writing-container > h4 {
     width: 100%;
     margin-left: 0px;
   }
-  #writing-container > p
+  #writing-container > p {
     font-size: 14px;
     line-height: 1.6;
   }
   .sidenote {
     display: none;
   }
-  .footnotes{
+  .footnotes {
     display: none;
   }
- .image-float{
+ .image-float {
     padding: 10px 20px;
     width: calc(100% - 40px);
   }
