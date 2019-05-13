@@ -10,9 +10,6 @@
     <meta name="description" content="Jimmy Carter is an architect and writer whose practice delves into the breadth of architectural dissemination.">
     <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
     <meta name="author" content="James Carter">
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
   <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#BF0A30">
@@ -132,10 +129,7 @@
     </div>
   </div>
   <div id="mobile-menu">
-  <a href="#home" class="active">Menu</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars" id="icon"></i>
-  </a>
+  <a href="javascript:void(0);" class="active" onclick="myFunction()">Menu</a>
 </div>
 
 <script>
@@ -154,9 +148,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("bottomnav").style.bottom = "0";
-  } else {
     document.getElementById("bottomnav").style.bottom = "-60px";
+  } else {
+    document.getElementById("bottomnav").style.bottom = "0";
   }
   prevScrollpos = currentScrollPos;
 }
