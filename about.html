@@ -10,6 +10,9 @@
     <meta name="description" content="Jimmy Carter is an architect and writer whose practice delves into the breadth of architectural dissemination.">
     <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
     <meta name="author" content="James Carter">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
   <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#BF0A30">
@@ -27,13 +30,143 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-136398833-1');
     </script>
+
+<style>
+ 
+body {
+ background: #E1DEDD;
+ font-size: 12px;
+}
+ 
+::-webkit-scrollbar{
+ display: none;
+}
+ 
+#bio {
+ background: #E1DEDD;
+ font-size: 16px;
+}
+#jamescontact{
+    padding: 10px 20px;
+    position: absolute;
+    top: 100px;
+    border-top: 0px;
+ }
+ 
+#project-container{
+    position: ;
+    top: ;
+    bottom: ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e1dedd;
+    color: #200B02;
+ }
+ 
+.next{
+   font-size: 16px;
+   line-height: inherit;
+   margin-bottom: 50px;
+ }
+#topnav{
+    top: 0;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    color: #e1dedd;
+    border-bottom: 2px solid #200B02;
+}
+#bottomnav{
+    bottom: 0;
+    display: block;
+    transition: bottom 0.5s;
+ }
+ 
+#topnav, #bottomnav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  background-color: #BF0A30;
+  z-index: 99;
+}
+#bottomnav #navbars {
+  display: none;
+}
+#bottomnav a {
+  color: #E1DEDD;
+  background: #BF0A30;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+}
+#bottomnav a.icon {
+  background: #BF0A30;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#mobile-menu {
+  border-top: 2px solid #200B02;
+  background-color: #BF0A30;
+  color: white;
+}
+#mobile-menu a {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+#icon{
+   background-color: #BF0A30;
+}
+#navbars > div{
+  width: calc(100%);
+  cursor: pointer;
+  border-top: 1px solid #200B02;
+  color: #200B02;
+  text-align: left;
+  padding: 10px 0px;
+}
+ 
+ 
+/* Scroll */
+div.scrollmenu {
+  overflow-Y: hidden;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 30px 0px 0px 0px;
+}
+div.scrollmenu a,  div.scrollmenu div{
+  display: inline-block;
+  color: #E1DEDD;
+  text-align: center;
+  border-right: 1px solid #200B02;
+  text-decoration: none;
+}
+#projects, #writing{
+ font-size: 16px;
+  font-style: italic;
+  color: #E1DEDD;
+  position: absolute;
+  padding: 0px 0px 10px 15px;
+  width: 100%;
+  background: #BF0A30;
+}
+</style>
  
 </head>
 
 <body>
+ 
+ 
+ <div id="topnav">
+   James And Jimmy
+ </div>
  <div id="bio">
         <div id="jamesbio">
           <p> 
@@ -53,5 +186,78 @@
           </p>
         </div>
  </div>
+ <!-- Bottom Navigation Menu -->
+<div id="bottomnav">
+  <div id="navbars">
+    <div>
+      <a href="/news"> News</a>
+    </div>
+    <div>
+      <div id="writing">
+        Writing:
+      </div>
+      <div class="scrollmenu">
+        <a href="/writing/construction-of-an-architect">Construction of an Architect</a>
+        <a href="/writing/display-rooms">Display Rooms</a>
+        <a href="/writing/where-you-always-are">Where You Always Are</a>
+        <a href="/writing/bubble-matter">Bubble Matter</a>
+        <a href="/writing/spectators-of-self-deception">Spectators of Self-Deception</a>
+        <a href="/writing/fatspace">Fatspace</a>
+        <a href="/writing/fresh-meat-ix">Fresh Meat IX</a>
+        <a href="/writing/urban-think-tank">Urban Think-Tank</a>
+      </div>
+    </div>
+    <div>
+      <div id="projects">
+        Projects:
+      </div>
+      <div class="scrollmenu">
+        <a href="/projects/a-map-with-audio">A Map With Audio</a>
+        <a href="/projects/a-house-for-one">A House For One</a>
+        <a href="/projects/an-addition-for-three">An Addition For Three</a>
+        <a href="/projects/a-model-for-louis">A Model For Louis</a>
+        <a href="/projects/a-room-for-karaoke">A Room For Karaoke</a>
+        <a href="/projects/a-certain-kind-of-life">A Certain Kind Of Life</a>
+      </div>
+    </div>
+    <div>
+      <a href="/about"> About </a>
+    </div>
+    <div>
+      <a href="/contact"> Contact </a>
+    </div>
+  </div>
+  <div id="mobile-menu">
+  <a href="#home" class="active">Menu</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" id="icon"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navbars");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("bottomnav").style.bottom = "0";
+  } else {
+    document.getElementById("bottomnav").style.bottom = "-60px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+ 
+ 
 </body>
 </html>
