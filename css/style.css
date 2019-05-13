@@ -170,10 +170,6 @@ body {
   display: none;
 }
 
-#navbar > div > a{
-  color: green;
-}
-
 #bottomnav a {
   color: #E1DEDD;
   background: #BF0A30;
@@ -181,6 +177,8 @@ body {
   font-size: 16px;
   text-decoration: none;
   display: inline-block;
+}
+#navbars > div > a{
   width: calc(100% - 60px);
 }
 
@@ -194,10 +192,10 @@ body {
 #mobile-menu a {
   font-size: 20px;
   padding: 10px 15px;
+  width: calc(100% - 40px);
 }
 
 #mobile-menu > a {
-  width: calc(100% - 40px);
 }
 
 #navbars > div{
