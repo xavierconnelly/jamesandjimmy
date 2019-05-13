@@ -33,8 +33,12 @@
  
 <style>
 
+#bottomnav{
+	position: fixed;
+}
+
 #slideshow {
-  position: fixed;
+  position: ;
   width: 100%;
   height: calc(100% - 80px);
   padding: 40px 0px;
@@ -127,19 +131,6 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-}
-</script>
-
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("bottomnav").style.bottom = "-60px";
-  } else {
-    document.getElementById("bottomnav").style.bottom = "0";
-  }
-  prevScrollpos = currentScrollPos;
 }
 </script>
  
