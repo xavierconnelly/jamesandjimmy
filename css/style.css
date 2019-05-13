@@ -757,7 +757,7 @@ div.scrollmenu a,  div.scrollmenu div{
   background-color: #E1DEDD;
 }
 
-#writing-container::-webkit-scrollbar{
+#writing-container::-webkit-scrollbar {
  display: none;
 }
 
@@ -789,7 +789,7 @@ div.scrollmenu a,  div.scrollmenu div{
 #sub-heading {
 }
 
-#writing-container > a{
+#writing-container > a {
   color: inherit;
 }
 
@@ -807,7 +807,7 @@ div.scrollmenu a,  div.scrollmenu div{
   width: 60%;
 }
 
-#writing-container h4{
+#writing-container h4 { 
   border-bottom: 2px solid;
   text-align: center;
   padding-top: 40px;
@@ -825,7 +825,7 @@ div.scrollmenu a,  div.scrollmenu div{
   padding-top: 20px;
 }
 
-#coming-soon{
+#coming-soon {
   padding-top: 100px;
   text-align: center;
   text-align-last: auto;
@@ -833,7 +833,7 @@ div.scrollmenu a,  div.scrollmenu div{
   height: 20%;  
 }
 
-#download{
+#download {
   float: right;
 }
 
@@ -842,31 +842,32 @@ div.scrollmenu a,  div.scrollmenu div{
     color: #200B02;
     background-color: #E1DEDD;
     padding: 10px 20px 30px;
+  }
 }
 
  
 /* Writing Section - Footnotes ________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
-#writing-container:hover sup{
+#writing-container:hover sup {
   color: #BF0A30;
 }
 
-sup{
+sup {
   color: #200B02;
   font-style: bold;
   line-height: 1px;
 }
 
-sup::before{
+sup::before {
   content: '['
 }
 
-sup::after{
+sup::after {
   content: ']'
 }
 
-sup > a{
+sup > a {
   text-decoration: none;
 }
 
@@ -887,7 +888,7 @@ sup > a{
     font-family: 'Sans';
   }
 
-.footnotes{
+.footnotes {
   font-size: 12px;
   line-height: 15px;
 }
@@ -895,7 +896,7 @@ sup > a{
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
-.image-group:hover .image-big{
+.image-group:hover .image-big {
   opacity: 1;
 }
 
@@ -917,7 +918,7 @@ sup > a{
   background-repeat: no-repeat;
 }
 
-.image-float{
+.image-float {
   padding-right: 20px;
   padding-left: 20px;
   width: calc(30% - 40px);
@@ -925,7 +926,7 @@ sup > a{
   clear: both;
 }
 
-.image-group{
+.image-group {
   position: relative;
   float: right;
   border: 1px solid #200b02;
@@ -933,7 +934,7 @@ sup > a{
   margin-bottom: 10px;
 }
   
-.image-group > img{
+.image-group > img {
   background-color: white;
   border: 1px solid #200B02;
   height: calc(100% - 8px);
@@ -941,7 +942,7 @@ sup > a{
   margin: 3px;
 }
 
-.image-group p{
+.image-group p {
   padding: 6px;     
   padding-top: 0px;
   color: #200B02;
@@ -1048,13 +1049,12 @@ sup > a{
   }
 }
 
-/*
+
 @media only screen and (max-width: 800px) {
   .image-big {
     display: none;
   }
 }
-*/
 
 /* Projects___________________________________________________________________________________________________________________*/
 /*____________________________________________________________________________________________________________________________*/
