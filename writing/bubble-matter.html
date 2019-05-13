@@ -263,6 +263,7 @@
       </div>
       
 <!-- Bottom Navigation Menu -->
+ 
 <div id="bottomnav">
   <div id="navbars">
     <div>
@@ -304,13 +305,11 @@
     </div>
   </div>
   <div id="mobile-menu">
-  <a href="javascript:void(0);" class="active" onclick="openNav()">
-    Menu
-  </a>
+  <a href="javascript:void(0);" class="active" onclick="myFunction()">Menu</a>
 </div>
 
 <script>
-function openNav() {
+function myFunction() {
   var x = document.getElementById("navbars");
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -332,7 +331,6 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 </script>
-
+ 
 </body>
 </html>
-
