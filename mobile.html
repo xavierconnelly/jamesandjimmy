@@ -153,7 +153,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 </style>
-
+ 
 </head>
 <body>
 
@@ -239,5 +239,19 @@ function myFunction() {
 }
 </script>
 
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("bottomnav").style.bottom = "0";
+  } else {
+    document.getElementById("bottomnav").style.bottom = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+ 
+ 
 </body>
 </html>
