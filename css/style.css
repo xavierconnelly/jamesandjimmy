@@ -522,7 +522,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-.pro-mar:hover > div{
+.pro-mar:hover > div {
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -581,7 +581,6 @@ div.scrollmenu a,  div.scrollmenu div{
     background: #E1DEDD;
     font-size: 16px;
   }
-
   #jamescontact{
     padding: 10px 20px;
     position: absolute;
@@ -802,7 +801,7 @@ div.scrollmenu a,  div.scrollmenu div{
   line-height: 24px;
 }
 
-#writing-container > p, #writing-container  > h4{
+#writing-container > p, #writing-container  > h4 {
   margin-left: 20%;
   width: 60%;
 }
@@ -820,7 +819,7 @@ div.scrollmenu a,  div.scrollmenu div{
   text-indent: 50px;
 }
 
-#writing-container #first{
+#writing-container #first {
   text-indent: 0px;
   padding-top: 20px;
 }
@@ -844,7 +843,6 @@ div.scrollmenu a,  div.scrollmenu div{
     padding: 10px 20px 30px;
   }
 }
-
  
 /* Writing Section - Footnotes ________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
@@ -886,7 +884,7 @@ sup > a {
 
 .sidenote i {
     font-family: 'Sans';
-  }
+}
 
 .footnotes {
   font-size: 12px;
@@ -968,20 +966,16 @@ sup > a {
     width: 100%;
     margin-left: 0px;
   }
-  
   #writing-container > p
     font-size: 14px;
     line-height: 1.6;
-  } 
-
+  }
   .sidenote {
     display: none;
   }
-
   .footnotes{
     display: none;
   }
-
  .image-float{
     padding: 10px 20px;
     width: calc(100% - 40px);
@@ -991,11 +985,10 @@ sup > a {
 /* Screens Between 900px and 1200px (441px < sections < 588px)______________________________________*/
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
-  #writing-container > p, #writing-container > h4{
+  #writing-container > p, #writing-container > h4 {
     width: 80%;
     margin-left: 0px;
   }
-
   .image-float {
     clear: both;
     float: left;
@@ -1016,7 +1009,7 @@ sup > a {
 /* Screens Larger than 1200px (sections > 588px)______________________________________*/
 
 @media only screen and (min-width: 1200px) {
-  .footnotes{
+  .footnotes {
     display: none ;
   }
 }
@@ -1024,11 +1017,10 @@ sup > a {
 /* Screens Larger than 1200px (sections > 588px)______________________________________*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  #writing-container > p, #writing-container > h4{
+  #writing-container > p, #writing-container > h4 {
     width: 70%;
     margin-left: 15%;
   }
-
   .image-float {
     padding: 10px;
     width: calc(20% - 20px);
@@ -1048,7 +1040,6 @@ sup > a {
     clear: both;
   }
 }
-
 
 @media only screen and (max-width: 800px) {
   .image-big {
