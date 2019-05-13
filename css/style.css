@@ -194,6 +194,9 @@ body {
 #mobile-menu a {
   font-size: 20px;
   padding: 10px 15px;
+}
+
+#mobile-menu > a {
   width: calc(100% - 40px);
 }
 
@@ -217,7 +220,6 @@ div.scrollmenu {
 div.scrollmenu a,  div.scrollmenu div{
   text-align: center;
   border-right: 1px solid #200B02;
-  width: initial;
 }
 
 #projects, #writing{
