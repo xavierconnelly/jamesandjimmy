@@ -154,7 +154,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   display: inline-block;
-  width: calc(100% - 40px);
+  width: calc(100% - 60px);
 }
 
 #mobile-menu {
