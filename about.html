@@ -10,10 +10,7 @@
     <meta name="description" content="Jimmy Carter is an architect and writer whose practice delves into the breadth of architectural dissemination.">
     <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
     <meta name="author" content="James Carter">
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+   
   <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#BF0A30">
  
@@ -45,6 +42,7 @@ body {
 }
  
 #bio {
+  margin-top: 50px;
  background: #E1DEDD;
  font-size: 16px;
 }
@@ -56,9 +54,6 @@ body {
  }
  
 #project-container{
-    position: ;
-    top: ;
-    bottom: ;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 10px;
@@ -115,6 +110,7 @@ body {
   border-top: 2px solid #200B02;
   background-color: #BF0A30;
   color: white;
+  text-align: center;
 }
 #mobile-menu a {
   font-size: 20px;
@@ -227,14 +223,13 @@ div.scrollmenu a,  div.scrollmenu div{
     </div>
   </div>
   <div id="mobile-menu">
-  <a href="#home" class="active">Menu</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars" id="icon"></i>
+  <a href="javascript:void(0);" class="active" onclick="openNav()">
+    Menu
   </a>
 </div>
 
 <script>
-function myFunction() {
+function openNav() {
   var x = document.getElementById("navbars");
   if (x.style.display === "block") {
     x.style.display = "none";
