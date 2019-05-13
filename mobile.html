@@ -58,20 +58,20 @@ body {
     border-top: 0px;
  }
 
-.topnav{
+#topnav{
     top: 0;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     padding: 15px 0px;
     color: #e1dedd;
     border-bottom: 2px solid #200B02;
 }
 
-.bottomnav{
+#bottomnav{
     bottom: 0;
  }
  
-.topnav, .bottomnav {
+#topnav, #bottomnav {
   width: 100%;
   position: fixed;
   left: 0;
@@ -80,11 +80,11 @@ body {
   z-index: 99;
 }
 
-.bottomnav #navbars {
+#bottomnav #navbars {
   display: none;
 }
 
-.bottomnav a {
+#bottomnav a {
   color: #E1DEDD;
   background: #BF0A30;
   padding: 5px 20px;
@@ -93,7 +93,7 @@ body {
   display: block;
 }
 
-.bottomnav a.icon {
+#bottomnav a.icon {
   background: #BF0A30;
   display: block;
   position: absolute;
@@ -109,7 +109,7 @@ body {
 
 #mobile-menu a {
   font-size: 20px;
-  padding: 15px 15px;
+  padding: 15px;
 }
 
 #icon{
@@ -119,11 +119,10 @@ body {
 #navbars > div{
   width: calc(100%);
   cursor: pointer;
-  border-top: 1px solid #200B02;
-  background: ;
+  border-top: 2px solid #200B02;
   color: #200B02;
   text-align: left;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px;
 }
 
 /* Scroll */
@@ -181,7 +180,7 @@ div.scrollmenu a,  div.scrollmenu div{
  </div>
  
 <!-- Bottom Navigation Menu -->
-<div class="bottomnav">
+<div id="bottomnav">
   <div id="navbars">
     <div>
       <a href="#news"> News</a>
