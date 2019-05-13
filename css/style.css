@@ -143,6 +143,10 @@ body {
   display: none;
 }
 
+#navbar > div > a{
+  color: green;
+}
+
 #bottomnav a {
   color: #E1DEDD;
   background: #BF0A30;
@@ -184,11 +188,8 @@ div.scrollmenu {
 }
 
 div.scrollmenu a,  div.scrollmenu div{
-  display: inline-block;
-  color: #E1DEDD;
   text-align: center;
   border-right: 1px solid #200B02;
-  text-decoration: none;
   width: initial;
 }
 
