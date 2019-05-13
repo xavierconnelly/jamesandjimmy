@@ -31,20 +31,20 @@
 *:hover {
 }
 
-*:focus  {
+*:focus {
    }
 
-a{
+a{ 
   color: inherit;
 }
 
-::selection{
+::selection {
   cursor: text;
   color: #E1DEDD;
   background-color: #BF0A30;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
  display: none;
 }
 
@@ -57,7 +57,7 @@ body {
   background-size: cover;
 }
 
-.next{
+.next {
   padding-top: 50px;
   padding-right: 10px;
   float: right;
@@ -67,7 +67,7 @@ body {
   width: 100%;
 }
    
-.next:hover{
+.next:hover {
   color: #BF0A30;
   cursor: pointer;
 }
@@ -116,10 +116,31 @@ body {
   }
 }
 
-
 /* Mobile Nav _________________________________________________________________________________________________________________*/  
-/* ____________________________________________________________________________________________________________________________*/  
-   
+/* ____________________________________________________________________________________________________________________________*/
+
+#slideshow {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 80px);
+  padding: 40px 0px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+}
+
+.middle{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  opacity: 1;
+}
 
 #topnav{
   top: 0;
