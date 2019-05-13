@@ -800,6 +800,14 @@ div.scrollmenu a,  div.scrollmenu div{
 #download{
   float: right;
 }
+
+@media only screen and (max-width: 800px) {
+  #writing-container {
+    color: #200B02;
+    background-color: #E1DEDD;
+    padding: 10px 20px 30px;
+}
+
  
 /* Writing Section - Footnotes ________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
@@ -909,7 +917,7 @@ sup > a{
 }
 
 #writing-container > .image-float > .image-group > p {
-  text-indent: 0px; 
+  text-indent: 0px;
 }
 
 /* Writing Section - Media Queries ________________________________________________________________________________________________*/
