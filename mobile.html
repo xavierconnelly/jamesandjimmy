@@ -69,6 +69,7 @@ body {
 
 #bottomnav{
     bottom: 0;
+    transition: bottom 0.5s;
  }
  
 #topnav, #bottomnav {
@@ -156,7 +157,7 @@ div.scrollmenu a,  div.scrollmenu div{
 </head>
 <body>
 
- <div class="topnav">
+ <div id="topnav">
    James And Jimmy
  </div
  
@@ -245,7 +246,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("bottomnav").style.bottom = "0";
   } else {
-    document.getElementById("bottomnav").style.bottom = "-50px";
+    document.getElementById("bottomnav").style.bottom = "-60px";
   }
   prevScrollpos = currentScrollPos;
 }
