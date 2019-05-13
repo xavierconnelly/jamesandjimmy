@@ -44,7 +44,11 @@ a{
   background-color: #BF0A30;
 }
 
- body {
+::-webkit-scrollbar{
+ display: none;
+}
+
+body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -66,6 +70,19 @@ a{
 .next:hover{
   color: #BF0A30;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background: #E1DEDD;
+    font-size: 12px;
+  }
+
+  .next{
+    font-size: 16px;
+    line-height: inherit;
+    margin-bottom: 50px;
+  }
 }
    
 /* Global Grid ________________________________________________________________________________________________________________*/  
@@ -93,6 +110,95 @@ a{
   z-index: 10;
 }
 
+
+/* Mobile Nav _________________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
+   
+
+#topnav{
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  color: #e1dedd;
+  border-bottom: 2px solid #200B02;
+}
+
+#bottomnav{
+  bottom: 0;
+  display: block;
+  transition: bottom 0.5s;
+}
+ 
+#topnav, #bottomnav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  background-color: #BF0A30;
+  z-index: 99;
+}
+
+#bottomnav #navbars {
+  display: none;
+}
+
+#bottomnav a {
+  color: #E1DEDD;
+  background: #BF0A30;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#mobile-menu {
+  border-top: 2px solid #200B02;
+  background-color: #BF0A30;
+  color: white;
+  text-align: center;
+}
+ 
+#mobile-menu a {
+  font-size: 20px;
+  padding: 10px 15px;
+ width: calc(100% - 40px);
+}
+
+#navbars > div{
+  width: calc(100%);
+  cursor: pointer;
+  border-top: 1px solid #200B02;
+  color: #200B02;
+  text-align: center;
+  padding: 10px 0px;
+}
+ 
+/* Mobile Nav Scroll */
+div.scrollmenu {
+  overflow-Y: hidden;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 30px 0px 0px 0px;
+}
+
+div.scrollmenu a,  div.scrollmenu div{
+  display: inline-block;
+  color: #E1DEDD;
+  text-align: center;
+  border-right: 1px solid #200B02;
+  text-decoration: none;
+}
+
+#projects, #writing{
+  font-size: 16px;
+  font-style: italic;
+  color: #E1DEDD;
+  position: absolute;
+  padding: 0px 0px 10px 15px;
+  width: 100%;
+  background: #BF0A30;
+}
+
 /* News _______________________________________________________________________________________________________________________*/  
 /* ____________________________________________________________________________________________________________________________*/
 
@@ -109,10 +215,6 @@ a{
 #jamesnews:hover{
   background: #E1DEDD;
   color: #200B02;
-}
-
-#jamesnews::-webkit-scrollbar{
- display: none;
 }
 
 #jamesnews span{
@@ -354,34 +456,6 @@ a{
   z-index: 1;
 }
 
-.anAdditionForThree:hover{
-   visibility: visible;
-}
-
-.aCertainKindOfLife{
-   visibility: visible;
-}
-
-.aBigSalad{
-   visibility: visible;
-}
-
-.corbusier{
-   visibility: visible;
-}
-
-.aHouseForOne{
-   visibility: visible;
-}
-
-.aRoomForKaraoke{
-   visibility: visible;
-}
-
-.aThesis {
-  visibility: visible;
-}
-
 .project-title{
   float: left;
   margin-left: 10px;
@@ -464,6 +538,22 @@ a{
   border-top: 2px solid;
   padding-top: 50px;
 }
+
+@media only screen and (max-width: 800px) {
+  #bio {
+    margin-top: 50px;
+    background: #E1DEDD;
+    font-size: 16px;
+  }
+
+  #jamescontact{
+    padding: 10px 20px;
+    position: absolute;
+    top: 100px;
+    border-top: 0px;
+  }
+}
+
 
 /* James Navigation____________________________________________________________________________________________________________*/  
 /* ____________________________________________________________________________________________________________________________*/  
@@ -966,4 +1056,18 @@ sup > a{
   font-size:12px;
   text-align:left;
   margin-left:10px;
+}
+
+@media only screen and (max-width: 800px) {
+  #project-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e1dedd;
+    color: #200B02;
+  }
+
+  #photographer {
+  font-size:10px;
 }
