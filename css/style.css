@@ -135,6 +135,10 @@ a{
   #jamesnews{
     background: #E1DEDD;
     color: #200B02;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   #jamesnews span{
   color: #BF0A30;
