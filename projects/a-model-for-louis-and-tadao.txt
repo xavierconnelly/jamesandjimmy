@@ -19,7 +19,7 @@
       <img src="/img/jcarter.model.02.jpg" alt="Smiley face">
       <img src="/img/jcarter.model.03.jpg" alt="Smiley face">
       <img src="/img/jcarter.model.04.png" alt="Smiley face">
-      <div class="photographer">
+      <div id="photographer">
        * Photos by Michael Tropea & Angeliki Sykiotis
       </div>
       <div class="next a-house-for-one">
