@@ -21,6 +21,6 @@
       <div id="photographer">
        * Photos by Martha Poggioli
       </div> 
-      <div class="next something">
-        Next Project: something ➜
+      <div class="next a-map-with-audio">
+        Next Project: A Map with Audio ➜
       </div>
