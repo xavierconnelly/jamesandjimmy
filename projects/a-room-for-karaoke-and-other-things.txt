@@ -18,8 +18,6 @@
       <img src="/img/jcarter.karaoke.02.jpg" alt="Smiley face">
       <img src="/img/jcarter.karaoke.03.jpg" alt="Smiley face">
       <img src="/img/jcarter.karaoke.04.jpg" alt="Smiley face">
-      <img src="/img/jcarter.karaoke.05.jpg" alt="Smiley face">
-      <img src="/img/jcarter.karaoke.06.jpg" alt="Smiley face">
       <div id="photographer">
        * Photos by Martha Poggioli
       </div> 
