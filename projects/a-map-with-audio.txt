@@ -3,10 +3,10 @@
         <h1>A Map with Audio</h1>
         <br>
         <h4>
-          Audio-Exhibition <br>
-          Linus Gruszewski and James <br>
-          MPavilion <br>
-          2014 <br>
+          Audio-Exhibition <br><hr>
+          Linus Gruszewski and James <br><hr>
+          MPavilion <br><hr>
+          2014 <br><hr>
           Melbourne, Australia
         </h4>
       </span> 
