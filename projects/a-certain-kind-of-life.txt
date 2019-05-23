@@ -3,10 +3,10 @@
         <h1>A Certain Kind Of Life</h1>
         <br>
         <h4>
-          Exhibition <br>
-          Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy <br>
-          2019 Lisbon Architecture Triennale <br>
-          In Progress <br>
+          Exhibition <br><hr>
+          Abigail Chang, Agata Siemionow, Francesco Marullo, Jimmy <br><hr>
+          2019 Lisbon Architecture Triennale <br><hr>
+          In Progress <br><hr>
           Lisbon, Portugal
         </h4>
       </span> 
