@@ -3,10 +3,10 @@
         <h1>A Room for Karaoke and Other Things</h1>
         <br>
         <h4>
-          Hospitality <br>
-          Millie Anderson and Jimmy <br>
-          Tokyo Tina <br>
-          2015 <br>
+          Hospitality <br><hr>
+          Millie Anderson and Jimmy <br><hr>
+          Tokyo Tina <br><hr>
+          2015 <br><hr>
           Melbourne, Australia
         </h4>
       </span> 
