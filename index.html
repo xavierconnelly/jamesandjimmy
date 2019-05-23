@@ -746,10 +746,10 @@
         <h1>A House For One</h1>
         <br>
         <h4>
-          Residential <br>
-          James <br>
-          Private <br>
-          2016 <br>
+          Residential <br><hr>
+          James <br><hr>
+          Private <br><hr>
+          2016 <br><hr>
           Castlemaine, Australia
         </h4>
       </span> 
@@ -770,9 +770,8 @@
       <img src="/img/jcarter.house.11.jpg" alt="Smiley face">
       <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
       <div class="next a-room-for-karaoke">
-        Next Project: A Room For Karaoke and Other Things ➜
+        Next Project: A Room for Karaoke and Other Things ➜
       </div>
-    </div>
   </div>
  
 <!---------------------------|--------------------------------->
@@ -781,12 +780,15 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   
-  <script>
-   $(document).ready(function(){
-    
-  $( function() {
+  <script type="text/javascript">
+      $( function() {
     $( document ).tooltip();
   } );
+  </script>
+
+  <script type="text/javascript">
+
+   $(document).ready(function(){
     
   $(".construction-of-an-architect").click(function(){
     $("#writing-container").load("/writing/construction-of-an-architect.txt") .scrollTop(0);
@@ -813,7 +815,6 @@
     $("#writing-container").load("/writing/urban-think-tank.txt") .scrollTop(0);
   });
     
-
    $(".an-addition-for-three").click(function(){
     $("#project-container").load("/projects/an-addition-for-three.txt") .scrollTop(0);
   });
@@ -836,11 +837,10 @@
     $("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt") .scrollTop(0);
   });
     
-});
-   
+});  
  </script>
  
-  <script> 
+<script type="text/javascript"> 
 /* Info/About Section */
 function openLeft() {
   document.getElementById("grid-container").style.left = "0";
@@ -852,7 +852,7 @@ function closeLeft() {
  </script>
 
 
-<script>
+<script type="text/javascript">
 function myFunction() {
   var x = document.getElementById("navbars");
   if (x.style.display === "block") {
