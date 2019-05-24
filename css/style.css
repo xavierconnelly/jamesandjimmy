@@ -8,6 +8,7 @@
   margin: 0;
   font-family: 'Mono', monospace;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -130,7 +131,7 @@ body {
 #slideshow {
   position: fixed;
   width: 100%;
-  height: calc(100% - 80px);
+  height: 100%;
   padding: 40px 0px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -186,6 +187,7 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
 #navbars > div > a {
   width: calc(100% - 60px);
 }
@@ -331,12 +333,12 @@ div.scrollmenu a,  div.scrollmenu div{
 .news-letter {
   display: block;
   margin: 0;
-  width: calc(2vw - 1px);
-  height: calc(2vw - 1px);
+  width: 2vw;
+  height: 2vw;
   border-left: 1px solid #200B02;
   border-top: 1px solid #200B02;
   font-size: 1.5vw;
-  line-height: calc(2vw - 1px);
+  line-height: 2vw;
 }
 
 /* Marquee Animation Request */
@@ -389,7 +391,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Unit */
 .wri-mar-ele {
-  height: calc(2vw - 1px);
+  height: 2vw;
   border-top: 1px solid #200B02;
   display: grid;
   grid-template-columns: 25vw 12vw 12vw;
@@ -467,7 +469,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Unit */
 .pro-mar-ele{
-  width: calc(8vw - 1px);
+  width: 8vw;
   height: 8vw;
   border-left: 1px solid #200B02;
   display: inline-block;
@@ -645,8 +647,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* Marquee Unit */
 .jam-let-mar-ele{
   text-align: center;
-  width: calc(2vw - 1px);
-  height: calc(2vw - 1px);
+  width: 2vw;
+  height: 2vw;
   font-size: 1.5vw;
   display: block;
   border-top: 1px solid #200B02;
@@ -700,8 +702,8 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Container */
 .con-let{ 
-  width: calc(2vw - 1px); /* Width of ONE element */
-  height: calc(2vw - 1px); /* Combined height of ALL elements */
+  width: 2vw; /* Width of ONE element */
+  height: 2vw; /* Combined height of ALL elements */
   overflow: hidden;
 }
 
@@ -715,8 +717,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* Marquee Unit */
 .con-let-mar-ele{
   text-align: center;
-  width: calc(2vw - 1px);
-  height: calc(2vw - 1px);
+  width: 2vw;
+  height: 2vw;
   font-size: 1.5vw;
   display: block;
   border-top: 1px solid #200B02;
@@ -1091,7 +1093,7 @@ sup > a {
 hr {
   border: 1px;
   height: 1px;
-  background-color: white;
+  background-color: #E1DEDD;
   margin: 3px 0px;
 }
 
