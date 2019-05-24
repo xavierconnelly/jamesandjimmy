@@ -226,6 +226,6 @@
         </ol>
       </div>
 
-      <div class="next fatspace">
+      <div class="next" onclick="fatspace()">
         Next Article: Fatspace ➜
       </div>
