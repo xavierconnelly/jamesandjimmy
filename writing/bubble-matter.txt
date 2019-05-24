@@ -150,8 +150,6 @@
         In recent times, Sylvia Lavin has presented Banham’s hard/soft opposition as forgetful of the lineage within modernity. Claiming modernity had an abstract ideal of plasticity repressed within it, Lavin noted that “almost every major modern architect… was interested in this kind of plasticity and claimed it as a distinguishing and privileged feature of modernism itself.” <sup><a href="#fn-nine">9</a></sup> In this regard, Lavin downgrades Banham’s bubble, bringing him back into the fold of standard modernism. Yet plasticity wasn’t Banham’s objective; his architectural proposition was always the fireplace, which acted from near and far, high and low. Plasticity is the byproduct of his project. The hardware “fireplace” was the environment and the bubble its precipice, an ideal form that “interfer[ed] with the local meteorology, usually by means of a campfire…It is simply an environment suited to what you are going to do next.” <sup><a href="#fn-ten">10</a></sup> <i>The Environmental Bubble</i> was always an image of symbiotic architecture, materializing an atmosphere to ensure no form was replicated, and no cultural construct continues. Banham doesn’t just negate symbolic exaggeration of the bubble, but the plasticity that was materially formal.
       </p>
 
-
-    
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
           <img src="https://jamesandjimmy.com/img/jcarter.bubble.08.small.jpg" alt="Smiley face">
@@ -219,6 +217,6 @@
         </ol>
       </div>
 
-      <div class="next SOMETHING">
-        Next Article: Something ➜
+      <div class="next where-you-always-are">
+        Next Article: Where You Always Are ➜
       </div>
