@@ -7,7 +7,7 @@
         <p id="first">
           With the increase in door to door deliveries of easily accessible commodities and the resulting enlargement of storage spaces in households, the relationship between the private domain and the public realm is set to augment. The concept of the threshold is being constantly degraded by the incursion of all our commodities now bought online. In addition to the door, other fundamental interfaces such as the elevator, the lobby, the gate, and the sidewalk, are being challenged by the distribution of deliverables to our desired destination. Last mile delivery has become the last fifty-yard traffic jam, as analog reliant building interfaces struggle to deal with the digital driven entrance of goods. Maintaining the safety of our prized symbols of significance—commodities—yet able to function as an efficient mediated interface, the once fundamental spatial mechanism of the threshold must transform into <i>fatspace.</i> ★
         </p>
-        
-        <div class="next SOMETHING">
-          Next Article: Something ➜
+
+        <div class="next urban-think-tank">
+          Next Article: Urban Think-Tank ➜
         </div>
