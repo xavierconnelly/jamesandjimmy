@@ -1,7 +1,7 @@
       <div id="writing-titles">
         <div id="year">2017</div>
         <div id="publisher">Pidgin #23</div>
-        <div id="heading">Spectators of Self- Deception:</div>
+        <div id="heading">Spectators of Self-Deception:</div>
         <div id="sub-heading">Defining Perception</div>
       </div>
 
@@ -226,6 +226,6 @@
         </ol>
       </div>
 
-      <div class="next SOMETHING">
-        Next Article: Something ➜
+      <div class="next fatspace">
+        Next Article: Fatspace ➜
       </div>
