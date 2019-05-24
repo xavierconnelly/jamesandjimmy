@@ -8,6 +8,6 @@
          Coming soon...
         </p>
 
-        <div class="next display-rooms">
+        <div class="next" onclick="displayRooms()">
           Next Article: Display Rooms ➜
         </div>
