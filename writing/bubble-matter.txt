@@ -217,6 +217,6 @@
         </ol>
       </div>
 
-      <div class="next where-you-always-are">
+      <div class="next" onclick="whereYouAlwaysAre()">
         Next Article: Where You Always Are ➜
       </div>
