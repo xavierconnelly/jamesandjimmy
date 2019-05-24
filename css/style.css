@@ -1064,8 +1064,8 @@ sup > a {
   font-size: 1em;
   z-index: 2;
   padding: 10px 10px 30px;
-  background-color: #BF0A30;
-  color: #E1DEDD;
+  background-color: #E1DEDD;
+  color: #200B02;
   cursor: crosshair;
   overflow: auto;
   text-align: center;
@@ -1075,9 +1075,12 @@ sup > a {
  display: none;
 }
 
-#project-container:hover {
-  background-color: #E1DEDD;
-  color: #BF0A30;
+#project-container > * {
+  filter: blur(4px);
+}
+
+#project-container > *:hover {
+  filter: blur(0);
 }
    
 #project-titles {
