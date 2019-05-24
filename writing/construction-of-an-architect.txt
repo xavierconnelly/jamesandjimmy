@@ -8,6 +8,6 @@
          Coming soon...
         </p>
 
-        <div class="next SOMETHING">
-          Next Article: Something ➜
+        <div class="next display-rooms">
+          Next Article: Display Rooms ➜
         </div>
