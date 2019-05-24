@@ -778,80 +778,62 @@
 <!---------------------- JAVASCRIPT --------------------------->
 <!---------------------------|--------------------------------->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   
-  <script type="text/javascript">
-      $( function() {
-    $( document ).tooltip();
-  });
-  </script>
-
-
-  <--! $(document).ready(function(){ -->
-    
 <script type="text/javascript">
-  $(".construction-of-an-architect").click(function(){
-    $("#writing-container").load("/writing/construction-of-an-architect.txt") .scrollTop(0);
+  $( function() {
+    $(document).tooltip();
   });
 </script>
 
 <script type="text/javascript">
-  function aRoomForKaraoke() {
-    $("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt") .scrollTop(0);
+  function displayRooms() {
+    $("#project-container").load("/writing/display-rooms.txt") .scrollTop(0);
   };
+  function bubbleMatter() {
+    $("#writing-container").load("/writing/bubble-matter.txt") .scrollTop(0);
+  };
+  function whereYouAlwaysAre() {
+    $("#writing-container").load("/writing/where-you-always-are.txt") .scrollTop(0);
+  };
+  function freshMeatIX() {
+    $("#writing-container").load("/writing/fresh-meat-ix.txt") .scrollTop(0);
+  };
+  function spectatorsOfSelfDeception() {
+    $("#writing-container").load("/writing/spectators-of-self-deception.txt") .scrollTop(0);
+  };
+  function fatspace() {
+    $("#writing-container").load("/writing/fatspace.txt") .scrollTop(0);
+  };
+  function urbanThinkTank() {
+    $("#writing-container").load("/writing/urban-think-tank.txt") .scrollTop(0);
+  };
+</script>
 
+<script type="text/javascript">
+  function anAdditionForThree() {
+    $("#project-container").load("/projects/an-addition-for-three.txt") .scrollTop(0);
+  };
+  function aCertainKindOfLife() {
+    $("#project-container").load("/projects/a-certain-kind-of-life.txt") .scrollTop(0);
+  };
+  function aModelForLouisAndTadao() {
+    $("#project-container").load("/projects/a-model-for-louis-and-tadao.txt") .scrollTop(0);
+  };
+  function aBigSalad() {
+    $("#project-container").load("/projects/a-big-salad.txt") .scrollTop(0);
+  };
+  function aHouseForOne() {
+    $("#project-container").load("/projects/aHouseForOne.txt") .scrollTop(0);
+  };
   function aMapWithAudio() {
     $("#project-container").load("/projects/a-map-with-audio.txt") .scrollTop(0);
   };
-
-</script>
-
-
-<script type="text/javascript">
-   $(".display-rooms").click(function(){
-    $("#writing-container").load("/writing/display-rooms.txt") .scrollTop(0);
-  });
-   $(".bubble-matter").click(function(){
-    $("#writing-container").load("/writing/bubble-matter.txt") .scrollTop(0);
-  });
-   $(".where-you-always-are").click(function(){
-    $("#writing-container").load("/writing/where-you-always-are.txt") .scrollTop(0);
-  });
-   $(".fresh-meat-ix").click(function(){
-    $("#writing-container").load("/writing/fresh-meat-ix.txt") .scrollTop(0);
-  });
-   $(".spectators-of-self-deception").click(function(){
-    $("#writing-container").load("/writing/spectators-of-self-deception.txt") .scrollTop(0);
-  });
-   $(".fatspace").click(function(){
-    $("#writing-container").load("/writing/fatspace.txt") .scrollTop(0);
-  });
-   $(".urban-think-tank").click(function(){
-    $("#writing-container").load("/writing/urban-think-tank.txt") .scrollTop(0);
-  });
-    
-   $(".an-addition-for-three").click(function(){
-    $("#project-container").load("/projects/an-addition-for-three.txt") .scrollTop(0);
-  });
-   $(".a-certain-kind-of-life").click(function(){
-    $("#project-container").load("/projects/a-certain-kind-of-life.txt") .scrollTop(0);
-  });
-   $(".a-model-for-louis-and-tadao").click(function(){
-    $("#project-container").load("/projects/a-model-for-louis-and-tadao.txt") .scrollTop(0);
-  });
-   $(".a-big-salad").click(function(){
-    $("#project-container").load("/projects/a-big-salad.txt") .scrollTop(0);
-  });
-  $(".a-house-for-one").mouseenter(function(){
-    $("#project-container").load("/projects/a-house-for-one.txt") .scrollTop(0);
-  });
-   $(".a-map-with-audio").click(function(){
-    $("#project-container").load("/projects/a-map-with-audio.txt") .scrollTop(0);
-  });
-   $(".a-room-for-karaoke").click(function(){
+  function aRoomForKaraoke() {
     $("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt") .scrollTop(0);
-  });
+  };
 </script>
+
 
 <script type="text/javascript"> 
   /* Info/About Section */
@@ -875,18 +857,16 @@ function myFunction() {
 }
 </script>
  
- <script>
- $("#slideshow > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-}, 3000);
-  
+<script>
+  $("#slideshow > div:gt(0)").hide();
+  setInterval(function() {
+    $('#slideshow > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+  }, 3000);
  </script>
    
 </body>
