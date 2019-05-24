@@ -22,6 +22,6 @@
       <div id="photographer">
        * Photos by Michael Tropea & Angeliki Sykiotis
       </div>
-      <div class="next a-house-for-one">
+      <div class="next" onclick="aHouseForOne()">
         Next Project: A House For One ➜
       </div>
