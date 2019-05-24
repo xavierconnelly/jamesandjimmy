@@ -1079,7 +1079,7 @@ sup > a {
   filter: blur(4px);
 }
 
-#project-container > *:hover {
+#project-container:hover > * {
   filter: blur(0);
 }
    
