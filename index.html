@@ -786,10 +786,16 @@
   } );
   </script>
 
-  <script type="text/javascript">
+ 
+
+function openRight() {
+  document.getElementById("workshops").style.left = "calc(50vw - 30px)";
+}
 
    $(document).ready(function(){
     
+<script type="text/javascript">
+
   $(".construction-of-an-architect").click(function(){
     $("#writing-container").load("/writing/construction-of-an-architect.txt") .scrollTop(0);
   });
@@ -836,9 +842,9 @@
    $(".a-room-for-karaoke").click(function(){
     $("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt") .scrollTop(0);
   });
-    
-});  
- </script>
+
+</script>
+ });  
  
 <script type="text/javascript"> 
 /* Info/About Section */
