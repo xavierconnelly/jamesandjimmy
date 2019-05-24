@@ -20,6 +20,6 @@
         </p>
       </span>
       <img src="/img/jcarter.map.02.jpg" alt="Smiley face">
-      <div class="next an-addition-for-three">
+      <div class="next" onclick="anAdditionForThree()">
         Next Project: An Addition For Three ➜
       </div>
