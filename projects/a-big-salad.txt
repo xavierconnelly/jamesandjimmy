@@ -24,6 +24,6 @@
       <img src="/img/jcarter.salad.04.jpg" alt="Smiley face">
       <img src="/img/jcarter.salad.05.jpg" alt="Smiley face">
       <img src="/img/jcarter.salad.06.jpg" alt="Smiley face">
-      <div class="next a-model-for-louis-and-tadao">
+      <div class="next" onclick="aModelForLouisAndTadao()">>
         Next Project: A Model for Louis and Tadao ➜
       </div>
