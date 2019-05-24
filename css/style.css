@@ -66,7 +66,7 @@ body {
   padding-right: 10px;
   float: right;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.4;
   text-align: right;
   width: 100%;
 }
@@ -805,8 +805,8 @@ div.scrollmenu a,  div.scrollmenu div{
   text-indent: 50px;
   text-align: justify;
   text-align-last: start;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 #writing-container > p, #writing-container  > h4 {
@@ -1088,14 +1088,14 @@ sup > a {
   width: 40%;
 }
 
-hr{
+hr {
   border: 1px;
   height: 1px;
   background-color: white;
   margin: 3px 0px;
 }
 
-#project-container:hover hr{
+#project-container:hover hr {
   background-color: #BF0A30;
 }
 
