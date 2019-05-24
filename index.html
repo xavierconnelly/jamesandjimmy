@@ -786,19 +786,16 @@
   } );
   </script>
 
- 
 
-function openRight() {
-  document.getElementById("workshops").style.left = "calc(50vw - 30px)";
-}
-
-   $(document).ready(function(){
+  <--! $(document).ready(function(){ -->
     
 <script type="text/javascript">
-
   $(".construction-of-an-architect").click(function(){
     $("#writing-container").load("/writing/construction-of-an-architect.txt") .scrollTop(0);
   });
+</script>
+
+<script type="text/javascript">
    $(".display-rooms").click(function(){
     $("#writing-container").load("/writing/display-rooms.txt") .scrollTop(0);
   });
@@ -842,20 +839,17 @@ function openRight() {
    $(".a-room-for-karaoke").click(function(){
     $("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt") .scrollTop(0);
   });
-
 </script>
- });  
- 
+
 <script type="text/javascript"> 
-/* Info/About Section */
-function openLeft() {
-  document.getElementById("grid-container").style.left = "0";
-}
-function closeLeft() {
-  document.getElementById("grid-container").style.left = "-49vw";
-}
-   
- </script>
+  /* Info/About Section */
+  function openLeft() {
+    document.getElementById("grid-container").style.left = "0";
+  }
+  function closeLeft() {
+    document.getElementById("grid-container").style.left = "-49vw";
+  }
+</script>
 
 
 <script type="text/javascript">
