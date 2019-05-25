@@ -57,8 +57,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: yellow;
-  color: green;
+  background: #E4E2E4;
+  color: #504A14;
 /*  background-image: url('/img/pres_jimmy.jpg');
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -550,8 +550,6 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/  
 
 #bio {
-/*  background: #BF0A30;
-  color:  #200B02;*/
   padding: 20px;
   font-family: 'Sans';
   font-size: 24px;
@@ -559,11 +557,6 @@ div.scrollmenu a,  div.scrollmenu div{
   overflow-x: hidden;
   overflow-y: scroll;
   padding-bottom: 100px;
-}
-
-#bio:hover{
-  background: #E1DEDD;
-  color: #200B02;
 }
 
 #bio::-webkit-scrollbar{
@@ -607,8 +600,6 @@ div.scrollmenu a,  div.scrollmenu div{
 
 
 #james-container {
-  /*color: #200B02;
-  background-color: #BF0A30;*/
   overflow: hidden;
 }
 
@@ -625,11 +616,6 @@ div.scrollmenu a,  div.scrollmenu div{
   height: calc(100% - 8vw);
   overflow: hidden;
   z-index: 1;
-}
-
-#jam-let-all:hover {
-  color: #BF0A30;
-  background-color: #E1DEDD;
 }
 
 /* Marquee Container */
@@ -687,19 +673,13 @@ div.scrollmenu a,  div.scrollmenu div{
 #con-let-all {
   border-top: 1px solid #200B02;
   border-right: 1px solid #200B02;
-  color: #E1DEDD;
-  background-color: #BF0A30;
+  color: ;
   position: absolute;
   bottom: 0;
   z-index: 10;
   border-top: 1px solid #200B02;
   cursor: pointer;
   overflow: hidden;
-}
-
-#con-let-all:hover {
-  color: #BF0A30;
-  background-color: #E1DEDD;
 }
 
 /* Marquee Container */
@@ -754,18 +734,11 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/
 
 #writing-container {
-  /*color: #200B02;
-  background-color: #BF0A30;*/
   z-index: 11;
   overflow-y: auto;
   overflow-x: hidden;
   padding: 10px 10px 30px;
   float: left;
-}
-
-#writing-container:hover {
-  color: #200B02;
-  background-color: #E1DEDD;
 }
 
 #writing-container::-webkit-scrollbar {
@@ -1066,8 +1039,8 @@ sup > a {
   font-size: 1em;
   z-index: 2;
   padding: 10px 10px 30px;
- /* background-color: #E1DEDD;
-  color: #200B02;*/
+  background-color: #FD2417;
+  color: #E4E2E4;
   cursor: crosshair;
   overflow: auto;
   text-align: center;
