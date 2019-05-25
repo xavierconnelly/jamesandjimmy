@@ -454,6 +454,18 @@ div.scrollmenu a,  div.scrollmenu div{
   z-index: 3;
 }
 
+#pro-mar-con > img {
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 1s;
+}
+
+#pro-mar-con:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 1s;
+}
+
 #pro-mar-con::-webkit-scrollbar{  
  display: none;
 }
@@ -1048,7 +1060,7 @@ sup > a {
 
 #project-container > img {
   filter: grayscale(100);
-  mix-blend-mode: screen
+  mix-blend-mode: screen;
   transition: 1s;
 }
 
