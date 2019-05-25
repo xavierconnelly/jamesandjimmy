@@ -57,7 +57,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: #D5BBAC;
+  background: yellow;
+  color: green;
 /*  background-image: url('/img/pres_jimmy.jpg');
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -250,8 +251,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/
 
 #jamesnews{
-  background: #BF0A30;
-  color: #200B02;
+  /*background: #BF0A30;
+  color: #200B02;*/
   text-align: left;
   padding: 20px;
   font-size: 16px;
@@ -298,8 +299,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/  
 
 #news-container {
-  color: #200B02;
-  background-color: #BF0A30;
+ /* color: #200B02;
+  background-color: #BF0A30;*/
   cursor: pointer;
   text-align: center;
   overflow-x: hidden;
@@ -372,8 +373,8 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Container */
 #wri-mar-con {
-  color: #200B02;
-  background-color: #BF0A30;
+  /*color: #200B02;
+  background-color: #BF0A30;*/
   overflow-Y: scroll;
   overflow-X: hidden;
   z-index: 15;
@@ -455,7 +456,7 @@ div.scrollmenu a,  div.scrollmenu div{
 /* Marquee Container (View Size) */
 #pro-mar-con {
   cursor: pointer;
-  background-color: #BF0A30;
+  /*background-color: #BF0A30;*/
   z-index: 3;
 }
 
@@ -549,8 +550,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/  
 
 #bio {
-  background: #BF0A30;
-  color:  #200B02;
+/*  background: #BF0A30;
+  color:  #200B02;*/
   padding: 20px;
   font-family: 'Sans';
   font-size: 24px;
@@ -606,8 +607,8 @@ div.scrollmenu a,  div.scrollmenu div{
 
 
 #james-container {
-  color: #200B02;
-  background-color: #BF0A30;
+  /*color: #200B02;
+  background-color: #BF0A30;*/
   overflow: hidden;
 }
 
@@ -1065,8 +1066,8 @@ sup > a {
   font-size: 1em;
   z-index: 2;
   padding: 10px 10px 30px;
-  background-color: #E1DEDD;
-  color: #200B02;
+ /* background-color: #E1DEDD;
+  color: #200B02;*/
   cursor: crosshair;
   overflow: auto;
   text-align: center;
