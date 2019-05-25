@@ -299,8 +299,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/  
 
 #news-container {
- /* color: #200B02;
-  background-color: #BF0A30;*/
+  background-color: #FD2417;
+  color: #E4E2E4;
   cursor: pointer;
   text-align: center;
   overflow-x: hidden;
@@ -457,7 +457,7 @@ div.scrollmenu a,  div.scrollmenu div{
 #pro-mar-con {
   cursor: pointer;
   background-color: #FD2417;
-  color: #E4E2E4;
+  color: #504A14;
   z-index: 3;
 }
 
@@ -474,7 +474,7 @@ div.scrollmenu a,  div.scrollmenu div{
 .pro-mar-ele{
   width: 8vw;
   height: 8vw;
-  border-left: 1px solid #200B02;
+  border-left: 1px solid #504A14;
   display: inline-block;
   float: left;
 }
@@ -1060,7 +1060,7 @@ sup > a {
 
 #project-container:hover > img {
   filter: grayscale(0);
-  mix-blend-mode: screen;
+  mix-blend-mode: normal;
 }
    
 #project-titles {
