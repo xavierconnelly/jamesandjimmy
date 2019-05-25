@@ -57,9 +57,10 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-image: url('/img/pres_jimmy.jpg');
+  background: #D5BBAC;
+/*  background-image: url('/img/pres_jimmy.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .next {
@@ -752,8 +753,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/
 
 #writing-container {
-  color: #200B02;
-  background-color: #BF0A30;
+  /*color: #200B02;
+  background-color: #BF0A30;*/
   z-index: 11;
   overflow-y: auto;
   overflow-x: hidden;
@@ -888,7 +889,7 @@ sup > a {
   float: right;
   position: relative;
   clear: both;
-  width: calc(20% - 20px);
+  width: calc(25% - 20px);
   padding: 10px;
 }
 
@@ -1033,7 +1034,7 @@ sup > a {
   }
   .image-float {
     padding: 10px;
-    width: calc(20% - 20px);
+    width: calc(25% - 20px);
     float: left;
     clear: both;
   }
