@@ -454,18 +454,6 @@ div.scrollmenu a,  div.scrollmenu div{
   z-index: 3;
 }
 
-#pro-mar-con > img {
-  filter: grayscale(100);
-  mix-blend-mode: screen;
-  transition: 1s;
-}
-
-#pro-mar-con:hover > img {
-  filter: grayscale(0);
-  mix-blend-mode: normal;
-  transition: 1s;
-}
-
 #pro-mar-con::-webkit-scrollbar{  
  display: none;
 }
@@ -490,6 +478,18 @@ div.scrollmenu a,  div.scrollmenu div{
   border: 1px solid;
   margin: 1vw;
   overflow: hidden;
+}
+
+#pro-mar-ele > img {
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 0.8s;
+}
+
+#pro-mar-ele:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 0.8s;
 }
 
  /* pro nav tooltip  */
@@ -894,9 +894,9 @@ sup > a {
   pointer-events: none;
   position: fixed;
   top: calc(50% + 4vw);
-  left: calc(75.5vw - 1px);
+  left: 75.5vw;
   transform: translate(-50%, -50%);
-  width: calc(49vw - 1px);
+  width: 49vw;
   height: calc(100% - 8vw);  
   background-color: white;
   transition: 1s ease;
@@ -929,6 +929,18 @@ sup > a {
   height: calc(100% - 8px);
   width: calc(100% - 8px);
   margin: 3px;
+}
+
+.image-group > img {
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 0.8s;
+}
+
+.image-group:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 0.8s;
 }
 
 .image-group p {
@@ -1047,7 +1059,6 @@ sup > a {
   padding: 10px 10px 30px;
   background-color: #FD2417;
   color: #E4E2E4;
-  cursor: crosshair;
   overflow: auto;
   text-align: center;
 }
@@ -1083,7 +1094,7 @@ hr {
 #project-container > img {
   filter: grayscale(100);
   mix-blend-mode: screen;
-  transition: 0.5s;
+  transition: 0.8s;
   width: 100%;
   overflow: hidden;
   margin-top: 5px;
@@ -1093,7 +1104,7 @@ hr {
 #project-container:hover > img {
   filter: grayscale(0);
   mix-blend-mode: normal;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 #project-container > img:first-child {
