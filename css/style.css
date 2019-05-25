@@ -112,8 +112,8 @@ body {
 }
 
 #grid-container > div {
-  border-right: 1px solid #200B02;
-  border-top: 1px solid #200B02;
+  border-right: 1px solid #504A14;
+  border-top: 1px solid #504A14;
   overflow: auto;
 }
 
@@ -251,18 +251,11 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/
 
 #jamesnews{
-  /*background: #BF0A30;
-  color: #200B02;*/
   text-align: left;
   padding: 20px;
   font-size: 16px;
   overflow-x: hidden;
   overflow-y: scroll;
-}
-
-#jamesnews:hover{
-  background: #E1DEDD;
-  color: #200B02;
 }
 
 #jamesnews span{
@@ -1056,11 +1049,13 @@ sup > a {
 #project-container > img {
   filter: grayscale(100);
   mix-blend-mode: screen
+  transition: 1s;
 }
 
 #project-container:hover > img {
   filter: grayscale(0);
   mix-blend-mode: normal;
+  transition: 1s;
 }
    
 #project-titles {
