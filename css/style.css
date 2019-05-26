@@ -643,18 +643,11 @@ div.scrollmenu a,  div.scrollmenu div{
   z-index: 1;
 }
 
-/* Marquee Container */
-.jam-let{ 
-  width: 2vw; /* Width of ONE element */
-  height: 2vw; /* Combined height of ALL elements */
-  overflow: hidden;
-}
-
 /* Marquee */
 .jam-let-mar {
-  height: 1000px; /*important! */
-  display: block;
-  position: relative;
+  height: 2vw;
+  overflow: hidden;
+  width: 2vw;
 }
 
 /* Marquee Unit */
@@ -668,7 +661,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Request */
-.jam-let > .jam-let-mar > div { 
+.jam-let-mar > div { 
   -webkit-animation: james-up 4s infinite linear;
 }
 
@@ -683,7 +676,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-#jam-let-all:hover > .jam-let > .jam-let-mar > div { 
+#jam-let-all:hover > .jam-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -710,12 +703,9 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee */
 .con-let-mar {
-  /* height: 1000px; */
-  /* display: block; */
   height: 2vw;
   overflow: hidden;
   width: 2vw;
-  /* position: relative; */
 }
 
 /* Marquee Unit */
