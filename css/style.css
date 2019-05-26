@@ -615,7 +615,8 @@ div.scrollmenu a,  div.scrollmenu div{
   color: #E4E2E4;
   overflow: hidden;
   grid-column: 2 ;
-  grid-row: 2 ;
+  grid-row: 2;
+  cursor: pointer;
 }
 
 #james-container a{
@@ -637,7 +638,7 @@ div.scrollmenu a,  div.scrollmenu div{
   font-size: 1.3vw;
   line-height: 2vw;
   display: block;
-  border-top: 1px solid #504A14;
+  border-top: 1px solid #E4E2E4;
 }
 
 /* Marquee Animation Request */
@@ -656,12 +657,11 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-#james-container:hover > .jam-let-mar > div { 
+#james-container:hover > a > .jam-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
   animation-play-state:paused;
-  cursor: pointer;
 }
 
 /* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
