@@ -4,6 +4,12 @@
   grey: #E1DEDD;
 */
 
+/* NEW
+  Grey: #E4E2E4;
+  Brown: #504A14;
+  Red: #FD2417;
+*/
+
 * {
   margin: 0;
   font-family: 'Mono', monospace;
@@ -78,6 +84,11 @@ body {
   color: #BF0A30;
   cursor: pointer;
 }
+
+.potus, a{
+  color: #FD2417;
+}
+
 
 @media only screen and (max-width: 800px) {
   body {
@@ -367,8 +378,6 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Container */
 #wri-mar-con {
-  /*color: #504A14;
-  background-color: #BF0A30;*/
   overflow-Y: scroll;
   overflow-X: hidden;
   z-index: 15;
@@ -687,31 +696,20 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Container - wider */
 #con-let-all {
-  border-top: 1px solid #504A14;
-  border-right: 1px solid #504A14;
-  color: ;
-  position: absolute;
-  bottom: 0;
-  z-index: 10;
-  border-top: 1px solid #504A14;
   cursor: pointer;
   overflow: hidden;
   grid-column: 2;
   grid-row: 3;
 }
 
-/* Marquee Container */
-.con-let{ 
-  width: 2vw; /* Width of ONE element */
-  height: 2vw; /* Combined height of ALL elements */
-  overflow: hidden;
-}
-
 /* Marquee */
 .con-let-mar {
-  height: 1000px; /*important! */
-  display: block;
-  position: relative;
+  /* height: 1000px; */
+  /* display: block; */
+  height: 2vw;
+  overflow: hidden;
+  width: 2vw;
+  /* position: relative; */
 }
 
 /* Marquee Unit */
@@ -719,13 +717,14 @@ div.scrollmenu a,  div.scrollmenu div{
   text-align: center;
   width: 2vw;
   height: 2vw;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  line-height: 2vw;
   display: block;
   border-top: 1px solid #504A14;
 }
 
 /* Marquee Animation Request */
-.con-let > .con-let-mar > div { 
+.con-let-mar > div { 
   -webkit-animation: con-up 4s infinite linear;
 }
 
@@ -740,7 +739,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-#con-let-all:hover > .con-let > .con-let-mar > div { 
+#con-let-all:hover > .con-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
