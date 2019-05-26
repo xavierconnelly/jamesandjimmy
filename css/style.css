@@ -632,17 +632,6 @@ div.scrollmenu a,  div.scrollmenu div{
   text-decoration: none;
 }
 
-/* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
-/* ____________________________________________________________________________________________________________________________*/  
-
-/* Marquee Container - wider */
-#jam-let-all {
-  width: 2vw;
-  height: calc(100% - 8vw);
-  overflow: hidden;
-  z-index: 1;
-}
-
 /* Marquee */
 .jam-let-mar {
   height: 2vw;
@@ -676,7 +665,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-#jam-let-all:hover > .jam-let-mar > div { 
+#james-container:hover > .jam-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
