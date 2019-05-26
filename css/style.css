@@ -74,7 +74,7 @@ body {
   padding-top: 50px;
   padding-right: 10px;
   float: right;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.4;
   text-align: right;
   width: 100%;
@@ -124,7 +124,6 @@ body {
 #grid-container > div {
   border-right: 1px solid #504A14;
   border-top: 1px solid #504A14;
-  overflow: auto;
 }
 
 #grid-container > div:hover {
@@ -273,10 +272,6 @@ div.scrollmenu a,  div.scrollmenu div{
 
 #jamesnews p{
   padding-top: 20px;
-}
-
-#jamesnews p:first-child{
-  padding-top: 0px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -616,7 +611,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 
 #james-container {
-  background-color: #FD2417;
+  background-color: #504A14;
   color: #E4E2E4;
   overflow: hidden;
   grid-column: 2 ;
@@ -674,6 +669,8 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Container - wider */
 #con-let-all {
+  background: #FD2417;
+  color: #E4E2E4;
   cursor: pointer;
   grid-column: 2;
   grid-row: 3;
@@ -1072,7 +1069,7 @@ sup > a {
 hr {
   border: 1px;
   height: 1px;
-  background-color: inherit;
+  background-color: #E4E2E4;
   margin: 3px 0px;
 }
 
@@ -1090,7 +1087,7 @@ hr {
   width: 100%;
   overflow: hidden;
   margin-top: 5px;
-  border: 1px solid;
+  border: 1px solid #504A14;
 }
 
 #project-container:hover > img {
