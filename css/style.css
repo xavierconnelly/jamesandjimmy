@@ -262,18 +262,13 @@ div.scrollmenu a,  div.scrollmenu div{
 
 #jamesnews{
   text-align: left;
-  padding: 20px;
   font-size: 16px;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 #jamesnews span{
-  color: #E1DEDD;
-}
-
-#jamesnews:hover span{
-  color: #BF0A30;
+  color: #FD2417;
 }
 
 #jamesnews p{
@@ -318,8 +313,8 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 #news-container:hover {
-  color: #BF0A30;
-  background-color: #E1DEDD;
+  color: #E4E2E4;
+  background-color: blue;
 }
    
 .news-marquee{
@@ -344,7 +339,7 @@ div.scrollmenu a,  div.scrollmenu div{
   height: 2vw;
   border-left: 1px solid #504A14;
   border-top: 1px solid #504A14;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   line-height: 2vw;
 }
 
@@ -644,7 +639,8 @@ div.scrollmenu a,  div.scrollmenu div{
   text-align: center;
   width: 2vw;
   height: 2vw;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
+  line-height: 2vw;
   display: block;
   border-top: 1px solid #504A14;
 }
@@ -699,7 +695,7 @@ div.scrollmenu a,  div.scrollmenu div{
   text-align: center;
   width: 2vw;
   height: 2vw;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   line-height: 2vw;
   display: block;
   border-top: 1px solid #504A14;
