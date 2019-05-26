@@ -333,7 +333,7 @@ div.scrollmenu a,  div.scrollmenu div{
   display: inline-block;
 }
 
-.news-letter  > div:first-child {
+.news-marquee-element > div:first-child {
   border-top: 0px solid;
 }
 
@@ -344,7 +344,7 @@ div.scrollmenu a,  div.scrollmenu div{
   height: 2vw;
   border-left: 1px solid #504A14;
   border-top: 1px solid #504A14;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   line-height: 2vw;
 }
 
@@ -644,7 +644,7 @@ div.scrollmenu a,  div.scrollmenu div{
   text-align: center;
   width: 2vw;
   height: 2vw;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   display: block;
   border-top: 1px solid #504A14;
 }
@@ -679,11 +679,8 @@ div.scrollmenu a,  div.scrollmenu div{
 /* Marquee Container - wider */
 #con-let-all {
   cursor: pointer;
-  overflow: hidden;
   grid-column: 2;
   grid-row: 3;
-  border-right: 1px solid #504A14;
-  border-top: 1px solid #504A14;
 }
 
 #con-let-all a {
