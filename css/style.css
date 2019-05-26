@@ -700,6 +700,12 @@ div.scrollmenu a,  div.scrollmenu div{
   overflow: hidden;
   grid-column: 2;
   grid-row: 3;
+  border-right: 1px solid #504A14;
+  border-top: 1px solid #504A14;
+}
+
+#con-let-all a {
+  text-decoration: none;
 }
 
 /* Marquee */
