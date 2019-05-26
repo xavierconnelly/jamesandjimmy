@@ -1,810 +1,1147 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en">
+/*
+  dark brown: #200B02;
+  red: #BF0A30;
+  grey: #E1DEDD;
+*/
 
-<head>
- 
-  <!-- Meta -->
-    <meta charset="utf-8">
-    <title>James and Jimmy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jimmy Carter is an architect and writer whose practice delves into the breadth of architectural dissemination.">
-    <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
-    <meta name="author" content="James Carter">
- 
-  <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#BF0A30">
- 
-  <!-- Safari Start Up Image -->
-    <link rel="apple-touch-startup-image" href="/img/pres_jimmy.jpg">
- 
-  <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
- 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136398833-1">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+/* NEW
+  Grey: #E4E2E4;
+  Brown: #504A14;
+  Red: #FD2417;
+*/
 
-      gtag('config', 'UA-136398833-1');
-    </script>
- 
-</head>
+* {
+  margin: 0;
+  font-family: 'Mono', monospace;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
 
-<body>
+@font-face {
+  font-family: 'Mono';
+  font-display: auto;
+  src: url(/IBMPlexMono-Regular.woff);
+}
 
-<!---------------------------|--------------------------------->
-<!------------------------ MOBILE ----------------------------->
-<!---------------------------|--------------------------------->
+@font-face {
+  font-family: 'Serif';
+  font-display: auto;
+  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
+}
 
-<div id="mobile">
+@font-face {
+  font-family: 'Sans';
+  font-display: auto;
+  src: url("/assets/font/IBMPlexSans-Regular.ttf");
+}
 
-  <div id="topnav">
-    James And Jimmy
-  </div>
+*:hover {
+}
 
-  <div id="slideshow">
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.house.07.jpg);"></div>
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.salad.01.jpg);"></div>
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.flat.01.big.jpg);"></div>
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.salad.01.jpg);"></div>
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.model.04.jpg);"></div>
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.karaoke.02.jpg);"></div>
-    <div class="middle" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);"></div>
-  </div>
- 
-<!-- Bottom Navigation Menu -->
- 
-  <div id="bottomnav">
-    <div id="navbars">
-      <div>
-        <a href="/news"> News</a>
-      </div>
-      <div>
-        <div id="writing">
-          Writing:
-        </div>
-        <div class="scrollmenu">
-          <a href="/writing/construction-of-an-architect">Construction of an Architect</a>
-          <a href="/writing/display-rooms">Display Rooms</a>
-          <a href="/writing/where-you-always-are">Where You Always Are</a>
-          <a href="/writing/bubble-matter">Bubble Matter</a>
-          <a href="/writing/spectators-of-self-deception">Spectators of Self-Deception</a>
-          <a href="/writing/fatspace">Fatspace</a>
-          <a href="/writing/fresh-meat-ix">Fresh Meat IX</a>
-          <a href="/writing/urban-think-tank">Urban Think-Tank</a>
-        </div>
-      </div>
-      <div>
-        <div id="projects">
-          Projects:
-        </div>
-        <div class="scrollmenu">
-          <a href="/projects/a-map-with-audio">A Map With Audio</a>
-          <a href="/projects/a-house-for-one">A House For One</a>
-          <a href="/projects/an-addition-for-three">An Addition For Three</a>
-          <a href="/projects/a-model-for-louis-and-tadao">A Model For Louis And Tadao</a>
-          <a href="/projects/a-room-for-karaoke">A Room For Karaoke</a>
-          <a href="/projects/a-certain-kind-of-life">A Certain Kind Of Life</a>
-        </div>
-      </div>
-      <div>
-        <a href="/about"> About </a>
-      </div>
-      <div>
-        <a href="/contact"> Contact </a>
-      </div>
-    </div>
-    <div id="mobile-menu">
-      <a href="javascript:void(0);" class="active" onclick="myFunction()">Menu</a>
-    </div>
-  </div>
+*:focus {
+   }
 
-</div>
+a { 
+  color: inherit;
+}
 
-<!---------------------------|--------------------------------->
-<!------------------------ DESKTOP ---------------------------->
-<!---------------------------|--------------------------------->
+::selection {
+  cursor: text;
+  color: #E4E2E4;
+  background-color: #BF0A30;
+}
 
-  <div id="grid-container">
+::-webkit-scrollbar {
+ display: none;
+}
 
-<!---------------------------|--------------------------------->
-<!------------------------ LEFT ------------------------------->
-<!---------------------------|--------------------------------->
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #E4E2E4;
+  color: #504A14;
+/*  background-image: url('/img/pres_jimmy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.next {
+  padding-top: 50px;
+  padding-right: 10px;
+  float: right;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: right;
+  width: 100%;
+}
    
-    <div id="bio" class="a">
-      <div id="stay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeLeft()">CLOSE</a>
+.next:hover {
+  color: #BF0A30;
+  cursor: pointer;
+}
 
-<!---------------------------|--------------------------------->
-<!------------------------- NEWS ------------------------------>
-<!---------------------------|--------------------------------->
-
-        <div id="jamesnews">
-          <p><span>08 April, 2019</span>
-          A Big Salad, a project by Jamie Goldsborough, Juan Suarez, Andrew Jennings and James was selected as a finalist for the 2019 Ragdale Ring.</p>
-
-          <p><span>15 February, 2019</span>
-          A Certain Kind of Life, an exhibition by Abigail Chang, Francesco Marullo, Agata Siemionow and Jimmy has been chosen to participate as an Associated Project at 2019 Lisbon Triennale.</p>
-
-          <p><span>17 October, 2018</span>
-          James’ article “Where You Always Are” is published in Flat Out #3.</p>
-
-          <p><span>11 October, 2018 </span>
-          Representing the University of Illinois at Chicago, the team of Jamie Goldsborough, Julian Gonzalez, Anjelica Hope Perez, Isabel Reford, William Stauffer,Angeliki Sykiotis, Ismael Vela, Thomas Kelly, Ryan Palider and Jimmy contributed to Ando and Le Corbusier: Masters of Architecture for the inaugural exhibition at Wrightwood 659.</p>
-
-          <p><span>06 October, 2018 </span>
-          Jimmy is to present Display Rooms as part of the 2018 ACSA Fall Conference Play with the Rules: CLUE (-d in or out).</p>
-
-          <p><span>06 April, 2018</span>
-          Jimmy’s article “Spectators of Self-Deception” is published in Pidgin #23.</p>
-
-          <p><span>21 September, 2017</span>
-          The architectural journal, Fresh Meat IX: Fake Fiction, co-edited by Jimmy launches at Volume Gallery in Chicago. </p>
-
-          <p><span>03 August, 2017</span>
-          James is the recipient of the 2017 Schiff Foundation Critical Architectural Writing Fellowship.</p>
-
-          <p><span>01 December, 2016</span>
-          A House for One is complete.</p>
-
-          <p><span>26 July, 2016</span>
-          Jimmy launches the Australian premier of Bêka and Lemoine’s Barbicania, moderating a discussion with Clare Cousins (Clare Cousins Architects), Mark Raggatt (Ashton Raggatt McDougall), Louise Mackenzie (Cinecity).</p>
-
-          <p><span>23 June, 2016</span>
-          James and Millie Anderson’s Karaoke Room for Tokyo Tina opens.</p>
-
-          <p><span>25 July, 2015</span>
-          Jimmy launches the Australian premier of Angel Borrego Cubero’s The Competition with Linus Gruszewski. The panel includes Andrew Mackenzie, Annette Pitman, Gina Levenspiel, Kerstin Thompson, and Angel Borrego Cubero.</p>
-
-          <p><span>05 November, 2014</span>
-          Jimmy presents “Anglophiles and Austericans” as part of MPavilion’s lunchtime dip into The Australian Ugliness.</p>
-
-          <p><span>30 October, 2014</span>
-          James launches “Psychogeographical: A Melbourne dérive” with Linus Gruszewski as part of MPavilion.</p>
-
-          <p><span>28 October, 2014</span>
-          James moderates “Distraction and Recognition” discussing the film Cathedrals of Culture with artist Callum Morton, architects Aaron Roberts and Kristin Green, and visual artist Marnie Edmiston.</p>
-        </div>
-
-<!---------------------------|--------------------------------->
-<!------------------------- BIO ------------------------------->
-<!---------------------------|--------------------------------->
-
-        <div id="jamesbio">
-          <p> 
-            James and Jimmy is an architecture studio and dissemination unit whose practice delves into the breadth of architectural distribution and production. The studio believes that architecture is not merely material, concentrating on platforms in which architecture as a cultural production can take shape. In this way, projects are varied, mediums are numerous and characters are fluid, but all is grounded in architectural creation. 
-          </p>
-          <br>
-          <p>
-            Clients and affiliates of the studio include MPavilion, Open House Melbourne, ACMI, Tokyo Tina, Wrightwood 659, University of Illinois at Chicago, and the Lisbon Triennale, among others.
-          </p>
-          <br>
-          <p>
-            The studio’s work has been published in MAS Context, Pidgin, Flat Out, Assemble Papers and many others.
-          </p>
-          <br>
-          <p>
-            James was born in Melbourne, Australia and now lives in Chicago, USA. James has a Bachelor of Property and Construction and a Masters of Architecture from the University of Melbourne. James is a licensed architect and is an adjunct assistant professor at the University of Illinois at Chicago. 
-          </p>
-          <br>
-          <p>
-            Jimmy was also born in Melbourne, Australia and now lives in Chicago, USA. Jimmy has a Bachelor of Architectural Studies from the University of Melbourne and a Masters of Arts in Design Criticism from the University of Illinois at Chicago. Jimmy is a licensed architect and is an adjunct assistant professor at the University of Illinois at Chicago.
-          </p>
-        </div>
-
-<!---------------------------|--------------------------------->
-<!------------------------ CONTACT ---------------------------->
-<!---------------------------|--------------------------------->
-
-        <div id="jamescontact">
-          <b>Contact</b>
-          <br><br>
-          Phone number:
-          <br>
-           +1 415 802 4665
-          <br>
-          <br>
-          Email:
-          <br>
-          info@jamesandjimmy.com
-          <br>
-          <br>
-          Instagram:
-          <br>
-          @jamesandjimmyand
-          <br>
-          <br>
-        </div>
-
-      </div>
-    </div>
-
-<!---------------------------|--------------------------------->
-<!----------------------- NEWS NAV ---------------------------->
-<!---------------------------|--------------------------------->
-   
-    <div id="news-container" class="b" onclick="openLeft()" tabindex="0">
-      <a href="#jamesnews">
-        <div class="news-marquee">
-          <span class="news-marquee-element">
-            <div class="news-letter">N</div>
-            <div class="news-letter">E</div>
-            <div class="news-letter">W</div>
-            <div class="news-letter">S</div>
-          </span>
-          <span class="news-marquee-element">
-            <div class="news-letter">N</div>
-            <div class="news-letter">E</div>
-            <div class="news-letter">W</div>
-            <div class="news-letter">S</div>
-          </span>
-        </div>
-      </a>
-    </div>
-
-<!---------------------------|--------------------------------->
-<!----------------------- JAMES NAV --------------------------->
-<!---------------------------|--------------------------------->
-
-    <div id="james-container" class="c">
-
-      <a href="#jamesbio">
-        <div id="jam-let-all" tabindex="0" onclick="openLeft()">
-
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> J</div><div class="jam-let-mar-ele"> J</div></div>
-              <div><div class="jam-let-mar-ele"> J</div><div class="jam-let-mar-ele"> J</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> I</div></div>
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> I</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> M</div></div>
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> M</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> E</div><div class="jam-let-mar-ele"> M</div></div>
-              <div><div class="jam-let-mar-ele"> E</div><div class="jam-let-mar-ele"> M</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> S</div><div class="jam-let-mar-ele"> Y</div></div>
-              <div><div class="jam-let-mar-ele"> S</div><div class="jam-let-mar-ele"> Y</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> A</div></div>
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> A</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> N</div><div class="jam-let-mar-ele"> N</div></div>
-              <div><div class="jam-let-mar-ele"> N</div><div class="jam-let-mar-ele"> N</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> D</div><div class="jam-let-mar-ele"> D</div></div>
-              <div><div class="jam-let-mar-ele"> D</div><div class="jam-let-mar-ele"> D</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> J</div><div class="jam-let-mar-ele"> J</div></div>
-              <div><div class="jam-let-mar-ele"> J</div><div class="jam-let-mar-ele"> J</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> I</div><div class="jam-let-mar-ele"> A</div></div>
-              <div><div class="jam-let-mar-ele"> I</div><div class="jam-let-mar-ele"> A</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> M</div></div>
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> M</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> E</div></div>
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> E</div></div>
-            </div>
-         </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> Y</div><div class="jam-let-mar-ele"> S</div></div>
-              <div><div class="jam-let-mar-ele"> Y</div><div class="jam-let-mar-ele"> S</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> A</div></div>
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> A</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> N</div><div class="jam-let-mar-ele"> N</div></div>
-              <div><div class="jam-let-mar-ele"> N</div><div class="jam-let-mar-ele"> N</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> D</div><div class="jam-let-mar-ele"> D</div></div>
-              <div><div class="jam-let-mar-ele"> D</div><div class="jam-let-mar-ele"> D</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> J</div><div class="jam-let-mar-ele"> J</div></div>
-              <div><div class="jam-let-mar-ele"> J</div><div class="jam-let-mar-ele"> J</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> I</div></div>
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> I</div></div>
-            </div>
-         </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> M</div></div>
-              <div><div class="jam-let-mar-ele"> M</div><div class="jam-let-mar-ele"> M</div></div>
-            </div>
-         </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> E</div><div class="jam-let-mar-ele"> M</div></div>
-              <div><div class="jam-let-mar-ele"> E</div><div class="jam-let-mar-ele"> M</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> S</div><div class="jam-let-mar-ele"> Y</div></div>
-              <div><div class="jam-let-mar-ele"> S</div><div class="jam-let-mar-ele"> Y</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> A</div></div>
-              <div><div class="jam-let-mar-ele"> A</div><div class="jam-let-mar-ele"> A</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> N</div><div class="jam-let-mar-ele"> N</div></div>
-              <div><div class="jam-let-mar-ele"> N</div><div class="jam-let-mar-ele"> N</div></div>
-            </div>
-          </div>
-          <div class="jam-let">
-            <div class="jam-let-mar">
-              <div><div class="jam-let-mar-ele"> D</div><div class="jam-let-mar-ele"> D</div></div>
-              <div><div class="jam-let-mar-ele"> D</div><div class="jam-let-mar-ele"> D</div></div>
-            </div>
-          </div>
-        </div>   
-      </a>
-    </div>
-
-<!---------------------------|--------------------------------->
-<!----------------------- CONTACT ----------------------------->
-<!---------------------------|--------------------------------->
-
-    <a href="#jamescontact">
-      <div id="con-let-all" onclick="openLeft()" class="d">
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> C</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> C</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> O</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> O</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> N</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> N</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> T</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> T</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> A</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> A</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> C</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> C</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-        <div class="con-let-mar">
-          <div><div class="con-let-mar-ele"> T</div><div class="con-let-mar-ele"> ☎</div></div>
-          <div><div class="con-let-mar-ele"> T</div><div class="con-let-mar-ele"> ☎</div></div>
-        </div>
-      </div> 
-    </a>
-
-<!---------------------------|--------------------------------->
-<!--------------------- WRITING NAV --------------------------->
-<!---------------------------|--------------------------------->
-
-    <div id="wri-mar-con" class="e">
-      <div class="wri-mar">
-
-        <div>
-          <div class="wri-mar-ele" tabindex="0" onclick="constructionOfAnArchitect()">
-            <div>Construction of an Architect</div>
-            <div>MAS Context</div>
-            <div>Upcoming</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="displayRooms()">
-            <div>Display Rooms</div>
-            <div>ASCA</div>
-            <div>Upcoming</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="bubbleMatter()">
-            <div>Bubble Matter</div>
-            <div>Fresh Meat</div>
-            <div>2019</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="whereYouAlwaysAre()">
-            <div>Where You Always Are</div>
-            <div>Flat Out</div>
-            <div>2019</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="freshMeatIX()">
-            <div>Fresh Meat IX</div>
-            <div>Fresh Meat</div>
-            <div>2017</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="spectatorsOfSelfDeception()">
-            <div>Spectators of Self-Deception</div>
-            <div>Pidgin</div>
-            <div>2017</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="fatspace()">
-            <div>Fatspace</div>
-            <div>DATUM Journal</div>
-            <div>2016</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="urbanThinkTank()">
-            <div>Urban Think-Tank</div>
-            <div>Assemble Papers</div>
-            <div>2016</div>
-          </div>
-        </div>
-
-<!---------------------------|--------------------------------->
-<!------------------ WRITING NAV REPEAT ----------------------->
-<!---------------------------|--------------------------------->
-
-        <div>
-          <div class="wri-mar-ele" tabindex="0" onclick="constructionOfAnArchitect()">
-            <div>Construction of an Architect</div>
-            <div>MAS Context</div>
-            <div>Upcoming</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="displayRooms()">
-            <div>Display Rooms</div>
-            <div>ASCA</div>
-            <div>Upcoming</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="bubbleMatter()">
-            <div>Bubble Matter</div>
-            <div>Fresh Meat</div>
-            <div>2019</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="whereYouAlwaysAre()">
-            <div>Where You Always Are</div>
-            <div>Flat Out</div>
-            <div>2019</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="freshMeatIX()">
-            <div>Fresh Meat IX</div>
-            <div>Fresh Meat</div>
-            <div>2017</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="spectatorsOfSelfDeception()">
-            <div>Spectators of Self-Deception</div>
-            <div>Pidgin</div>
-            <div>2017</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="fatspace()">
-            <div>Fatspace</div>
-            <div>DATUM Journal</div>
-            <div>2016</div>
-          </div>
-          <div class="wri-mar-ele" tabindex="0" onclick="urbanThinkTank()">
-            <div>Urban Think-Tank</div>
-            <div>Assemble Papers</div>
-            <div>2016</div>
-          </div>
-        </div> 
-
-      </div>
-    </div>
-
-<!---------------------------|--------------------------------->
-<!----------------------- WRITING ----------------------------->
-<!---------------------------|--------------------------------->
-
-    <div id="writing-container" class="f">
-      <div id="writing-titles">
-        <div id="year">2019</div> 
-        <div id="publisher">Flat Out #3</div> 
-        <div id="heading">Where You Always Are</div>
-      </div>
-
-      <div id="download" class="sidenote">
-        <a href="article link here" download="ArticleName">
-          [DOWNLOAD PDF]
-        </a>
-      </div>
-
-      <p id="first">
-        You close the door to the children’s bedroom behind you and lock it quietly. The door to the living room must be locked as well, and then the door to your bedroom. Finally, you lock the glazed door to the outside. Only then are you alone. You put the toilet seat down. Extending your tired limbs, you watch the light from the skylight hit your glass of wine on the vanity centered in the middle of the room. Outside it is bright, and you gaze at the trees above the embankment through the glazed door. This window is the one point of certainty in the room, an image you can distinguish from the monolithic timber that lines its floor, ceiling, and walls. The whole room is a frame for its exterior view. You light a cigarette.
-      </p>
-      
-      <p>
-        You need this cigarette like this house needs locks. Solitude is not something that comes easily in this conglomeration of ten identically sized rooms. Room after room, someone is always watching you or barging in. Even in your bedroom, the two glazed double-doors remove any possibility of privacy —the blinds you ordered six months after the house was finished haven’t arrived. Three bedrooms, two bathrooms, a kitchen, a study, a dining room and two living rooms, and it is still hard to find a moment to yourself. The whole family has their own room, but no one has their own space. You can still hear your children screaming on the other side of the wall. They’re probably in one of the two living rooms. Connected via an enfilade along the west-wing, the social rooms align with the private rooms along the east-wing; cells of repetition tightly bound together like cigarettes in a pack.
-      </p>
-          
-      <p>
-        The house has a distorting ascetic opulence. The repetitive form and material of each room flattens programmatic difference, altering your understanding of need versus luxury. At thirteen feet by thirteen feet, each room allows for all activities, leveling everything to the same degree of importance. Sitting on the toilet hidden behind the vanity, you can rest in this bathroom. Yet even here you’re not safe. In this house, a sure way to arouse suspicion is to lock the doors for more than five minutes. The exactitude and symmetry of the rooms resist reduction to an open plan, instead offering an austere sequence delimited and dissected by thresholds. Proposed as an offering of complete openness and freedom of behavior, nowhere was to feel out of bounds. A locked door impedes that rule, signifying more than it would in a normal house. Not just a sign for solitude, it designates an exhaustion of interaction. Your son Andy calls you. You shut your eyes.
-      </p>
-
-      <p>
-        You missed the part about how the bathrooms were to function when you moved in. Two weeks and some embarrassing interruptions later had you putting locks on all the doors, leaving four locks to be turned before you can sit down. Thirty seconds of your five minutes of peace is spent locking and unlocking doors as you move counter-clockwise around the vanity to lock the doors, and clockwise to unlock them; the children’s room is always the first locked and last unlocked. Made up of timber clad hinged doors, glazed double doors, and timber framed openings, all ten rooms have four thresholds: twenty-three doors and four openings in total. A room usually implies a unit of autonomy, but broken by the connectivity of the rigid thresholds it dissolves into a field of entering and exiting; there is no front door and no corridor. The center of the house is the center of each room. Without an open window the cigarette smoke lingers above the vanity.
-      </p>
-      
-      <p>
-        Michael will be dealing with the marshmallow stains on the walls in the study by now. Those beautiful timber walls, you stare at the ones that surround you. Each room, the same floor, the same walls, the same ceiling, the same doors, the same windows. A monomania of sameness.  Yet, the monolithic use of timber holds subtle variations, noticeable by the doors and cabinetry. They are all clad vertically, contrasting to the rest of the house in horizontal boards. You constantly have to double take to recognize the difference in surfaces, allowing the timber lining to hold your perception as both background and signification. This house is a but replication of one archetypal room, implanted or distorted according to the furniture and plumbing needs. Like a sieve, it is open and porous, with moments of obstruction to instigate moments of interaction. You lift your drink. The wine is clear—the sediment has fallen to the bottom of the glass.
-      </p>
-      
-      <p>
-        The kitchen and the dining room are similarly circumnavigated like the bathroom. Your focus is the middle of the room. Around a vanity, a bench, or a table, these rooms produce cyclical movement that draw the family inwards. [MOU8] The other rooms seem to hold furniture on their edges, maintaining a central focus yet allowing movement through. Standing then becomes your predominant position in the middle of rooms, always directing you toward an opening or a view through. The timber lining, with significant knots and other desirable defects, provides a patterned dissimulation of distinction between the changing planes. You define the room by the objects within it, as they alone remain distinct and recognizable; the bathrooms by the flashes of white rimmed appliances, the kitchen by its glossy sink and rangehood, and the living rooms by stark black wood heaters. Together with the appliances, the emphasis of this house relies on your objects within it.
-      </p>
-      
-      <p>
-        Daisy’s clothes and hiking shoes sit in the corner of the room. You and Michael never imagined how hard it would be to maintain order in this house. Being enclosed in the simplicity of timber lining boards is charming, yet the storage cupboards that maintain the monolithic image cannot be interrupted by an irrelevant chest of drawers from downtown Providencia. While the room’s appearance flattens distinction, they do not allow for functional flexibility. They are so clearly defined that the appliances and cabinetry dictate their occupation. Your outdoor storage shed arrives next week; useless now that the end of summer is here. The piles of equipment that lie in the corners of the rooms will have to wait for next summer to be cleared away.
-      </p> 
-          
-      <p>
-        “MUM!!!” Oh no, not again. Is that Daisy in her room? You sit up straight with your back against the cistern. You glimpse the scenery through the window again. “MUM, WHERE ARE YOU???” Clockwise around the room, rapidly you unlock the door to the living room, the door to your bedroom, and the door to outside. Finally, you unlock the door to the children’s bedroom, hoping Daisy doesn’t hear you. She always finds distractions, and the house always obliges. You stand, surrounded by closed doors that feel open, ready to burst open at any moment. The doors are more like jack-in-the-boxes than barriers. Your phone begins to vibrate, “mum where r u?” This is your new norm of solitude, your new house and new media producing a familial life as much about connection as separation. “MUM!!!” You swing the external door outward and slip outside, pressing yourself against the wall, you hide for just another moment.
-      </p>
-          
-      <p>
-        Inside you’re bound to be spotted. Outside, you can move past rooms incognito; an activity especially pleasant in the sun. The house looks simple from here. The house’s east elevation is poised with five glazed double doors symmetrically positioned. Each door is outlined by a small black trim, succinctly separating the interior from exterior. The roof lays low and flat, and the awning punches out like the elevation has been bent ninety degrees. Changing the scope to a holiday house during the design process, the architects outlined the new design on top of the previous one. The house is just a trace: it was permeable from the beginning. You look back toward the bathroom door. It isn’t drowned in shade; the skylight still shines on the vanity; another visual indication of action. You’ll have to leave your belongings on the vanity, no time to go back right now.
-      </p> 
-      
-      <p>
-        You head south under the awning, peeping into the rooms as you pass by them. You check the children’s bedroom: no children. You walk past the other bathroom: not there either. The final bedroom: no one. The house repeats itself. Room after room after room after room after room. A house with no center. An ice cube tray for people. Two rows of five identical rooms. Our lives are a field of actions, finding frames of view in every direction and moments of respite in corners. You turn west now. You see Daisy and Andy holding marshmallow sticks in the southern living room, Michael scrubs the walls. It’s time to reemerge. 
-      </p>
-
-      <p>
-        Everyone’s too engrossed in the fire and wall stains to notice you. You walk to the door; the stained pine paneling of the façade is the same color as the painted corrugated roof. Matching timber and metal, the architect’s fixation of continuity? You knock on the window. Michael, Daisy and Andy look up. They’re smiling, not alarmed. You’ve disturbed them, but everyone expects to be disturbed now. You have all adapted to this house, but are still trying to find your equilibrium within it. Privacy is sacred, yet privacy is hard to find without your own space. Plenty of rooms, but no space. You re-enter into the living room. You’re back to where you were. To where you always are. ★
-      </p>
-
-      <div class="next" onclick="freshMeatIX()">
-        Next Article: Fresh Meat IX ➜
-      </div>
-      
-    </div> 
-
-<!---------------------------|--------------------------------->
-<!--------------------- PROJECT NAV --------------------------->
-<!---------------------------|--------------------------------->
-
-    <div id="pro-mar-con" class="g">
-      <div class="pro-mar">
-       
-        <div class="pro-mar-unit">
-          <div class="pro-mar-ele"  tabindex="0" onclick="anAdditionForThree()">
-            <img src="/img/jcarter.three.icon.jpg" alt="Smiley face"> 
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aCertainKindOfLife()">
-            <img src="/img/jcarter.life.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aBigSalad()">
-            <img src="/img/jcarter.salad.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aModelForLouisAndTadao()">
-            <img src="/img/jcarter.model.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aHouseForOne()">
-            <img src="/img/jcarter.house.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aRoomForKaraoke()"> 
-            <img src="/img/jcarter.karaoke.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aMapWithAudio()">
-            <img src="/img/jcarter.map.icon.jpg" alt="Smiley face">
-          </div>
-        </div>
-
-<!---------------------------|--------------------------------->
-<!------------------ PROJECT NAV REPEAT ----------------------->
-<!---------------------------|--------------------------------->
-       
-        <div class="pro-mar-unit">
-          <div class="pro-mar-ele"  tabindex="0" onclick="anAdditionForThree()">
-            <img src="/img/jcarter.three.icon.jpg" alt="Smiley face"> 
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aCertainKindOfLife()">
-            <img src="/img/jcarter.life.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aBigSalad()">
-            <img src="/img/jcarter.salad.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aModelForLouisAndTadao()">
-            <img src="/img/jcarter.model.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aHouseForOne()">
-            <img src="/img/jcarter.house.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aRoomForKaraoke()"> 
-            <img src="/img/jcarter.karaoke.icon.jpg" alt="Smiley face">
-          </div>
-          <div class="pro-mar-ele" tabindex="0" onclick="aMapWithAudio()">
-            <img src="/img/jcarter.map.icon.jpg" alt="Smiley face">
-          </div>
-        </div>
-       
-      </div> 
-    </div> 
+.potus, a{
+  color: #FD2417;
+}
 
 
-<!---------------------------|--------------------------------->
-<!----------------------- PROJECTS ---------------------------->
-<!---------------------------|--------------------------------->
-
-    <div id="project-container" class="h" tabindex="0">
-      <img src="/img/jcarter.house.01.jpg" alt="Smiley face">
-      <span id="project-titles">
-        <h1>A House For One</h1>
-        <br>
-        <h4>
-          Residential <br><hr>
-          James <br><hr>
-          Private <br><hr>
-          2016 <br><hr>
-          Castlemaine, Australia
-        </h4>
-      </span> 
-      <span id="project-text">
-        <p>
-          A private residence for one, this two level ‘room’ houses a resident who wishes to live in a country town, but not in the country. Designed around directives that prioritizes outdoor living, not minimum dwelling, the house makes use of the small plot by hugging the south-east corner to provide a continuous flow from site to space. A double height living area provides subdued privacy between open and intimate zones, while an array of windows and doors ensures views across both levels.
-        </p>
-      </span>
-      <img src="/img/jcarter.house.02.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.03.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.04.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.05.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.06.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.07.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.08.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.09.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.10.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.11.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
-      <div class="next" onclick="aRoomForKaraoke()">
-        Next Project: A Room for Karaoke and Other Things ➜
-      </div>
-    </div>
-  </div>
- 
-<!---------------------------|--------------------------------->
-<!---------------------- JAVASCRIPT --------------------------->
-<!---------------------------|--------------------------------->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  
-<script type="text/javascript">
-  $( function() {
-    $(document).tooltip();
-  });
-</script>
-
-<script type="text/javascript">
-  function constructionOfAnArchitect() {
-    $("#writing-container").load("/writing/construction-of-an-architect.txt") .scrollTop(0);
-  };
-  function displayRooms() {
-    $("#writing-container").load("/writing/display-rooms.txt") .scrollTop(0);
-  };
-  function bubbleMatter() {
-    $("#writing-container").load("/writing/bubble-matter.txt") .scrollTop(0);
-  };
-  function whereYouAlwaysAre() {
-    $("#writing-container").load("/writing/where-you-always-are.txt") .scrollTop(0);
-  };
-  function freshMeatIX() {
-    $("#writing-container").load("/writing/fresh-meat-ix.txt") .scrollTop(0);
-  };
-  function spectatorsOfSelfDeception() {
-    $("#writing-container").load("/writing/spectators-of-self-deception.txt") .scrollTop(0);
-  };
-  function fatspace() {
-    $("#writing-container").load("/writing/fatspace.txt") .scrollTop(0);
-  };
-  function urbanThinkTank() {
-    $("#writing-container").load("/writing/urban-think-tank.txt") .scrollTop(0);
-  };
-</script>
-
-<script type="text/javascript">
-  function anAdditionForThree() {
-    $("#project-container").load("/projects/an-addition-for-three.txt") .scrollTop(0);
-  };
-  function aCertainKindOfLife() {
-    $("#project-container").load("/projects/a-certain-kind-of-life.txt") .scrollTop(0);
-  };
-  function aModelForLouisAndTadao() {
-    $("#project-container").load("/projects/a-model-for-louis-and-tadao.txt") .scrollTop(0);
-  };
-  function aBigSalad() {
-    $("#project-container").load("/projects/a-big-salad.txt") .scrollTop(0);
-  };
-  function aHouseForOne() {
-    $("#project-container").load("/projects/a-house-for-one.txt") .scrollTop(0);
-  };
-  function aMapWithAudio() {
-    $("#project-container").load("/projects/a-map-with-audio.txt") .scrollTop(0);
-  };
-  function aRoomForKaraoke() {
-    $("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt") .scrollTop(0);
-  };
-</script>
-
-
-<script type="text/javascript"> 
-  /* Info/About Section */
-  function openLeft() {
-    document.getElementById("grid-container").style.left = "0";
+@media only screen and (max-width: 800px) {
+  body {
+    background: #E1DEDD;
+    font-size: 12px;
   }
-  function closeLeft() {
-    document.getElementById("grid-container").style.left = "-49vw";
-  }
-</script>
 
-
-<script type="text/javascript">
-function myFunction() {
-  var x = document.getElementById("navbars");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
+  .next {
+    font-size: 16px;
+    line-height: inherit;
+    margin-bottom: 50px;
   }
 }
-</script>
- 
-<script>
-  $("#slideshow > div:gt(0)").hide();
-  setInterval(function() {
-    $('#slideshow > div:first')
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo('#slideshow');
-  }, 3000);
- </script>
+
+@supports (display: grid) {
+	
+}   
+
+/* Global Grid ________________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
    
-</body>
-</html>
+#grid-container {
+  height: 100vh;
+  width: 149vw;
+  position: fixed;
+  left: -49vw;
+  display: grid;
+  grid-template-columns: 49vw 2vw 49vw 49vw;
+  grid-template-rows: 8vw auto 14vw;  
+  transition: 1s;
+}
+
+#grid-container > div {
+  border-right: 1px solid #504A14;
+  border-top: 1px solid #504A14;
+  overflow: auto;
+}
+
+#grid-container > div:hover {
+  z-index: 10;
+}
+
+@media only screen and (max-width: 500px) {
+  #grid-container {
+    display: none;
+  }
+}
+
+/* Mobile Nav _________________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/
+
+#slideshow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+}
+
+.middle {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  opacity: 1;
+}
+
+#topnav {
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  color: #e1dedd;
+  border-bottom: 2px solid #504A14;
+}
+
+#bottomnav {
+  bottom: 0;
+  display: block;
+  transition: bottom 0.5s;
+}
+ 
+#topnav, #bottomnav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  background-color: #BF0A30;
+  z-index: 99;
+}
+
+#bottomnav #navbars {
+  display: none;
+}
+
+#bottomnav a {
+  color: #E1DEDD;
+  background: #BF0A30;
+  padding: 5px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#navbars > div > a {
+  width: calc(100% - 60px);
+}
+
+#mobile-menu {
+  border-top: 2px solid #504A14;
+  background-color: #BF0A30;
+  color: white;
+  text-align: center;
+}
+ 
+#mobile-menu a {
+  font-size: 20px;
+  padding: 10px 15px;
+  width: calc(100% - 40px);
+}
+
+#mobile-menu > a {
+}
+
+#navbars > div{
+  width: calc(100%);
+  cursor: pointer;
+  border-top: 1px solid #504A14;
+  color: #504A14;
+  text-align: center;
+  padding: 10px 0px;
+}
+ 
+/* Mobile Nav Scroll */
+div.scrollmenu {
+  overflow-Y: hidden;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 30px 0px 0px 0px;
+}
+
+div.scrollmenu a,  div.scrollmenu div{
+  text-align: center;
+  border-right: 1px solid #504A14;
+}
+
+#projects, #writing {
+  font-size: 16px;
+  font-style: italic;
+  color: #E1DEDD;
+  position: absolute;
+  padding: 5px 20px;
+  width: calc(100% - 40px);
+}
+
+@media only screen and (min-width: 500px) {
+  #mobile {
+    display: none;
+  }
+}
+
+/* News _______________________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/
+
+#jamesnews{
+  text-align: left;
+  padding: 20px;
+  font-size: 16px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#jamesnews span{
+  color: #E1DEDD;
+}
+
+#jamesnews:hover span{
+  color: #BF0A30;
+}
+
+#jamesnews p{
+  padding-top: 20px;
+}
+
+#jamesnews p:first-child{
+  padding-top: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  #jamesnews{
+    background: #E1DEDD;
+    color: #504A14;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #jamesnews span{
+  color: #BF0A30;
+}
+}
+
+/* News Navigation ____________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
+
+#news-container {
+  background-color: #FD2417;
+  color: #E4E2E4;
+  cursor: pointer;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 11;
+  grid-column: 2 ;
+  grid-row: 1;
+}
+
+#news-container::-webkit-scrollbar{  
+ display: none;
+}
+
+#news-container:hover {
+  color: #BF0A30;
+  background-color: #E1DEDD;
+}
+   
+.news-marquee{
+  display: inline-block;
+  width: 4vw; /* important ~ double element size */
+}
+
+.news-marquee-element {
+  float: left;
+  width: 2vw;
+  display: inline-block;
+}
+
+.news-letter  > div:first-child {
+  border-top: 0px solid;
+}
+
+.news-letter {
+  display: block;
+  margin: 0;
+  width: 2vw;
+  height: 2vw;
+  border-left: 1px solid #504A14;
+  border-top: 1px solid #504A14;
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+
+/* Marquee Animation Request */
+.news-marquee-element { 
+  -webkit-animation: news-left 4s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+}
+
+
+/* Marquee Animation */
+@-webkit-keyframes news-left { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( -2vw, 0, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
+  }
+}
+
+/* Marquee Animation Pause */
+#news-container:hover > .news-marquee > span { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+/* Writing Navigation _________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
+
+/* Marquee Container */
+#wri-mar-con {
+  overflow-Y: scroll;
+  overflow-X: hidden;
+  z-index: 15;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#wri-mar-con::-webkit-scrollbar{  
+ display: none;
+}
+
+/* Marquee */
+.wri-mar {
+  height: 28vw; /*important! */
+  display: block;
+  position: relative;
+}
+
+/* Marquee Unit */
+.wri-mar-ele {
+  height: 2vw;
+  border-top: 1px solid #504A14;
+  display: grid;
+  grid-template-columns: 25vw 12vw 12vw;
+  font-size: 1.5vw;
+}
+
+.wri-mar-ele:hover {
+  color: #BF0A30;
+  background-color: #E1DEDD;
+}
+
+/* Marquee Unit */
+.wri-mar-ele > div{
+  text-align: left;
+  padding-left: 1vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1vw;
+  line-height: 2vw;
+}
+
+.wri-mar-ele > div:nth-last-child(1) {
+  text-align: right;
+  padding-right: 1vw;
+}
+
+/* Marquee Animation Request */
+#wri-mar-con > .wri-mar > div { 
+  -webkit-animation: wri-up 16s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+}
+
+/* Marquee Animation */
+@-webkit-keyframes wri-up { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( 0, -16vw, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
+  }
+}
+
+/* Marquee Animation Pause */
+#wri-mar-con:hover > .wri-mar > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+   
+/* Projects Navigation ________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
+
+#grid-container #pro-mar-con {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+/* Marquee Container (View Size) */
+#pro-mar-con {
+  cursor: pointer;
+  background-color: #FD2417;
+  color: #504A14;
+  z-index: 3;
+  grid-column: 4 ;
+  grid-row: 1 ;
+}
+
+#pro-mar-con::-webkit-scrollbar{  
+ display: none;
+}
+
+/* Marquee */
+.pro-mar {
+  width: 140vw; /*important! Greater than combined width of ALL elements */
+}
+
+/* Marquee Unit */
+.pro-mar-ele{
+  width: 8vw;
+  height: 8vw;
+  border-left: 1px solid #504A14;
+  display: inline-block;
+  float: left;
+}
+  
+.pro-mar-ele > img{
+  width: 6vw;
+  height: 6vw;
+  border: 1px solid;
+  margin: 1vw;
+  overflow: hidden;
+}
+
+#pro-mar-ele > img {
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 0.8s;
+}
+
+#pro-mar-ele:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 0.8s;
+}
+
+ /* pro nav tooltip  */
+
+.pro-mar-ele-fn-note {
+  visibility: hidden;
+  width: 49vw;
+  color: #504A14;
+  background-color: #E1DEDD;
+  border: 1px solid #504A14;
+  text-align: center;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: fixed;
+  left: 51vw;
+  top: 8vw;
+  z-index: 1;
+}
+
+.project-title{
+  float: left;
+  margin-left: 10px;
+  width: 24vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project-details{
+  float: right;
+  margin-right: 10px;
+}
+
+/* Marquee Animation Request */
+.pro-mar-unit { 
+  -webkit-animation: projects-left 42s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes projects-left {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-56vw, 0, 0); /* Match to marquee width */
+  }
+}
+
+/* Marquee Animation Pause */
+.pro-mar:hover > div {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+.pro-mar-ele:hover {
+  background-color: #E1DEDD;
+} 
+
+/* Bio ________________________________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/  
+
+#bio {
+  padding: 20px;
+  font-family: 'Sans';
+  font-size: 24px;
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+
+#bio::-webkit-scrollbar{
+ display: none;
+}
+
+.closebtn{
+  float: right;
+  position: sticky;
+  top: 0;
+}
+
+#jamesbio{
+ padding-bottom: 50px;
+ width: 80%;
+ padding-top: 20px;
+}
+
+#jamescontact{
+  border-top: 2px solid;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  #bio {
+    margin-top: 50px;
+    background: #E1DEDD;
+    font-size: 16px;
+  }
+  #jamescontact{
+    padding: 10px 20px;
+    position: absolute;
+    top: 100px;
+    border-top: 0px;
+  }
+}
+
+
+/* James Navigation____________________________________________________________________________________________________________*/  
+/* ____________________________________________________________________________________________________________________________*/  
+
+
+#james-container {
+  background-color: #FD2417;
+  color: #E4E2E4;
+  overflow: hidden;
+  grid-column: 2 ;
+  grid-row: 2 ;
+}
+
+#james-container a{
+  text-decoration: none;
+}
+
+/* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________________________*/  
+
+/* Marquee Container - wider */
+#jam-let-all {
+  width: 2vw;
+  height: calc(100% - 8vw);
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Marquee Container */
+.jam-let{ 
+  width: 2vw; /* Width of ONE element */
+  height: 2vw; /* Combined height of ALL elements */
+  overflow: hidden;
+}
+
+/* Marquee */
+.jam-let-mar {
+  height: 1000px; /*important! */
+  display: block;
+  position: relative;
+}
+
+/* Marquee Unit */
+.jam-let-mar-ele{
+  text-align: center;
+  width: 2vw;
+  height: 2vw;
+  font-size: 1.5vw;
+  display: block;
+  border-top: 1px solid #504A14;
+}
+
+/* Marquee Animation Request */
+.jam-let > .jam-let-mar > div { 
+  -webkit-animation: james-up 4s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes james-up { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( 0, -4vw, 0); /* Match to marquee height */
+  }
+}
+
+/* Marquee Animation Pause */
+#jam-let-all:hover > .jam-let > .jam-let-mar > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+/* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________________________*/
+
+/* Marquee Container - wider */
+#con-let-all {
+  cursor: pointer;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/* Marquee */
+.con-let-mar {
+  /* height: 1000px; */
+  /* display: block; */
+  height: 2vw;
+  overflow: hidden;
+  width: 2vw;
+  /* position: relative; */
+}
+
+/* Marquee Unit */
+.con-let-mar-ele{
+  text-align: center;
+  width: 2vw;
+  height: 2vw;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  display: block;
+  border-top: 1px solid #504A14;
+}
+
+/* Marquee Animation Request */
+.con-let-mar > div { 
+  -webkit-animation: con-up 4s infinite linear;
+}
+
+/* Marquee Animation */
+@-webkit-keyframes con-up { 
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d( 0, -4vw, 0); /* Match to marquee height */
+  }
+}
+
+/* Marquee Animation Pause */
+#con-let-all:hover > .con-let-mar > div { 
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
+/* Writing Section _________________________________________________________________________________________________________   */
+/* ____________________________________________________________________________________________________________________________*/
+
+#writing-container {
+  z-index: 11;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px 10px 30px;
+  float: left;
+  grid-column: 3;
+  grid-row: 2 / 4;
+}
+
+#writing-container::-webkit-scrollbar {
+ display: none;
+}
+
+#writing-titles {
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid;
+}
+
+#publisher {
+  float: ;
+  font-size: ;
+}
+
+#year {
+  float: ;
+  font-size: ;
+}
+
+#heading {
+  font-size: 3em;
+  text-align: ;
+  float: ;
+  width: 100%;
+} 
+
+#sub-heading {
+}
+
+#writing-container > a {
+  color: inherit;
+}
+
+#writing-container > p {
+  font-family:  'Sans';
+  text-indent: 50px;
+  text-align: justify;
+  text-align-last: start;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#writing-container > p, #writing-container  > h4 {
+  margin-left: 5%;
+  width: 90%;
+}
+
+#writing-container h4 { 
+  border-bottom: 2px solid;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#writing-container p {
+  text-indent: 50px;
+}
+
+#writing-container #first {
+  text-indent: 0px;
+  padding-top: 20px;
+}
+
+#coming-soon {
+  padding-top: 100px;
+  text-align: center;
+  text-align-last: auto;
+  width: 100%;
+  height: 20%;  
+}
+
+#download {
+  float: right;
+}
+
+@media only screen and (max-width: 800px) {
+  #writing-container {
+    color: #504A14;
+    background-color: #E1DEDD;
+    padding: 10px 20px 30px;
+  }
+}
+ 
+/* Writing Section - Footnotes ________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+#writing-container:hover sup {
+  color: #BF0A30;
+}
+
+sup {
+  color: #504A14;
+  font-style: bold;
+  line-height: 1px;
+}
+
+sup::before {
+  content: '['
+}
+
+sup::after {
+  content: ']'
+}
+
+sup > a {
+  text-decoration: none;
+}
+
+.sidenote {
+  font-family:  'Sans';
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  display: block;
+  float: right;
+  position: relative;
+  clear: both;
+  width: calc(25% - 20px);
+  padding: 10px;
+}
+
+.sidenote i {
+    font-family: 'Sans';
+}
+
+.footnotes {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* Writing Section - Image ____________________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+.image-group:hover .image-big {
+  opacity: 1;
+}
+
+.image-big {
+  pointer-events: none;
+  position: fixed;
+  top: calc(50% + 4vw);
+  left: 75.5vw;
+  transform: translate(-50%, -50%);
+  width: 49vw;
+  height: calc(100% - 8vw);  
+  background-color: white;
+  transition: 1s ease;
+  opacity: 0;
+  border: 1px solid;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.image-float {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: calc(30% - 40px);
+  float: left;
+  clear: both;
+}
+
+.image-group {
+  position: relative;
+  float: right;
+  border: 1px solid #504A14;
+  background-color: ;
+  margin-bottom: 10px;
+}
+  
+.image-group > img {
+  background-color: ;
+  border: 1px solid #504A14;
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
+  margin: 3px;
+}
+
+.image-group > img {
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 0.8s;
+}
+
+.image-group:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 0.8s;
+}
+
+.image-group p {
+  padding: 6px;     
+  padding-top: 0px;
+  color: #504A14;
+  background-color: ; 
+  text-align: left;
+  font-family:  arial;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+#writing-container > .image-float > .image-group > p {
+  text-indent: 0px;
+}
+
+/* Writing Section - Media Queries ____________________________________________________________________________________________*/
+/* ____________________________________________________________________________________________________________________________*/
+
+
+/* Screens Below 900px (sections < 441px)______________________________________*/
+
+@media only screen and (max-width: 900px) {
+  #writing-container > p, #writing-container > h4 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #writing-container > p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .sidenote {
+    display: none;
+  }
+  .footnotes {
+    display: none;
+  }
+ .image-float {
+    padding: 10px 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+/* Screens Between 900px and 1200px (441px < sections < 588px)______________________________________*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  #writing-container > p, #writing-container > h4 {
+    width: 80%;
+    margin-left: 0px;
+  }
+  .image-float {
+    clear: both;
+    float: left;
+    padding-right: 0px;
+    padding-left: 20px;
+    width: calc(50% - 40px);
+  }
+}
+
+/* Screens Below than 1200px (sections < 588px)______________________________________*/
+
+@media only screen and (max-width: 1200px) {
+  .footnotes{
+    display: block ;
+  }
+}
+
+/* Screens Larger than 1200px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1200px) {
+  .footnotes {
+    display: none ;
+  }
+}
+
+/* Screens Larger than 1200px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  #writing-container > p, #writing-container > h4 {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .image-float {
+    padding: 10px;
+    width: calc(25% - 20px);
+    float: left;
+    clear: both;
+  }
+}
+
+/* Screens Larger than 1600px (sections > 588px)______________________________________*/
+
+@media only screen and (min-width: 1600px) {
+  .image-float {
+    padding-left: 5%;
+    padding-right: 20px;
+    width: calc(15% - 20px);
+    float: left;
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .image-big {
+    display: none;
+  }
+}
+
+/* Projects___________________________________________________________________________________________________________________*/
+/*____________________________________________________________________________________________________________________________*/
+
+#project-container {
+  font-size: 1em;
+  z-index: 2;
+  padding: 10px 10px 30px;
+  background-color: #FD2417;
+  color: #E4E2E4;
+  overflow: auto;
+  text-align: center;
+  grid-column: 4;
+  grid-row: 2 / 4;
+}
+
+#project-container::-webkit-scrollbar {
+  display: none;
+}
+   
+#project-titles {
+  margin: 0px 10px 50px 10px;
+  text-align: left;
+  position: sticky;
+  float: left;
+  top: 0;
+  z-index: 50;
+  width: 40%;
+}
+
+hr {
+  border: 1px;
+  height: 1px;
+  background-color: inherit;
+  margin: 3px 0px;
+}
+
+#project-text {
+  margin: 0px 10px 50px 0px;
+  text-align: left;
+  float: right;
+  width: calc(50% - 10px);
+}
+
+#project-container > img {
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 0.8s;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+  border: 1px solid;
+}
+
+#project-container:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 0.8s;
+}
+
+#project-container > img:first-child {
+  margin-top: 0px;
+}
+
+#photographer {
+  font-size:12px;
+  text-align:left;
+  margin-left:10px;
+}
+
+@media only screen and (max-width: 800px) {
+  #project-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e1dedd;
+    color: #504A14;
+  }
+
+  #photographer {
+    font-size:10px;
+  }
+}
