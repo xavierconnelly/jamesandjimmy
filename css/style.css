@@ -813,7 +813,15 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 #download {
-  float: right;
+  float: left;
+  padding: 50px 0px;
+}
+
+#writing-container hr {
+  border: 1px;
+  height: 1px;
+  background-color: #504A14;
+  margin: 3px 0px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -1067,7 +1075,7 @@ sup > a {
   width: 40%;
 }
 
-hr {
+#project-container hr {
   border: 1px;
   height: 1px;
   background-color: #E4E2E4;
