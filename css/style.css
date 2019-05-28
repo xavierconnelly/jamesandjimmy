@@ -48,8 +48,15 @@ a {
 ::selection {
   cursor: text;
   color: #E4E2E4;
-  background-color: #BF0A30;
+  background-color: #504A14cc;
 }
+
+::selection > #project-container {
+  cursor: text;
+  color: #E4E2E4;
+  background-color: #612723;
+}
+
 
 ::-webkit-scrollbar {
  display: none;
@@ -340,7 +347,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 .news-marquee-element { 
-  -webkit-animation: news-left 4s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+  -webkit-animation: news-left 6s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
 }
 
 
@@ -644,7 +651,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 .jam-let-mar > div { 
-  -webkit-animation: james-up 4s infinite linear;
+  -webkit-animation: james-up 6s infinite linear;
 }
 
 /* Marquee Animation */
@@ -701,7 +708,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 .con-let-mar > div { 
-  -webkit-animation: con-up 4s infinite linear;
+  -webkit-animation: con-up 6s infinite linear;
 }
 
 /* Marquee Animation */
@@ -868,6 +875,7 @@ sup > a {
   clear: both;
   width: calc(25% - 20px);
   padding: 10px;
+  overflow: hidden;
 }
 
 .sidenote i {
@@ -1106,7 +1114,7 @@ sup > a {
 }
 
 #project-container > img:first-child {
-  margin-top: 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 #photographer {
