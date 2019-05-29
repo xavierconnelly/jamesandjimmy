@@ -1,5 +1,7 @@
-      <div id="writing-titles">
+      <div id="writing-titles" class="image-float">
         <div id="heading">Bubble Matter</div>
+        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
+        </div>
       </div>
 
       <div id="download" class="sidenote">
