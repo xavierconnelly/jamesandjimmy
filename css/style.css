@@ -1073,7 +1073,7 @@ sup > a {
   display: none;
 }
 
-#project-container::selection {
+#project-container:selection {
   cursor: text;
   color: #E4E2E4;
   background-color: #612723;
