@@ -51,13 +51,6 @@ a {
   background-color: #504A14cc;
 }
 
-::selection > #project-container {
-  cursor: text;
-  color: #E4E2E4;
-  background-color: #612723;
-}
-
-
 ::-webkit-scrollbar {
  display: none;
 }
@@ -1078,6 +1071,12 @@ sup > a {
 
 #project-container::-webkit-scrollbar {
   display: none;
+}
+
+#project-container::selection {
+  cursor: text;
+  color: #E4E2E4;
+  background-color: #612723;
 }
    
 #project-titles {
