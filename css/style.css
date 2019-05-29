@@ -894,8 +894,53 @@ sup > a {
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
+.image-float {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: calc(30% - 40px);
+  float: left;
+  clear: both;
+}
+
+.image-group {
+  position: relative;
+  float: right;
+  border: 1px solid #504A14;
+  margin-bottom: 10px;
+}
+
+#writing-titles:hover .image-big {
+  opacity: 1;
+}
+
 .image-group:hover .image-big {
   opacity: 1;
+}
+  
+.image-group > img {
+  border: 1px solid #504A14;
+  height: 100%;
+  width: 100%;
+  padding: 3px;
+  filter: grayscale(100);
+  mix-blend-mode: screen;
+  transition: 0.5s;
+}
+
+.image-group:hover > img {
+  filter: grayscale(0);
+  mix-blend-mode: normal;
+  transition: 0.8s;
+}
+
+.image-group p {
+  padding: 0px 6px 6px 6px;
+  color: #504A14;
+  text-align: left;
+  font-family:  'Sans';
+  font-size: 12px;
+  line-height: 15px;
+  text-indent: 0px;
 }
 
 .image-big {
@@ -915,52 +960,9 @@ sup > a {
   background-repeat: no-repeat;
 }
 
-.image-float {
-  padding-right: 20px;
-  padding-left: 20px;
-  width: calc(30% - 40px);
-  float: left;
-  clear: both;
-}
-
-.image-group {
-  position: relative;
-  float: right;
-  border: 1px solid #504A14;
-  margin-bottom: 10px;
-}
-  
-.image-group > img {
-  border: 1px solid #504A14;
-  height: 100%;
-  width: 100%;
-  padding: 3px;
-}
-
-.image-group > img {
-  filter: grayscale(100);
-  mix-blend-mode: screen;
-  transition: 0.8s;
-}
-
-.image-group:hover > img {
-  filter: grayscale(0);
-  mix-blend-mode: normal;
-  transition: 0.8s;
-}
-
-.image-group p {
-  padding: 0px 6px 6px 6px;
-  color: #504A14;
-  text-align: left;
-  font-family:  'Sans';
-  font-size: 12px;
-  line-height: 15px;
-}
-
-#writing-container > .image-float > .image-group > p {
+/*#writing-container > .image-float > .image-group > p {
   text-indent: 0px;
-}
+}*/
 
 /* Writing Section - Media Queries ____________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
