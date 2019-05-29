@@ -496,64 +496,9 @@ div.scrollmenu a,  div.scrollmenu div{
   transition: 0.8s;
 }
 
-
- /* pro nav tooltip TRIAL ONE */
-
-.pro-mar-ele:hover > .tooltip {
-  opacity: 1;
-}
-
-.tooltip {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  left: 75.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: white;
-  transition: 1s ease;
-  opacity: 0;
-  border: 1px solid;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
- /* pro nav tooltip  */
-
-.pro-mar-ele-fn-note {
-  visibility: hidden;
-  width: 49vw;
-  color: #504A14;
-  background-color: #E1DEDD;
-  border: 1px solid #504A14;
-  text-align: center;
-  padding: 5px 0;
-  /* Position the tooltip */
-  position: fixed;
-  left: 51vw;
-  top: 8vw;
-  z-index: 1;
-}
-
-.project-title{
-  float: left;
-  margin-left: 10px;
-  width: 24vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.project-details{
-  float: right;
-  margin-right: 10px;
-}
-
 /* Marquee Animation Request */
 .pro-mar-unit { 
-  -webkit-animation: projects-left 42s infinite linear;
+  -webkit-animation: projects-left 56s infinite linear;
 }
 
 /* Marquee Animation */
@@ -578,6 +523,63 @@ div.scrollmenu a,  div.scrollmenu div{
 .pro-mar-ele:hover {
   background-color: #E1DEDD;
 } 
+
+
+ /* pro nav tooltip TRIAL ONE */
+
+.pro-mar:hover > .tooltip {
+  opacity: 1;
+}
+
+.tooltip {
+  pointer-events: none;
+  position: fixed;
+  top: calc(50% + 4vw);
+  left: 75.5vw;
+  transform: translate(-50%, -50%);
+  width: 49vw;
+  height: calc(100% - 8vw);  
+  background-color: white;
+  transition: 1s ease;
+  opacity: 0;
+  border: 1px solid;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+ /* pro nav tooltip  
+
+.pro-mar-ele-fn-note {
+  visibility: hidden;
+  width: 49vw;
+  color: #504A14;
+  background-color: #E1DEDD;
+  border: 1px solid #504A14;
+  text-align: center;
+  padding: 5px 0;
+  /* Position the tooltip 
+  position: fixed;
+  left: 51vw;
+  top: 8vw;
+  z-index: 1;
+}
+
+.project-title{
+  float: left;
+  margin-left: 10px;
+  width: 24vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.project-details{
+  float: right;
+  margin-right: 10px;
+}
+*/
+
 
 /* Bio ________________________________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/  
