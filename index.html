@@ -523,7 +523,7 @@
        
         <div class="pro-mar-unit">
 
-          <div class="pro-mar-ele" id="hoverme"  tabindex="0" onclick="anAdditionForThree()">
+          <div class="pro-mar-ele" tabindex="0" onclick="anAdditionForThree()" onmouseover="somethingOver()" onmouseout="somethingOut()">
             <img src="/img/jcarter.three.icon.jpg" alt="Smiley face">
           </div>
           <div class="pro-mar-ele" tabindex="0" onclick="aCertainKindOfLife()">
@@ -690,6 +690,14 @@
   };
 </script>
 
+<script>
+  function somethingOver() {
+    document.getElementById("tooltip").style.opacity = "1";
+}
+  function somethingOut() {
+    document.getElementById("apple").style.opacity = "0";
+}
+</script>
 
 <script type="text/javascript"> 
   /* Info/About Section */
@@ -713,7 +721,7 @@ function myFunction() {
 }
 </script>
  
-<script>
+<script type="text/javascript">
   $("#slideshow > div:gt(0)").hide();
   setInterval(function() {
     $('#slideshow > div:first')
@@ -724,18 +732,6 @@ function myFunction() {
       .appendTo('#slideshow');
   }, 3000);
  </script>
-
-
-<script>
-$(document).ready(function(){
-  $("#hoverme").mouseover(function(){
-    $("#tooltip")css("opacity", "1");
-  });
-  $("#hoverme").mouseout(function(){
-    $("#tooltip").css("opacity", "0");
-  });
-});
-</script>
 
 </body>
 </html>
