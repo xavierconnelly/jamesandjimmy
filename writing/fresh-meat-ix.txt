@@ -1,14 +1,14 @@
       <div id="writing-titles">
-        <div id="year">2017</div> 
-        <div id="publisher">Jamie Goldsborough, Juan Suarez and Jimmy</div> 
         <div id="heading">Fresh Meat IX</div>
         <div id="sub-heading">Fake Fiction</div>
       </div>
 
       <div id="download" class="sidenote">
-        <p>
-          <a href="http://www.freshmeatjournal.com/"  target="_blank"> More info </a>
-        </p>
+        Publication <br><hr>
+        Jamie Goldsborough, Juan Suarez and Jimmy<br><hr>
+        ASCA 2018 Fall Conference (Play with the Rules)<br><hr>
+        2017<br><hr>
+        <a href="http://www.freshmeatjournal.com/"  target="_blank"> More info </a>
       </div>
 
       <p id="first">
