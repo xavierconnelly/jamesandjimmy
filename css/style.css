@@ -315,10 +315,10 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 #news-container:hover {
-  color: #E4E2E4;
-  background-color: blue;
-}
-   
+  color: #FD2417;
+  background-color: #E4E2E4;
+} 
+
 .news-marquee{
   display: inline-block;
   width: 4vw; /* important ~ double element size */
@@ -362,7 +362,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-#news-container:hover > .news-marquee > span { 
+#news-container:hover > a > .news-marquee > span { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -627,6 +627,11 @@ div.scrollmenu a,  div.scrollmenu div{
   padding-top: calc((100vh - 48vw) / 2);
 }
 
+#james-container:hover {
+  background-color: #E4E2E4;
+  color: #504A14;
+}
+
 #james-container a{
   text-decoration: none;
 }
@@ -684,6 +689,11 @@ div.scrollmenu a,  div.scrollmenu div{
   grid-row: 3;
 }
 
+#con-let-all:hover {
+  background: #E4E2E4;
+  color: #FD2417;
+}
+
 #con-let-all a {
   text-decoration: none;
 }
@@ -722,7 +732,7 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 /* Marquee Animation Pause */
-#con-let-all:hover > .con-let-mar > div { 
+#con-let-all:hover > a > .con-let-mar > div { 
   -webkit-animation-play-state:paused;
   -moz-animation-play-state:paused;
   -o-animation-play-state:paused;
@@ -924,16 +934,14 @@ sup > a {
   position: relative;
   float: right;
   border: 1px solid #504A14;
-  background-color: ;
   margin-bottom: 10px;
 }
   
 .image-group > img {
-  background-color: ;
   border: 1px solid #504A14;
-  height: calc(100% - 8px);
-  width: calc(100% - 8px);
-  margin: 3px;
+  height: 100%;
+  width: 100%;
+  padding: 3px;
 }
 
 .image-group > img {
@@ -949,12 +957,10 @@ sup > a {
 }
 
 .image-group p {
-  padding: 6px;     
-  padding-top: 0px;
+  padding: 0px 6px 6px 6px;
   color: #504A14;
-  background-color: ; 
   text-align: left;
-  font-family:  arial;
+  font-family:  'Sans';
   font-size: 12px;
   line-height: 15px;
 }
