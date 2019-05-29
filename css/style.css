@@ -531,7 +531,7 @@ div.scrollmenu a,  div.scrollmenu div{
   opacity: 1;
 }*/
 
-.tooltip {
+#tooltip {
   position: fixed;
   top: 8vw;
   left: 51vw;
