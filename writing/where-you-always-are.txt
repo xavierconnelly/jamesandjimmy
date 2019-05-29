@@ -1,5 +1,7 @@
       <div id="writing-titles">
         <div id="heading">Where You Always Are</div>
+        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.flat.01.big.jpg);">
+        </div>
       </div>
 
       <div id="download" class="sidenote">
