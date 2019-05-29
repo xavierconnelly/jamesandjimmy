@@ -542,12 +542,10 @@ div.scrollmenu a,  div.scrollmenu div{
   color: #E4E2E4;
   background-color: #504a14;
   transition: 1s ease;
-  opacity: 1;
   z-index: 99;
-  display: none;
 }
 
-.project-title{
+.project-title {
   float: left;
   margin-left: 10px;
   width: 24vw;
@@ -556,9 +554,13 @@ div.scrollmenu a,  div.scrollmenu div{
   white-space: nowrap;
 }
 
-.project-details{
+.project-details {
   float: right;
   margin-right: 10px;
+}
+
+#three, #life, #salad, #model, #house, #karaoke, #map {
+  display: none;
 }
 
  /* pro nav tooltip  
