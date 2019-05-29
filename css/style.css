@@ -538,6 +538,7 @@ div.scrollmenu a,  div.scrollmenu div{
   left: 51vw;
   width: 49vw;
   height: 2vw;  
+  color: #E4E2E4;
   background-color: #504a14;
   transition: 1s ease;
   opacity: 0;
