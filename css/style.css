@@ -533,18 +533,14 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 .tooltip {
-  pointer-events: none;
   position: fixed;
   top: 8vw;
   left: 51vw;
-  transform: translate(-50%, -50%);
   width: 49vw;
   height: 2vw;  
-  background-color: white;
+  background-color: #504a14;
   transition: 1s ease;
   opacity: 0;
-  border: 1px 1px 1px 0px solid;
-  background-size: cover;
 }
 
 .project-title{
