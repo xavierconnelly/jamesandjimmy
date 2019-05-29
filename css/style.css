@@ -535,8 +535,6 @@ div.scrollmenu a,  div.scrollmenu div{
   position: fixed;
   top: 8vw;
   left: 51vw;
-  width: 49vw;
-  height: 2vw;
   font-size: 1.2vw;
   line-height: 2vw;
   color: #E4E2E4;
@@ -545,6 +543,8 @@ div.scrollmenu a,  div.scrollmenu div{
 
 #tooltip > div {
   background-color: #504a14;
+  width: 49vw;
+  height: 2vw;
 }
 
 #three, #life, #salad, #model, #house, #karaoke, #map {
