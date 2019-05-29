@@ -26,6 +26,9 @@
       <img src="/img/jcarter.house.10.jpg" alt="Smiley face">
       <img src="/img/jcarter.house.11.jpg" alt="Smiley face">
       <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
+      <div id="photographer">
+       * Photos by Martha Poggioli
+      </div> 
       <div class="next" onclick="aRoomForKaraoke()">
         Next Project: A Room for Karaoke and Other Things ➜
       </div>
