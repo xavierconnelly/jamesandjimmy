@@ -822,6 +822,7 @@ div.scrollmenu a,  div.scrollmenu div{
 #download {
   float: left;
   padding: 30px 10px 5px 10px;
+  font-family: 'Mono', monospace;
 }
 
 #writing-container hr {
