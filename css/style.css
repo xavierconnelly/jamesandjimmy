@@ -496,6 +496,30 @@ div.scrollmenu a,  div.scrollmenu div{
   transition: 0.8s;
 }
 
+
+ /* pro nav tooltip TRIAL ONE */
+
+.pro-mar-ele:hover > .tooltip {
+  opacity: 1;
+}
+
+.tooltip {
+  pointer-events: none;
+  position: fixed;
+  top: calc(50% + 4vw);
+  left: 75.5vw;
+  transform: translate(-50%, -50%);
+  width: 49vw;
+  height: calc(100% - 8vw);  
+  background-color: white;
+  transition: 1s ease;
+  opacity: 0;
+  border: 1px solid;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
  /* pro nav tooltip  */
 
 .pro-mar-ele-fn-note {
@@ -919,9 +943,9 @@ sup > a {
   
 .image-group > img {
   border: 1px solid #504A14;
-  height: 100%;
-  width: 100%;
-  padding: 3px;
+  height: calc(100% - 6px);
+  width: calc(100% - 6px);
+  margin: 3px;
   filter: grayscale(100);
   mix-blend-mode: screen;
   transition: 0.5s;
@@ -940,6 +964,9 @@ sup > a {
   font-family:  'Sans';
   font-size: 12px;
   line-height: 15px;
+}
+
+#writing-container > .image-float > .image-group > p {
   text-indent: 0px;
 }
 
@@ -959,10 +986,6 @@ sup > a {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
-/*#writing-container > .image-float > .image-group > p {
-  text-indent: 0px;
-}*/
 
 /* Writing Section - Media Queries ____________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
