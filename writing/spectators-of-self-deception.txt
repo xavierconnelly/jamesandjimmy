@@ -2,20 +2,14 @@
         <div id="heading">Spectators of Self-Deception:</div>
         <div id="sub-heading">Defining Perception</div>
       </div>
-
+      
       <div id="download" class="sidenote">
         Fiction <br><hr>
         Jimmy<br><hr>
         Pidgin #23<br><hr>
         2017<br><hr>
-        <a href="http://www.freshmeatjournal.com/" target="_blank"> More info </a>
-      </div>  
-
-      <div id="download" class="sidenote">
-        <a href="article link here" download="ArticleName">
-            [DOWNLOAD PDF]
-        </a>
-      </div>
+        <a href="article link here" download="ArticleName">[DOWNLOAD PDF]</a>
+      </div> 
 
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
