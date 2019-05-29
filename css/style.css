@@ -89,6 +89,25 @@ body {
   color: #FD2417;
 }
 
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  display: none;
+}
+
+.ui-tooltip img {
+  background-color: #FD2417;
+  padding: 3px;
+  width: auto;
+  height: 200px;
+  border: 1px solid #504A14;
+}
 
 @media only screen and (max-width: 800px) {
   body {
