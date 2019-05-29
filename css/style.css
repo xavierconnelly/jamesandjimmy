@@ -527,12 +527,12 @@ div.scrollmenu a,  div.scrollmenu div{
 
  /* pro nav tooltip TRIAL ONE */
 
-.pro-mar-ele:hover > .tooltip {
+.pro-mar-ele:hover + .tooltip {
   opacity: 1;
   z-index: 99;
 }
 
-/* Working But only one
+/*
 .pro-mar:hover > .tooltip {
   opacity: 1;
   z-index: 99;
@@ -544,7 +544,9 @@ div.scrollmenu a,  div.scrollmenu div{
   top: 8vw;
   left: 51vw;
   width: 49vw;
-  height: 2vw;  
+  height: 2vw;
+  font-size: 1.2vw;
+  line-height: 2vw;
   color: #E4E2E4;
   background-color: #504a14;
   transition: 1s ease;
