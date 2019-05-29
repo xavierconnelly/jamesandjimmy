@@ -542,8 +542,9 @@ div.scrollmenu a,  div.scrollmenu div{
   color: #E4E2E4;
   background-color: #504a14;
   transition: 1s ease;
-  opacity: 0;
+  opacity: 1;
   z-index: 99;
+  display: none;
 }
 
 .project-title{
