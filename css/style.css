@@ -540,9 +540,16 @@ div.scrollmenu a,  div.scrollmenu div{
   font-size: 1.2vw;
   line-height: 2vw;
   color: #E4E2E4;
-  background-color: #504a14;
   transition: 1s ease;
-  z-index: 99;
+}
+
+#tooltip > div {
+  background-color: #504a14;
+}
+
+#three, #life, #salad, #model, #house, #karaoke, #map {
+  display: none;
+  transition: 0.5s ease;
 }
 
 .project-title {
@@ -557,10 +564,6 @@ div.scrollmenu a,  div.scrollmenu div{
 .project-details {
   float: right;
   margin-right: 10px;
-}
-
-#three, #life, #salad, #model, #house, #karaoke, #map {
-  display: none;
 }
 
  /* pro nav tooltip  
