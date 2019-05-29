@@ -523,7 +523,7 @@
        
         <div class="pro-mar-unit">
 
-          <div class="pro-mar-ele hello"  tabindex="0" onclick="anAdditionForThree()">
+          <div class="pro-mar-ele" id="hoverme"  tabindex="0" onclick="anAdditionForThree()">
             <img src="/img/jcarter.three.icon.jpg" alt="Smiley face">
           </div>
           <div class="pro-mar-ele" tabindex="0" onclick="aCertainKindOfLife()">
@@ -726,6 +726,18 @@ function myFunction() {
       .appendTo('#slideshow');
   }, 3000);
  </script>
-   
+
+
+<script>
+$(document).ready(function(){
+  $("#hoverme").mouseover(function(){
+    $("#tooltip")css("opacity", "1");
+  });
+  $("#hoverme").mouseout(function(){
+    $("#tooltip").css("opacity", "0");
+  });
+});
+</script>
+
 </body>
 </html>
