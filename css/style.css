@@ -526,15 +526,10 @@ div.scrollmenu a,  div.scrollmenu div{
 
 
  /* pro nav tooltip TRIAL ONE */
-
+/*
 .pro-mar:hover .tooltip {
- 
-}
-
-.hello:hover #pro-mar-con.pro-mar.tooltip {
   opacity: 1;
-  z-index: 99;
-}
+}*/
 
 .tooltip {
   position: fixed;
@@ -548,6 +543,7 @@ div.scrollmenu a,  div.scrollmenu div{
   background-color: #504a14;
   transition: 1s ease;
   opacity: 0;
+  z-index: 99;
 }
 
 .project-title{
