@@ -1,6 +1,8 @@
       <div id="writing-titles">
         <div id="heading">Fresh Meat IX</div>
         <div id="sub-heading">Fake Fiction</div>
+        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.fresh-meat-ix.01.big.jpg);">
+        </div>
       </div>
 
       <div id="download" class="sidenote">
@@ -14,7 +16,7 @@
       <p id="first">
         In a moment when the very idea of reality was challenged, "Fake Fiction" offered a critical understanding of the present; a double negative disconnected from the real and its often unfathomable nature. What is presented in this journal through the term <i>Fake Fiction</i> is an attempt to bring into question architecture, and its representation, through a negation of its fiction. ★
       </p>
-
+      
       <div class="next"  onclick="spectatorsOfSelfDeception()">
         Next Article: Spectators of Self-Deception: ➜
       </div>
