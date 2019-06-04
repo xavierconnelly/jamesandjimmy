@@ -18,19 +18,19 @@
 }
 
 @font-face {
-  font-family: 'Mono', monospace;
+  font-family: 'Mono';
   font-display: auto;
   src: url(/IBMPlexMono-Regular.woff);
 }
 
 @font-face {
-  font-family: 'Serif', serif;
+  font-family: 'Serif';
   font-display: auto;
   src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
 }
 
 @font-face {
-  font-family: 'Sans', sans-serif;
+  font-family: 'Sans';
   font-display: auto;
   src: url("/assets/font/IBMPlexSans-Regular.ttf");
 }
