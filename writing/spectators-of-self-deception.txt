@@ -1,6 +1,8 @@
       <div id="writing-titles">
         <div id="heading">Spectators of Self-Deception:</div>
         <div id="sub-heading">Defining Perception</div>
+        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.spect.00.big.jpg);">
+        </div>
       </div>
       
       <div id="download" class="sidenote">
