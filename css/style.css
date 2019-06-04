@@ -18,19 +18,19 @@
 }
 
 @font-face {
-  font-family: 'Mono';
+  font-family: 'Mono', monospace;
   font-display: auto;
   src: url(/IBMPlexMono-Regular.woff);
 }
 
 @font-face {
-  font-family: 'Serif';
+  font-family: 'Serif', serif;
   font-display: auto;
   src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
 }
 
 @font-face {
-  font-family: 'Sans';
+  font-family: 'Sans', sans-serif;
   font-display: auto;
   src: url("/assets/font/IBMPlexSans-Regular.ttf");
 }
@@ -724,38 +724,38 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Container - wider */
 #con-let-all {
-  background: #FD2417;
-  color: #E4E2E4;
-  cursor: pointer;
-  grid-column: 2;
-  grid-row: 3;
+    background: #FD2417;
+    color: #E4E2E4;
+    cursor: pointer;
+    grid-column: 2;
+    grid-row: 3;
 }
 
 #con-let-all:hover {
-  background: #E4E2E4;
-  color: #FD2417;
+    background: #E4E2E4;
+    color: #FD2417;
 }
 
 #con-let-all a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* Marquee */
 .con-let-mar {
-  height: 2vw;
-  overflow: hidden;
-  width: 2vw;
+    height: 2vw;
+    overflow: hidden;
+    width: 2vw;
 }
 
 /* Marquee Unit */
 .con-let-mar-ele{
-  text-align: center;
-  width: 2vw;
-  height: 2vw;
-  font-size: 1.3vw;
-  line-height: 2vw;
-  display: block;
-  border-top: 1px solid #504A14;
+    text-align: center;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.3vw;
+    line-height: 2vw;
+    display: block;
+    border-top: 1px solid #504A14;
 }
 
 /* Marquee Animation Request */
@@ -775,113 +775,113 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Pause */
 #con-let-all:hover > a > .con-let-mar > div { 
-  -webkit-animation-play-state:paused;
-  -moz-animation-play-state:paused;
-  -o-animation-play-state:paused;
-  animation-play-state:paused;
-  cursor: pointer;
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+    cursor: pointer;
 }
 
 /* Writing Section _________________________________________________________________________________________________________   */
 /* ____________________________________________________________________________________________________________________________*/
 
 #writing-container {
-  z-index: 11;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 10px 10px 30px;
-  float: left;
-  grid-column: 3;
-  grid-row: 2 / 4;
+    z-index: 11;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px 10px 30px;
+    float: left;
+    grid-column: 3;
+    grid-row: 2 / 4;
 }
 
 #writing-container::-webkit-scrollbar {
- display: none;
+    display: none;
 }
 
 #writing-titles {
-  text-align: center;
-  display: block;
-  padding-top: 100px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid;
+    text-align: center;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
 }
 
 #publisher {
-  float: ;
-  font-size: ;
+    float: ;
+    font-size: ;
 }
 
 #year {
-  float: ;
-  font-size: ;
+    float: ;
+    font-size: ;
 }
 
 #heading {
-  font-size: 3em;
-  text-align: ;
-  float: ;
-  width: 100%;
+    font-size: 3em;
+    text-align: ;
+    float: ;
+    width: 100%;
 } 
 
 #sub-heading {
 }
 
 #writing-container > a {
-  color: inherit;
+    color: inherit;
 }
 
 #writing-container > p {
-  font-family:  'Sans';
-  text-indent: 50px;
-  text-align: justify;
-  text-align-last: start;
-  font-size: 16px;
-  line-height: 1.6;
+    font-family:  'Sans';
+    text-indent: 50px;
+    text-align: justify;
+    text-align-last: start;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 #writing-container > p, #writing-container  > h4 {
-  margin-left: 5%;
-  width: 90%;
+    margin-left: 5%;
+    width: 90%;
 }
 
 #writing-container h4 { 
-  border-bottom: 2px solid;
-  text-align: center;
-  padding-top: 40px;
-  font-size: 1.5em;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+    border-bottom: 2px solid;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #writing-container p {
-  text-indent: 50px;
+    text-indent: 50px;
 }
 
 #writing-container #first {
-  text-indent: 0px;
-  padding-top: 20px;
+    text-indent: 0px;
+    padding-top: 20px;
 }
 
 #coming-soon {
-  padding-top: 100px;
-  text-align: center;
-  text-align-last: auto;
-  width: 100%;
-  height: 20%;  
+    padding-top: 100px;
+    text-align: center;
+    text-align-last: auto;
+    width: 100%;
+    height: 20%;  
 }
 
 #download {
-  float: left;
-  padding: 30px 10px 5px 10px;
-  font-family: 'Mono', monospace;
+    float: left;
+    padding: 30px 10px 5px 10px;
+    font-family: 'Mono', monospace;
 }
 
 #writing-container hr {
-  border: 1px;
-  height: 1px;
-  background-color: #504A14;
-  margin: 3px 0px;
+    border: 1px;
+    height: 1px;
+    background-color: #504A14;
+    margin: 3px 0px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -896,39 +896,39 @@ div.scrollmenu a,  div.scrollmenu div{
 /* ____________________________________________________________________________________________________________________________*/
 
 #writing-container:hover sup {
-  color: #BF0A30;
+    color: #BF0A30;
 }
 
 sup {
-  color: #504A14;
-  font-style: bold;
-  line-height: 1px;
+    color: #504A14;
+    font-style: bold;
+    line-height: 1px;
 }
 
 sup::before {
-  content: '['
+    content: '['
 }
 
 sup::after {
-  content: ']'
+    content: ']'
 }
 
 sup > a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .sidenote {
-  font-family:  'Sans';
-  font-size: 12px;
-  line-height: 15px;
-  text-align: left;
-  display: block;
-  float: right;
-  position: relative;
-  clear: both;
-  width: calc(25% - 20px);
-  padding: 10px;
-  overflow: hidden;
+    font-family:  'Sans';
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    display: block;
+    float: right;
+    position: relative;
+    clear: both;
+    width: calc(25% - 20px);
+    padding: 10px;
+    overflow: hidden;
 }
 
 .sidenote i {
@@ -936,80 +936,81 @@ sup > a {
 }
 
 .footnotes {
-  font-size: 12px;
-  line-height: 15px;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 /* Writing Section - Image ____________________________________________________________________________________________________*/
 /* ____________________________________________________________________________________________________________________________*/
 
 .image-float {
-  padding-right: 20px;
-  padding-left: 20px;
-  width: calc(30% - 40px);
-  float: left;
-  clear: both;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: calc(30% - 40px);
+    float: left;
+    clear: both;
 }
 
 .image-group {
-  position: relative;
-  float: right;
-  border: 1px solid #504A14;
-  margin-bottom: 10px;
+    position: relative;
+    float: right;
+    border: 1px solid #504A14;
+    margin-bottom: 10px;
 }
 
 #writing-titles:hover .image-big {
-  opacity: 1;
+    opacity: 1;
 }
 
 .image-group:hover .image-big {
-  opacity: 1;
+    opacity: 1;
 }
   
 .image-group > img {
-  border: 1px solid #504A14;
-  height: calc(100% - 6px);
-  width: calc(100% - 6px);
-  margin: 3px;
-  filter: grayscale(100);
-  mix-blend-mode: screen;
-  transition: 0.5s;
+    border: 1px solid #504A14;
+    height: calc(100% - 6px);
+    width: calc(100% - 6px);
+    margin: 3px;
+    filter: grayscale(100);
+    mix-blend-mode: screen;
+    transition: 0.5s;
 }
 
 .image-group:hover > img {
-  filter: grayscale(0);
-  mix-blend-mode: normal;
-  transition: 0.8s;
+    filter: grayscale(0);
+    mix-blend-mode: normal;
+    transition: 0.8s;
 }
 
 .image-group p {
-  padding: 0px 6px 6px 6px;
-  color: #504A14;
-  text-align: left;
-  font-family:  'Sans';
-  font-size: 12px;
-  line-height: 15px;
+    padding: 0px 6px 6px 6px;
+    color: #504A14;
+    text-align: left;
+    font-family:  'Sans';
+    font-size: 12px;
+    line-height: 15px;
 }
 
 #writing-container > .image-float > .image-group > p {
-  text-indent: 0px;
+    text-indent: 0px;
 }
 
 .image-big {
-  pointer-events: none;
-  position: fixed;
-  top: calc(50% + 4vw);
-  left: 75.5vw;
-  transform: translate(-50%, -50%);
-  width: 49vw;
-  height: calc(100% - 8vw);  
-  background-color: white;
-  transition: 1s ease;
-  opacity: 0;
-  border: 1px solid;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+    pointer-events: none;
+    position: fixed;
+    top: calc(50% + 4vw);
+    left: 75.5vw;
+    transform: translate(-50%, -50%);
+    width: 49vw;
+    height: calc(100% - 8vw);  
+    background-color: #504a14;
+    transition: 1s ease;
+    opacity: 0;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /* Writing Section - Media Queries ____________________________________________________________________________________________*/
