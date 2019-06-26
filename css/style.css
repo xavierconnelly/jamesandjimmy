@@ -14,6 +14,7 @@
   margin: 0;
   font-family: 'Mono', monospace;
   scroll-behavior: smooth;
+  scrollbar-width: none;
   box-sizing: border-box;
 }
 
@@ -26,7 +27,7 @@
 @font-face {
   font-family: 'Serif';
   font-display: auto;
-  src: url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif");
+  src: url(/fonts/);
 }
 
 @font-face {
