@@ -497,6 +497,11 @@ div.scrollmenu a,  div.scrollmenu div{
   transition: 0.8s;
 }
 
+@media only screen and (max-width: 800px) {
+  filter: none;
+  mix-blend-mode: none;
+}
+
 #pro-mar-ele:hover > img {
   filter: grayscale(0);
   mix-blend-mode: normal;
