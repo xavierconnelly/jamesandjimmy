@@ -535,13 +535,6 @@ div.scrollmenu a,  div.scrollmenu div{
   background-color: #E1DEDD;
 } 
 
-
- /* pro nav tooltip TRIAL ONE */
-/*
-.pro-mar:hover .tooltip {
-  opacity: 1;
-}*/
-
 #tooltip {
   position: fixed;
   top: 8vw;
@@ -602,7 +595,6 @@ div.scrollmenu a,  div.scrollmenu div{
 #bio {
   padding: 20px;
   font-family: 'Sans';
-  font-size: 24px;
   text-align: left;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -622,9 +614,10 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 #jamesbio{
- padding-bottom: 50px;
- width: 80%;
- padding-top: 20px;
+   border-top: 2px solid;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   width: 80%;
 }
 
 #jamescontact{
@@ -635,8 +628,13 @@ div.scrollmenu a,  div.scrollmenu div{
 @media only screen and (max-width: 800px) {
   #bio {
     margin-top: 50px;
-    background: #E1DEDD;
     font-size: 16px;
+    height: calc(100vh - 60px);
+  }
+  #jamesbio{
+    border-top: none;
+    width: 100%;
+    padding-top: 0px;
   }
   #jamescontact{
     padding: 10px 20px;
