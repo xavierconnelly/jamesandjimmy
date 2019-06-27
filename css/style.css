@@ -279,6 +279,7 @@ div.scrollmenu a,  div.scrollmenu div{
   font-size: 16px;
   overflow-x: hidden;
   overflow-y: scroll;
+  padding-bottom: 50px;
 }
 
 #jamesnews span{
@@ -293,7 +294,7 @@ div.scrollmenu a,  div.scrollmenu div{
   #jamesnews{
     margin-top: 30px;
     padding: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 65px;
     font-family: 'Sans';
     height: calc(100vh - 70px);
   }
@@ -642,6 +643,7 @@ div.scrollmenu a,  div.scrollmenu div{
     padding: calc(100vh / 2 - 100px) 0px;
     border-top: 0px;
     text-align: center;
+    font-size: 1.2em;
   }
 }
 
