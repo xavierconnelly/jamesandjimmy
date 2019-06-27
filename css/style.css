@@ -292,16 +292,12 @@ div.scrollmenu a,  div.scrollmenu div{
 
 @media only screen and (max-width: 800px) {
   #jamesnews{
-    background: #E1DEDD;
-    color: #504A14;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 120px;
+    font-family: 'Sans';
+    height: calc(100vh - 70px);
   }
-  #jamesnews span{
-  color: #BF0A30;
-}
 }
 
 /* News Navigation ____________________________________________________________________________________________________________*/  
