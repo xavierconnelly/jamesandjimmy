@@ -280,6 +280,7 @@ div.scrollmenu a,  div.scrollmenu div{
   overflow-x: hidden;
   overflow-y: scroll;
   padding-bottom: 50px;
+  border-bottom: 2px solid;
 }
 
 #jamesnews span{
@@ -297,6 +298,7 @@ div.scrollmenu a,  div.scrollmenu div{
     padding-bottom: 65px;
     font-family: 'Sans';
     height: calc(100vh - 70px);
+    border-bottom: none;
   }
 }
 
@@ -615,7 +617,6 @@ div.scrollmenu a,  div.scrollmenu div{
 }
 
 #jamesbio{
-   border-top: 2px solid;
    padding-top: 50px;
    padding-bottom: 50px;
    width: 80%;
@@ -634,7 +635,6 @@ div.scrollmenu a,  div.scrollmenu div{
     padding-bottom: 70px;
   }
   #jamesbio{
-    border-top: none;
     width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
