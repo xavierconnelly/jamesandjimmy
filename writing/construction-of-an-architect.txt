@@ -9,9 +9,9 @@
           * Upcoming *
         </div> 
 
-        <p id="coming-soon">
+        <div id="coming-soon">
          Coming soon...
-        </p>
+        </div>
 
         <div class="next" onclick="displayRooms()">
           Next Article: Display Rooms ➜
