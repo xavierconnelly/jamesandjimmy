@@ -491,20 +491,6 @@ div.scrollmenu a,  div.scrollmenu div{
   overflow: hidden;
 }
 
-#pro-mar-ele > img {
-  filter: grayscale(100);
-  mix-blend-mode: screen;
-  transition: 0.8s;
-}
-
-@media only screen and (max-width: 800px) {
-  #pro-mar-ele > img {
-    filter: none;
-    mix-blend-mode: none;
-    border: 1px solid black;
-  }
-}
-
 #pro-mar-ele:hover > img {
   filter: grayscale(0);
   mix-blend-mode: normal;
@@ -1156,6 +1142,13 @@ sup > a {
   overflow: hidden;
   margin-top: 5px;
   border: 1px solid #504A14;
+}
+
+@media only screen and (max-width: 800px) {
+  #project-container > img {
+    filter: none;
+    mix-blend-mode: normal;
+  }
 }
 
 #project-container:hover > img {
