@@ -1021,7 +1021,7 @@ sup > a {
     width: 100%;
   }
   .image-group {
-    filter: grayscale(100);
+    filter: grayscale(0);
     mix-blend-mode: normal;
   }
 }
