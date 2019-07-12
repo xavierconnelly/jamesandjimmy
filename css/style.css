@@ -287,7 +287,7 @@ div.scrollmenu a,  div.scrollmenu div{
 @media only screen and (max-width: 800px) {
   #jamesnews{
     margin-top: 30px;
-    padding: 10px;
+    padding: 15px;
     padding-bottom: 65px;
     font-family: 'Sans';
     height: calc(100vh - 70px);
@@ -619,6 +619,7 @@ div.scrollmenu a,  div.scrollmenu div{
     margin-top: 45px;
     font-size: 16px;
     height: calc(100vh - 60px);
+    padding: 15px;
     padding-bottom: 70px;
   }
   #jamesbio{
