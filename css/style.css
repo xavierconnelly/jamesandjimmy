@@ -1014,9 +1014,15 @@ sup > a {
   .footnotes {
     display: none;
   }
- .image-float {
+  .image-float {
+    float: none;
+    clear: none;
     padding: 10px 20px;
-    width: calc(100% - 40px);
+    width: 100%;
+  }
+  .image-group {
+    filter: grayscale(100);
+    mix-blend-mode: normal;
   }
 }
 
