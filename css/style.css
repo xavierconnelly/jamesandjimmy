@@ -1020,7 +1020,7 @@ sup > a {
     padding: 10px 20px;
     width: 100%;
   }
-  .image-group {
+  .image-group>img {
     filter: grayscale(0);
     mix-blend-mode: normal;
   }
