@@ -9,7 +9,7 @@
         Jimmy <br><hr>
         Flat Out #3<br><hr>
         2018<br><hr>
-        <a href="article link here" download="ArticleName" target="_blank">[DOWNLOAD PDF]</a>
+        <a href="/writing/All Eyes on You_PDF.pdf" download="All Eyes On You" target="_blank">[DOWNLOAD PDF]</a>
       </div> 
 
       <p id="first">
