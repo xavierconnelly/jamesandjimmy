@@ -75,11 +75,11 @@ body {
   cursor: pointer;
 }
 
-#writing-container .next {
+#writing-container .next:hover {
   color: #FD2417;
 }
 
-#project-container .next {
+#project-container .next:hover {
   color: #504A14;
 }
 
