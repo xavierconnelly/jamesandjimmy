@@ -9,7 +9,7 @@
         Jimmy <br><hr>
         Fresh Meat X<br><hr>
         2019<br><hr>
-        <a href="article link here" download="ArticleName">[DOWNLOAD PDF]</a>
+        <a href="/writing/Bubble Matter_PDF.pdf" download="Bubble Matter">[DOWNLOAD PDF]</a>
       </div> 
 
       <p id="first">
