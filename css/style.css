@@ -70,10 +70,17 @@ body {
   text-align: right;
   width: 100%;
 }
-   
+
 .next:hover {
-  color: #BF0A30;
   cursor: pointer;
+}
+
+#writing-container .next {
+  color: #FD2417;
+}
+
+#project-container .next {
+  color: #504A14;
 }
 
 .potus {
