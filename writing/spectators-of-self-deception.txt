@@ -10,7 +10,7 @@
         Jimmy<br><hr>
         Pidgin #23<br><hr>
         2017<br><hr>
-        <a href="article link here" download="ArticleName">[DOWNLOAD PDF]</a>
+        <a href="writing/Spectators of Self-Deception.pdf" download="Spectators of Self-Deception">[DOWNLOAD PDF]</a>
       </div> 
 
       <aside class="image-float">
