@@ -16,10 +16,10 @@
            <p></p>
            
           <div class="writing-image" tabindex="0"> 
-            <img src="/img/jc_hfo_2_icon.jpg" alt="Describe Image Here"> 
+            <img src="image link here - icon" alt="Describe Image Here"> 
             <div class="writing-image-hover">
               <div class="writing-image-hover-container">
-                <img src="/img/jc_hfo_2_small.jpg" alt="Describe Image Here">
+                <img src="image link here" alt="Describe Image Here">
                 <p id="writing-image-image-text">Describe Image Here</p>
               </div>
             </div>
