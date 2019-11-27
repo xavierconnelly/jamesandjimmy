@@ -22,6 +22,8 @@
       <img src="/img/jcarter.life.06.jpg" alt="Smiley face">
       <img src="/img/jcarter.life.07.jpg" alt="Smiley face">
       <img src="/img/jcarter.life.08.jpg" alt="Smiley face">
+      <img src="/img/jcarter.life.09.jpg" alt="Smiley face">
+      <img src="/img/jcarter.life.10.jpg" alt="Smiley face">
       <div id="photographer">
        * Photos by Ibai Rigby
       </div> 
