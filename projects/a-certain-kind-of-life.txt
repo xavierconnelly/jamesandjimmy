@@ -24,6 +24,7 @@
       <img src="/img/jcarter.life.08.jpg" alt="Smiley face">
       <div id="photographer">
        * Photos by Ibai Rigby
+      </div> 
       <div class="next" onclick="aBigSalad()">
         Next Project: A Big Salad ➜
       </div>
