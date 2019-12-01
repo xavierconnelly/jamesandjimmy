@@ -16,7 +16,7 @@
         </p>
         <br>
         <p>
-          <a href="">More info</a>
+          <a href="http://ragdale.org/residency/ragdale-ring-2019/">More Info</a>
         </p>
       </span>
       <img src="/img/jcarter.salad.02.jpg" alt="Smiley face">
