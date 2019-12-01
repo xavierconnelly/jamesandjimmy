@@ -111,7 +111,6 @@ body {
   body {
     background: #E1DEDD;
     font-size: 12px;
-    overflow: scroll;
   }
 
   .next {
@@ -433,7 +432,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 #wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 18s infinite linear; /* UPDATE = 2s * number of articles + 2s */
+  -webkit-animation: wri-up 16s infinite linear; /* UPDATE = 2s * number of articles */
 }
 
 /* Marquee Animation */
