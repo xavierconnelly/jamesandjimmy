@@ -1,6 +1,6 @@
       <div id="writing-titles">
         <div id="heading">Double Trouble</div>
-        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.flat.01.big.jpg);">
+        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.plat.01.big.jpg);">
         </div>
       </div>
 
