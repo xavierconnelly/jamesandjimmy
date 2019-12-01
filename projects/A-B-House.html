@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+<head>
+ 
+  <!-- Meta -->
+    <meta charset="utf-8">
+    <title>James and Jimmy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jimmy Carter is an architect and writer whose practice delves into the breadth of architectural dissemination.">
+    <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
+    <meta name="author" content="James Carter">
+  
+  <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#BF0A30">
+ 
+  <!-- Safari Start Up Image -->
+    <link rel="apple-touch-startup-image" href="/img/pres_jimmy.jpg">
+ 
+  <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+ 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136398833-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-136398833-1');
+    </script>
+ 
+</head>
+
+<body>
+ 
+ 
+ <div id="topnav">
+   James And Jimmy
+ </div>
+ 
+<div id="project-container">
+      <img src="/img/jcarter.three.01.jpg" alt="architectural plans">
+      <span id="project-titles">
+        <h1>An Addition For Three</h1>
+        <br>
+        <h4>
+          Residential <br><hr>
+          Millie Anderson and James <br><hr>
+          Private <br><hr>
+          In Progress <br><hr>
+          Castlemaine, Australia
+        </h4>
+      </span>
+      <span id="project-text">
+        <p>
+          An addition for three more, this two storey extension utilizes a spiral spatial composition to establish total openness within total privacy. Aided by the use of windows to direct movement, stepped levels of separate programs twist up and down to divide space. 
+        </p>
+      </span>
+      <a href="/projects/a-certain-kind-of-life" class="next">
+        Next Project: A Certain Kind Of Life ➜
+      </a>
+</div>
+      
+<!-- Bottom Navigation Menu -->
+ 
+<div id="bottomnav">
+  <div id="navbars">
+    <div>
+      <a href="/news"> News</a>
+    </div>
+    <div>
+      <div id="writing">
+        Writing:
+      </div>
+      <div class="scrollmenu">
+        <a href="/writing/construction-of-an-architect">Construction of an Architect</a>
+        <a href="/writing/display-rooms">Display Rooms</a>
+        <a href="/writing/where-you-always-are">Where You Always Are</a>
+        <a href="/writing/bubble-matter">Bubble Matter</a>
+        <a href="/writing/spectators-of-self-deception">Spectators of Self-Deception</a>
+        <a href="/writing/fatspace">Fatspace</a>
+        <a href="/writing/fresh-meat-ix">Fresh Meat IX</a>
+        <a href="/writing/urban-think-tank">Urban Think-Tank</a>
+      </div>
+    </div>
+    <div>
+      <div id="projects">
+        Projects:
+      </div>
+      <div class="scrollmenu">
+        <a href="/projects/a-map-with-audio">A Map With Audio</a>
+        <a href="/projects/a-house-for-one">A House For One</a>
+        <a href="/projects/an-addition-for-three">An Addition For Three</a>
+        <a href="/projects/a-model-for-louis-and-tadao">A Model For Louis And Tadao</a>
+        <a href="/projects/a-room-for-karaoke">A Room For Karaoke</a>
+        <a href="/projects/a-certain-kind-of-life">A Certain Kind Of Life</a>
+      </div>
+    </div>
+    <div>
+      <a href="/about"> About </a>
+    </div>
+    <div>
+      <a href="/contact"> Contact </a>
+    </div>
+  </div>
+  <div id="mobile-menu">
+  <a href="javascript:void(0);" class="active" onclick="myFunction()">Menu</a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navbars");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("bottomnav").style.bottom = "-60px";
+  } else {
+    document.getElementById("bottomnav").style.bottom = "0";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+ 
+</body>
+</html>
