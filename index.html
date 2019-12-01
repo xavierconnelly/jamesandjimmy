@@ -540,7 +540,11 @@
 
     <div id="pro-mar-con" class="g">
       <div class="pro-mar">
-       
+      
+        <div class="pro-mar-unit">
+          <div class="pro-mar-ele" tabindex="0" onclick="aBHouse()" onmouseover="abOver()" onmouseout="abOut()">
+            <img src="/img/jcarter.AB.icon.jpg" alt="Smiley face">
+          </div>
         <div class="pro-mar-unit">
           <div class="pro-mar-ele" tabindex="0" onclick="anAdditionForThree()" onmouseover="threeOver()" onmouseout="threeOut()">
             <img src="/img/jcarter.three.icon.jpg" alt="Smiley face">
@@ -570,6 +574,11 @@
 <!---------------------------|--------------------------------->
 
       <div id="tooltip">
+        <div id="ab">
+          <span class="project-title">A B House</span>
+          <span class="project-details">Residential | Barwon Heads | *In Progress*</span>
+        </div>
+       
         <div id="three">
           <span class="project-title">An Addition For Three</span>
           <span class="project-details">Residential | Castlemaine | *In Progress*</span>
@@ -610,7 +619,11 @@
 <!------------------ PROJECT NAV REPEAT ----------------------->
 <!---------------------------|--------------------------------->
        
-        <div class="pro-mar-unit">
+         <div class="pro-mar-unit">
+          <div class="pro-mar-ele" tabindex="0" onclick="aBHouse()" onmouseover="abOver()" onmouseout="abOut()">
+            <img src="/img/jcarter.AB.icon.jpg" alt="Smiley face">
+          </div>
+         <div class="pro-mar-unit">
           <div class="pro-mar-ele" tabindex="0" onclick="anAdditionForThree()" onmouseover="threeOver()" onmouseout="threeOut()">
             <img src="/img/jcarter.three.icon.jpg" alt="Smiley face">
           </div>
@@ -698,6 +711,9 @@
   function displayRooms() {
     $("#writing-container").load("/writing/display-rooms.txt") .scrollTop(0);
   };
+  function doubleTrouble() {
+    $("#writing-container").load("/writing/double-trouble.txt") .scrollTop(0);
+  };
   function bubbleMatter() {
     $("#writing-container").load("/writing/bubble-matter.txt") .scrollTop(0);
   };
@@ -719,6 +735,9 @@
 </script>
 
 <script type="text/javascript">
+  function aBHouse() {
+    $("#project-container").load("/projects/a-b-house.txt") .scrollTop(0);
+  };
   function anAdditionForThree() {
     $("#project-container").load("/projects/an-addition-for-three.txt") .scrollTop(0);
   };
@@ -743,6 +762,12 @@
 </script>
 
 <script>
+  function abOver() {
+    document.getElementById("ab").style.display = "block";
+}
+  function abOut() {
+    document.getElementById("ab").style.display = "none";
+}
   function threeOver() {
     document.getElementById("three").style.display = "block";
 }
