@@ -15,7 +15,7 @@
           An addition for three more, this two storey extension utilizes a spiral spatial composition to establish total openness within total privacy. Aided by the use of windows to direct movement, stepped levels of separate programs twist up and down to divide space. 
         </p>
       </span>
-      <div class="next" onclick="anAdditionforThree()">
+      <div class="next" onclick="anAdditionForThree()">
         Next Project: An Addition for Three ➜
       </div>
 
