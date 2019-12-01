@@ -219,6 +219,6 @@
         </ol>
       </div>
 
-      <div class="next" onclick="alleyesonyou()">
+      <div class="next" onclick="allEyesOnYou()">
         Next Article: All Eyes on You ➜
       </div>
