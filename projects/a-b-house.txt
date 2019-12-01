@@ -1,4 +1,4 @@
-      <img src="/img/jcarter.three.01.jpg" alt="architectural plans">
+      <img src="/img/jcarter.ab.01.jpg" alt="architectural plans">
       <span id="project-titles">
         <h1>A B House</h1>
         <br>
