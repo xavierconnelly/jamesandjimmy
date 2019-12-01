@@ -12,7 +12,7 @@
       </span>
       <span id="project-text">
         <p>
-          An addition for three more, this two storey extension utilizes a spiral spatial composition to establish total openness within total privacy. Aided by the use of windows to direct movement, stepped levels of separate programs twist up and down to divide space. 
+          A bounded house on a Barwon Heads block, this second home separates interaction across the site in order to exacerbate it when desired. Coming Soon.... 
         </p>
       </span>
       <div class="next" onclick="anAdditionForThree()">
