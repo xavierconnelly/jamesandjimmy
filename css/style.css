@@ -121,7 +121,7 @@ body {
 }
 
 @supports (display: grid) {
-	
+  
 }   
 
 /* Global Grid ________________________________________________________________________________________________________________*/  
@@ -395,7 +395,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee */
 .wri-mar {
-  height: 28vw; /*important! */
+  height: 28vw; /* UPDATE = 4vw * number of articles */
   display: block;
   position: relative;
 }
@@ -432,7 +432,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 #wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 16s infinite linear; /* Match to (2s x # of articles i.e 2s x 4 = 8s) */
+  -webkit-animation: wri-up 16s infinite linear; /* UPDATE = 2s * number of articles */
 }
 
 /* Marquee Animation */
@@ -441,7 +441,7 @@ div.scrollmenu a,  div.scrollmenu div{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d( 0, -16vw, 0); /* Match to marquee height (2vw x # of articles i.e 2vw x 4 = 8vw) */
+    -webkit-transform: translate3d( 0, -16vw, 0); /* UPDATE = -2vw * number of articles */
   }
 }
 
@@ -478,7 +478,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee */
 .pro-mar {
-  width: 140vw; /*important! Greater than combined width of ALL elements */
+  width: 140vw; /* UPDATE = 20vw * number of projects */
 }
 
 /* Marquee Unit */
@@ -506,7 +506,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 .pro-mar-unit { 
-  -webkit-animation: projects-left 56s infinite linear;
+  -webkit-animation: projects-left 56s infinite linear; /* UPDATE = 8s * number of projects */
 }
 
 /* Marquee Animation */
@@ -515,7 +515,7 @@ div.scrollmenu a,  div.scrollmenu div{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(-56vw, 0, 0); /* Match to marquee width */
+    -webkit-transform: translate3d(-56vw, 0, 0); /* UPDATE = -8vw * number of projects */
   }
 }
 
@@ -556,7 +556,7 @@ div.scrollmenu a,  div.scrollmenu div{
 .project-title {
   float: left;
   margin-left: 10px;
-  width: 24vw;
+  max-width: 24vw; 
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -566,24 +566,6 @@ div.scrollmenu a,  div.scrollmenu div{
   float: right;
   margin-right: 10px;
 }
-
- /* pro nav tooltip  
-
-.pro-mar-ele-fn-note {
-  visibility: hidden;
-  width: 49vw;
-  color: #504A14;
-  background-color: #E1DEDD;
-  border: 1px solid #504A14;
-  text-align: center;
-  padding: 5px 0;
-  /* Position the tooltip 
-  position: fixed;
-  left: 51vw;
-  top: 8vw;
-  z-index: 1;
-}
-*/
 
 
 /* Bio ________________________________________________________________________________________________________________________*/
@@ -707,7 +689,7 @@ div.scrollmenu a,  div.scrollmenu div{
   animation-play-state:paused;
 }
 
-/* VERTICAL Marquee Start ____________________________________________________________________________________________________ */
+/* Contact Marquee ____________________________________________________________________________________________________ */
 /* ____________________________________________________________________________________________________________________________*/
 
 /* Marquee Container - wider */
