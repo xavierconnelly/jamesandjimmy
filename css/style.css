@@ -111,6 +111,7 @@ body {
   body {
     background: #E1DEDD;
     font-size: 12px;
+    overflow: scroll;
   }
 
   .next {
