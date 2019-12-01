@@ -547,6 +547,7 @@ div.scrollmenu a,  div.scrollmenu div{
   background-color: #504a14;
   width: 49vw;
   height: 2vw;
+  display: none;
 }
 
 #three, #life, #salad, #model, #house, #karaoke, #map {
