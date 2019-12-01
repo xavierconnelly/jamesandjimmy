@@ -395,7 +395,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee */
 .wri-mar {
-  height: 28vw; /* UPDATE = 4vw * number of articles */
+  height: 32vw; /* UPDATE = 4vw * number of articles */
   display: block;
   position: relative;
 }
@@ -432,7 +432,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 #wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 16s infinite linear; /* UPDATE = 2s * number of articles + 2s */
+  -webkit-animation: wri-up 18s infinite linear; /* UPDATE = 2s * number of articles + 2s */
 }
 
 /* Marquee Animation */
@@ -441,7 +441,7 @@ div.scrollmenu a,  div.scrollmenu div{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d( 0, -14vw, 0); /* UPDATE = -2vw * number of articles */
+    -webkit-transform: translate3d( 0, -16vw, 0); /* UPDATE = -2vw * number of articles */
   }
 }
 
@@ -478,7 +478,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee */
 .pro-mar {
-  width: 140vw; /* UPDATE = 20vw * number of projects */
+  width: 160vw; /* UPDATE = 20vw * number of projects */
 }
 
 /* Marquee Unit */
@@ -506,7 +506,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 .pro-mar-unit { 
-  -webkit-animation: projects-left 56s infinite linear; /* UPDATE = 8s * number of projects */
+  -webkit-animation: projects-left 64s infinite linear; /* UPDATE = 8s * number of projects */
 }
 
 /* Marquee Animation */
@@ -515,7 +515,7 @@ div.scrollmenu a,  div.scrollmenu div{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(-56vw, 0, 0); /* UPDATE = -8vw * number of projects */
+    -webkit-transform: translate3d(-64vw, 0, 0); /* UPDATE = -8vw * number of projects */
   }
 }
 
