@@ -432,7 +432,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 #wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 16s infinite linear; /* UPDATE = 2s * number of articles */
+  -webkit-animation: wri-up 14s infinite linear; /* UPDATE = 2s * number of articles */
 }
 
 /* Marquee Animation */
@@ -441,7 +441,7 @@ div.scrollmenu a,  div.scrollmenu div{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d( 0, -16vw, 0); /* UPDATE = -2vw * number of articles */
+    -webkit-transform: translate3d( 0, -14vw, 0); /* UPDATE = -2vw * number of articles */
   }
 }
 
