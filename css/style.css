@@ -441,7 +441,7 @@ div.scrollmenu a,  div.scrollmenu div{
     -webkit-transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d( 0, -32vw, 0); /* UPDATE = -2vw * number of articles */
+    -webkit-transform: translate3d( 0, -18vw, 0); /* UPDATE = -2vw * number of articles */
   }
 }
 
