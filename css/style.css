@@ -432,7 +432,7 @@ div.scrollmenu a,  div.scrollmenu div{
 
 /* Marquee Animation Request */
 #wri-mar-con > .wri-mar > div { 
-  -webkit-animation: wri-up 16s infinite linear; /* UPDATE = 2s * number of articles */
+  -webkit-animation: wri-up 20s infinite linear; /* UPDATE = 2s * number of articles */
 }
 
 /* Marquee Animation */
