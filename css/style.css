@@ -297,7 +297,7 @@ div.scrollmenu a,  div.scrollmenu div{
     padding: 15px;
     padding-bottom: 65px;
     font-family: 'Sans';
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
     border-bottom: none;
   }
 }
@@ -608,7 +608,7 @@ div.scrollmenu a,  div.scrollmenu div{
   #bio {
     margin-top: 45px;
     font-size: 16px;
-    height: calc(100vh - 60px);
+    /* height: calc(100vh - 60px); */
     padding: 15px;
     padding-bottom: 70px;
   }
