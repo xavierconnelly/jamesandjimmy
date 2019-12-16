@@ -256,7 +256,7 @@ div.scrollmenu a,  div.scrollmenu div{
   border-right: 1px solid #E4E2E4;
 }
 
-#projects, #writing {
+  #projects, #writing {
   font-size: 16px;
   font-style: italic;
   color: #E4E2E4;
@@ -766,6 +766,13 @@ div.scrollmenu a,  div.scrollmenu div{
     grid-row: 2 / 4;
 }
 
+@media only screen and (max-width: 800px) {
+  #writing-container {
+    height: 100vh;
+  }
+}
+  
+
 #writing-container::-webkit-scrollbar {
     display: none;
 }
@@ -1168,7 +1175,8 @@ sup > a {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    hiehgt: 100vh;
+    padding-bottom: 50px;
     background-color: #e1dedd;
     color: #504A14;
   }
