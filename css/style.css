@@ -297,7 +297,7 @@ div.scrollmenu a,  div.scrollmenu div{
     padding: 15px;
     padding-bottom: 65px;
     font-family: 'Sans';
-    /* height: calc(100vh - 70px); */
+    height: 100vh;
     border-bottom: none;
   }
 }
@@ -1175,7 +1175,7 @@ sup > a {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 10px;
-    hiehgt: 100vh;
+    heihgt: 100vh;
     padding-bottom: 50px;
     background-color: #e1dedd;
     color: #504A14;
