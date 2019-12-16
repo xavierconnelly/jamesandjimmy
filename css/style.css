@@ -608,7 +608,7 @@ div.scrollmenu a,  div.scrollmenu div{
   #bio {
     margin-top: 45px;
     font-size: 16px;
-    /* height: calc(100vh - 60px); */
+    height: 100vh;
     padding: 15px;
     padding-bottom: 70px;
   }
