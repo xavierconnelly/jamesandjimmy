@@ -27,13 +27,13 @@ Used in a variety of ways, the split between the personal and the elemental char
 To take this as merely the pontification of an architect’s abilities would be jumping to conclusions. What this suggests is the architect’s multifarious character. Constructed through personality and devoid of direct professional evidence of their abilities, the architect takes on a personal relationship with the viewer that is independent of their architectural production.
       </p>
 
-      <p style="padding: 1em 70px">
+      <p style="padding: 1em 50px">
 “Are you a salesman?”
       </p>
-      <p style="padding: 1em 70px">
+      <p style="padding: 1em 50px">
 “I’m an architect.”
       </p>
-      <p style="padding: 1em 70px">
+      <p style="padding: 1em 50px">
 “You know what the soft sell is? Well, you’ve got it, believe me.” <sup><a href="#fn-three">3</a></sup>
       </p>
       
