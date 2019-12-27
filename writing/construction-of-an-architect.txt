@@ -5,8 +5,8 @@
         <div id="download" class="sidenote">
           Article <br><hr>
           Jimmy <br><hr>
-          MAS Context #32<br><hr>
-          * Upcoming *
+          MAS Context #32 - Character<br><hr>
+          2020
         </div> 
 
       <p id="first">
@@ -25,18 +25,17 @@ Used in a variety of ways, the split between the personal and the elemental char
 
       <p>
 To take this as merely the pontification of an architect’s abilities would be jumping to conclusions. What this suggests is the architect’s multifarious character. Constructed through personality and devoid of direct professional evidence of their abilities, the architect takes on a personal relationship with the viewer that is independent of their architectural production.
-       </p>
+      </p>
 
-      <p>
-
+      <p style="padding: 1em 70px">
 “Are you a salesman?”
       </p>
       
-      <p>
+      <p style="padding: 1em 70px">
 “I’m an architect.”
       </p>
 
-      <p>
+      <p style="padding: 1em 70px">
 “You know what the soft sell is? Well, you’ve got it, believe me.” <sup><a href="#fn-three">3</a></sup>
       </p>
       <aside class="sidenote" id="fn-three">
