@@ -30,14 +30,13 @@ To take this as merely the pontification of an architect’s abilities would be 
       <p style="padding: 1em 70px">
 “Are you a salesman?”
       </p>
-      
       <p style="padding: 1em 70px">
 “I’m an architect.”
       </p>
-
       <p style="padding: 1em 70px">
 “You know what the soft sell is? Well, you’ve got it, believe me.” <sup><a href="#fn-three">3</a></sup>
       </p>
+      
       <aside class="sidenote" id="fn-three">
         3. <i>12 Angry Men</i>, directed by Sidney Lumet (United Artists: 1957).
       </aside>
