@@ -1,4 +1,4 @@
-      <img src="/img/jcarte.ba.01.jpg" alt="architectural plans">
+      <img src="/img/jcarte.ba.03.jpg" alt="architectural plans">
       <span id="project-titles">
         <h1>A B House</h1>
         <br>
@@ -15,6 +15,12 @@
           A bounded house on a Barwon Heads block, this second home separates interaction across the site in order to exacerbate it when desired. Coming Soon.... 
         </p>
       </span>
+        </span>
+      <img src="/img/jcarter.ba.02.jpg" alt="Smiley face">
+      <img src="/img/jcarter.ba.01.jpg" alt="Smiley face">
+      <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
+      <div id="photographer">
+       * Images with David Ramis
       <div class="next" onclick="anAdditionForThree()">
         Next Project: An Addition for Three ➜
       </div>
