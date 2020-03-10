@@ -18,7 +18,6 @@
         </span>
       <img src="/img/jcarter.ba.02.jpg" alt="Smiley face">
       <img src="/img/jcarter.ba.01.jpg" alt="Smiley face">
-      <img src="/img/jcarter.house.12.jpg" alt="Smiley face">
       <div id="photographer">
        * Images with David Ramis
       <div class="next" onclick="anAdditionForThree()">
