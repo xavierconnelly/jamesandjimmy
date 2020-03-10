@@ -15,6 +15,11 @@
           An addition for three more, this two storey extension utilizes a spiral spatial composition to establish total openness within total privacy. Aided by the use of windows to direct movement, stepped levels of separate programs twist up and down to divide space. 
         </p>
       </span>
+        </span>
+      <img src="/img/jcarter.house.02.jpg" alt="Smiley face">
+      <img src="/img/jcarter.house.03.jpg" alt="Smiley face">
+      <div id="photographer">
+       * Images with David Ramis
       <div class="next" onclick="aCertainKindOfLife()">
         Next Project: A Certain Kind of Life ➜
       </div>
