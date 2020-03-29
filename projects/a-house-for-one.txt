@@ -29,6 +29,6 @@
       <div id="photographer">
        * Photos by Martha Poggioli
       </div> 
-      <div class="next" onclick="aRoomForKaraoke()">
+      <div class="next" onclick="aRoomForKaraokeAndOtherThings()">
         Next Project: A Room for Karaoke and Other Things ➜
       </div>
