@@ -69,8 +69,14 @@ body {
   line-height: 1.4;
   text-align: center;
   width: 100%;
-  border-top: 1px solid;
+}
 
+#writing-container .next {
+  border-top: 1px solid #E4E2E4;
+}
+
+#project-container .next {
+  border-top: 1px solid #504A14;
 }
 
 .next:hover {
