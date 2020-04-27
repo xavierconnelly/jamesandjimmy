@@ -126,7 +126,9 @@ $("#slideshow > div:gt(0)").hide();
 // Load Content with AJAX
 $(document).ready(function() {
   $('footer').load('https://jamesandjimmy.com/bottomnav.html');
+  $('#jamesnews').load('https://jamesandjimmy.com/news.txt');
 });
+
 
 // ???
 function myFunction() {
