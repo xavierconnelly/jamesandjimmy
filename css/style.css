@@ -14,7 +14,8 @@
 @font-face {
   font-family: 'Mono';
   font-display: auto;
-  src: url(/IBMPlexMono-Regular.woff);
+  src: url("/assets/font/IBMPlexMono-Regular.woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -27,13 +28,8 @@
   font-family: 'Sans';
   font-display: auto;
   src: url("/assets/font/IBMPlexSans-Regular.ttf");
+  font-display: swap;
 }
-
-*:hover {
-}
-
-*:focus {
-   }
 
 a { 
   color: inherit;
