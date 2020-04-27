@@ -63,12 +63,14 @@ body {
 }
 
 .next {
-  padding: 50px 10px 30px 10px;
-  float: right;
+  padding: 20px 10px 30px 10px;
+  margin-top: 50px;
   font-size: 16px;
   line-height: 1.4;
-  text-align: right;
+  text-align: center;
   width: 100%;
+  border-top: 1px solid;
+
 }
 
 .next:hover {
