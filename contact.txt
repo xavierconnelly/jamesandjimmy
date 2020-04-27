@@ -1,0 +1,18 @@
+          <b>Contact</b>
+          <br>
+          <br>
+          Phone number:
+          <br>
+           +1 415 802 4665
+          <br>
+          <br>
+          Email:
+          <br>
+          info@jamesandjimmy.com
+          <br>
+          <br>
+          Instagram:
+          <br>
+          <a href="https://www.instagram.com/jamesandjimmyand/" target="blank" style="text-decoration:none"> @jamesandjimmyand </a>
+          <br>
+          <br>
