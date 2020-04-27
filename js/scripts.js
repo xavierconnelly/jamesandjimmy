@@ -41,7 +41,7 @@ function aModelForLouisAndTadao() {
 	$("#project-container").load("/projects/a-model-for-louis-and-tadao.txt").scrollTop(0);
 };
 function aBigSalad() {
-	("#project-container").load("/projects/a-big-salad.txt").scrollTop(0);
+	$("#project-container").load("/projects/a-big-salad.txt").scrollTop(0);
 };
 function aHouseForOne() {
 	$("#project-container").load("/projects/a-house-for-one.txt").scrollTop(0);
