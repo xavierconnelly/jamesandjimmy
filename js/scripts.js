@@ -127,6 +127,8 @@ $("#slideshow > div:gt(0)").hide();
 $(document).ready(function() {
   $('footer').load('https://jamesandjimmy.com/bottomnav.html');
   $('#jamesnews').load('https://jamesandjimmy.com/news.txt');
+  $('#jamesbio').load('https://jamesandjimmy.com/about.txt');
+  $('#jamescontact').load('https://jamesandjimmy.com/contact.txt');
 });
 
 
