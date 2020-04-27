@@ -125,7 +125,7 @@ $("#slideshow > div:gt(0)").hide();
 
 // Load Content with AJAX
 $(document).ready(function() {
-  $('footer').load('bottomnav.html');
+  $('footer').load('https://jamesandjimmy.com/bottomnav.html');
 });
 
 // ???
