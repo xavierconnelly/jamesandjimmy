@@ -48,29 +48,5 @@
     <div id="bottomnav">
     <!-- AJAX inserts here -->
     </div>
-
-    <script>
-    function myFunction() {
-      var x = document.getElementById("navbars");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
-
-    <script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("bottomnav").style.bottom = "-60px";
-      } else {
-        document.getElementById("bottomnav").style.bottom = "0";
-      }
-      prevScrollpos = currentScrollPos;
-    }
-    </script>
   </body>
 </html>
