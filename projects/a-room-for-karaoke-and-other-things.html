@@ -1,145 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
 
-<head>
- 
-  <!-- Meta -->
+  <head>
+    <!-- Meta -->
     <meta charset="utf-8">
     <title>James and Jimmy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Jimmy Carter is an architect and writer whose practice delves into the breadth of architectural dissemination.">
     <meta name="keywords" content="chicago, architect, writer, academic, carter, james, jimmy">
     <meta name="author" content="James Carter">
-  
-  <!-- Chrome, Firefox OS and Opera -->
+    <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#BF0A30">
- 
-  <!-- Safari Start Up Image -->
+    <!-- Safari Start Up Image -->
     <link rel="apple-touch-startup-image" href="/img/pres_jimmy.jpg">
- 
-  <!-- CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css">
- 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136398833-1">
-    </script>
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136398833-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-136398833-1');
     </script>
- 
-</head>
+    <script>
+      $(document).ready(function() {
+        $('#project-container').load('https://jamesandjimmy.com/projects/a-room-for-karaoke-and-other-things.txt');
+     });
+  </script>
+  </head>
 
-<body>
- 
- 
- <div id="topnav">
-   James And Jimmy
- </div>
- 
-<div id="project-container">
-      <img src="/img/jcarter.karaoke.01.jpg" alt="Smiley face">
-      <span id="project-titles">
-        <h1>A Room for Karaoke and Other Things</h1>
-        <br>
-        <h4>
-          Hospitality <br><hr>
-          Millie Anderson and Jimmy <br><hr>
-          Tokyo Tina <br><hr>
-          2015 <br><hr>
-          Melbourne, Australia
-        </h4>
-      </span> 
-      <span id="project-text">
-        <p>
-          Centered around the conversion of an existing storage space in a Japanese restaurant, this tiny 2.5 x 3.5 metre room establishes manifold occupation through furniture and surface treatment. Used for both karaoke and private dining, the room’s patterned elevations provide simultaneous acoustic retention and surface activation, enabling the co-existence of business and frivolity. The 270 degree booth seating and table anticipates both formal eating and raucous performing, as chairs become stages, armrests become seats, and tables become podiums. 
-        </p>
-      </span>
-      <img src="/img/jcarter.karaoke.02.jpg" alt="Smiley face">
-      <img src="/img/jcarter.karaoke.03.jpg" alt="Smiley face">
-      <img src="/img/jcarter.karaoke.04.jpg" alt="Smiley face">
-      <div id="photographer">
-       * Photos by Martha Poggioli
-      </div> 
-      <a href="/projects/a-map-with-audio" class="next">
-        Next Project: A Map With Audio ➜
-      </a>
-</div>   
-
-<!-- Bottom Navigation Menu -->
- 
-<div id="bottomnav">
-  <div id="navbars">
-    <div>
-      <a href="/news"> News</a>
+  <body>
+    <div id="topnav">
+      James And Jimmy
     </div>
-    <div>
-      <div id="writing">
-        Writing:
-      </div>
-      <div class="scrollmenu">
-        <a href="/writing/construction-of-an-architect">Construction of an Architect</a>
-        <a href="/writing/display-rooms">Display Rooms</a>
-        <a href="/writing/double-trouble">Double Trouble</a>
-        <a href="/writing/bubble-matter">Bubble Matter</a>
-        <a href="/writing/all-eyes-on-you">All Eyes on You</a>
-        <a href="/writing/fresh-meat-ix">Fresh Meat IX</a>
-        <a href="/writing/spectators-of-self-deception">Spectators of Self-Deception</a>
-        <a href="/writing/fatspace">Fatspace</a>
-        <a href="/writing/urban-think-tank">Urban Think-Tank</a>
-      </div>
-    </div>
-    <div>
-      <div id="projects">
-        Projects:
-      </div>
-      <div class="scrollmenu">
-        <a href="/projects/a-b-house">A B House</a>
-        <a href="/projects/an-addition-for-three">An Addition For Three</a>
-        <a href="/projects/a-certain-kind-of-life">A Certain Kind Of Life</a>
-        <a href="/projects/a-big-salad">A Big Salad</a>
-        <a href="/projects/a-model-for-louis-and-tadao">A Model For Louis And Tadao</a>
-        <a href="/projects/a-house-for-one">A House For One</a>
-        <a href="/projects/a-room-for-karaoke">A Room For Karaoke</a>
-        <a href="/projects/a-map-with-audio">A Map With Audio</a>
-      </div>
-    </div>
-    <div>
-      <a href="/about"> About </a>
-    </div>
-    <div>
-      <a href="/contact"> Contact </a>
-    </div>
-  </div>
-  <div id="mobile-menu">
-  <a href="javascript:void(0);" class="active" onclick="myFunction()">Menu</a>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("navbars");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
-
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("bottomnav").style.bottom = "-60px";
-  } else {
-    document.getElementById("bottomnav").style.bottom = "0";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
- 
-</body>
+    <div id="project-container">
+    <!-- AJAX inserts here -->
+    </div> 
+    <!-- Bottom Navigation Menu -->
+    <footer id="bottomnav">
+    <!-- AJAX inserts here -->
+    </footer>
+    
+  </body>
 </html>
