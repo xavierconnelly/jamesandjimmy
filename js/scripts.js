@@ -1,8 +1,3 @@
-// Tooltip - Is it still being used?
-$( function() {
-	$(document).tooltip();
-});
-
 // Load Writing
 function constructionOfAnArchitect() {
 	$("#writing-container").load("/writing/construction-of-an-architect.txt").scrollTop(0);
@@ -154,3 +149,8 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+// Tooltip - Is it still being used?
+$( function() {
+	$(document).tooltip();
+});
