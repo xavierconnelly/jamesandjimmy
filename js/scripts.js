@@ -1,3 +1,58 @@
+// Load Content with AJAX
+$(document).ready(function() {
+  $('footer').load('https://jamesandjimmy.com/bottomnav.html');
+  $('#jamesnews').load('https://jamesandjimmy.com/news.txt');
+  $('#jamesbio').load('https://jamesandjimmy.com/about.txt');
+  $('#jamescontact').load('https://jamesandjimmy.com/contact.txt');
+});
+
+// Mobile Slideshow
+$("#slideshow > div:gt(0)").hide();
+	setInterval(function() {
+		$('#slideshow > div:first')
+		  .fadeOut(1000)
+		  .next()
+		  .fadeIn(1000)
+		  .end()
+		  .appendTo('#slideshow');
+		}, 3000
+);
+
+// Info/About Section 
+function openLeft() {
+	document.getElementById("grid-container").style.left = "0";
+}
+function closeLeft() {
+	document.getElementById("grid-container").style.left = "-49vw";
+}
+
+// ???
+function myFunction() {
+  var x = document.getElementById("navbars");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+// ???
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("bottomnav").style.bottom = "-60px";
+  } else {
+    document.getElementById("bottomnav").style.bottom = "0";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+// Tooltip - Is it still being used?
+$( function() {
+	$(document).tooltip();
+});
+
 // Load Writing
 function constructionOfAnArchitect() {
 	$("#writing-container").load("/writing/construction-of-an-architect.txt").scrollTop(0);
@@ -102,59 +157,3 @@ function mapOver() {
 function mapOut() {
 	document.getElementById("map").style.display = "none";
 }
-
-// Info/About Section 
-function openLeft() {
-	document.getElementById("grid-container").style.left = "0";
-}
-function closeLeft() {
-	document.getElementById("grid-container").style.left = "-49vw";
-}
-
-// Mobile Slideshow
-$("#slideshow > div:gt(0)").hide();
-	setInterval(function() {
-		$('#slideshow > div:first')
-		  .fadeOut(1000)
-		  .next()
-		  .fadeIn(1000)
-		  .end()
-		  .appendTo('#slideshow');
-		}, 3000
-);
-
-// Load Content with AJAX
-$(document).ready(function() {
-  $('footer').load('https://jamesandjimmy.com/bottomnav.html');
-  $('#jamesnews').load('https://jamesandjimmy.com/news.txt');
-  $('#jamesbio').load('https://jamesandjimmy.com/about.txt');
-  $('#jamescontact').load('https://jamesandjimmy.com/contact.txt');
-});
-
-
-// ???
-function myFunction() {
-  var x = document.getElementById("navbars");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-// ???
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("bottomnav").style.bottom = "-60px";
-  } else {
-    document.getElementById("bottomnav").style.bottom = "0";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-// Tooltip - Is it still being used?
-$( function() {
-	$(document).tooltip();
-});
