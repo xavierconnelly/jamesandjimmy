@@ -130,7 +130,7 @@ $("#slideshow > div:gt(0)").hide();
 
 // Load Content with AJAX
 $(document).ready(function() {
-  $('#bottomnav').load('bottomnav.html');
+  $('footer').load('bottomnav.html');
 });
 
 // ???
