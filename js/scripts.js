@@ -29,9 +29,9 @@ var currentScrollPos = window.pageYOffset;
 }
 
 // Tooltip - Is it still being used?
-$( function() {
-	$(document).tooltip();
-});
+// $( function() {
+// 	$(document).tooltip();
+// });
 
 // Load Writing
 function constructionOfAnArchitect() {
