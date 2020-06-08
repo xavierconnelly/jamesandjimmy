@@ -314,7 +314,7 @@ Traditional objects are thus stripped of their embedded social constructions and
         <aside class="image-float">
         <div class="image-group" tabindex="0"> 
           <img src="https://jamesandjimmy.com/img/jcarter.deserts.13.small.jpg">
-          <p>Fig. 13: Desert no.8. Axonometric Drawing.
+          <p>Fig. 13: Desert no.8. Assemblage Drawing.
           </p> 
           <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.13.big.jpg);">
           </div>
