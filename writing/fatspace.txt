@@ -20,6 +20,16 @@ Like organs in a body, specific arrangements of rooms correspond to species of b
       <p>
 Within an imaginary catalog of rooms, the cell could be considered its contradictory expression. In opposition to the functional determinacy of the room, the nature of the cell is, in fact, ambiguous. A cell always implies its subordination to a larger whole, either considered as the hidden core of a temple (<i>cell</i>, from the Indoeuropean root <i>kel</i>-“to cover, conceal, save”), a storage room, or a more ordinary a small chamber. Its confined dimensions suggest the idea of being protected within a mass, contained in a sequence, or held in rhythm. 
       </p>
+
+      <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.01.small.jpg">
+          <p>Fig. 1: Carthusian Cell, Notre-Dame-des-Prés, Neuville-sous-Montreuil, 14th CE.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.01.big.jpg);">
+          </div>
+        </div>
+      </aside>
       
       <p>
 The cell speaks through the language of tissues and membranes rather than organs, referring to the whole body as its minute constituent atom. As a unit that could be repeated, it is inherently collective. Whereas the room can be indifferent to its surroundings, a cell is always deduced from the assembling logic of which it is part of. In this regard, it is not a coincidence that the use of cells characterizes particular collective buildings such as housing blocks, barracks, hospitals, schools, prisons, monasteries, and other institutions; all of which are based on compliance to a set of imposed measures.
@@ -52,6 +62,16 @@ Not by chance, in his analyses of Bentham’s Panopticon, Foucault explains how 
       <p>
 From here, the cell inherited many of the negative connotations we now hold of it: as the simple minimum space for survival, or the restrictive entity subjected to the authority and rigorous control of an external architectural apparatus. Yet, it would be a mistake to interpret the cell solely as an instrument of control and coercion. By reversing this perspective, the cell could instead be regarded as the constituent spatial module to imagine new forms of collective living. As a vessel to consciously limit and negotiate individuality within the broader societal domain, the cell might also help to discover how to live together through mutual acquaintance and construction of habits in common.
       </p>
+  
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.02.small.jpg">
+          <p>Fig. 2: Chartreuse de Port-Sainte-Marie, or Clermont, Auvergne-Rhône-Alpes, France, 13th CE. Plan redrawn after Eugène Viollet-le-Duc, 1856.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.02.big.jpg);">
+          </div>
+        </div>
+      </aside>
       
       <p>
 Solitary life does not connote a system of rules. For the isolated individual there is no problem of confrontation or negotiation, and hence no problem of form. Form only arises through the encounter and the negotiation of limits between different entities. The collective formulation of a rule coincides with the cellular concatenation.
@@ -68,6 +88,16 @@ The Cartuxa de Laveiras of Lisbon is, in this sense, paradigmatic. Established a
       <p>
 As the Carthusians would conceive it, the cell is a mental condition: a desert. The cell conceptually formalizes the desert where Jesus wandered fasting for forty days, fighting against evil temptations. Its constrained space embraces the vast extensions of a journey, which is “long, and the way dry and barren, that must be traveled to attain the fount of water, the land of promise.”<sup><a href="#fn-four">4</a></sup>
       </p>
+      
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.03.small.jpg">
+          <p>Fig. 3: Cartuxa de Laveiras, Lisbon, Portugal, 18th CE as reproduced in the Maisons de l’Ordre des chartreux, vues et notices (Montreuil-sur-mer: Chartreuse de Notre-Dame des Prés, 1913-1919).
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.03.big.jpg);">
+          </div>
+        </div>
+      </aside>  
       
       <p>
 Following the founder of the Carthusian Order’s aspirations, St. Bruno, the cell provides a space of solitude in which a form of life can be conducted under constant thought, without distractions and away from temptations. In the cell nothing is superfluous: every single object, space or ritual performed is necessary to the Carthusian monk for her journey of awakening. Life sediments within a constellation of firm points—a cubiculum for sleeping and a prie-dieu for praying, a table and a chair, the workshop, a garden with a porch—which becomes progressively more intense through constant repetition.
@@ -129,14 +159,44 @@ The Carthusian monastery, or charterhouse, offers a spatial combination of both 
 Nothing could be added or taken away from its layout. In the charterhouse, nothing is owned, but everything is used. Every spatial aspect is defined by the requirements of liturgy performed: the highest spirituality is attained through the strictest definition of its silent ritual, resonating everywhere in the cloisters, objects, clothes, food, chants, gestures, and activities. When visiting the Charterhouse of Ema near Florence in 1910, Le Corbusier praised its respectful and harmonic combination of privacy and commonality, through which the individual and the collective juxtapose without merging, as in an idiorrhythmic ensemble. It was from this combination that he conjectured his 1922 project for the Immeubles-villas.
       </p>
       
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.04.small.jpg">
+          <p>Fig. 4: Cartuxa de Laveiras, Lisbon, Portugal, 18th CE. Plan.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.04.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+      
       <p>
 The plan of the Charterhouse is generally organized into three parts: the cells of the monks surrounding a large cloister; a buffer zone with collective programs such as church, chapter house, and refectory, where the daily <i>officia</i> and occasional events are held in common; and a public interface comprising productive facilities, services, and gathering areas—wherein a group of laymen and converse brothers live and interact with the external world, helping the Carthusian monks to preserve their autonomy from society. This part of the charterhouse adapts to the topography and specific contextual conditions, producing unique differences within the assemblage.
       </p>
       
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.05.small.jpg">
+          <p>Fig. 5: Cell of the Cartuxa de Laveiras, Lisbon, Portugal, 18th CE. Axonometric Section.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.05.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+            
       <p>
 Each monk’s cell, or <i>desert</i>, provides necessary equipment for simple living: a bed, a prie-dieu, a table for studying or eating, a lavatory, a workshop, an ambulatory for recreation, and a garden. The liturgy is what prescribes the life of the monks: it is the form-giver to their activities performed in silence and contemplation. Every single action—praying, reading, studying, working, eating, or resting—is performed in a specific space and inscribed in the plan of the cell and its equipment. From midnight to the afternoon, a series of silent collective gatherings harmonically intersects with the individual rituals in the cell.
       </p>
       
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.06.small.jpg">
+          <p>Fig. 6: The Cell as a mirror. Collage.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.06.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                 
       <p>
 The <i>Cell for a Certain Individual</i> reinterprets the Carthusian monk’s desert as a refuge from the congestion and the hectic rhythms of society. The asceticism of the cell is neither an escape nor a voluntary exodus from the world, but, on the contrary, a total immersion in it: a way to rediscover and reinvent ourselves, rendering the world at a sharper resolution. In this way, the cell turns into a mirror, a window to look at ourselves and critically reframe our daily rhythms and chores.
       </p>
@@ -144,7 +204,17 @@ The <i>Cell for a Certain Individual</i> reinterprets the Carthusian monk’s de
       <p>
 Based on a module of 80 centimeters, this cell is 4 by 4 by 4 meters. Larger than a mere <i>existenzminimum</i>, or a standard one-story dwelling unit, its layout is organized in five steps. Each one is 80 centimeters deep and progressively becomes lower in height to support a specific sequence of actions: a life distributed in vertical shelves.
       </p>
-      
+       
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.07.small.jpg">
+          <p>Fig. 7: Cell for A Certain Individual. Plan.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.07.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                    
       <p>
 In a life of work and creativity, leisure and meditation, we have considered four basic bodily necessities: sleeping, eating, washing, and excreting. Through centuries, each of these actions has been standardized, coded, symbolically loaded, and associated with social behaviors and relationships. Within this cell, each basic action is afforded its own condition and position, offering a rule for occupation that can be either followed or not.
       </p>
@@ -160,11 +230,31 @@ At the lower level the possibility for clerical work and the annotation of daily
       <p>
 On either side of the desk, cupboards are placed to ensure the storage of utensils. The large and long horizontal surface is positioned at a suitable height for preparing and consuming meals. Washing requires a basin of water for immersing the body. This void can either be dug into the ground, emerge from a wall, or be elevated above the floor. In the <i>Cell for a Certain Individual</i>, the water basin is embedded in the second shelf, which is 60cm high. On the opposite side, a defecating hole ensures a comfortable corner for squatting and emptying the bowels. In the middle of the step, and the whole pavilion, the hearth permits the warming of food and water, while heating the environment inside. The third step is dedicated to forms of mediation, and leisure. Providing a space to exercise and stretch, the step sits 40cm high and allows an occupant to sit down and look through the window at the surrounding landscape.
       </p>
-      
+         
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.08.small.jpg">
+          <p>Fig. 8: Cell for A Certain Individual. Exterior. Photograph: Ibai Rigby.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.08.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                 
       <p>
 At the top, a sleeping surface is placed. The 20cm step facilitates rest through a soft horizontal plain to lay down upon, and ensures maximum bodily comfort and contact with the floor. Finally, as in many Carthusian cells, a workshop is provided below the staircase. Accessed through a ladder from inside and a doorway from outside, a high bench enables the occupant to dedicate time to practical duties and physical labor. With its position on the site of the Cartuxa de Laveiras, the <i>Cell for a Certain Individual</i> reestablishes an idea of collectivity through its singularity, in an attempt to bridge the lesson of the Carthusian form of living with a projective architecture for our present world.
       </p>
-      
+          
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.09.small.jpg">
+          <p>Fig. 9: Cell for A Certain Individual. Interior. Photograph: Ibai Rigby.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.09.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                    
       <p>
 3.
 
@@ -174,7 +264,18 @@ Carthusians refer to their cells as <i>deserts</i>. The cell is a remote site at
       <p>
 The cell is neither an exodus nor a fugue from society but an instrument to sharpen the way we look at and dwell in the world. It offers a mental and spiritual shelter for cultivating new and radical forms of collective organization. It is the point of struggle between death and life, exhaustion and abstraction.
       </p>
-      
+         
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.10.small.jpg">
+          <p>Fig. 10: Deserts. Exhibition in the small cloister of the Cartuxa de Laveiras. Photograph: Ibai
+Rigby.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.10.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                     
       <p>
 The metaphoric desert is thus a heuristic device to experiment with and rediscover ways of living, from the neolithic to the modern age, from Catal Huyuk to the Co-op Zimmer. Reducing contact with the world, each of the following eight deserts explores ways for creating new universes and rethinking the collectivity through shared rules of individual actions.
       </p>
@@ -182,19 +283,59 @@ The metaphoric desert is thus a heuristic device to experiment with and rediscov
       <p>
 The cell does not provide objects, but rather only vertical and horizontal surfaces of different consistency to dissolve any intermediation between space and bodies into a meticulous architecture. The simplicity and emptiness of this zero-degree space exalt the naked concreteness of bodily gestures and their repetition. This distillation of dwelling to its most elementary forms implies different dynamics and a specific organization of necessary bodily actions: sleeping, washing, eating, and excreting. Each cell formulates an arrangement of the same gestures through various spatial devices, resulting in distinct configurations and different forms of living.
       </p>
-      
+           
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.11.small.jpg">
+          <p>Fig. 11: Desert no.1. Axonometric Drawing.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.11.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                   
       <p>
 The four actions could be scattered across various islands as an archipelago of intensities or distributed around the boundary of the cell in a continuous inhabitable wall. They could be split by thick partitions or light membranes, separated in a series of equal compounds, or aligned in sequences. They could be arranged into a compact core, flattened on the floor or above the ceiling, separated by a chasm or a wall.
       </p>
-      
+             
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.12.small.jpg">
+          <p>Fig. 12: Desert no.7. Plan.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.12.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                     
       <p>
 Traditional objects are thus stripped of their embedded social constructions and eroded to their quintessential uses. A table is neither round nor square but a surface at 80 centimeters above the ground. Similarly, a seat is a solid cube 40 centimeters wide; a bed is a soft surface above the floor measuring 80 by 200 centimeters; a bathtub is a concave basin containing 200.000 cubic centimeters; a toilet is a 30 centimeter hole in the ground; a circular stove acts as a hearth for fire which is necessary to process food, generate energy, and alter the temperature within the cell.
       </p>
-      
+            
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.13.small.jpg">
+          <p>Fig. 13: Desert no.8. Axonometric Drawing.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.13.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                 
       <p>
 These primary forms establish a grammar for living in common. The simple aggregation of cells does not produce the collective; instead, the collectivity permeates each individual, passing through the singularity of each cell and the language it speaks.
       </p>
-      
+             
+        <aside class="image-float">
+        <div class="image-group" tabindex="0"> 
+          <img src="https://jamesandjimmy.com/img/jcarter.deserts.14.small.jpg">
+          <p>Fig. 14: Desert no.8. Assemblage.
+          </p> 
+          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.14.big.jpg);">
+          </div>
+        </div>
+      </aside>  
+                      
       <p>
 <i>A Certain Kind of Life</i> was an associated project to the Lisbon Architecture Triennale 2019 “The Poetics of Reason,” realized in collaboration with our students Nash Kennedy, Alexandra Madsen, Jacob Patnode, William Stauffer, Julia Turner, Andreina Yepez, and thanks to the precious support of the University of Illinois at Chicago, and the Graham Foundation for Advanced Studies in the Fine Arts.★
         </p>
