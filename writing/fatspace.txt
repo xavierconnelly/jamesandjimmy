@@ -3,7 +3,7 @@
         </div>
 
         <div id="download" class="sidenote">
-          Fiction <br><hr>
+          Article <br><hr>
           Francesco Marullo, Agata Siemionow, Abigail Chang and Jimmy <br><hr>
           nonsite.org #31 <br><hr>
           2020
