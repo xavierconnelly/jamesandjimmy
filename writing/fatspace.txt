@@ -329,7 +329,7 @@ These primary forms establish a grammar for living in common. The simple aggrega
 <i>A Certain Kind of Life</i> was an associated project to the Lisbon Architecture Triennale 2019 “The Poetics of Reason,” realized in collaboration with our students Nash Kennedy, Alexandra Madsen, Jacob Patnode, William Stauffer, Julia Turner, Andreina Yepez, and thanks to the precious support of the University of Illinois at Chicago, and the Graham Foundation for Advanced Studies in the Fine Arts.★
         </p>
 
-        <div class="next" onclick="urbanThinkTank()">
-          Next Article: Urban Think-Tank ➜
+        <div class="next" onclick="constructionOfAnArchitect()">
+          Next Article: Construction of An Architect ➜
         </div>
 
