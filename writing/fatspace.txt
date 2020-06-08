@@ -25,16 +25,28 @@ Within an imaginary catalog of rooms, the cell could be considered its contradic
 The cell speaks through the language of tissues and membranes rather than organs, referring to the whole body as its minute constituent atom. As a unit that could be repeated, it is inherently collective. Whereas the room can be indifferent to its surroundings, a cell is always deduced from the assembling logic of which it is part of. In this regard, it is not a coincidence that the use of cells characterizes particular collective buildings such as housing blocks, barracks, hospitals, schools, prisons, monasteries, and other institutions; all of which are based on compliance to a set of imposed measures.
       </p>
       
+      <aside class="sidenote" id="fn-one">
+        1. Michel Foucault, <i>Discipline and Punishment: The Birth of the Prison</i> (New York: Vintage Books, 1977), 200.
+      </aside>
+      
       <p>
-A cellular organization constitutes the fundamental trait of any disciplinary regime. Cells compartmentalize space, minimize gestures, enclose bodies, and amplify control. In <i>Discipline and Punish</i>, Michel Foucault remarks the relation between cell and confinement within the panopticon prison: “They are like so many cages, so many small theatres, in which each actor is alone, perfectly individualized and constantly visible….He is seen, but he does not see; he is the object of information, never a subject in communication.” 1
+A cellular organization constitutes the fundamental trait of any disciplinary regime. Cells compartmentalize space, minimize gestures, enclose bodies, and amplify control. In <i>Discipline and Punish</i>, Michel Foucault remarks the relation between cell and confinement within the panopticon prison: “They are like so many cages, so many small theatres, in which each actor is alone, perfectly individualized and constantly visible….He is seen, but he does not see; he is the object of information, never a subject in communication.”<sup><a href="#fn-one">1</a></sup>
       </p>
       
       <p>
 For Foucault, the panopticon was a paradigmatic architecture: the spatial expression of a much wider social machine, the one that progressively instituted a disciplinary ensemble of norms and crimes, surveillance and punishment as a distinctive way of exerting power. The prison building, in this sense, was the formalization of a different composition of forces: a technology that already existed in the past but became relevant when a new sensibility in the art of punishment emerges in parallel to the evolution of penal law in the 18th century. In other words, the cell is a neutral architectural element that becomes extremely effective when innervated by specific power relations and inserted within a disciplinary diagram.
       </p>
       
+      <aside class="sidenote" id="fn-two">
+        2.“The cell, that technique of Christian monasticism, which had survived only in Catholic countries, becomes in this protestant society the instrument by which one may reconstitute both homo oeconomicus and the religious conscience” (Foucault, <i>Discipline and Punishment</i>, 123).
+      </aside>
+            
+      <aside class="sidenote" id="fn-three">
+        3. “The penitentiary arrangement bears some resemblance to the <i>Lavra type</i> monasteries that flourished in the Near East around the 5th Century, in which a body of monks kept themselves in complete isolation, usually in dispersed cave dwellings, coming together for prayer and ritual meals only. The cells in the <i>Silentium</i> were provided with a primitive closet, while water, food and other necessities were supplied by the officers.” See Robin Evans, “Bentham’s Panopticon: An Incident in the Social History of Architecture,” <i>Architectural Association Quarterly</i> 3 (April/ July 1971): 21-37, 24.
+      </aside>
+      
       <p>
-Not by chance, in his analyses of Bentham’s Panopticon, Foucault explains how similar architectures previously worked under different regimes of power and how the origin of the panoptic cellular segmentation was first experimented in Christian monasteries, where spaces for individual meditation and reclusion were juxtaposed next to collective facilities.2 Paraphrasing Robin Evans, the Panopticon stripped the soul out of the Christian monastery and made good use of its carcass, turning the anchorite’s voluntary withdrawal from the moral contamination of the world into the forced reclusion and permanent control over the prisoners.3
+Not by chance, in his analyses of Bentham’s Panopticon, Foucault explains how similar architectures previously worked under different regimes of power and how the origin of the panoptic cellular segmentation was first experimented in Christian monasteries, where spaces for individual meditation and reclusion were juxtaposed next to collective facilities.<sup><a href="#fn-two">2</a></sup> Paraphrasing Robin Evans, the Panopticon stripped the soul out of the Christian monastery and made good use of its carcass, turning the anchorite’s voluntary withdrawal from the moral contamination of the world into the forced reclusion and permanent control over the prisoners.<sup><a href="#fn-three">3</a></sup>
       </p>
       
       <p>
@@ -49,8 +61,12 @@ Solitary life does not connote a system of rules. For the isolated individual th
 The Cartuxa de Laveiras of Lisbon is, in this sense, paradigmatic. Established as a Carthusian monastery—where monks lived in permanent isolation from society within their cells—and later converted into a correctional center—where groups of teenagers were subjected to the order of the reformatory and lived within large dormitories fabricated from the destruction of the original monks’ cells—the Cartuxa demonstrates the alternative possibilities of an architecture of first chosen, and later imposed rules. More than a solitary retreat, or an assigned amount of inhabitable square meters, the cell was the instrument to refine a way of living that was collectively ordered, but individually enacted.
       </p>
       
+      <aside class="sidenote" id="fn-four">
+        4. Guigues I, <i>Statutes of the Carthusians</i>, Book 1, Ch. 4.1.
+      </aside>
+      
       <p>
-As the Carthusians would conceive it, the cell is a mental condition: a desert. The cell conceptually formalizes the desert where Jesus wandered fasting for forty days, fighting against evil temptations. Its constrained space embraces the vast extensions of a journey, which is “long, and the way dry and barren, that must be traveled to attain the fount of water, the land of promise.”4
+As the Carthusians would conceive it, the cell is a mental condition: a desert. The cell conceptually formalizes the desert where Jesus wandered fasting for forty days, fighting against evil temptations. Its constrained space embraces the vast extensions of a journey, which is “long, and the way dry and barren, that must be traveled to attain the fount of water, the land of promise.”<sup><a href="#fn-four">4</a></sup>
       </p>
       
       <p>
@@ -65,12 +81,24 @@ Such an extreme form of estrangement could be perhaps considered a valid paradig
 In the <i>Genealogy of Morals</i>, Friedrich Nietzsche redefines the notion of asceticism, not as a denial of existence or a withdrawal from society, but rather an affirmation of existence, a way to penetrate life in its most profound depths and to exalt the human potential. Zarathustra would abandon his retreat and descend from the mountains to the villages predicating a return to the earth and the body. The etymology of the word “asceticism”—from the Greek verb <i>askein</i>—indicates a form of exercising and training or, in other words, a way to rationally control the self, to administer its capacities and intensify the will to power.
       </p>
       
-      <p>
-Along the same trajectory, Max Weber distinguished an “outer-worldly asceticism,” entirely projected towards a complete detachment from mundane temptations, characterized by mysticism and hermetic contemplation, from an “inner-worldly asceticism” which instead demands a complete devotion to mundane activities. Weber finds the origin of this immanent form of asceticism in the Protestant concept of the “calling,” according to which the highest form of moral obligation for the individuals was to fulfill their duties in the society. In this way, labor becomes an absolute end in itself, a form of vocation and responsibility: a way of worshiping God through one’s worldly affairs.5
-      </p>
+      <aside class="sidenote" id="fn-five">
+        5. “Concentration upon the actual pursuit of salvation may entail a formal withdrawal from the “world”: from social and psychological ties with the family, from the possession of worldly goods, and from political, economic, artistic, and erotic activities-in short, from all creaturely interests. One with such an attitude may regard any participation in these affairs as an acceptance of the world, leading to alienation from god. This is “world-rejecting asceticism” (<i>weltabkhnende Askese</i>). On the other hand, the concentration of human behavior on activities leading to salvation may require participation within the world (or more precisely: within the institutions of the world but in opposition to them) on the basis of the religious individual’s piety and his qualifications as the elect instrument of god. This is “inner-worldly asceticism” (<i>innerweltliche Askese</i>). In this case the world is presented to the religious virtuoso as his responsibility. He may have the obligation to transform the world in accordance with his ascetic ideals, in which case the ascetic will become a rational reformer or revolutionary on the basis of a theory of natural rights.” Max Weber, <i>Economy and Society. An Outline of Interpretive Sociology</i> (Berkeley, Los Angeles, et. al: University of California Press, 1978), 542.
+      </aside>
       
       <p>
-To Weber, the celebration of labor, crafts, and daily life activities celebrated by the Protestant ethics, revealed the emergence of new spiritual drive aimed at gaining profit for its own sake in the pursuit of a “calling:” the spirit of Capitalism.6 “The person who lives as a worldly ascetic is a rationalist”—Weber writes—“not only in the sense that he rationally systematizes his conduct but also in his rejection of everything that is ethically irrational, esthetic, or dependent upon his emotional reactions to the world and its institutions. The distinctive goal always remains the alert, methodical control of one’s pattern of life and behavior. This type of inner-worldly asceticism included, above all, ascetic Protestantism, which taught the principle of loyal fulfillment of obligations within the framework of the world as the sole method of proving religious merit, though its several branches demonstrated this tenet with varying degrees of consistency.”7
+Along the same trajectory, Max Weber distinguished an “outer-worldly asceticism,” entirely projected towards a complete detachment from mundane temptations, characterized by mysticism and hermetic contemplation, from an “inner-worldly asceticism” which instead demands a complete devotion to mundane activities. Weber finds the origin of this immanent form of asceticism in the Protestant concept of the “calling,” according to which the highest form of moral obligation for the individuals was to fulfill their duties in the society. In this way, labor becomes an absolute end in itself, a form of vocation and responsibility: a way of worshiping God through one’s worldly affairs.<sup><a href="#fn-five">5</a></sup>
+      </p>
+      
+      <aside class="sidenote" id="fn-six">
+        6. “One of the fundamental elements of the spirit of modern capitalism, and not only of that but of all modern culture: rational conduct on the basis of the idea of the calling, was born—that is what this discussion has sought to demonstrate— from the spirit of Christian asceticism.” Max Weber, <i>Protestant Ethic and the Spirit of Capitalism</i> (London and New York, Routledge, 2013), 122–23.
+      </aside>
+      
+      <aside class="sidenote" id="fn-seven">
+        7. Max Weber, <i>Economy and Society</i>, 544.
+      </aside>
+      
+      <p>
+To Weber, the celebration of labor, crafts, and daily life activities celebrated by the Protestant ethics, revealed the emergence of new spiritual drive aimed at gaining profit for its own sake in the pursuit of a “calling:” the spirit of Capitalism.<sup><a href="#fn-six">6</a></sup> “The person who lives as a worldly ascetic is a rationalist”—Weber writes—“not only in the sense that he rationally systematizes his conduct but also in his rejection of everything that is ethically irrational, esthetic, or dependent upon his emotional reactions to the world and its institutions. The distinctive goal always remains the alert, methodical control of one’s pattern of life and behavior. This type of inner-worldly asceticism included, above all, ascetic Protestantism, which taught the principle of loyal fulfillment of obligations within the framework of the world as the sole method of proving religious merit, though its several branches demonstrated this tenet with varying degrees of consistency.”<sup><a href="#fn-seven">7</a></sup>
       </p>
       
       <p>
@@ -121,8 +149,12 @@ Based on a module of 80 centimeters, this cell is 4 by 4 by 4 meters. Larger tha
 In a life of work and creativity, leisure and meditation, we have considered four basic bodily necessities: sleeping, eating, washing, and excreting. Through centuries, each of these actions has been standardized, coded, symbolically loaded, and associated with social behaviors and relationships. Within this cell, each basic action is afforded its own condition and position, offering a rule for occupation that can be either followed or not.
       </p>
       
+      <aside class="sidenote" id="fn-eight">
+        8. Michel Foucault, “Self Writing, or Hupomnemata,” <i>Ethics: Subjectivity and Truth</i>, ed. Paul Rabinow (New York: The New Press, 1997), 207.
+      </aside>
+      
       <p>
-At the lower level the possibility for clerical work and the annotation of daily thoughts and activities is provided for by a 80cm high stool and a desk. Any contemporary ascetic, willing to control life to its minute detail and gradually construct a form of living, is offered a space to write. As Foucault explains: “Writing about oneself appears clearly in its relationship of complementarity with reclusion: it palliates the dangers of solitude; it offers what one has done or thought to a possible gaze; the fact of obliging oneself to write plays the role of a companion by giving rise to the fear of disapproval and to shame.”8
+At the lower level the possibility for clerical work and the annotation of daily thoughts and activities is provided for by a 80cm high stool and a desk. Any contemporary ascetic, willing to control life to its minute detail and gradually construct a form of living, is offered a space to write. As Foucault explains: “Writing about oneself appears clearly in its relationship of complementarity with reclusion: it palliates the dangers of solitude; it offers what one has done or thought to a possible gaze; the fact of obliging oneself to write plays the role of a companion by giving rise to the fear of disapproval and to shame.”<sup><a href="#fn-eight">8</a></sup>
       </p>
       
       <p>
