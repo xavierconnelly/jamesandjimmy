@@ -268,8 +268,7 @@ The cell is neither an exodus nor a fugue from society but an instrument to shar
         <aside class="image-float">
         <div class="image-group" tabindex="0"> 
           <img src="https://jamesandjimmy.com/img/jcarter.deserts.10.small.jpg">
-          <p>Fig. 10: Deserts. Exhibition in the small cloister of the Cartuxa de Laveiras. Photograph: Ibai
-Rigby.
+          <p>Fig. 10: Desert no.1. Axonometric Drawing.
           </p> 
           <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.10.big.jpg);">
           </div>
@@ -287,7 +286,7 @@ The cell does not provide objects, but rather only vertical and horizontal surfa
         <aside class="image-float">
         <div class="image-group" tabindex="0"> 
           <img src="https://jamesandjimmy.com/img/jcarter.deserts.11.small.jpg">
-          <p>Fig. 11: Desert no.1. Axonometric Drawing.
+          <p>Fig. 11: Desert no.7. Plan.
           </p> 
           <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.11.big.jpg);">
           </div>
@@ -301,7 +300,7 @@ The four actions could be scattered across various islands as an archipelago of 
         <aside class="image-float">
         <div class="image-group" tabindex="0"> 
           <img src="https://jamesandjimmy.com/img/jcarter.deserts.12.small.jpg">
-          <p>Fig. 12: Desert no.7. Plan.
+          <p>Fig. 12: Desert no.8. Axonometric Drawing.
           </p> 
           <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.12.big.jpg);">
           </div>
@@ -325,16 +324,6 @@ Traditional objects are thus stripped of their embedded social constructions and
       <p>
 These primary forms establish a grammar for living in common. The simple aggregation of cells does not produce the collective; instead, the collectivity permeates each individual, passing through the singularity of each cell and the language it speaks.
       </p>
-             
-        <aside class="image-float">
-        <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.deserts.14.small.jpg">
-          <p>Fig. 14: Desert no.8. Assemblage.
-          </p> 
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.deserts.14.big.jpg);">
-          </div>
-        </div>
-      </aside>  
                       
       <p>
 <i>A Certain Kind of Life</i> was an associated project to the Lisbon Architecture Triennale 2019 “The Poetics of Reason,” realized in collaboration with our students Nash Kennedy, Alexandra Madsen, Jacob Patnode, William Stauffer, Julia Turner, Andreina Yepez, and thanks to the precious support of the University of Illinois at Chicago, and the Graham Foundation for Advanced Studies in the Fine Arts.★
