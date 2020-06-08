@@ -1,5 +1,6 @@
         <div id="writing-titles">
-          <div id="heading">Deserts: Cells for certain individuals</div>
+          <div id="heading">Deserts:</div>
+          <div id="sub-heading">Cells for certain individuals</div>
         </div>
 
         <div id="download" class="sidenote">
