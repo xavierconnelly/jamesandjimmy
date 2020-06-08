@@ -215,6 +215,6 @@
         </ol>
       </div>
 
-      <div class="next" onclick="fatspace()">
-        Next Article: Fatspace ➜
+      <div class="next" onclick="urbanThinkTank()">
+        Next Article: Urban Think-Tank ➜
       </div>
