@@ -6,7 +6,7 @@
       </div>
       
       <div id="download" class="sidenote">
-        Fiction <br><hr>
+        Article <br><hr>
         Jimmy<br><hr>
         Pidgin #23<br><hr>
         2017<br><hr>
