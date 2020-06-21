@@ -772,6 +772,7 @@ div.scrollmenu a,  div.scrollmenu div{
 @media only screen and (max-width: 800px) {
   #writing-container {
     height: 100vh;
+    width: inherit;
   }
 }
   
@@ -1187,6 +1188,7 @@ sup > a {
     padding-bottom: 50px;
     background-color: #e1dedd;
     color: #504A14;
+    width: inherit;
   }
 
   #photographer {
