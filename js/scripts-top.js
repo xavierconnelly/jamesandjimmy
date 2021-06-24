@@ -1,9 +1,9 @@
 // Load Content with AJAX
 $(document).ready(function() {
-  $('footer').load('https://jamesandjimmy.com/bottomnav.html');
-  $('#jamesnews').load('https://jamesandjimmy.com/news.txt');
-  $('#jamesbio').load('https://jamesandjimmy.com/about.txt');
-  $('#jamescontact').load('https://jamesandjimmy.com/contact.txt');
+  $('#bottomnav').load('./bottomnav.html');
+  $('#jamesnews').load('./news.txt');
+  $('#jamesbio').load('./about.txt');
+  $('#jamescontact').load('./contact.txt');
 });
 
 // Mobile Slideshow
