@@ -35,10 +35,10 @@ var currentScrollPos = window.pageYOffset;
 
 // Load Writing
 function constructionOfAnArchitect() {
-	$("#writing-container").load("/writing/construction-of-an-architect.txt").scrollTop(0);
+	$("#writing-container").load("./writing/construction-of-an-architect.txt").scrollTop(0);
 };
 function displayRooms() {
-	$("#writing-container").load("/writing/display-rooms.txt").scrollTop(0);
+	$("#writing-container").load("./writing/display-rooms.txt").scrollTop(0);
 };
 function doubleTrouble() {
 	$("#writing-container").load("/writing/double-trouble.txt").scrollTop(0);
