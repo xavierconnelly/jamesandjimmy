@@ -1,4 +1,4 @@
-      <img src="/img/jcarter.three.02.jpg" alt="architectural plans">
+      <img src="./img/jcarter.three.02.jpg" alt="architectural plans">
       <span id="project-titles">
         <h1>An Addition For Three</h1>
         <br>
@@ -16,7 +16,7 @@
         </p>
       </span>
         </span>
-      <img src="/img/jcarter.three.01.jpg" alt="Smiley face">
+      <img src="./img/jcarter.three.01.jpg" alt="Smiley face">
       <div id="photographer">
        * Images with David Ramis
       <div class="next" onclick="aCertainKindOfLife()">
