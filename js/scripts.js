@@ -41,51 +41,51 @@ function displayRooms() {
 	$("#writing-container").load("./writing/display-rooms.txt").scrollTop(0);
 };
 function doubleTrouble() {
-	$("#writing-container").load("/writing/double-trouble.txt").scrollTop(0);
+	$("#writing-container").load("./writing/double-trouble.txt").scrollTop(0);
 };
 function bubbleMatter() {
-	$("#writing-container").load("/writing/bubble-matter.txt").scrollTop(0);
+	$("#writing-container").load("./writing/bubble-matter.txt").scrollTop(0);
 };
 function allEyesOnYou() {
-	$("#writing-container").load("/writing/all-eyes-on-you.txt").scrollTop(0);
+	$("#writing-container").load("./writing/all-eyes-on-you.txt").scrollTop(0);
 };
 function freshMeatIX() {
-	$("#writing-container").load("/writing/fresh-meat-ix.txt").scrollTop(0);
+	$("#writing-container").load("./writing/fresh-meat-ix.txt").scrollTop(0);
 };
 function spectatorsOfSelfDeception() {
 	$("#writing-container").load("/writing/spectators-of-self-deception.txt").scrollTop(0);
 };
 function fatspace() {
-	$("#writing-container").load("/writing/fatspace.txt").scrollTop(0);
+	$("#writing-container").load("./writing/fatspace.txt").scrollTop(0);
 };
 function urbanThinkTank() {
-	$("#writing-container").load("/writing/urban-think-tank.txt").scrollTop(0);
+	$("#writing-container").load("./writing/urban-think-tank.txt").scrollTop(0);
 };
 
 // Load Projects
 function aBHouse() {
-	$("#project-container").load("/projects/a-b-house.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-b-house.txt").scrollTop(0);
 };
 function anAdditionForThree() {
-	$("#project-container").load("/projects/an-addition-for-three.txt").scrollTop(0);
+	$("#project-container").load("./projects/an-addition-for-three.txt").scrollTop(0);
 };
 function aCertainKindOfLife() {
-	$("#project-container").load("/projects/a-certain-kind-of-life.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-certain-kind-of-life.txt").scrollTop(0);
 };
 function aModelForLouisAndTadao() {
-	$("#project-container").load("/projects/a-model-for-louis-and-tadao.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-model-for-louis-and-tadao.txt").scrollTop(0);
 };
 function aBigSalad() {
-	$("#project-container").load("/projects/a-big-salad.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-big-salad.txt").scrollTop(0);
 };
 function aHouseForOne() {
-	$("#project-container").load("/projects/a-house-for-one.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-house-for-one.txt").scrollTop(0);
 };
 function aMapWithAudio() {
-	$("#project-container").load("/projects/a-map-with-audio.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-map-with-audio.txt").scrollTop(0);
 };
 function aRoomForKaraokeAndOtherThings() {
-	$("#project-container").load("/projects/a-room-for-karaoke-and-other-things.txt").scrollTop(0);
+	$("#project-container").load("./projects/a-room-for-karaoke-and-other-things.txt").scrollTop(0);
 };
 
 // Projects Info Hover - NEED TO FIX THIS
