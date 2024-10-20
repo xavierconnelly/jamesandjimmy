@@ -1,6 +1,6 @@
       <div id="writing-titles">
         <div id="heading">Bubble Matter</div>
-        <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.01.big.jpg);">
+        <div class="image-big" style="background-image: url(./img/jcarter.bubble.01.big.jpg);">
         </div>
       </div>
 
@@ -9,7 +9,7 @@
         Jimmy <br><hr>
         Fresh Meat X<br><hr>
         2019<br><hr>
-        <a href="/writing/Bubble Matter_PDF.pdf" download="Bubble Matter">[DOWNLOAD PDF]</a>
+        <a href="./writing/Bubble Matter_PDF.pdf" download="Bubble Matter">[DOWNLOAD PDF]</a>
       </div> 
 
       <p id="first">
@@ -18,10 +18,10 @@
 
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.02.small.jpg">
+          <img src="./img/jcarter.bubble.02.small.jpg">
           <p>Fig. 1: 1960, Buckminster Fuller and Shoji Sadao’s Dome over New York.
           </p> 
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.02.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.02.big.jpg);">
           </div>
         </div>
       </aside>
@@ -40,20 +40,20 @@
 
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.03.small.jpg" alt="Smiley face">
+          <img src="./img/jcarter.bubble.03.small.jpg" alt="Smiley face">
           <p>Fig. 2: Coop Himmelb(l)au roll down the hill in "a demonstration of pneumatic construction" and hyperfocalization.
           </p> 
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.03.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.03.big.jpg);">
           </div>
         </div>
       </aside>
 
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.04.small.jpg" alt="Smiley face">
+          <img src="./img/jcarter.bubble.04.small.jpg" alt="Smiley face">
           <p>Fig. 3: All set up and ready to go, Haus-Rucker-Co would never get the chance to give the public a chance to expand their minds.
           </p>
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.04.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.04.big.jpg);">
           </div>
         </div>
       </aside>
@@ -68,10 +68,10 @@
                    
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.05.small.jpg" alt="Smiley face">
+          <img src="./img/jcarter.bubble.05.small.jpg" alt="Smiley face">
           <p>Fig. 4: 1965, François Dallegret’s The Environmental Bubble.
           </p>
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.05.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.05.big.jpg);">
           </div>
         </div>
       </aside>
@@ -82,10 +82,10 @@
 
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.06.small.jpg" alt="Smiley face">
+          <img src="./img/jcarter.bubble.06.small.jpg" alt="Smiley face">
           <p>Fig. 5: 1963, Simone D'Aillencourt. Photograph by Melvin Sokolsky.
           </p>
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.06.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.06.big.jpg);">
           </div>
         </div>
       </aside>
@@ -100,10 +100,10 @@
     
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.07.small.jpg" alt="Smiley face">
+          <img src="./img/jcarter.bubble.07.small.jpg" alt="Smiley face">
           <p>Fig. 6: The backside of Hieronymus Bosch’s Garden of Earthly Delights.
           </p>
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.07.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.07.big.jpg);">
           </div>
         </div>
       </aside>
@@ -154,10 +154,10 @@
 
       <aside class="image-float">
         <div class="image-group" tabindex="0"> 
-          <img src="https://jamesandjimmy.com/img/jcarter.bubble.08.small.jpg" alt="Smiley face">
+          <img src="./img/jcarter.bubble.08.small.jpg" alt="Smiley face">
           <p>Fig. 7: Jennifer Aniston: Nothing But Blue Skies, Harper’s Bazaar 2014. Photograph by Melvin Sokolsky.
           </p>
-          <div class="image-big" style="background-image: url(https://jamesandjimmy.com/img/jcarter.bubble.08.big.jpg);">
+          <div class="image-big" style="background-image: url(./img/jcarter.bubble.08.big.jpg);">
           </div>
         </div>
       </aside>
